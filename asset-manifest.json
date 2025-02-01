@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8adaaa7.css",
-    "main.js": "/static/js/main.3409f73e.js",
+    "main.css": "/static/css/main.c95dda20.css",
+    "main.js": "/static/js/main.587981fb.js",
     "static/media/jaronwenger.webp": "/static/media/jaronwenger.d6be6b9f6b4c8b74f039.webp",
     "static/media/software.webp": "/static/media/software.cb041e79bb84420324c0.webp",
+    "static/media/cinestokesite.webp": "/static/media/cinestokesite.f42f8703e5317f60ae02.webp",
+    "static/media/brd.webp": "/static/media/brd.3731fa89002194eff297.webp",
+    "static/media/projects.webp": "/static/media/projects.ec1986900ce18986f9c2.webp",
+    "static/media/contact.webp": "/static/media/contact.41d6d3e0f9513e3413e6.webp",
+    "static/media/cinestokeicon.png": "/static/media/cinestokeicon.ede2e30b1df83c743606.png",
     "index.html": "/index.html",
-    "main.c8adaaa7.css.map": "/static/css/main.c8adaaa7.css.map",
-    "main.3409f73e.js.map": "/static/js/main.3409f73e.js.map"
+    "static/media/link.svg": "/static/media/link.96fdd542fbb508118b228a045f9e241d.svg",
+    "main.c95dda20.css.map": "/static/css/main.c95dda20.css.map",
+    "main.587981fb.js.map": "/static/js/main.587981fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8adaaa7.css",
-    "static/js/main.3409f73e.js"
+    "static/css/main.c95dda20.css",
+    "static/js/main.587981fb.js"
   ]
 }
