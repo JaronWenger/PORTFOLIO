@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aeb5a0a8.css",
-    "main.js": "/static/js/main.b53ae580.js",
+    "main.css": "/static/css/main.447b47fd.css",
+    "main.js": "/static/js/main.fb4afb11.js",
     "static/media/jaronwenger.webp": "/static/media/jaronwenger.d6be6b9f6b4c8b74f039.webp",
     "static/media/software.webp": "/static/media/software.cb041e79bb84420324c0.webp",
     "static/media/cinestokesite.webp": "/static/media/cinestokesite.f42f8703e5317f60ae02.webp",
@@ -16,11 +16,11 @@
     "static/media/link.svg": "/static/media/link.96fdd542fbb508118b228a045f9e241d.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.b5b1772da77dabb38096d82518faa7bb.svg",
     "static/media/email.svg": "/static/media/email.a42318ed7325c8f0856918ae7b4afc21.svg",
-    "main.aeb5a0a8.css.map": "/static/css/main.aeb5a0a8.css.map",
-    "main.b53ae580.js.map": "/static/js/main.b53ae580.js.map"
+    "main.447b47fd.css.map": "/static/css/main.447b47fd.css.map",
+    "main.fb4afb11.js.map": "/static/js/main.fb4afb11.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeb5a0a8.css",
-    "static/js/main.b53ae580.js"
+    "static/css/main.447b47fd.css",
+    "static/js/main.fb4afb11.js"
   ]
 }
