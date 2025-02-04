@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.447b47fd.css",
-    "main.js": "/static/js/main.2f02e855.js",
+    "main.js": "/static/js/main.2a765fce.js",
     "static/media/jaronwenger.webp": "/static/media/jaronwenger.d6be6b9f6b4c8b74f039.webp",
     "static/media/software.webp": "/static/media/software.cb041e79bb84420324c0.webp",
     "static/media/cinestokesite.webp": "/static/media/cinestokesite.f42f8703e5317f60ae02.webp",
+    "static/media/stocksite.webp": "/static/media/stocksite.1c54b195a5b20ec8a0af.webp",
     "static/media/takapicsite.webp": "/static/media/takapicsite.64d2929dcf2de2388d4d.webp",
+    "static/media/stocklookup.png": "/static/media/stocklookup.2277f44ac7527a4ac1fd.png",
     "static/media/brd.webp": "/static/media/brd.3731fa89002194eff297.webp",
     "static/media/projects.webp": "/static/media/projects.ec1986900ce18986f9c2.webp",
     "static/media/contact.webp": "/static/media/contact.41d6d3e0f9513e3413e6.webp",
@@ -17,10 +19,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b5b1772da77dabb38096d82518faa7bb.svg",
     "static/media/email.svg": "/static/media/email.a42318ed7325c8f0856918ae7b4afc21.svg",
     "main.447b47fd.css.map": "/static/css/main.447b47fd.css.map",
-    "main.2f02e855.js.map": "/static/js/main.2f02e855.js.map"
+    "main.2a765fce.js.map": "/static/js/main.2a765fce.js.map"
   },
   "entrypoints": [
     "static/css/main.447b47fd.css",
-    "static/js/main.2f02e855.js"
+    "static/js/main.2a765fce.js"
   ]
 }
