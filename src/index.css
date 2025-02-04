@@ -1,13 +1,554 @@
 body {
   margin: 0;
+  background-color: black; /* Set background to black */
+  color: white; /* Ensure text is readable */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  max-height: fit-content; /* Prevent extending beyond content */
+  background-color: black;
+  padding-top: max(-5vh, min(32vh, calc(15vh + 20vw)));
+  overflow: hidden; /* Changed from overflow-y to overflow */
+  width: 100%; /* Ensure width is constrained */
+}
+
+.hero::before {
+  content: "";
+  position: absolute; /* Keep as absolute instead of fixed */
+  top: -20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150%;
+  height: 200vh;
+  background: radial-gradient(
+    ellipse at top,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.1) 20%,
+    rgba(255, 255, 255, 0.05) 30%,
+    transparent 70%
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+
+.main-image {
+  width: clamp(300px, 70vw, 1200px);
+  height: auto;
+  opacity: 0;
+  animation: fadeInImage 0.8s ease forwards;
+}
+
+.sub-image {
+  width: clamp(200px, 45vw, 800px);
+  height: auto;
+  margin-top: -2vh;
+  opacity: 0;
+  animation: fadeInImage 0.8s ease forwards;
+  animation-delay: 0.2s;
+  margin-bottom: 15vh;
+}
+
+.control-bar {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 4px 18px;
+  width: clamp(200px, 75vw, 650px);
+  z-index: 100;
+  height: 36px;
+  overflow: visible;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  opacity: 0;
+  animation: fadeInBar 0.8s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.control-bar img {
+  width: clamp(32px, 9vw, 54px); /* Between original and reduced values */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.control-bar img:first-child {
+  width: clamp(73px, 12vw, 163px); /* Increased from 63px, 11vw, 153px */
+  margin-top: 2px;
+}
+
+.control-bar img:nth-child(2) {
+  margin-right: 10px; /* Push BRD slightly left */
+}
+
+.control-bar img:last-child {
+  width: clamp(63px, 11vw, 153px);
+  margin-top: 2px;
+}
+
+.control-bar img:hover {
+  transform: scale(1.02);
+}
+
+.fixed-brd {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  width: clamp(32px, 10vw, 100px); /* Dynamic sizing instead of fixed 40px */
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 200;
+  cursor: pointer;
+}
+
+.fixed-brd.visible {
+  opacity: 1;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container::before {
+  content: '';
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.image-container:hover::before {
+  opacity: 1;
+}
+
+@keyframes fadeInImage {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInBar {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.animate-main {
+  opacity: 0;
+  animation: fadeInImage 0.8s ease forwards !important;
+}
+
+.animate-sub {
+  opacity: 0;
+  animation: fadeInImage 0.8s ease forwards !important;
+  animation-delay: 0.2s !important;
+}
+
+.animate-bar {
+  opacity: 0;
+  animation: fadeInBar 0.8s ease forwards !important;
+  animation-delay: 0.4s !important;
+}
+
+.odd-container {
+  width: clamp(200px, 85vw, 850px);
+  display: flex;
+  align-items: center;
+  border-radius: clamp(8px, 2vw, 12px);
+  padding: clamp(12px, 3vw, 20px);
+  margin-top: clamp(20px, 5vw, 40px);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  animation: fadeInOdd 0.6s ease forwards;
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInOdd {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.odd-image-container {
+  width: 45%;
+  padding-right: 20px;
+  display: none; /* Hidden by default */
+}
+
+@media (min-width: 768px) {
+  .odd-image-container {
+    display: block;
+    width: clamp(75%, 78vw, 82%); /* Increased dramatically from 65-75% */
+  }
+  
+  .odd-content {
+    padding-left: clamp(12px, 2vw, 20px);
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .odd-image-container {
+    width: clamp(80%, 82vw, 85%); /* Even larger from 70-80% */
+  }
+  
+  .odd-content {
+    width: clamp(15%, 18vw, 20%); /* Minimal width for content */
+  }
+}
+
+.odd-image {
+  width: 100%;
+  height: auto;
+  border-radius: clamp(4px, 1vw, 8px);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.odd-image:hover {
+  transform: scale(1.005);
+}
+
+.odd-content {
+  width: 100%;
+  padding: 0 clamp(12px, 2vw, 20px); /* Center padding on mobile */
+}
+
+.odd-title-container {
+  display: flex;
+  align-items: center;
+  gap: clamp(8px, 1.5vw, 12px);
+  margin-bottom: clamp(6px, 1.5vw, 10px);
+  flex-wrap: wrap; /* Allow wrapping on very small screens */
+}
+
+.odd-icon {
+  width: clamp(32px, 5vw, 42px);
+  height: clamp(32px, 5vw, 42px);
+  border-radius: clamp(8px, 1vw, 10px);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.odd-title {
+  font-size: clamp(1.2rem, 2.5vw, 2.2rem);
+  margin: 0;
+  color: white;
+  white-space: nowrap;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: text-shadow 0.2s ease;
+}
+
+.odd-title:hover {
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+.odd-description {
+  font-size: clamp(1rem, 1.5vw, 1.4rem); /* Increased from 0.8-1.1rem */
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3); /* Slight white glow */
+}
+
+
+.odd-revenue {
+  font-size: clamp(1rem, 1.5vw, 1.4rem); /* Increased to match description */
+  color: #4ade80;
+  margin-left: clamp(8px, 1.5vw, 12px);
+  text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.odd-buttons {
+  display: flex;
+  gap: clamp(8px, 1.2vw, 10px);
+  margin-top: clamp(12px, 1.5vw, 16px);
+  align-items: center; /* Center all items vertically */
+}
+.github-icon {
+  fill: white !important; /* Force the fill color to white */
+}
+.github-icon,
+.link-icon {
+  width: clamp(16px, 1.2vw, 18px); /* Reduced max icon size */
+  height: clamp(16px, 1.2vw, 18px);
+}
+
+.odd-button {
+  display: flex;
+  align-items: center;
+  gap: clamp(6px, 0.8vw, 8px);
+  padding: clamp(6px, 0.8vw, 10px) clamp(12px, 1.5vw, 16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: clamp(6px, 0.8vw, 8px);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(5px);
+  text-decoration: none; /* Remove link underline */
+}
+
+.odd-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.odd-button svg {
+  font-size: 0.9em;
+}
+
+.est-date {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem); /* Slightly larger */
+  color: white;
+  margin-left: clamp(12px, 1.5vw, 16px);
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.9),
+               0 0 12px rgba(255, 0, 0, 0.7),
+               0 0 16px rgba(255, 0, 0, 0.5); /* Multiple layers of glow */
+  white-space: nowrap;
+  font-weight: 600; /* Make it bold */
+  align-self: center; /* Center vertically */
+}
+
+.applications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.even-container {
+  width: clamp(200px, 85vw, 850px);
+  display: flex;
+  align-items: center;
+  border-radius: clamp(8px, 2vw, 12px);
+  padding: clamp(12px, 3vw, 20px);
+  margin-top: clamp(20px, 5vw, 40px);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  animation: fadeInOdd 0.6s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.even-image-container {
+  width: 45%;
+  padding-left: 20px;
+  display: none; /* Hidden by default */
+}
+
+@media (min-width: 768px) {
+  .even-image-container {
+    display: block;
+    width: clamp(75%, 78vw, 82%);
+  }
+  
+  .even-content {
+    padding-right: clamp(12px, 2vw, 20px);
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .even-image-container {
+    width: clamp(80%, 82vw, 85%);
+  }
+  
+  .even-content {
+    width: clamp(15%, 18vw, 20%);
+  }
+}
+
+.even-image {
+  width: 100%;
+  height: auto;
+  border-radius: clamp(4px, 1vw, 8px);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.even-image:hover {
+  transform: scale(1.005);
+}
+
+.even-content {
+  width: 100%;
+  padding: 0 clamp(12px, 2vw, 20px); /* Center padding on mobile */
+}
+
+/* Copy all other styles from odd- to even- */
+.even-title-container {
+  display: flex;
+  align-items: center;
+  gap: clamp(8px, 1.5vw, 12px);
+  margin-bottom: clamp(6px, 1.5vw, 10px);
+  flex-wrap: wrap;
+}
+
+.even-icon {
+  width: clamp(32px, 5vw, 42px);
+  height: clamp(32px, 5vw, 42px);
+  border-radius: clamp(8px, 1vw, 10px);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.even-title {
+  font-size: clamp(1.2rem, 2.5vw, 2.2rem);
+  margin: 0;
+  color: white;
+  white-space: nowrap;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: text-shadow 0.2s ease;
+}
+
+.even-title:hover {
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+.even-description {
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+  margin: 0;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+}
+
+.even-revenue {
+  font-size: clamp(1rem, 1.5vw, 1.4rem);
+  color: #4ade80;
+  margin-left: clamp(8px, 1.5vw, 12px);
+  text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.even-buttons {
+  display: flex;
+  gap: clamp(8px, 1.2vw, 10px);
+  margin-top: clamp(12px, 1.5vw, 16px);
+  align-items: center;
+}
+
+.even-button {
+  display: flex;
+  align-items: center;
+  gap: clamp(6px, 0.8vw, 8px);
+  padding: clamp(6px, 0.8vw, 10px) clamp(12px, 1.5vw, 16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: clamp(6px, 0.8vw, 8px);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  font-size: clamp(0.9rem, 1.1vw, 1.1rem);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(5px);
+  text-decoration: none;
+}
+
+.even-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.even-date {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+  color: white;
+  margin-left: clamp(12px, 1.5vw, 16px);
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.9),
+               0 0 12px rgba(255, 0, 0, 0.7),
+               0 0 16px rgba(255, 0, 0, 0.5);
+  white-space: nowrap;
+  font-weight: 600;
+  align-self: center;
+}
+
+.links-container {
+    display: flex;
+    justify-content: center;
+    gap: clamp(20px, 4vw, 40px);
+    margin-top: clamp(120px, 16vw, 200px);
+    margin-bottom: clamp(40px, 8vw, 80px);
+    opacity: 0;
+    animation: fadeInOdd 0.6s ease forwards;
+    animation-delay: 0.8s; /* Slightly after Odd/Even components */
+}
+
+.link-button {
+    width: clamp(40px, 8vw, 60px);
+    height: clamp(40px, 8vw, 60px);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(5px);
+}
+
+.link-button:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.link-button img {
+    width: 50%;
+    height: 50%;
+    filter: invert(1);
+}
+
