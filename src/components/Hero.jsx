@@ -44,14 +44,18 @@ const Hero = () => {
             const windowHeight = window.innerHeight;
             const appPosition = applicationsRef.current.getBoundingClientRect().top + window.scrollY;
             const documentHeight = document.documentElement.scrollHeight;
+            const offset = window.innerWidth < 768 ? 20 : 50; // Reduced offset to show more of the project
             
             if (appPosition + windowHeight > documentHeight) {
                 window.scrollTo({
-                    top: documentHeight,
+                    top: documentHeight - windowHeight,
                     behavior: 'smooth'
                 });
             } else {
-                applicationsRef.current.scrollIntoView({ behavior: 'smooth' });
+                window.scrollTo({
+                    top: Math.max(0, appPosition - offset), // Smaller offset means project will be higher
+                    behavior: 'smooth'
+                });
             }
         }
     };

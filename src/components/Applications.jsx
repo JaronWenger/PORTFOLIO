@@ -5,6 +5,8 @@ import cinestokesite from '../assets/cinestokesite.webp';
 import cinestokeicon from '../assets/cinestokeicon.png';
 import takapicicon from '../assets/takapicicon.png';
 import takapicsite from '../assets/takapicsite.webp';
+import stocksite from '../assets/stocksite.webp';
+import stockicon from '../assets/stocklookup.png';
 
 const Applications = forwardRef(({ animationKey }, ref) => {
     return (
@@ -28,6 +30,16 @@ const Applications = forwardRef(({ animationKey }, ref) => {
                 visitLink="https://www.cinestoke.com"
                 githubLink="https://github.com/JaronWenger/CINESTOKE"
                 estDate="― EST. 11/2024 ―"
+            />
+            <Odd 
+                laptop={stocksite}
+                icon={stockicon}
+                title="Stock Lookup"
+                revenue=""
+                description="Compile a stock list revealing prices and daily moves."
+                visitLink="https://jaronwenger.github.io/Stock-API/"
+                githubLink="https://github.com/JaronWenger/Stock-API"
+                estDate="― EST. 4/2024 ―"
             />
         </div>
     );
