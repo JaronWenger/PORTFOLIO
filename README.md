@@ -1,6 +1,6 @@
 # 🌐 PORTFOLIO 
 
-[jaronwenger.com](https://jaronwenger.com) Cronological order of my projects & ventures.
+[jaronwenger.com](https://jaronwenger.com) Chronological order of my projects & ventures.
 
 
 <img width="1496" alt="Screenshot 2025-02-04 at 8 46 43 PM" src="https://github.com/user-attachments/assets/7d3c4aa2-9ffd-49b6-813f-762695235a97" />
