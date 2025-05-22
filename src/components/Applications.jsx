@@ -7,10 +7,22 @@ import takapicicon from '../assets/takapicicon.png';
 import takapicsite from '../assets/takapicsite.webp';
 import stocksite from '../assets/stocksite.webp';
 import stockicon from '../assets/stocklookup.png';
+import codaicon from '../assets/codaicon2.png';
+import codasite from '../assets/CODAMAC.webp';
 
 const Applications = forwardRef(({ animationKey }, ref) => {
     return (
         <div className="applications" ref={ref} key={`apps-${animationKey}`}>
+            <Even 
+                laptop={codasite}
+                icon={codaicon}
+                title="Coda Link"
+                revenue=""
+                description="Connect & edit your Coda tables with an API."
+                visitLink="https://jaronwenger.github.io/CODAAPI/"
+                githubLink="https://github.com/JaronWenger/CODAAPI"
+                estDate="― EST. 5/2025 ―"
+            />
             <Odd 
                 laptop={takapicsite}
                 icon={takapicicon}
