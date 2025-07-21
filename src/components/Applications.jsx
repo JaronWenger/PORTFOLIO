@@ -37,7 +37,7 @@ const Applications = forwardRef(({ animationKey }, ref) => {
                 laptop={cinestokesite}
                 icon={cinestokeicon}
                 title="cinestoke.com"
-                revenue=""
+                revenue="$500/m"
                 description="Cinematic video and film production company."
                 visitLink="https://www.cinestoke.com"
                 githubLink="https://github.com/JaronWenger/CINESTOKE"
