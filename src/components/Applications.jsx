@@ -56,5 +56,5 @@ const Applications = forwardRef(({ animationKey }, ref) => {
         </div>
     );
 });
-
+//comment
 export default Applications; 
