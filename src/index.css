@@ -205,16 +205,38 @@ code {
   animation-delay: 0.6s;
   will-change: opacity, transform; /* Optimize animation performance */
   transform: translate3d(0, 0, 0); /* Force hardware acceleration */
+  /* iOS Safari specific */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Prevent scrollable containers */
+  position: relative;
+  overflow: visible;
+  -webkit-overflow-scrolling: auto;
 }
 
 @keyframes fadeInOdd {
   from {
     opacity: 0;
     transform: translate3d(0, 20px, 0);
+    -webkit-transform: translate3d(0, 20px, 0);
   }
   to {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+}
+
+/* iOS Safari specific animation that doesn't trigger scrollable containers */
+@supports (-webkit-touch-callout: none) {
+  @keyframes fadeInOddIOS {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 
@@ -371,6 +393,12 @@ code {
   width: 100%;
   overflow-x: hidden;
   overflow-y: hidden; /* Prevent independent scrolling during animations */
+  /* iOS Safari specific */
+  -webkit-overflow-scrolling: auto;
+  position: relative;
+  /* Prevent iOS from creating scrollable containers */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .even-container {
@@ -386,6 +414,14 @@ code {
   animation-delay: 0.6s;
   will-change: opacity, transform; /* Optimize animation performance */
   transform: translate3d(0, 0, 0); /* Force hardware acceleration */
+  /* iOS Safari specific */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Prevent scrollable containers */
+  position: relative;
+  overflow: visible;
+  -webkit-overflow-scrolling: auto;
 }
 
 .even-image-container {
@@ -563,6 +599,11 @@ code {
   .applications {
     position: relative;
     z-index: 1;
+    /* iOS Safari specific fixes */
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden !important;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
   }
   
   .odd-container,
@@ -572,12 +613,70 @@ code {
     /* Prevent any potential scroll issues during animation */
     transform-style: preserve-3d;
     backface-visibility: hidden;
+    /* iOS Safari specific */
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* Prevent iOS from creating scrollable containers */
+    -webkit-overflow-scrolling: auto;
+    overflow: visible;
   }
   
   /* Ensure the hero container doesn't create scroll issues */
   .hero {
     position: relative;
     z-index: 0;
+    /* iOS Safari specific */
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+  }
+}
+
+/* iOS Safari specific fixes */
+@supports (-webkit-touch-callout: none) {
+  .applications {
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: auto;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    /* Force iOS to not create scrollable containers */
+    position: static;
+    height: auto;
+    max-height: none;
+  }
+  
+  .odd-container,
+  .even-container {
+    /* Use simpler animation for iOS to prevent scrollable containers */
+    animation: fadeInOddIOS 0.6s ease forwards !important;
+    animation-delay: 0.6s !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    /* Prevent iOS from treating these as scrollable */
+    -webkit-overflow-scrolling: auto;
+    overflow: visible;
+    /* Force static positioning to prevent scroll containers */
+    position: static;
+    height: auto;
+    max-height: none;
+  }
+  
+  .hero {
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+    /* Ensure hero doesn't create scroll issues */
+    position: relative;
+    height: auto;
+  }
+  
+  /* Prevent any scrollable containers during animation */
+  .odd-container[style*="animation"],
+  .even-container[style*="animation"] {
+    overflow: hidden !important;
+    -webkit-overflow-scrolling: auto !important;
   }
 }
 
