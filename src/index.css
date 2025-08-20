@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0;
   background-color: black; /* Set background to black */
   color: white; /* Ensure text is readable */
@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  overflow-y: auto; /* Allow vertical scrolling but prevent horizontal */
 }
 
 code {
@@ -202,16 +203,18 @@ code {
   opacity: 0;
   animation: fadeInOdd 0.6s ease forwards;
   animation-delay: 0.6s;
+  will-change: opacity, transform; /* Optimize animation performance */
+  transform: translate3d(0, 0, 0); /* Force hardware acceleration */
 }
 
 @keyframes fadeInOdd {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translate3d(0, 20px, 0);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -367,6 +370,7 @@ code {
   align-items: center;
   width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden; /* Prevent independent scrolling during animations */
 }
 
 .even-container {
@@ -380,6 +384,8 @@ code {
   opacity: 0;
   animation: fadeInOdd 0.6s ease forwards;
   animation-delay: 0.6s;
+  will-change: opacity, transform; /* Optimize animation performance */
+  transform: translate3d(0, 0, 0); /* Force hardware acceleration */
 }
 
 .even-image-container {
@@ -550,5 +556,28 @@ code {
     width: 50%;
     height: 50%;
     filter: invert(1);
+}
+
+/* Mobile-specific fixes to prevent independent scrolling during animations */
+@media (max-width: 768px) {
+  .applications {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .odd-container,
+  .even-container {
+    position: relative;
+    z-index: 1;
+    /* Prevent any potential scroll issues during animation */
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  /* Ensure the hero container doesn't create scroll issues */
+  .hero {
+    position: relative;
+    z-index: 0;
+  }
 }
 
