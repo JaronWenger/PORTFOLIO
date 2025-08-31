@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.74276a34.css",
-    "main.js": "/static/js/main.ddccd9cb.js",
+    "main.js": "/static/js/main.f19e91e1.js",
     "static/media/codaicon2.png": "/static/media/codaicon2.f7873950b7016b1ee800.png",
+    "static/media/tenminutesfromhell.png": "/static/media/tenminutesfromhell.df838cf9e4118075817e.png",
     "static/media/jaronwenger.webp": "/static/media/jaronwenger.d6be6b9f6b4c8b74f039.webp",
     "static/media/software.webp": "/static/media/software.cb041e79bb84420324c0.webp",
     "static/media/cinestokesite.webp": "/static/media/cinestokesite.f42f8703e5317f60ae02.webp",
@@ -13,6 +14,7 @@
     "static/media/brd.webp": "/static/media/brd.3731fa89002194eff297.webp",
     "static/media/projects.webp": "/static/media/projects.ec1986900ce18986f9c2.webp",
     "static/media/contact.webp": "/static/media/contact.41d6d3e0f9513e3413e6.webp",
+    "static/media/tenminutesfromhell.webp": "/static/media/tenminutesfromhell.097b2f69db0ed31f599d.webp",
     "static/media/cinestokeicon.png": "/static/media/cinestokeicon.ede2e30b1df83c743606.png",
     "static/media/takapicicon.png": "/static/media/takapicicon.ee9c50fe38b3990688f1.png",
     "index.html": "/index.html",
@@ -21,10 +23,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b5b1772da77dabb38096d82518faa7bb.svg",
     "static/media/email.svg": "/static/media/email.a42318ed7325c8f0856918ae7b4afc21.svg",
     "main.74276a34.css.map": "/static/css/main.74276a34.css.map",
-    "main.ddccd9cb.js.map": "/static/js/main.ddccd9cb.js.map"
+    "main.f19e91e1.js.map": "/static/js/main.f19e91e1.js.map"
   },
   "entrypoints": [
     "static/css/main.74276a34.css",
-    "static/js/main.ddccd9cb.js"
+    "static/js/main.f19e91e1.js"
   ]
 }
