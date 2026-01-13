@@ -1,6 +1,7 @@
 import stocksite from '../assets/stocksite.webp';
 import stockicon from '../assets/stocklookup.png';
 import cinestokesite from '../assets/cinestokesite.webp';
+import cinestoke from '../assets/cinestoke.webp';
 import cinestokeicon from '../assets/cinestokeicon.png';
 import takapicsite from '../assets/takapicsite.webp';
 import takapicicon from '../assets/takapicicon.png';
@@ -23,7 +24,7 @@ export const projects = [
         estDate: "― EST. 4/2024 ―"
     },
     {
-        laptop: cinestokesite,
+        screenshot: cinestoke,
         icon: cinestokeicon,
         title: "cinestoke.com",
         revenue: "$500/m",

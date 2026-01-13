@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import link from '../assets/link.svg';
+import MacBookDisplay from './MacBookDisplay';
 
 const Even = ({
     laptop,
+    screenshot,
     icon,
     title,
     revenue,
@@ -77,7 +79,11 @@ const Even = ({
                     onClick={handleVisitClick}
                     style={{ cursor: 'pointer' }}
                 >
-                    <img src={laptop} alt={`${title} Website`} className="even-image" />
+                    {screenshot ? (
+                        <MacBookDisplay screenshot={screenshot} alt={title} />
+                    ) : (
+                        <img src={laptop} alt={`${title} Website`} className="even-image" />
+                    )}
                 </div>
             </div>
         </div>
