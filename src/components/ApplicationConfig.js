@@ -48,7 +48,7 @@ export const projects = [
         title: "Coda Link",
         revenue: "",
         description: "Connect & edit your Coda tables with an API.",
-        visitLink: "https://jaronwenger.github.io/CODAAPI/",
+        visitLink: "",
         githubLink: "https://github.com/JaronWenger/CODAAPI",
         estDate: "― EST. 5/2025 ―"
     },

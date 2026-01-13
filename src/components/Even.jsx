@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import link from '../assets/link.svg';
 
 const Even = ({
@@ -11,20 +11,29 @@ const Even = ({
     githubLink,
     estDate
 }) => {
+    const [isDeprecated, setIsDeprecated] = useState(false);
     const openLink = (url) => window.open(url, '_blank', 'noopener,noreferrer');
+
+    const handleVisitClick = () => {
+        if (visitLink) {
+            openLink(visitLink);
+        } else {
+            setIsDeprecated(!isDeprecated);
+        }
+    };
 
     return (
         <div className="even-container">
             <div className="even-content">
                 <div className="even-title-container">
                     <div
-                        onClick={() => openLink(visitLink)}
+                        onClick={handleVisitClick}
                         style={{ cursor: 'pointer' }}
                     >
                         <img src={icon} alt={`${title} Icon`} className="even-icon" />
                     </div>
                     <div
-                        onClick={() => openLink(visitLink)}
+                        onClick={handleVisitClick}
                         style={{ cursor: 'pointer' }}
                     >
                         <h2 className="even-title">{title}</h2>
@@ -34,11 +43,17 @@ const Even = ({
                 <p className="even-description">{description}</p>
                 <div className="even-buttons">
                     <button
-                        onClick={() => openLink(visitLink)}
-                        className="even-button"
+                        onClick={handleVisitClick}
+                        className={`even-button ${isDeprecated ? 'deprecated' : ''}`}
                     >
-                        <img src={link} alt="Link" className="link-icon" />
-                        Visit
+                        {isDeprecated ? (
+                            'Deprecated'
+                        ) : (
+                            <>
+                                <img src={link} alt="Link" className="link-icon" />
+                                Visit
+                            </>
+                        )}
                     </button>
                     {githubLink && (
                         <button
@@ -59,7 +74,7 @@ const Even = ({
             </div>
             <div className="even-image-container">
                 <div
-                    onClick={() => openLink(visitLink)}
+                    onClick={handleVisitClick}
                     style={{ cursor: 'pointer' }}
                 >
                     <img src={laptop} alt={`${title} Website`} className="even-image" />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import link from '../assets/link.svg';
 
 const Odd = ({
@@ -11,13 +11,22 @@ const Odd = ({
     githubLink,
     estDate
 }) => {
+    const [isDeprecated, setIsDeprecated] = useState(false);
     const openLink = (url) => window.open(url, '_blank', 'noopener,noreferrer');
+
+    const handleVisitClick = () => {
+        if (visitLink) {
+            openLink(visitLink);
+        } else {
+            setIsDeprecated(!isDeprecated);
+        }
+    };
 
     return (
         <div className="odd-container">
             <div className="odd-image-container">
                 <div
-                    onClick={() => openLink(visitLink)}
+                    onClick={handleVisitClick}
                     style={{ cursor: 'pointer' }}
                 >
                     <img src={laptop} alt={`${title} Website`} className="odd-image" />
@@ -26,13 +35,13 @@ const Odd = ({
             <div className="odd-content">
                 <div className="odd-title-container">
                     <div
-                        onClick={() => openLink(visitLink)}
+                        onClick={handleVisitClick}
                         style={{ cursor: 'pointer' }}
                     >
                         <img src={icon} alt={`${title} Icon`} className="odd-icon" />
                     </div>
                     <div
-                        onClick={() => openLink(visitLink)}
+                        onClick={handleVisitClick}
                         style={{ cursor: 'pointer' }}
                     >
                         <h2 className="odd-title">{title}</h2>
@@ -42,11 +51,17 @@ const Odd = ({
                 <p className="odd-description">{description}</p>
                 <div className="odd-buttons">
                     <button
-                        onClick={() => openLink(visitLink)}
-                        className="odd-button"
+                        onClick={handleVisitClick}
+                        className={`odd-button ${isDeprecated ? 'deprecated' : ''}`}
                     >
-                        <img src={link} alt="Link" className="link-icon" />
-                        Visit
+                        {isDeprecated ? (
+                            'Deprecated'
+                        ) : (
+                            <>
+                                <img src={link} alt="Link" className="link-icon" />
+                                Visit
+                            </>
+                        )}
                     </button>
                     {githubLink && (
                         <button
