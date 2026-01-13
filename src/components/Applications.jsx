@@ -9,10 +9,22 @@ import stocksite from '../assets/stocksite.webp';
 import stockicon from '../assets/stocklookup.png';
 import codaicon from '../assets/codaicon2.png';
 import codasite from '../assets/CODAMAC.webp';
+import tenminutesfromhellsite from '../assets/tenminutesfromhell.webp';
+import tenminutesfromhellicon from '../assets/tenminutesfromhell.png';
 
 const Applications = forwardRef(({ animationKey }, ref) => {
     return (
         <div className="applications" ref={ref} key={`apps-${animationKey}`}>
+            <Odd 
+                laptop={tenminutesfromhellsite}
+                icon={tenminutesfromhellicon}
+                title="Ten Minutes From Hell"
+                revenue=""
+                description="The only timer your workout needs."
+                visitLink="https://www.tenminutesfromhell.com"
+                githubLink="https://github.com/JaronWenger/tenminutesfromhell"
+                estDate="― EST. 8/2025 ―"
+            />
             <Even 
                 laptop={codasite}
                 icon={codaicon}
