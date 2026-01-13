@@ -73,6 +73,60 @@ button {
   -webkit-filter: contrast(1.05) brightness(1.02);
 }
 
+/* iPhone Display Compositor */
+.iphone-wrapper {
+  width: 100%;
+  padding-bottom: 72.5%; /* Match laptop container height (slightly taller than image) */
+  position: relative;
+}
+
+.iphone-wrapper-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone-display {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 80%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.iphone-display:hover {
+  transform: scale(1.005);
+}
+
+.iphone-frame {
+  position: relative;
+  width: auto;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.iphone-screen-content {
+  position: absolute;
+  top: 3.5%;
+  left: 5.5%;
+  width: 89%;
+  height: 93%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8%;
+  overflow: hidden;
+  z-index: 1;
+}
+
 .hero {
   position: relative;
   display: flex;

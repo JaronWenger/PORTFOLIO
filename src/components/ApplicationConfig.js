@@ -9,7 +9,7 @@ import codasite from '../assets/CODAMAC.webp';
 import codaicon from '../assets/codaicon2.png';
 import tenminutesfromhellsite from '../assets/tenminutesfromhell.webp';
 import tenminutesfromhellicon from '../assets/tenminutesfromhell.png';
-import tenminutesfromhellscreenshot from '../assets/tenminutesfromhellscreenshot.webp';
+import tenminutesfromhelliphone from '../assets/tenminutesfromhelliphone.webp';
 
 // Projects ordered oldest → newest
 // Index 0 (oldest) renders as Odd, index 1 as Even, etc.
@@ -55,8 +55,8 @@ export const projects = [
         estDate: "― EST. 5/2025 ―"
     },
     {
+        iphone: tenminutesfromhelliphone,
         icon: tenminutesfromhellicon,
-        screenshot: tenminutesfromhellscreenshot,
         title: "Ten Minutes From Hell",
         revenue: "",
         description: "The only timer your workout needs.",

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import link from '../assets/link.svg';
 import MacBookDisplay from './MacBookDisplay';
+import IPhoneDisplay from './IPhoneDisplay';
 
 const Odd = ({
     laptop,
     screenshot,
+    iphone,
     icon,
     title,
     revenue,
@@ -31,7 +33,9 @@ const Odd = ({
                     onClick={handleVisitClick}
                     style={{ cursor: 'pointer' }}
                 >
-                    {screenshot ? (
+                    {iphone ? (
+                        <IPhoneDisplay screenshot={iphone} alt={title} />
+                    ) : screenshot ? (
                         <MacBookDisplay screenshot={screenshot} alt={title} />
                     ) : (
                         <img src={laptop} alt={`${title} Website`} className="odd-image" />
