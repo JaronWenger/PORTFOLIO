@@ -4,32 +4,31 @@ import linkedinIcon from '../assets/linkedin.svg';
 import emailIcon from '../assets/email.svg';
 
 const Links = ({ animationKey }) => {
+    const openLink = (url) => window.open(url, '_blank', 'noopener,noreferrer');
+    const openEmail = () => window.location.href = 'mailto:jarongwenger@gmail.com?subject=Portfolio Contact';
+
     return (
         <div className="links-container" key={`links-${animationKey}`}>
-            <a 
-                href="https://github.com/JaronWenger"
-                target="_blank"
-                rel="noopener noreferrer"
+            <button
+                onClick={() => openLink('https://github.com/JaronWenger')}
                 className="link-button"
             >
                 <img src={githubIcon} alt="GitHub" className="link-icon" />
-            </a>
-            <a 
-                href="https://www.linkedin.com/in/jaronwenger/"
-                target="_blank"
-                rel="noopener noreferrer"
+            </button>
+            <button
+                onClick={() => openLink('https://www.linkedin.com/in/jaronwenger/')}
                 className="link-button"
             >
                 <img src={linkedinIcon} alt="LinkedIn" className="link-icon" />
-            </a>
-            <a 
-                href="mailto:jarongwenger@gmail.com?subject=Portfolio Contact"
+            </button>
+            <button
+                onClick={openEmail}
                 className="link-button"
             >
                 <img src={emailIcon} alt="Email" className="link-icon" />
-            </a>
+            </button>
         </div>
     );
 };
 
-export default Links; 
+export default Links;

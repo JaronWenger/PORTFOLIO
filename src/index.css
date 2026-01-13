@@ -14,6 +14,14 @@ code {
   font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
 .hero {
   position: relative;
   display: flex;
