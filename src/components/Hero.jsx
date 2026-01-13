@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import jaronwenger from "../assets/jaronwenger.webp";
-import software from "../assets/software.webp";
+import portfolio from "../assets/portfolio.webp";
 import projectsImg from '../assets/projects.webp';
 import brdImg from '../assets/brd.webp';
 import contactImg from '../assets/contact.webp';
@@ -98,9 +98,9 @@ const Hero = () => {
                     className="main-image"
                     key={`main-${key}`}
                 />
-                <img 
-                    src={software} 
-                    alt="Software" 
+                <img
+                    src={portfolio}
+                    alt="Portfolio"
                     className="sub-image"
                     key={`sub-${key}`}
                 />
