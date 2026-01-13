@@ -13,7 +13,8 @@ const Even = ({
     description,
     visitLink,
     githubLink,
-    estDate
+    estDate,
+    projectRef
 }) => {
     const [isDeprecated, setIsDeprecated] = useState(false);
     const openLink = (url) => window.open(url, '_blank', 'noopener,noreferrer');
@@ -27,7 +28,7 @@ const Even = ({
     };
 
     return (
-        <div className="even-container">
+        <div className="even-container" ref={projectRef}>
             <div className="even-content">
                 <div className="even-title-container">
                     <div

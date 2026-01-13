@@ -13,7 +13,8 @@ const Odd = ({
     description,
     visitLink,
     githubLink,
-    estDate
+    estDate,
+    projectRef
 }) => {
     const [isDeprecated, setIsDeprecated] = useState(false);
     const openLink = (url) => window.open(url, '_blank', 'noopener,noreferrer');
@@ -27,7 +28,7 @@ const Odd = ({
     };
 
     return (
-        <div className="odd-container">
+        <div className="odd-container" ref={projectRef}>
             <div className="odd-image-container">
                 <div
                     onClick={handleVisitClick}

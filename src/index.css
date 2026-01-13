@@ -96,8 +96,10 @@ button {
   display: block;
   width: auto;
   height: 80%;
-  transition: transform 0.3s ease;
   cursor: pointer;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  will-change: transform;
 }
 
 .iphone-display:hover {
@@ -111,6 +113,8 @@ button {
   display: block;
   margin: 0 auto;
   z-index: 2;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .iphone-screen-content {
@@ -125,6 +129,8 @@ button {
   border-radius: 8%;
   overflow: hidden;
   z-index: 1;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .hero {
@@ -224,20 +230,69 @@ button {
   transform: scale(1.02);
 }
 
-.fixed-brd {
+/* Fixed Logo Container with Dropdown */
+.fixed-logo-container {
   position: fixed;
   top: 5px;
   left: 5px;
-  width: clamp(32px, 10vw, 100px); /* Dynamic sizing instead of fixed 40px */
-  height: auto;
+  z-index: 200;
   opacity: 0;
   transition: opacity 0.3s ease;
-  z-index: 200;
-  cursor: pointer;
 }
 
-.fixed-brd.visible {
+.fixed-logo-container:hover,
+.fixed-logo-container.visible {
   opacity: 1;
+}
+
+.fixed-brd {
+  width: clamp(32px, 10vw, 100px);
+  height: auto;
+  cursor: pointer;
+  display: block;
+}
+
+.project-icons-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  padding-left: 6px;
+  pointer-events: none;
+}
+
+.project-icons-dropdown.open {
+  pointer-events: auto;
+}
+
+.dropdown-icon {
+  width: clamp(28px, 8vw, 45px);
+  height: auto;
+  cursor: pointer;
+  border-radius: 8px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Staggered fade in */
+.project-icons-dropdown.open .dropdown-icon:nth-child(1) { transition-delay: 0s; opacity: 1; transform: translateY(0); }
+.project-icons-dropdown.open .dropdown-icon:nth-child(2) { transition-delay: 0.05s; opacity: 1; transform: translateY(0); }
+.project-icons-dropdown.open .dropdown-icon:nth-child(3) { transition-delay: 0.1s; opacity: 1; transform: translateY(0); }
+.project-icons-dropdown.open .dropdown-icon:nth-child(4) { transition-delay: 0.15s; opacity: 1; transform: translateY(0); }
+.project-icons-dropdown.open .dropdown-icon:nth-child(5) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+
+/* Staggered fade out (reverse order) */
+.project-icons-dropdown.closed .dropdown-icon:nth-child(5) { transition-delay: 0s; }
+.project-icons-dropdown.closed .dropdown-icon:nth-child(4) { transition-delay: 0.05s; }
+.project-icons-dropdown.closed .dropdown-icon:nth-child(3) { transition-delay: 0.1s; }
+.project-icons-dropdown.closed .dropdown-icon:nth-child(2) { transition-delay: 0.15s; }
+.project-icons-dropdown.closed .dropdown-icon:nth-child(1) { transition-delay: 0.2s; }
+
+.project-icons-dropdown.open .dropdown-icon:hover {
+  transform: scale(1.1);
+  transition-delay: 0s;
 }
 
 .image-container {
