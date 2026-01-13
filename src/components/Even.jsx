@@ -51,13 +51,13 @@ const Even = ({
                         onClick={handleVisitClick}
                         className={`even-button ${isDeprecated ? 'deprecated' : ''}`}
                     >
-                        {isDeprecated ? (
-                            'Deprecated'
-                        ) : (
+                        {visitLink ? (
                             <>
                                 <img src={link} alt="Link" className="link-icon" />
                                 Visit
                             </>
+                        ) : (
+                            'Deprecated'
                         )}
                     </button>
                     {githubLink && (

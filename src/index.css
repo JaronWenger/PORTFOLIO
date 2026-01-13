@@ -546,7 +546,6 @@ button {
 
 .odd-button.deprecated,
 .even-button.deprecated {
-  width: clamp(100px, 12vw, 130px);
   background: rgba(255, 0, 0, 0.2);
   border-color: rgba(255, 0, 0, 0.5);
   color: #ff4444;

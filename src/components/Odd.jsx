@@ -65,13 +65,13 @@ const Odd = ({
                         onClick={handleVisitClick}
                         className={`odd-button ${isDeprecated ? 'deprecated' : ''}`}
                     >
-                        {isDeprecated ? (
-                            'Deprecated'
-                        ) : (
+                        {visitLink ? (
                             <>
                                 <img src={link} alt="Link" className="link-icon" />
                                 Visit
                             </>
+                        ) : (
+                            'Deprecated'
                         )}
                     </button>
                     {githubLink && (
