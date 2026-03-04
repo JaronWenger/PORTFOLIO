@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f8a2ab3d.css",
-    "main.js": "/static/js/main.58659e9a.js",
+    "main.js": "/static/js/main.160851ff.js",
     "static/media/codaicon2.png": "/static/media/codaicon2.f7873950b7016b1ee800.png",
     "static/media/tenminutesfromhell.png": "/static/media/tenminutesfromhell.df838cf9e4118075817e.png",
     "static/media/portfolio.webp": "/static/media/portfolio.d2a6e43cc420806cad10.webp",
@@ -28,10 +28,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b5b1772da77dabb38096d82518faa7bb.svg",
     "static/media/email.svg": "/static/media/email.a42318ed7325c8f0856918ae7b4afc21.svg",
     "main.f8a2ab3d.css.map": "/static/css/main.f8a2ab3d.css.map",
-    "main.58659e9a.js.map": "/static/js/main.58659e9a.js.map"
+    "main.160851ff.js.map": "/static/js/main.160851ff.js.map"
   },
   "entrypoints": [
     "static/css/main.f8a2ab3d.css",
-    "static/js/main.58659e9a.js"
+    "static/js/main.160851ff.js"
   ]
 }
