@@ -57,10 +57,10 @@ export const projects = [
     {
         iphone: tenminutesfromhelliphone,
         icon: tenminutesfromhellicon,
-        title: "Ten Minutes From Hell",
+        title: "HIITem",
         revenue: "",
         description: "The only timer your workout needs.",
-        visitLink: "https://www.tenminutesfromhell.com",
+        visitLink: "https://www.hiitem.com",
         githubLink: "https://github.com/JaronWenger/tenminutesfromhell",
         estDate: "― EST. 8/2025 ―"
     },
