@@ -12,6 +12,7 @@ import tenminutesfromhellicon from '../assets/tenminutesfromhell.png';
 import tenminutesfromhelliphone from '../assets/tenminutesfromhelliphone.webp';
 import espanolicon from '../assets/EspanolIcon.png';
 import espanolsite from '../assets/EspanolMac.png';
+import espanoliphone from '../assets/EspanolPhone.png';
 
 // Projects ordered oldest → newest
 // Index 0 (oldest) renders as Odd, index 1 as Even, etc.
@@ -67,7 +68,7 @@ export const projects = [
         estDate: "― EST. 8/2025 ―"
     },
     {
-        screenshot: espanolsite,
+        iphone: espanoliphone,
         icon: espanolicon,
         title: "Sing Espańol",
         revenue: "",
