@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.9c18d20f.css",
-    "main.js": "/static/js/main.a97d49df.js",
-    "static/media/EspanolIcon.png": "/static/media/EspanolIcon.a09409f3507a0b69d1fe.png",
+    "main.js": "/static/js/main.b472fb05.js",
+    "static/media/EspanolIcon.png": "/static/media/EspanolIcon.a726b540a68dcb4f5dd4.png",
     "static/media/codaicon2.png": "/static/media/codaicon2.f7873950b7016b1ee800.png",
     "static/media/tenminutesfromhell.png": "/static/media/tenminutesfromhell.df838cf9e4118075817e.png",
     "static/media/EspanolMac.png": "/static/media/EspanolMac.892d44007d3864d79718.png",
     "static/media/portfolio.webp": "/static/media/portfolio.d2a6e43cc420806cad10.webp",
+    "static/media/EspanolPhone.png": "/static/media/EspanolPhone.eae1f5c5eed0cd72e801.png",
     "static/media/cinestoke.webp": "/static/media/cinestoke.5de88db0ec089bd4b95d.webp",
     "static/media/mac.webp": "/static/media/mac.91022114928c20d2d93e.webp",
     "static/media/jaronwenger.webp": "/static/media/jaronwenger.d6be6b9f6b4c8b74f039.webp",
@@ -30,10 +31,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.b5b1772da77dabb38096d82518faa7bb.svg",
     "static/media/email.svg": "/static/media/email.a42318ed7325c8f0856918ae7b4afc21.svg",
     "main.9c18d20f.css.map": "/static/css/main.9c18d20f.css.map",
-    "main.a97d49df.js.map": "/static/js/main.a97d49df.js.map"
+    "main.b472fb05.js.map": "/static/js/main.b472fb05.js.map"
   },
   "entrypoints": [
     "static/css/main.9c18d20f.css",
-    "static/js/main.a97d49df.js"
+    "static/js/main.b472fb05.js"
   ]
 }
