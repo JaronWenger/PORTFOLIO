@@ -10,6 +10,8 @@ import codaicon from '../assets/codaicon2.png';
 import tenminutesfromhellsite from '../assets/tenminutesfromhell.webp';
 import tenminutesfromhellicon from '../assets/tenminutesfromhell.png';
 import tenminutesfromhelliphone from '../assets/tenminutesfromhelliphone.webp';
+import espanolicon from '../assets/EspanolIcon.png';
+import espanolsite from '../assets/EspanolMac.png';
 
 // Projects ordered oldest → newest
 // Index 0 (oldest) renders as Odd, index 1 as Even, etc.
@@ -63,5 +65,15 @@ export const projects = [
         visitLink: "https://www.hiitem.com",
         githubLink: "https://github.com/JaronWenger/tenminutesfromhell",
         estDate: "― EST. 8/2025 ―"
+    },
+    {
+        screenshot: espanolsite,
+        icon: espanolicon,
+        title: "Sing Espańol",
+        revenue: "",
+        description: "Learn Spanish through music and English Translations.",
+        visitLink: "https://jaronwenger.github.io/ESPANOL/",
+        githubLink: "https://github.com/JaronWenger/ESPANOL",
+        estDate: "― EST. 5/2026 ―"
     },
 ];
