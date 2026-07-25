@@ -13,6 +13,8 @@ import tenminutesfromhelliphone from '../assets/tenminutesfromhelliphone.webp';
 import espanolicon from '../assets/EspanolIcon.png';
 import espanolsite from '../assets/EspanolMac.png';
 import espanoliphone from '../assets/EspanolPhone.png';
+import jimmy from '../assets/jimmy.webp';
+import jimmyicon from '../assets/jimmyicon.png';
 
 // Projects ordered oldest → newest
 // Index 0 (oldest) renders as Odd, index 1 as Even, etc.
@@ -76,5 +78,15 @@ export const projects = [
         visitLink: "https://jaronwenger.github.io/ESPANOL/",
         githubLink: "https://github.com/JaronWenger/ESPANOL",
         estDate: "― EST. 5/2026 ―"
+    },
+    {
+        screenshot: jimmy,
+        icon: jimmyicon,
+        title: "Jimmy Boof",
+        revenue: "",
+        description: "Paddle open-world rivers in this kayaking simulator.",
+        visitLink: "https://jimmyboof.com",
+        githubLink: "https://github.com/JaronWenger/JIMMYBOOF",
+        estDate: "― EST. 8/2026 ―"
     },
 ];
