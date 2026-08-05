@@ -508,11 +508,13 @@ button {
   margin-top: clamp(12px, 1.5vw, 16px);
   align-items: center; /* Center all items vertically */
 }
-.github-icon {
+.github-icon,
+.analytics-icon {
   fill: white !important; /* Force the fill color to white */
 }
 .github-icon,
-.link-icon {
+.link-icon,
+.analytics-icon {
   width: clamp(16px, 1.2vw, 18px); /* Reduced max icon size */
   height: clamp(16px, 1.2vw, 18px);
 }

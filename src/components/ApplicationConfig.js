@@ -36,7 +36,8 @@ export const projects = [
         revenue: "$500/m",
         description: "Cinematic video and film production company.",
         visitLink: "https://www.cinestoke.com",
-        githubLink: "https://github.com/JaronWenger/CINESTOKE",
+        githubLink: "",
+        simpleAnalyticsLink: "",
         estDate: "― EST. 11/2024 ―"
     },
     {
@@ -47,6 +48,7 @@ export const projects = [
         description: "Transform your photos into cinematic AI-powered videos.",
         visitLink: "https://www.takapic.com",
         githubLink: "https://github.com/JaronWenger/TAKAPIC",
+        simpleAnalyticsLink: "",
         estDate: "― EST. 1/2025 ―"
     },
     {
@@ -86,7 +88,8 @@ export const projects = [
         revenue: "",
         description: "Paddle open-world rivers in this kayaking simulator.",
         visitLink: "https://jimmyboof.com",
-        githubLink: "https://github.com/JaronWenger/JIMMYBOOF",
+        githubLink: "",
+        simpleAnalyticsLink: "https://dashboard.simpleanalytics.com/jimmyboof.com?period=month&count=1&interval=day",
         estDate: "― EST. 8/2026 ―"
     },
 ];

@@ -13,6 +13,7 @@ const Odd = ({
     description,
     visitLink,
     githubLink,
+    simpleAnalyticsLink,
     estDate,
     projectRef
 }) => {
@@ -86,6 +87,18 @@ const Odd = ({
                                 </g>
                             </svg>
 
+                        </button>
+                    )}
+                    {simpleAnalyticsLink && (
+                        <button
+                            onClick={() => openLink(simpleAnalyticsLink)}
+                            className="odd-button"
+                        >
+                            <svg viewBox="0 0 24 24" className="analytics-icon">
+                                <rect x="3" y="12" width="4" height="9" rx="1"></rect>
+                                <rect x="10" y="7" width="4" height="14" rx="1"></rect>
+                                <rect x="17" y="3" width="4" height="18" rx="1"></rect>
+                            </svg>
                         </button>
                     )}
                     <span className="est-date">{estDate}</span>
