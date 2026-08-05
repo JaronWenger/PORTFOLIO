@@ -32,7 +32,7 @@ export const projects = [
     {
         screenshot: cinestoke,
         icon: cinestokeicon,
-        title: "cinestoke.com",
+        title: "CINESTOKE",
         revenue: "$500/m",
         description: "Cinematic video and film production company.",
         visitLink: "https://www.cinestoke.com",

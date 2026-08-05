@@ -124,6 +124,10 @@ const Hero = () => {
                             src={project.icon}
                             alt={project.title}
                             className="dropdown-icon"
+                            style={{
+                                '--open-delay': `${index * 0.05}s`,
+                                '--close-delay': `${(displayProjects.length - 1 - index) * 0.05}s`
+                            }}
                             onClick={() => scrollToProject(index)}
                         />
                     ))}

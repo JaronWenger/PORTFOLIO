@@ -281,21 +281,15 @@ button {
   opacity: 0;
   transform: translateY(-10px);
   transition: opacity 0.2s ease, transform 0.2s ease;
+  transition-delay: var(--close-delay, 0s);
 }
 
-/* Staggered fade in */
-.project-icons-dropdown.open .dropdown-icon:nth-child(1) { transition-delay: 0s; opacity: 1; transform: translateY(0); }
-.project-icons-dropdown.open .dropdown-icon:nth-child(2) { transition-delay: 0.05s; opacity: 1; transform: translateY(0); }
-.project-icons-dropdown.open .dropdown-icon:nth-child(3) { transition-delay: 0.1s; opacity: 1; transform: translateY(0); }
-.project-icons-dropdown.open .dropdown-icon:nth-child(4) { transition-delay: 0.15s; opacity: 1; transform: translateY(0); }
-.project-icons-dropdown.open .dropdown-icon:nth-child(5) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
-
-/* Staggered fade out (reverse order) */
-.project-icons-dropdown.closed .dropdown-icon:nth-child(5) { transition-delay: 0s; }
-.project-icons-dropdown.closed .dropdown-icon:nth-child(4) { transition-delay: 0.05s; }
-.project-icons-dropdown.closed .dropdown-icon:nth-child(3) { transition-delay: 0.1s; }
-.project-icons-dropdown.closed .dropdown-icon:nth-child(2) { transition-delay: 0.15s; }
-.project-icons-dropdown.closed .dropdown-icon:nth-child(1) { transition-delay: 0.2s; }
+/* Staggered fade in / out, delays computed per-icon in Hero.jsx so it scales with any number of projects */
+.project-icons-dropdown.open .dropdown-icon {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: var(--open-delay, 0s);
+}
 
 .project-icons-dropdown.open .dropdown-icon:hover {
   transform: scale(1.1);
