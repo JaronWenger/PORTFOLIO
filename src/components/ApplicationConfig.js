@@ -37,7 +37,7 @@ export const projects = [
         description: "Cinematic video and film production company.",
         visitLink: "https://www.cinestoke.com",
         githubLink: "",
-        simpleAnalyticsLink: "",
+        simpleAnalyticsLink: "https://dashboard.simpleanalytics.com/cinestoke.com",
         estDate: "― EST. 11/2024 ―"
     },
     {
@@ -89,7 +89,7 @@ export const projects = [
         description: "Paddle open-world rivers in this kayaking simulator.",
         visitLink: "https://jimmyboof.com",
         githubLink: "",
-        simpleAnalyticsLink: "https://dashboard.simpleanalytics.com/jimmyboof.com?period=month&count=1&interval=day",
+        simpleAnalyticsLink: "https://dashboard.simpleanalytics.com/jimmyboof.com",
         estDate: "― EST. 8/2026 ―"
     },
 ];
