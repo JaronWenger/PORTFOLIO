@@ -144,7 +144,6 @@ const Hero = () => {
                     </button>
                 </div>
                 <div className="hero-title" key={`title-${key}`}>
-                    <div className="hero-title-band" />
                     <h1 className="hero-title-main">Jaron Wenger</h1>
                     <div className="hero-title-line" />
                     <p className="hero-title-sub">Portfolio</p>

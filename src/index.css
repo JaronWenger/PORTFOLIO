@@ -182,7 +182,8 @@ button {
 /* Hero title: port of the Cinestoke "Hero" title (ExpeditionAtlas src/hero.js).
    Every size is in em of the title, so the whole card scales with font-size.
    Title fades in, tracking opens up slowly, a thin line grows out from the
-   middle, soft black band behind, black shadow + faint white glow. */
+   middle, black shadow + faint white glow. The template's black band is
+   intentionally left out on this site. */
 .hero-title {
   position: relative;
   z-index: 1;
@@ -238,36 +239,9 @@ button {
   animation: heroFade 0.53s linear both, heroLine 10s both;
 }
 
-/* Soft black band, full width down to the line, then a V towards the subtitle */
-.hero-title-band {
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  top: -0.54em;
-  width: calc((100% + 1.6em) * 1.07);
-  height: 2.69em;
-  transform: translateX(-50%);
-  filter: blur(0.47em);
-  animation: heroBand 1.5s cubic-bezier(0.5, 1, 0.89, 1) both;
-  pointer-events: none;
-}
-
-.hero-title-band::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: black;
-  clip-path: polygon(0 0, 100% 0, 100% 58%, 50% 100%, 0 58%);
-}
-
 @keyframes heroFade {
   from { opacity: 0; }
   to { opacity: 1; }
-}
-
-@keyframes heroBand {
-  from { opacity: 0; }
-  to { opacity: 0.35; }
 }
 
 /* text-indent matches letter-spacing so the trailing space doesn't push the text off centre */
@@ -291,8 +265,7 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .hero-title-main,
   .hero-title-sub,
-  .hero-title-line,
-  .hero-title-band {
+  .hero-title-line {
     animation-duration: 0s;
   }
 }
