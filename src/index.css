@@ -463,9 +463,7 @@ button {
   padding: clamp(12px, 3vw, 20px);
   margin-top: clamp(20px, 5vw, 40px);
   backdrop-filter: blur(5px);
-  opacity: 0;
-  animation: fadeInOdd 0.6s ease forwards;
-  animation-delay: 0.6s;
+  opacity: 0; /* fades in once revealed, see .project-slot.revealed */
   will-change: opacity, transform; /* Optimize animation performance */
   transform: translate3d(0, 0, 0); /* Force hardware acceleration */
   /* iOS Safari specific */
@@ -700,6 +698,14 @@ button {
   justify-content: center;
 }
 
+/* Projects fade in the first time they scroll into view (Applications.jsx adds
+   .revealed and sets --reveal-delay) */
+.project-slot.revealed .odd-container,
+.project-slot.revealed .even-container {
+  animation: fadeInOdd 0.6s ease forwards;
+  animation-delay: var(--reveal-delay, 0s);
+}
+
 .spotlights {
   position: absolute;
   inset: 0;
@@ -713,7 +719,7 @@ button {
   /* reaches past the far edge; .spotlights clips it */
   width: 140%;
   height: 130vh;
-  opacity: var(--beam, 0);
+  opacity: calc(0.75 * var(--beam, 0)); /* 0.75 caps the brightness */
   transform-origin: var(--spot-x) 50%;
   transform: translateY(-50%) scaleX(calc(0.15 + 0.85 * var(--beam, 0)));
   background: radial-gradient(
@@ -753,9 +759,7 @@ button {
   padding: clamp(12px, 3vw, 20px);
   margin-top: clamp(20px, 5vw, 40px);
   backdrop-filter: blur(5px);
-  opacity: 0;
-  animation: fadeInOdd 0.6s ease forwards;
-  animation-delay: 0.6s;
+  opacity: 0; /* fades in once revealed, see .project-slot.revealed */
   will-change: opacity, transform; /* Optimize animation performance */
   transform: translate3d(0, 0, 0); /* Force hardware acceleration */
   /* iOS Safari specific */
@@ -1018,9 +1022,6 @@ button {
   
   .odd-container,
   .even-container {
-    /* Use simpler animation for iOS to prevent scrollable containers */
-    animation: fadeInOddIOS 0.6s ease forwards !important;
-    animation-delay: 0.6s !important;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
@@ -1034,6 +1035,13 @@ button {
     max-height: none;
   }
   
+  /* Use simpler animation for iOS to prevent scrollable containers */
+  .project-slot.revealed .odd-container,
+  .project-slot.revealed .even-container {
+    animation: fadeInOddIOS 0.6s ease forwards !important;
+    animation-delay: var(--reveal-delay, 0s) !important;
+  }
+
   .hero {
     -webkit-overflow-scrolling: touch;
     overflow: hidden;
