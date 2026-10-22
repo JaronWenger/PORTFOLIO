@@ -21,6 +21,13 @@ code {
   font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+/* While click-and-drag scrolling (useDragScroll.js) */
+html.drag-scrolling,
+html.drag-scrolling * {
+  cursor: grabbing !important;
+  user-select: none;
+}
+
 button {
   font-family: inherit;
   border: none;
@@ -680,6 +687,64 @@ button {
   transform: translateZ(0);
 }
 
+/* Project spotlights: a big soft wash in the project's icon colour (--spot),
+   coming from the text side, as wide as the top spotlight. The beams sit in a
+   layer behind the whole hero, each one placed at its project's centre (top
+   is measured in Applications.jsx), so they scroll with their project and are
+   never clipped by .applications. --beam (0–1, set on scroll) is how close the
+   project is to the middle of the screen: the centred one is fully lit and
+   reaches across, neighbours glow faintly, near the edges there's no beam. */
+.project-slot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.spotlights {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* --spot-x is the edge the beam comes from: 0% = left, 100% = right */
+.spotlight {
+  position: absolute;
+  /* reaches past the far edge; .spotlights clips it */
+  width: 140%;
+  height: 130vh;
+  opacity: var(--beam, 0);
+  transform-origin: var(--spot-x) 50%;
+  transform: translateY(-50%) scaleX(calc(0.15 + 0.85 * var(--beam, 0)));
+  background: radial-gradient(
+    ellipse 100% 50% at var(--spot-x) 50%,
+    color-mix(in srgb, var(--spot) 18%, transparent) 0%,
+    color-mix(in srgb, var(--spot) 11%, transparent) 20%,
+    color-mix(in srgb, var(--spot) 5%, transparent) 30%,
+    transparent 70%
+  );
+  will-change: opacity, transform;
+}
+
+.spotlight-left {
+  left: 0;
+  --spot-x: 0%;
+}
+
+.spotlight-right {
+  right: 0;
+  --spot-x: 100%;
+}
+
+/* Mobile: no device images, so every beam comes from the right */
+@media (max-width: 767px) {
+  .spotlight-left {
+    left: auto;
+    right: 0;
+    --spot-x: 100%;
+  }
+}
+
 .even-container {
   width: clamp(200px, 85vw, 850px);
   display: flex;
@@ -838,6 +903,7 @@ button {
 }
 
 .links-container {
+    position: relative; /* paint above the .spotlights layer */
     display: flex;
     justify-content: center;
     gap: clamp(20px, 4vw, 40px);
