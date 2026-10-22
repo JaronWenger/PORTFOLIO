@@ -64,11 +64,9 @@ button {
 }
 
 .macbook-screen-content {
+  position: relative;
   width: 100%;
   height: 100%;
-  background-size: 66% 54%;
-  background-position: center 30%;
-  background-repeat: no-repeat;
   transform: perspective(400px) rotateX(4deg);
   will-change: transform;
   backface-visibility: hidden;
@@ -78,6 +76,16 @@ button {
   image-rendering: -webkit-optimize-contrast;
   filter: contrast(1.05) brightness(1.02);
   -webkit-filter: contrast(1.05) brightness(1.02);
+}
+
+/* Screenshot box: 66% × 54%, centred horizontally, 30% down the free space */
+.macbook-screen-img {
+  position: absolute;
+  left: 17%;
+  top: 13.8%;
+  width: 66%;
+  height: 54%;
+  object-fit: fill;
 }
 
 /* iPhone Display Compositor */
@@ -130,9 +138,7 @@ button {
   left: 5.5%;
   width: 89%;
   height: 93%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  object-fit: contain;
   border-radius: 8%;
   overflow: hidden;
   z-index: 1;
@@ -173,21 +179,122 @@ button {
   pointer-events: none;
 }
 
-.main-image {
-  width: clamp(300px, 70vw, 1200px);
-  height: auto;
-  opacity: 0;
-  animation: fadeInImage 0.8s ease forwards;
+/* Hero title: port of the Cinestoke "Hero" title (ExpeditionAtlas src/hero.js).
+   Every size is in em of the title, so the whole card scales with font-size.
+   Title fades in, tracking opens up slowly, a thin line grows out from the
+   middle, soft black band behind, black shadow + faint white glow. */
+.hero-title {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Avenir Next", Montserrat, sans-serif;
+  font-size: clamp(24px, 5.6vw, 96px);
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 15vh;
 }
 
-.sub-image {
-  width: clamp(200px, 45vw, 800px);
-  height: auto;
-  margin-top: -2vh;
-  opacity: 0;
-  animation: fadeInImage 0.8s ease forwards;
-  animation-delay: 0.2s;
-  margin-bottom: 15vh;
+.hero-title-main,
+.hero-title-sub {
+  margin: 0;
+  line-height: 1;
+  white-space: nowrap;
+  animation: heroFade 0.53s linear both, heroTrackTitle 10s linear both;
+  text-shadow: 0 0 0.19em rgba(255, 255, 255, 0.3), 0 0 0.095em rgba(0, 0, 0, 0.35);
+}
+
+.hero-title-main {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.hero-title-sub {
+  font-size: 0.225em;
+  font-weight: 500;
+  margin-top: 0.75em;
+  animation-name: heroFade, heroTrackSub;
+  text-shadow: 0 0 0.84em rgba(255, 255, 255, 0.3), 0 0 0.42em rgba(0, 0, 0, 0.35);
+}
+
+.hero-title-line {
+  width: 41%;
+  height: max(1px, 0.0285em);
+  margin-top: 0.02em;
+  background: linear-gradient(to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.115) 10%,
+    rgba(255, 255, 255, 0.306) 20%,
+    rgba(255, 255, 255, 0.493) 30%,
+    rgba(255, 255, 255, 0.68) 40%,
+    rgba(255, 255, 255, 0.85) 50%,
+    rgba(255, 255, 255, 0.68) 60%,
+    rgba(255, 255, 255, 0.493) 70%,
+    rgba(255, 255, 255, 0.306) 80%,
+    rgba(255, 255, 255, 0.115) 90%,
+    rgba(255, 255, 255, 0) 100%);
+  filter: drop-shadow(0 0 0.095em rgba(0, 0, 0, 0.35)) drop-shadow(0 0 0.19em rgba(255, 255, 255, 0.3));
+  animation: heroFade 0.53s linear both, heroLine 10s both;
+}
+
+/* Soft black band, full width down to the line, then a V towards the subtitle */
+.hero-title-band {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: -0.54em;
+  width: calc((100% + 1.6em) * 1.07);
+  height: 2.69em;
+  transform: translateX(-50%);
+  filter: blur(0.47em);
+  animation: heroBand 1.5s cubic-bezier(0.5, 1, 0.89, 1) both;
+  pointer-events: none;
+}
+
+.hero-title-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: black;
+  clip-path: polygon(0 0, 100% 0, 100% 58%, 50% 100%, 0 58%);
+}
+
+@keyframes heroFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes heroBand {
+  from { opacity: 0; }
+  to { opacity: 0.35; }
+}
+
+/* text-indent matches letter-spacing so the trailing space doesn't push the text off centre */
+@keyframes heroTrackTitle {
+  from { letter-spacing: 0.22em; text-indent: 0.22em; }
+  to { letter-spacing: 0.26em; text-indent: 0.26em; }
+}
+
+@keyframes heroTrackSub {
+  from { letter-spacing: 0.2em; text-indent: 0.2em; }
+  to { letter-spacing: 0.26em; text-indent: 0.26em; }
+}
+
+/* 80% of the line grows out (ease-out) over the first ~5s, the rest creeps over the whole 10s */
+@keyframes heroLine {
+  0% { transform: scaleX(0); animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1); }
+  48% { transform: scaleX(0.9); animation-timing-function: linear; }
+  100% { transform: scaleX(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-title-main,
+  .hero-title-sub,
+  .hero-title-line,
+  .hero-title-band {
+    animation-duration: 0s;
+  }
 }
 
 .control-bar {
@@ -219,22 +326,29 @@ button {
   transition: transform 0.2s ease;
 }
 
-.control-bar img:first-child {
-  width: clamp(73px, 12vw, 163px); /* Increased from 63px, 11vw, 153px */
-  margin-top: 2px;
-}
-
 .control-bar img:nth-child(2) {
   margin-right: 10px; /* Push BRD slightly left */
 }
 
-.control-bar img:last-child {
-  width: clamp(63px, 11vw, 153px);
-  margin-top: 2px;
+.control-bar img:hover,
+.control-bar-text:hover {
+  transform: scale(1.02);
 }
 
-.control-bar img:hover {
-  transform: scale(1.02);
+/* Projects / Contact: same type as the hero title (bold, wide tracking, shadow + glow) */
+.control-bar-text {
+  font-family: "Avenir Next", Montserrat, sans-serif;
+  font-size: clamp(11px, 1.4vw, 20px);
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  text-indent: 0.22em; /* balances the trailing letter-spacing */
+  color: white;
+  white-space: nowrap;
+  text-shadow: 0 0 0.19em rgba(255, 255, 255, 0.3), 0 0 0.095em rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 /* Fixed Logo Container with Dropdown */
@@ -784,6 +898,31 @@ button {
     width: 50%;
     height: 50%;
     filter: invert(1);
+}
+
+.email-button {
+    position: relative;
+}
+
+.email-copied {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Avenir Next", Montserrat, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.email-copied.visible {
+    opacity: 1;
 }
 
 /* Mobile-specific fixes to prevent independent scrolling during animations */

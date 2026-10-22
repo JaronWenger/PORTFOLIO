@@ -100,7 +100,7 @@ const Even = ({
                     ) : screenshot ? (
                         <MacBookDisplay screenshot={screenshot} alt={title} />
                     ) : (
-                        <img src={laptop} alt={`${title} Website`} className="even-image" />
+                        <img src={laptop} alt={`${title} Website`} className="even-image" loading="lazy" />
                     )}
                 </div>
             </div>

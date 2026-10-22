@@ -6,18 +6,17 @@ const IPhoneDisplay = ({ screenshot, alt }) => {
         <div className="iphone-wrapper">
             <div className="iphone-wrapper-inner">
                 <div className="iphone-display">
-                    <div
+                    <img
+                        src={screenshot}
+                        alt={`${alt} screen`}
                         className="iphone-screen-content"
-                        role="img"
-                        aria-label={`${alt} screen`}
-                        style={{
-                            backgroundImage: `url(${screenshot})`
-                        }}
+                        loading="lazy"
                     />
                     <img
                         src={iphoneFrame}
                         alt={alt || "iPhone"}
                         className="iphone-frame"
+                        loading="lazy"
                     />
                 </div>
             </div>

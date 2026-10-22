@@ -1,0 +1,4 @@
+# Cloudflare Pages headers (ignored by GitHub Pages).
+# Build files under /static have content hashes in their names, so they never change.
+/static/*
+  Cache-Control: public, max-age=31536000, immutable

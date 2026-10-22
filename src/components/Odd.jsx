@@ -40,7 +40,7 @@ const Odd = ({
                     ) : screenshot ? (
                         <MacBookDisplay screenshot={screenshot} alt={title} />
                     ) : (
-                        <img src={laptop} alt={`${title} Website`} className="odd-image" />
+                        <img src={laptop} alt={`${title} Website`} className="odd-image" loading="lazy" />
                     )}
                 </div>
             </div>

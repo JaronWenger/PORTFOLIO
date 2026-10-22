@@ -1,20 +1,19 @@
 import stocksite from '../assets/stocksite.webp';
-import stockicon from '../assets/stocklookup.png';
-import cinestokesite from '../assets/cinestokesite.webp';
+import stockicon from '../assets/stocklookup.webp';
 import cinestoke from '../assets/cinestoke.webp';
-import cinestokeicon from '../assets/cinestokeicon.png';
+import cinestokeicon from '../assets/cinestokeicon.webp';
 import takapicsite from '../assets/takapicsite.webp';
-import takapicicon from '../assets/takapicicon.png';
+import takapicicon from '../assets/takapicicon.webp';
 import codasite from '../assets/CODAMAC.webp';
-import codaicon from '../assets/codaicon2.png';
-import tenminutesfromhellsite from '../assets/tenminutesfromhell.webp';
-import tenminutesfromhellicon from '../assets/tenminutesfromhell.png';
+import codaicon from '../assets/codaicon2.webp';
+import tenminutesfromhellicon from '../assets/tenminutesfromhellicon.webp';
 import tenminutesfromhelliphone from '../assets/tenminutesfromhelliphone.webp';
-import espanolicon from '../assets/EspanolIcon.png';
-import espanolsite from '../assets/EspanolMac.png';
-import espanoliphone from '../assets/EspanolPhone.png';
+import espanolicon from '../assets/EspanolIcon.webp';
+import espanoliphone from '../assets/EspanolPhone.webp';
 import jimmy from '../assets/jimmy.webp';
-import jimmyicon from '../assets/jimmyicon.png';
+import jimmyicon from '../assets/jimmyicon.webp';
+import expeditionatlas from '../assets/expeditionatlas.webp';
+import expeditionatlasicon from '../assets/expeditionatlasicon.webp';
 
 // Projects ordered oldest → newest
 // Index 0 (oldest) renders as Odd, index 1 as Even, etc.
@@ -91,5 +90,16 @@ export const projects = [
         githubLink: "",
         simpleAnalyticsLink: "https://dashboard.simpleanalytics.com/jimmyboof.com",
         estDate: "― EST. 8/2026 ―"
+    },
+    {
+        screenshot: expeditionatlas,
+        icon: expeditionatlasicon,
+        title: "Expedition Atlas",
+        revenue: "",
+        description: "A collection of the greatest expeditions on earth.",
+        visitLink: "https://theexpeditionatlas.com",
+        githubLink: "",
+        simpleAnalyticsLink: "",
+        estDate: "― EST. 10/2026 ―"
     },
 ];

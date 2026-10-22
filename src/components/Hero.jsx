@@ -1,9 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import jaronwenger from "../assets/jaronwenger.webp";
-import portfolio from "../assets/portfolio.webp";
-import projectsImg from '../assets/projects.webp';
 import brdImg from '../assets/brd.webp';
-import contactImg from '../assets/contact.webp';
 import Applications from './Applications';
 import Links from './Links';
 import { projects } from './ApplicationConfig';
@@ -135,36 +131,24 @@ const Hero = () => {
             </div>
             <div className="hero">
                 <div className="control-bar" key={`bar-${key}`}>
-                    <img 
-                        src={projectsImg} 
-                        alt="Projects" 
-                        onClick={scrollToApplications}
-                        style={{ cursor: 'pointer' }}
-                    />
-                    <img 
-                        src={brdImg} 
-                        alt="BRD" 
+                    <button className="control-bar-text" onClick={scrollToApplications}>
+                        Projects
+                    </button>
+                    <img
+                        src={brdImg}
+                        alt="BRD"
                         onClick={triggerAnimation}
                     />
-                    <img 
-                        src={contactImg} 
-                        alt="Contact" 
-                        onClick={scrollToBottom}
-                        style={{ cursor: 'pointer' }}
-                    />
+                    <button className="control-bar-text" onClick={scrollToBottom}>
+                        Contact
+                    </button>
                 </div>
-                <img 
-                    src={jaronwenger} 
-                    alt="Jaron Wenger" 
-                    className="main-image"
-                    key={`main-${key}`}
-                />
-                <img
-                    src={portfolio}
-                    alt="Portfolio"
-                    className="sub-image"
-                    key={`sub-${key}`}
-                />
+                <div className="hero-title" key={`title-${key}`}>
+                    <div className="hero-title-band" />
+                    <h1 className="hero-title-main">Jaron Wenger</h1>
+                    <div className="hero-title-line" />
+                    <p className="hero-title-sub">Portfolio</p>
+                </div>
                 <Applications animationKey={key} ref={applicationsRef} projectRefs={projectRefs} />
                 <Links animationKey={key} />
             </div>

@@ -9,6 +9,7 @@ const MacBookDisplay = ({ screenshot, alt }) => {
                 src={macBase}
                 alt={alt || "MacBook"}
                 className="macbook-base"
+                loading="lazy"
             />
             <div
                 className="macbook-screen-mask"
@@ -17,14 +18,14 @@ const MacBookDisplay = ({ screenshot, alt }) => {
                     WebkitMaskImage: `url(${screenMask})`
                 }}
             >
-                <div
-                    className="macbook-screen-content"
-                    role="img"
-                    aria-label={`${alt} screen`}
-                    style={{
-                        backgroundImage: `url(${screenshot})`
-                    }}
-                />
+                <div className="macbook-screen-content">
+                    <img
+                        src={screenshot}
+                        alt={`${alt} screen`}
+                        className="macbook-screen-img"
+                        loading="lazy"
+                    />
+                </div>
             </div>
         </div>
     );

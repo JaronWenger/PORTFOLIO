@@ -14,7 +14,9 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Meddon&display=swap" rel="stylesheet">
+    <!-- Montserrat is only the fallback for Avenir Next (non-Apple devices); load it without blocking first paint -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet"></noscript>
 
     <meta name="description" content="Chronological order of my projects and ventures." />
     <link rel="canonical" href="https://www.jaronwenger.com" />
