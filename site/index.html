@@ -189,6 +189,36 @@
     .final .lead { margin: 0 auto; }
     .final .actions { justify-content: center; }
 
+    /* Lead form */
+    .lead-form {
+      max-width: 560px; margin: 40px auto 0; text-align: left;
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 24px 20px;
+    }
+    .lead-form h3 { text-align: center; margin-bottom: 18px; }
+    .lead-form .row { display: grid; gap: 14px; }
+    .lead-form label { display: grid; gap: 6px; font-weight: 600; font-size: .95rem; margin-bottom: 14px; }
+    .lead-form .row label { margin-bottom: 0; }
+    .lead-form .row { margin-bottom: 14px; }
+    .lead-form .optional { font-weight: 400; color: var(--muted); }
+    .lead-form input, .lead-form textarea {
+      width: 100%; font: inherit; font-size: 16px; /* 16px stops iOS zooming in */
+      color: var(--ink); background: var(--bg);
+      border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+    }
+    .lead-form textarea { min-height: 110px; resize: vertical; }
+    .lead-form input:focus, .lead-form textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .lead-form .botcheck { display: none; }
+    .lead-form button { width: 100%; cursor: pointer; }
+    .lead-form button:disabled { opacity: .6; cursor: default; }
+    .lead-form .form-error { color: var(--bad); margin: 12px 0 0; text-align: center; }
+    .lead-form .form-done { text-align: center; margin: 0; }
+    .lead-form .form-done h3 { margin-bottom: 6px; }
+    @media (min-width: 560px) {
+      .lead-form { padding: 32px; }
+      .lead-form .row { grid-template-columns: 1fr 1fr; }
+    }
+
     /* Footer */
     footer { border-top: 1px solid var(--line); padding: 28px 0; font-size: .95rem; color: var(--muted); }
     footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
@@ -412,6 +442,23 @@
           <a class="btn btn-secondary" href="sms:+17177235127">Text me</a>
           <a class="btn btn-secondary" href="mailto:jarongwenger@gmail.com">jarongwenger@gmail.com</a>
         </div>
+
+        <form class="lead-form" id="lead-form">
+          <h3>Or send me your info</h3>
+          <div class="row">
+            <label>First name <input name="firstname" autocomplete="given-name" required></label>
+            <label>Last name <input name="lastname" autocomplete="family-name" required></label>
+          </div>
+          <label>Business name <input name="company" autocomplete="organization" required></label>
+          <div class="row">
+            <label>Phone <input name="phone" type="tel" autocomplete="tel" required></label>
+            <label>Email <input name="email" type="email" autocomplete="email" required></label>
+          </div>
+          <label><span>Message <span class="optional">(optional)</span></span> <textarea name="message"></textarea></label>
+          <input class="botcheck" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Send</button>
+          <p class="form-error" role="alert" hidden>Something went wrong. Please call or text me at (717) 723-5127.</p>
+        </form>
       </div>
     </section>
   </main>
@@ -430,5 +477,95 @@
     <a class="btn btn-primary" href="tel:+17177235127">Call</a>
     <a class="btn btn-secondary" href="sms:+17177235127">Text</a>
   </div>
+
+  <script>
+    // Lead form, same pattern as cinestoke.com/agency: HubSpot is the CRM,
+    // Web3Forms emails a backup copy. The lead counts as sent if either lands.
+    // The portal ID, form ID and Web3Forms key are public by design: they can
+    // only add submissions, never read anything. The HubSpot form must keep
+    // captcha OFF and "Create new contacts for email addresses" ON.
+    (function () {
+      var HS_PORTAL_ID = '247807531';
+      var HS_FORM_ID = 'aca4ee40-9998-4483-9fe7-5ec415b932a1';
+      var HS_SUBMIT_URL = 'https://api-na2.hsforms.com/submissions/v3/integration/submit/' + HS_PORTAL_ID + '/' + HS_FORM_ID;
+      var WEB3FORMS_KEY = ''; // TODO: Web3Forms access key for jarongwenger@gmail.com (backup email)
+      var HS_FIELDS = ['firstname', 'lastname', 'company', 'phone', 'email', 'message'];
+
+      // HubSpot tracking: page views + traffic source, tied to the lead via the
+      // hubspotutk cookie. Landing page only.
+      var tracker = document.createElement('script');
+      tracker.id = 'hs-script-loader';
+      tracker.src = 'https://js-na2.hs-scripts.com/' + HS_PORTAL_ID + '.js';
+      tracker.async = true;
+      tracker.defer = true;
+      document.body.appendChild(tracker);
+
+      var form = document.getElementById('lead-form');
+      var button = form.querySelector('button');
+      var error = form.querySelector('.form-error');
+
+      var submitToHubspot = function (data) {
+        var hutk = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
+        var context = { pageUri: location.href, pageName: document.title };
+        if (hutk) context.hutk = hutk;
+        return fetch(HS_SUBMIT_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            fields: HS_FIELDS
+              .filter(function (name) { return data[name]; })
+              .map(function (name) { return { objectTypeId: '0-1', name: name, value: data[name] }; }),
+            context: context
+          })
+        }).then(function (res) { if (!res.ok) throw new Error('HubSpot ' + res.status); });
+      };
+
+      var submitToWeb3Forms = function (data) {
+        if (!WEB3FORMS_KEY) return Promise.reject(new Error('No Web3Forms key'));
+        return fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(Object.assign({
+            access_key: WEB3FORMS_KEY,
+            subject: 'New website lead: ' + data.company,
+            from_name: data.firstname + ' ' + data.lastname
+          }, data))
+        })
+          .then(function (res) { return res.json(); })
+          .then(function (res) { if (!res.success) throw new Error('Web3Forms submit failed'); });
+      };
+
+      var settle = function (promise) {
+        return promise.then(function () { return true; }, function () { return false; });
+      };
+
+      var showDone = function () {
+        form.innerHTML = '<div class="form-done" role="status"><h3>Thanks, got it.</h3><p>I\'ll be in touch soon.</p></div>';
+      };
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var data = {};
+        new FormData(form).forEach(function (value, key) { data[key] = String(value).trim(); });
+        // Bots tick the hidden checkbox: pretend it worked
+        if (data.botcheck) { showDone(); return; }
+        delete data.botcheck;
+
+        button.disabled = true;
+        button.textContent = 'Sending…';
+        error.hidden = true;
+        Promise.all([settle(submitToHubspot(data)), settle(submitToWeb3Forms(data))]).then(function (results) {
+          if (!results[0] && !results[1]) {
+            button.disabled = false;
+            button.textContent = 'Send';
+            error.hidden = false;
+            return;
+          }
+          if (window.gtag) gtag('event', 'lead_submit', { crm_saved: results[0] });
+          showDone();
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
