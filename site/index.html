@@ -479,16 +479,15 @@
   </div>
 
   <script>
-    // Lead form, same pattern as cinestoke.com/agency: HubSpot is the CRM,
-    // Web3Forms emails a backup copy. The lead counts as sent if either lands.
-    // The portal ID, form ID and Web3Forms key are public by design: they can
-    // only add submissions, never read anything. The HubSpot form must keep
-    // captcha OFF and "Create new contacts for email addresses" ON.
+    // Lead form, same pattern as cinestoke.com/agency: submits straight to the
+    // HubSpot Forms API (HubSpot also emails the lead notification). The portal
+    // and form IDs are public by design: they can only add submissions, never
+    // read the CRM. The HubSpot form must keep captcha OFF and "Create new
+    // contacts for email addresses" ON.
     (function () {
       var HS_PORTAL_ID = '247807531';
       var HS_FORM_ID = 'aca4ee40-9998-4483-9fe7-5ec415b932a1';
       var HS_SUBMIT_URL = 'https://api-na2.hsforms.com/submissions/v3/integration/submit/' + HS_PORTAL_ID + '/' + HS_FORM_ID;
-      var WEB3FORMS_KEY = ''; // TODO: Web3Forms access key for jarongwenger@gmail.com (backup email)
       var HS_FIELDS = ['firstname', 'lastname', 'company', 'phone', 'email', 'message'];
 
       // HubSpot tracking: page views + traffic source, tied to the lead via the
@@ -520,25 +519,6 @@
         }).then(function (res) { if (!res.ok) throw new Error('HubSpot ' + res.status); });
       };
 
-      var submitToWeb3Forms = function (data) {
-        if (!WEB3FORMS_KEY) return Promise.reject(new Error('No Web3Forms key'));
-        return fetch('https://api.web3forms.com/submit', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify(Object.assign({
-            access_key: WEB3FORMS_KEY,
-            subject: 'New website lead: ' + data.company,
-            from_name: data.firstname + ' ' + data.lastname
-          }, data))
-        })
-          .then(function (res) { return res.json(); })
-          .then(function (res) { if (!res.success) throw new Error('Web3Forms submit failed'); });
-      };
-
-      var settle = function (promise) {
-        return promise.then(function () { return true; }, function () { return false; });
-      };
-
       var showDone = function () {
         form.innerHTML = '<div class="form-done" role="status"><h3>Thanks, got it.</h3><p>I\'ll be in touch soon.</p></div>';
       };
@@ -554,15 +534,13 @@
         button.disabled = true;
         button.textContent = 'Sending…';
         error.hidden = true;
-        Promise.all([settle(submitToHubspot(data)), settle(submitToWeb3Forms(data))]).then(function (results) {
-          if (!results[0] && !results[1]) {
-            button.disabled = false;
-            button.textContent = 'Send';
-            error.hidden = false;
-            return;
-          }
-          if (window.gtag) gtag('event', 'lead_submit', { crm_saved: results[0] });
+        submitToHubspot(data).then(function () {
+          if (window.gtag) gtag('event', 'lead_submit');
           showDone();
+        }, function () {
+          button.disabled = false;
+          button.textContent = 'Send';
+          error.hidden = false;
         });
       });
     })();
