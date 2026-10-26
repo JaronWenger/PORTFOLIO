@@ -1,0 +1,12 @@
+# Cloudflare Pages headers. This file is copied to the root of build/ by scripts/assemble.js.
+
+# Portfolio build files have content hashes in their names, so they never change.
+/portfolio/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# --- Spec previews (see SPECS.md) ---
+# Every spec folder needs its own noindex rule. The build fails without it.
+# To add a spec, copy this example, drop the leading "# " and change the slug:
+#
+# /nwtree/*
+#   X-Robots-Tag: noindex
