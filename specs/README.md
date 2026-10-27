@@ -18,7 +18,8 @@ This folder is **not published**. Only the output in `site/<slug>/` is.
    - home page wording, services, `estimate` wording
    - Use their own words wherever possible. Don't invent reviews, years in business, awards or prices.
 3. **Add their brand and photos** to `site/<slug>/`:
-   - `logo.svg` (optional). Without it, the header shows `business.initials` in an accent-colored badge.
+   - Their real logo as `logo.svg`, `logo.webp` or `logo.png`. Never draw one. No logo? Leave it out and the header shows the name alone.
+     Set `business.logo_has_name` if the logo spells the name, and `business.logo_on_light` if it was made for a white background.
    - `images/<name>.webp` for every photo name the config uses (`hero`, `owner`, gallery, before/after...).
    - Any photo that's missing renders as a labeled placeholder, so you can see what's left to add.
    - No photos of their own for a slot? Use free stock from Pexels: `python3 specs/stock.py search "query"`, then `python3 specs/stock.py get <id> <slug> <name>` (needs `PEXELS_API_KEY`; see the top of `stock.py`).

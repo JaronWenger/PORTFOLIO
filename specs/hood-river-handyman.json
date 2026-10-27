@@ -1,0 +1,246 @@
+{
+  "slug": "hood-river-handyman",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Hood River's Handyman, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+  "theme": {
+    "dark": "#1d2320",
+    "dark_2": "#28302c",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b9bec4",
+    "accent": "#e0913a",
+    "accent_ink": "#1f1103",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "Hood River's Handyman",
+    "legal_name": "Alex Construction, Inc.",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 490-7908",
+    "phone_tel": "+15414907908",
+    "email": "hoodrivershandyman@gmail.com",
+    "license": "Licensed, bonded & insured · OR License #110546",
+    "trust": [
+      "Hood River's handyman for 40+ years",
+      "We do the work ourselves",
+      "Licensed, bonded & insured",
+      "OR License #110546"
+    ],
+    "footer_blurb": "Jack of all trades. Remodeling, home repair, decks, fences and roofing in Hood River, from Alex Construction, Inc. Office: (541) 386-1541.",
+    "social": {}
+  },
+  "home": {
+    "title": "Hood River's Handyman | Remodeling, Repairs & Roofing in Hood River, OR",
+    "description": "Hood River's handyman for over 40 years. Remodeling, home repair, kitchens, bathrooms, decks, fences and roofing. Licensed, bonded and insured. OR License #110546.",
+    "hero_photo": "hero",
+    "hero_alt": "New deck with wood railing",
+    "eyebrow": "Jack of all trades · Hood River, OR",
+    "headline": "Your project is our priority.",
+    "lead": "Remodeling, home repair, decks, fences and roofing in Hood River. We specialize in small projects, and we do the work ourselves.",
+    "services_eyebrow": "What we do",
+    "services_title": "Handyman & construction services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "owner",
+      "photo_alt": "Alex Marquez, owner and operator",
+      "title": "Hood River's handyman for over 40 years",
+      "paragraphs": [
+        "We are not a clearing house for tradesmen. We actually do the work ourselves, and have for over 40 years.",
+        "Alex Marquez, owner and operator, specializes in small projects and makes your project his priority.",
+        "Licensed, bonded and insured. OR License #110546."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      [
+        "deck-stained",
+        "Rebuilt and stained deck"
+      ],
+      [
+        "fence-stained",
+        "Rebuilt and stained fence"
+      ],
+      [
+        "kitchen",
+        "Kitchen remodel"
+      ],
+      [
+        "shower",
+        "Tiled shower"
+      ],
+      [
+        "roof-3",
+        "New shingle roof"
+      ],
+      [
+        "fence-modern",
+        "New fence"
+      ],
+      [
+        "deck-new",
+        "New deck"
+      ],
+      [
+        "roof-metal",
+        "Metal roof"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Got a project? Let's talk.",
+    "text": "Tell us about your project and we'll get back to you. Call the office at (541) 386-1541 or mobile at (541) 490-7908.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon."
+  },
+  "services": [
+    {
+      "slug": "remodeling",
+      "name": "Remodeling",
+      "blurb": "Remodels, framing, siding, windows and doors.",
+      "intro": "From framing to finish, we handle remodeling projects around Hood River ourselves.",
+      "includes": [
+        "Remodeling",
+        "Framing",
+        "Siding",
+        "Window installation",
+        "Door installation"
+      ],
+      "photos": [
+        [
+          "remodel",
+          "Remodel with new windows"
+        ],
+        [
+          "framing",
+          "Framing a new build"
+        ],
+        [
+          "siding",
+          "New siding"
+        ]
+      ]
+    },
+    {
+      "slug": "kitchens-bathrooms",
+      "name": "Kitchens & Bathrooms",
+      "blurb": "Kitchen and bathroom remodels, tile and flooring.",
+      "intro": "Kitchens, bathrooms, tile and flooring, done by us, not handed off to someone else.",
+      "includes": [
+        "Kitchens",
+        "Bathrooms",
+        "Tiling",
+        "Flooring",
+        "Carpet installation"
+      ],
+      "photos": [
+        [
+          "kitchen",
+          "Kitchen remodel"
+        ],
+        [
+          "shower",
+          "Tiled shower"
+        ]
+      ]
+    },
+    {
+      "slug": "decks",
+      "name": "Decks",
+      "blurb": "New decks, rebuilds and staining.",
+      "intro": "Building new or bringing an old deck back? We build, rebuild and stain decks.",
+      "includes": [
+        "Decking",
+        "Deck rebuilds",
+        "Railings and stairs",
+        "Staining"
+      ],
+      "photos": [
+        [
+          "deck-stained",
+          "Rebuilt and stained deck"
+        ],
+        [
+          "deck-new",
+          "New deck"
+        ],
+        [
+          "deck-stairs",
+          "Deck stairs and railing"
+        ]
+      ]
+    },
+    {
+      "slug": "fences",
+      "name": "Fences",
+      "blurb": "New fences, rebuilds and staining.",
+      "intro": "We build and rebuild fences, and stain them to last.",
+      "includes": [
+        "Fencing",
+        "Fence rebuilds",
+        "Staining"
+      ],
+      "photos": [
+        [
+          "fence-build",
+          "Building a new fence"
+        ],
+        [
+          "fence-stained",
+          "Rebuilt and stained fence"
+        ],
+        [
+          "fence-modern",
+          "Horizontal fence"
+        ]
+      ]
+    },
+    {
+      "slug": "roofing",
+      "name": "Roofing",
+      "blurb": "Shingle, TPO and metal roof installs and repairs.",
+      "intro": "Shingle, TPO and metal roofs, installed and repaired.",
+      "includes": [
+        "Shingle install",
+        "Shingle repairs",
+        "TPO install",
+        "TPO repairs",
+        "Metal roof install",
+        "Metal roof repair"
+      ],
+      "photos": [
+        [
+          "roof-1",
+          "New shingle roof"
+        ],
+        [
+          "roof-2",
+          "Shingle roof"
+        ],
+        [
+          "roof-metal",
+          "Metal roof"
+        ]
+      ]
+    },
+    {
+      "slug": "home-repair",
+      "name": "Home Repair",
+      "blurb": "Drywall, painting, concrete and general repairs.",
+      "intro": "We specialize in small projects, and we do the work ourselves.",
+      "includes": [
+        "Home repair",
+        "Drywall",
+        "Painting",
+        "Concrete",
+        "Flooring"
+      ]
+    }
+  ]
+}

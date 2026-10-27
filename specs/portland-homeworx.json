@@ -1,0 +1,140 @@
+{
+  "slug": "portland-homeworx",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Homeworx Handyman Services, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+  "theme": {
+    "dark": "#232323",
+    "dark_2": "#2f2f2f",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b9bec4",
+    "accent": "#a32a24",
+    "accent_ink": "#ffffff",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "Homeworx Handyman Services",
+    "legal_name": "Homeworx LLC",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "city": "Portland",
+    "state": "OR",
+    "area": "the Portland area",
+    "phone_display": "(503) 575-WORX",
+    "phone_tel": "+15035759679",
+    "license": "Licensed, bonded & insured · CCB #216185",
+    "trust": [
+      "Licensed, bonded & insured",
+      "CCB #216185",
+      "Nextdoor Neighborhood Fave",
+      "Open 7 days, 8am–8pm"
+    ],
+    "footer_blurb": "Home repair and remodeling. Property maintenance, repair and small remodel work in Portland, Oregon.",
+    "hours": [
+      "Mon–Sun 8am–8pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Homeworx Handyman Services | Handyman in Portland, OR",
+    "description": "Portland handyman for property maintenance, repairs and small remodel work: TV mounts, light fixtures, garbage disposals, faucets, and bathroom and kitchen updates. CCB #216185. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "New deck steps built by Homeworx",
+    "eyebrow": "Homeworx · Portland, OR",
+    "headline": "Too small for the big guys? Not for me.",
+    "lead": "Handyman jobs and small remodel work in Portland, from TV mounts and faucets to bathroom and kitchen updates. Licensed, bonded and insured.",
+    "services_eyebrow": "What I do",
+    "services_title": "Property repair services",
+    "about": {
+      "eyebrow": "About",
+      "photo": "kitchen",
+      "photo_alt": "Kitchen update with new butcher block counters",
+      "title": "Reliable, affordable, and on schedule",
+      "paragraphs": [
+        "I have been doing repair and remodeling work since I was little, tagging along with my father on his income property.",
+        "If your project feels too small for a major company, or you just need a few tasks done around the house, I strive to fit your schedule as best I can, and once I start, I make sure everything is completed promptly.",
+        "Estimates scaring you away? We should be able to meet at a point that makes sense for both of us, so you get something done that you're genuinely happy with."
+      ]
+    }
+  },
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Get a free quote",
+    "text": "Tell me about your project and I'll get back to you. I'm available 7 days a week, 8am to 8pm.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Quote",
+    "thanks": "Got it. I'll reach out soon about your project."
+  },
+  "services": [
+    {
+      "slug": "handyman-jobs",
+      "name": "Handyman Jobs",
+      "blurb": "TV mounts, shelves and the to-do list around the house.",
+      "intro": "Just need a few tasks done around the house? I'll take care of the list.",
+      "includes": [
+        "TV mounting",
+        "General repairs",
+        "Odd jobs around the house"
+      ]
+    },
+    {
+      "slug": "fixtures",
+      "name": "Light Fixtures & Faucets",
+      "blurb": "Light fixtures, faucets and garbage disposals.",
+      "intro": "Swapping out a light fixture, a dripping faucet or a dead garbage disposal.",
+      "includes": [
+        "Light fixtures",
+        "Faucets",
+        "Garbage disposals"
+      ]
+    },
+    {
+      "slug": "kitchen-bath-updates",
+      "name": "Kitchen & Bath Updates",
+      "blurb": "Smaller bathroom and kitchen updates.",
+      "intro": "Smaller kitchen and bathroom updates that make a big difference.",
+      "includes": [
+        "Kitchen updates",
+        "Bathroom updates",
+        "Counters and fixtures"
+      ],
+      "photos": [
+        [
+          "kitchen",
+          "Kitchen update with butcher block counters"
+        ]
+      ]
+    },
+    {
+      "slug": "small-remodels",
+      "name": "Small Remodel Work",
+      "blurb": "Small remodels, decks and steps.",
+      "intro": "Small remodel projects that are too small for a major company but deserve to be done right.",
+      "includes": [
+        "Small remodels",
+        "Decks and steps",
+        "Repairs"
+      ],
+      "photos": [
+        [
+          "deck",
+          "New deck steps"
+        ]
+      ]
+    },
+    {
+      "slug": "property-maintenance",
+      "name": "Property Maintenance",
+      "blurb": "Maintenance and repair for homes and rentals.",
+      "intro": "Property maintenance and repair for homeowners and property owners.",
+      "includes": [
+        "Property maintenance",
+        "Repairs",
+        "Homes and rentals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "lester-moving",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Lester Moving &amp; Storage, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#1c1b1d",
+    "dark_2": "#2a282b",
+    "on_dark": "#f5f4f2",
+    "on_dark_muted": "#bdb9b4",
+    "accent": "#f4c414",
+    "accent_ink": "#1c1500",
+    "soft": "#f5f4f1",
+    "line": "#e4e1dc"
+  },
+
+  "business": {
+    "name": "Lester Moving & Storage",
+    "legal_name": "Lester Moving & Storage",
+    "initials": "LM",
+    "logo_has_name": true,
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 354-1113",
+    "phone_tel": "+15413541113",
+    "email": "lestermovingandstorageinc@gmail.com",
+    "license": "USDOT #1078021 · MC #133654 · ODOT #129616",
+    "trust": ["Serving Hood River since 1930", "Residential & commercial", "Free estimates", "USDOT #1078021"],
+    "footer_blurb": "Moving and storage for homes and businesses in Hood River and the Columbia Gorge since 1930. 3305 Neal Creek Mill Rd, Hood River, OR 97031.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Lester Moving & Storage | Movers in Hood River, OR",
+    "description": "Local, intrastate and interstate moving, packing, storage and specialty moves (pianos, hot tubs, safes) in Hood River and the Columbia Gorge since 1930. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Lester Moving & Storage truck",
+    "eyebrow": "Lester Moving & Storage · Hood River, OR",
+    "headline": "Heavy lifting. Done.",
+    "lead": "Local, intrastate and interstate moves, packing and storage for homes and businesses across the Columbia Gorge, since 1930. No job too big or too small.",
+    "services_eyebrow": "What we do",
+    "services_title": "Moving services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "Always there when we need them... big \"yes\" for Lester Moving and Storage Co. Trustworthy, careful and fairly priced. Used them happily for years now.", "name": "C G", "place": "Hood River, OR"},
+        {"quote": "Today they disassembled, transported, and reassembled a baby grand piano. Timely, professional, and impressive service every time.", "name": "Angela M.", "place": "Hood River, OR"},
+        {"quote": "Great folks to work with, very accommodating to my move-out/move-in date change. They moved me out of a 3800 sq ft house full of stuff in half a day.", "name": "Marbe C.", "place": "Hood River, OR"},
+        {"quote": "They don't stand around, talking. They move. They get the job done, they are careful not to bang furniture or walls. They are friendly and respectful.", "name": "Robin C."},
+        {"quote": "Professional, efficient, enjoyable. The physical walk through is free and I recommend it. They wasted no time or movement.", "name": "Matt T.", "place": "Mt. Hood, OR"},
+        {"quote": "The care they took with the table was top notch, and they exhibited all the professionalism I could want. Highly recommended.", "name": "Justin K.", "place": "The Dalles, OR"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Our history",
+      "photo": "vintage-truck",
+      "photo_alt": "Vintage Lester moving truck",
+      "title": "Moving the Gorge since 1930",
+      "paragraphs": [
+        "Lester Auto Freight / Moving & Storage was first established in 1930 by Dick Lester. Over the years it was an agent for companies like Atlas and Mayflower.",
+        "In 1985, Lester Moving & Storage was taken over by our current President, Clinton Adams.",
+        "Residential or commercial, across town or across the country, there's no job too big or too small."
+      ]
+    },
+    "gallery_title": "Recent moves",
+    "gallery": [
+      ["piano", "Moving an upright piano"], ["truck-house", "Lester truck at a home move"],
+      ["museum", "Moving a piano at a museum"], ["crated", "Crated item loaded into the truck"],
+      ["statue", "Moving a bronze statue"], ["heavy-lift", "Heavy lift with a pallet jack"],
+      ["truck-town", "Lester truck in Hood River"], ["commercial", "Commercial install"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Planning a move? Let's talk.",
+    "text": "Tell us about your move and we'll get back to you with a free estimate. Rates depend on the job, so contact us for current rates.",
+    "address_label": "Moving from",
+    "details_label": "Move details (where to, date, size of home)",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon to set up your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "residential-moving", "name": "Residential Moving",
+      "blurb": "Local, intrastate and interstate moves for homes of every size.",
+      "intro": "Whether you're moving across town or across the country, our crew handles the heavy lifting so you don't have to.",
+      "includes": ["Local moves around Hood River and the Gorge", "Intrastate and interstate moves", "Furniture disassembly and reassembly", "Free estimates"],
+      "photos": [["truck-house", "Lester truck at a home move"], ["stairs", "Moving furniture down the stairs"]]
+    },
+    {
+      "slug": "commercial-moving", "name": "Commercial Moving",
+      "blurb": "Office buildings, retail stores, corporations and non-profits.",
+      "intro": "From offices to retail stores, we move businesses and organizations of all kinds.",
+      "includes": ["Office buildings", "Retail stores", "Corporations", "Non-profit organizations"],
+      "photos": [["commercial", "Commercial install"], ["appliance", "Moving commercial equipment"]]
+    },
+    {
+      "slug": "packing", "name": "Packing & Cartons",
+      "blurb": "Professional packing, cartons and shipping.",
+      "intro": "Let our team pack your belongings, or get the cartons you need.",
+      "includes": ["Packing", "Cartons", "Shipping", "Crating for fragile items"],
+      "photos": [["crated", "Crated item loaded into the truck"]]
+    },
+    {
+      "slug": "storage", "name": "Storage",
+      "blurb": "Secure storage for household goods and vehicles.",
+      "intro": "Between homes or just need the space? We offer storage for your belongings and vehicles.",
+      "includes": ["Household goods storage", "Vehicle storage", "Shuttle service"],
+      "photos": [["truck-town", "Lester truck in Hood River"]]
+    },
+    {
+      "slug": "specialty-moves", "name": "Pianos & Specialty Items",
+      "blurb": "Pianos, hot tubs, pool tables, safes and crating.",
+      "intro": "Heavy, awkward and valuable items take the right equipment and an experienced crew. That's what we do.",
+      "includes": ["Pianos, including baby grands", "Hot tubs", "Pool tables", "Safes", "Custom crating"],
+      "photos": [["piano", "Moving an upright piano"], ["museum", "Moving a piano at a museum"], ["statue", "Moving a bronze statue"]]
+    },
+    {
+      "slug": "labor", "name": "Labor & Inside Moves",
+      "blurb": "Moving labor, inside moves and debris removal.",
+      "intro": "Need an experienced crew for the heavy lifting? We also offer moving labor and inside moves.",
+      "includes": ["Moving labor", "Inside moving", "Debris removal", "No job too big or too small"],
+      "photos": [["heavy-lift", "Heavy lift with a pallet jack"]]
+    }
+  ]
+}

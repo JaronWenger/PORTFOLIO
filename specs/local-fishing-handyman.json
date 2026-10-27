@@ -1,0 +1,245 @@
+{
+  "slug": "local-fishing-handyman",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Local Fishing Handyman, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request Service",
+  "header_cta": "Request Service",
+  "theme": {
+    "dark": "#14232e",
+    "dark_2": "#1d3140",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b4c0c9",
+    "accent": "#f2b134",
+    "accent_ink": "#1d1402",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "Local Fishing Handyman",
+    "legal_name": "Local Fishing Handyman LLC",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "city": "Troutdale",
+    "state": "OR",
+    "area": "the Troutdale area",
+    "phone_display": "(503) 206-9935",
+    "phone_tel": "+15032069935",
+    "license": "Licensed, bonded & insured · CCB #254463",
+    "trust": [
+      "Licensed, bonded & insured",
+      "CCB #254463",
+      "Call or text",
+      "Military & senior discount"
+    ],
+    "footer_blurb": "Professional handyman skilled trades services. 537 Buxton Rd, Troutdale, OR 97060.",
+    "hours": [
+      "Mon–Sat 9am–5pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Local Fishing Handyman | Roof Repair, Moss Treatment & Gutters in Troutdale, OR",
+    "description": "Roof repairs, softwash moss-off roof treatment, gutter cleaning and repairs, powerwashing, siding, deck and fence repairs in Troutdale, OR. CCB #254463. Military and senior citizen discount.",
+    "hero_photo": "hero",
+    "hero_alt": "Clean roof after moss-off treatment",
+    "eyebrow": "Local Fishing Handyman · Troutdale, OR",
+    "headline": "Moss off. Gutters clear. Roof fixed.",
+    "lead": "Roof repairs, softwash moss treatment, gutters, powerwashing, siding, deck and fence repairs. Call or text, and ask about our military and senior citizen discount.",
+    "services_eyebrow": "What we do",
+    "services_title": "Handyman services",
+    "showcase": {
+      "eyebrow": "Before & after",
+      "title": "See the difference",
+      "lead": "Drag the slider to compare.",
+      "pairs": [
+        [
+          "moss-before",
+          "moss-after",
+          "Moss-off roof treatment"
+        ],
+        [
+          "steps-before",
+          "steps-after",
+          "Powerwashed steps"
+        ],
+        [
+          "gutter-before",
+          "gutter-after",
+          "Gutter cleaning"
+        ],
+        [
+          "repair-before",
+          "repair-after",
+          "Roof repair"
+        ]
+      ]
+    },
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Local Fishing Handyman did an amazing job powerwashing my driveway. It looks brand new!",
+          "name": "Satisfied Customer"
+        },
+        {
+          "quote": "I hired Local Fishing Handyman for a roof repair and he exceeded my expectations. Highly recommend!",
+          "name": "Happy Client"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "photo": "owner",
+      "photo_alt": "The owner with the day's catch",
+      "title": "A guy that likes to fish",
+      "paragraphs": [
+        "Local Fishing Handyman LLC is a licensed, bonded and insured handyman based in Troutdale, Oregon, CCB #254463.",
+        "We specialize in roofing and roof repairs, softwash moss-off roof treatment, softwashing houses, gutter cleaning and repairs, powerwashing, siding repairs, deck repairs, fence repairs, touch-up painting and more.",
+        "Ask about our military and senior citizen discount."
+      ]
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request service",
+    "title": "Need a hand? Let's set it up.",
+    "text": "Tell us what you need and leave a phone number so we can reach you to set up an appointment. Hours are Monday to Saturday, 9am–5pm.",
+    "address_label": "Service address",
+    "details_label": "What do you need done?",
+    "button": "Request Service",
+    "thanks": "We got your request and will reach out soon to set up an appointment."
+  },
+  "services": [
+    {
+      "slug": "roof-repairs",
+      "name": "Roof Repairs",
+      "blurb": "Roof repairs and maintenance for homes.",
+      "intro": "Missing shingles, damaged decking or a leak? We specialize in roof repairs and maintenance for residential properties.",
+      "includes": [
+        "Roof repairs",
+        "Shingle replacement",
+        "Roof maintenance",
+        "Residential properties"
+      ],
+      "photos": [
+        [
+          "roof-repair",
+          "Roof repair in progress"
+        ]
+      ],
+      "pairs": [
+        [
+          "repair-before",
+          "repair-after",
+          "Roof repair"
+        ],
+        [
+          "valley-before",
+          "valley-after",
+          "Roof valley cleanup"
+        ]
+      ]
+    },
+    {
+      "slug": "moss-treatment",
+      "name": "Moss-Off Roof Treatment",
+      "blurb": "Softwash moss-off treatment for roofs.",
+      "intro": "Moss holds water against your shingles. Our softwash moss-off roof treatment takes care of it.",
+      "includes": [
+        "Softwash moss-off roof treatment",
+        "Roof cleaning",
+        "Shed and outbuilding roofs"
+      ],
+      "pairs": [
+        [
+          "moss-before",
+          "moss-after",
+          "Moss-off roof treatment"
+        ],
+        [
+          "shed-before",
+          "shed-after",
+          "Shed roof moss removal"
+        ]
+      ]
+    },
+    {
+      "slug": "gutters",
+      "name": "Gutter Cleaning & Repairs",
+      "blurb": "Gutter cleaning, repairs and gutter guards.",
+      "intro": "Professional gutter cleaning and maintenance for a clean and efficient system, plus gutter guards so they stay that way.",
+      "includes": [
+        "Gutter cleaning",
+        "Gutter repairs",
+        "Gutter guards"
+      ],
+      "photos": [
+        [
+          "gutter-guards",
+          "Gutter guards installed"
+        ],
+        [
+          "gutter-cleaning",
+          "Gutter cleaning"
+        ]
+      ],
+      "pairs": [
+        [
+          "gutter-before",
+          "gutter-after",
+          "Gutter cleaning"
+        ]
+      ]
+    },
+    {
+      "slug": "powerwashing",
+      "name": "Powerwashing & Softwashing",
+      "blurb": "Powerwashing driveways and walkways, softwashing houses.",
+      "intro": "Revitalize your outdoor spaces with expert powerwashing, and softwashing for your house.",
+      "includes": [
+        "Powerwashing driveways and walkways",
+        "Softwashing houses",
+        "Steps and patios"
+      ],
+      "pairs": [
+        [
+          "steps-before",
+          "steps-after",
+          "Powerwashed steps"
+        ]
+      ]
+    },
+    {
+      "slug": "siding-repairs",
+      "name": "Siding Repairs",
+      "blurb": "Siding repair and maintenance.",
+      "intro": "Quality siding repair and maintenance to keep your home looking its best.",
+      "includes": [
+        "Siding repairs",
+        "Fascia and trim",
+        "Touch-up painting"
+      ],
+      "photos": [
+        [
+          "siding",
+          "Siding work on a two-story home"
+        ],
+        [
+          "fascia",
+          "Fascia and trim"
+        ]
+      ]
+    },
+    {
+      "slug": "deck-fence-repairs",
+      "name": "Deck & Fence Repairs",
+      "blurb": "Deck repairs, fence repairs and touch-up painting.",
+      "intro": "Expert deck and fence repair to keep your property safe and secure.",
+      "includes": [
+        "Deck repairs",
+        "Fence repairs",
+        "Touch-up painting"
+      ]
+    }
+  ]
+}

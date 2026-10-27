@@ -16,3 +16,30 @@
 
 /template/*
   X-Robots-Tag: noindex
+
+/lester-moving/*
+  X-Robots-Tag: noindex
+
+/pioneer-plumbing/*
+  X-Robots-Tag: noindex
+
+/hood-river-handyman/*
+  X-Robots-Tag: noindex
+
+/local-fishing-handyman/*
+  X-Robots-Tag: noindex
+
+/portland-homeworx/*
+  X-Robots-Tag: noindex
+
+/crg-concrete/*
+  X-Robots-Tag: noindex
+
+/andy-beam-trucking/*
+  X-Robots-Tag: noindex
+
+/beam-excavating/*
+  X-Robots-Tag: noindex
+
+/dig-it-construction/*
+  X-Robots-Tag: noindex

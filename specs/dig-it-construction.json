@@ -1,0 +1,270 @@
+{
+  "slug": "dig-it-construction",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Dig It Construction &amp; Excavation, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+  "theme": {
+    "dark": "#1b1d1f",
+    "dark_2": "#26292c",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b9bec4",
+    "accent": "#e07a1f",
+    "accent_ink": "#1f0f00",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "Dig It Construction & Excavation",
+    "legal_name": "Dig It Construction & Excavation LLC",
+    "logo_on_light": true,
+    "city": "Sandy",
+    "state": "OR",
+    "area": "the Portland metro area",
+    "phone_display": "(503) 956-1682",
+    "phone_tel": "+15039561682",
+    "license": "CCB #216499 · Plumbing Contractor #PB2434 · USDOT #3075941",
+    "trust": [
+      "Locally owned since 2017",
+      "Oregon CCB #216499",
+      "Residential & commercial",
+      "Free quotes"
+    ],
+    "footer_blurb": "Excavation, general contracting, custom homes, septic, drainage, roads and utilities. 44855 SE Wildcat Mountain Dr, Sandy, OR 97055.",
+    "areas": [
+      "Sandy",
+      "Boring",
+      "Gresham",
+      "Oregon City",
+      "Milwaukie",
+      "Oak Grove",
+      "Portland"
+    ],
+    "social": {},
+    "logo_has_name": true
+  },
+  "home": {
+    "title": "Dig It Construction & Excavation | Sandy, OR",
+    "description": "Excavation, general contracting, custom home construction, septic, drainage, roads and utility services in Sandy, OR and the Portland metro area. CCB #216499.",
+    "hero_photo": "hero",
+    "hero_alt": "Excavator on a job site",
+    "eyebrow": "Dig It Construction & Excavation · Sandy, OR",
+    "headline": "From foundations to finish.",
+    "lead": "Excavation, general contracting, custom homes, septic, drainage, roads and utilities in Sandy and the Portland metro area. Residential, commercial and everything in between.",
+    "services_eyebrow": "What we do",
+    "services_title": "Construction & excavation services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers are saying",
+      "items": [
+        {
+          "quote": "Tanner at Dig It Construction has completed a great many jobs for me over the last few years. If you are looking for someone to do excavation, building, exterior plumbing or drainage amongst other things, do yourself a favor and look no further.",
+          "name": "Lars Nielsen"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "home-build",
+      "photo_alt": "New home with timber porch",
+      "title": "A small company ready for big jobs",
+      "paragraphs": [
+        "Dig It Construction was established in 2017 in Sandy, Oregon, with a focus on dependable excavation and construction services for homeowners, property owners and commercial customers.",
+        "Construction has always been a part of the family. Before starting Dig It, Tanner spent years working in excavation and construction, and that hands-on experience became the foundation for a company focused on doing the job right, communicating with customers, and taking on projects of all sizes."
+      ]
+    },
+    "gallery_title": "Our work",
+    "gallery": [
+      [
+        "retaining-wall",
+        "Block retaining wall and landscape"
+      ],
+      [
+        "pole-barn",
+        "Pole building"
+      ],
+      [
+        "stone-steps",
+        "Stone steps"
+      ],
+      [
+        "gravel-road",
+        "Gravel road"
+      ],
+      [
+        "block-wall",
+        "Block retaining wall"
+      ],
+      [
+        "excavator",
+        "Excavator on a job site"
+      ],
+      [
+        "culvert",
+        "Culvert installation"
+      ],
+      [
+        "concrete",
+        "Concrete pad"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Ready to start your project?",
+    "text": "Whether you need excavation, grading, utilities, demolition or complete construction services, we're ready to help. We serve Portland and the surrounding area.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Quote",
+    "thanks": "We got your project details and will reach out soon."
+  },
+  "services": [
+    {
+      "slug": "excavation",
+      "name": "Excavation & Grading",
+      "blurb": "Excavation for building sites, utilities, drainage and roads.",
+      "intro": "Professional excavation for building sites, utilities, drainage, roads and other property improvements.",
+      "includes": [
+        "Grading",
+        "Excavation for building sites",
+        "Demolition",
+        "Concrete preparation",
+        "Retaining walls"
+      ],
+      "photos": [
+        [
+          "excavator",
+          "Excavator on site"
+        ],
+        [
+          "site-work",
+          "Site work"
+        ],
+        [
+          "block-wall",
+          "Block retaining wall"
+        ]
+      ]
+    },
+    {
+      "slug": "general-contracting",
+      "name": "General Contracting",
+      "blurb": "Construction for residential and commercial properties.",
+      "intro": "General construction and project work for residential and commercial properties.",
+      "includes": [
+        "Residential construction",
+        "Commercial construction",
+        "Project work"
+      ],
+      "photos": [
+        [
+          "commercial",
+          "Commercial building"
+        ],
+        [
+          "home-build",
+          "New home"
+        ]
+      ]
+    },
+    {
+      "slug": "custom-homes",
+      "name": "Custom Home Builds",
+      "blurb": "From site preparation through the building process.",
+      "intro": "Construction support for custom homes, from site preparation through the building process.",
+      "includes": [
+        "Site preparation",
+        "Foundations",
+        "Custom home construction"
+      ],
+      "photos": [
+        [
+          "custom-home",
+          "Custom home under construction"
+        ],
+        [
+          "custom-home-2",
+          "Custom home"
+        ]
+      ]
+    },
+    {
+      "slug": "septic-water",
+      "name": "Septic & Water",
+      "blurb": "Septic systems, water mains and underground utilities.",
+      "intro": "Excavation and installation work for septic systems, water mains and related underground infrastructure. Plumbing Contractor #PB2434.",
+      "includes": [
+        "Septic systems",
+        "Water mains",
+        "Utility trenches",
+        "Exterior plumbing"
+      ],
+      "photos": [
+        [
+          "septic",
+          "Septic installation"
+        ],
+        [
+          "septic-2",
+          "Septic tank"
+        ],
+        [
+          "water-line",
+          "Water line trench"
+        ]
+      ]
+    },
+    {
+      "slug": "drainage-roads",
+      "name": "Drainage & Roads",
+      "blurb": "French drains, culverts, basement water, roads and grading.",
+      "intro": "Site drainage, road construction, grading and property access improvements.",
+      "includes": [
+        "French drains",
+        "Culvert installation",
+        "Basement water",
+        "Road building",
+        "Dump truck service"
+      ],
+      "photos": [
+        [
+          "french-drain",
+          "French drain"
+        ],
+        [
+          "culvert",
+          "Culvert installation"
+        ],
+        [
+          "road",
+          "Road building"
+        ]
+      ]
+    },
+    {
+      "slug": "pole-buildings",
+      "name": "Pole & Post Buildings",
+      "blurb": "Pole barns and post-frame buildings.",
+      "intro": "Construction of pole barns, post-frame buildings and other practical structures for residential and commercial properties.",
+      "includes": [
+        "Pole barns",
+        "Post-frame buildings",
+        "Shops and covers"
+      ],
+      "photos": [
+        [
+          "pole-frame",
+          "Post-frame structure"
+        ],
+        [
+          "pole-barn",
+          "Pole building"
+        ],
+        [
+          "pole-building",
+          "Pole building cover"
+        ]
+      ]
+    }
+  ]
+}

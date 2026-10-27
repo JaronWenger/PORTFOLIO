@@ -72,6 +72,9 @@ section { padding: 72px 0; }
 .brand { display: flex; align-items: center; gap: 12px; min-width: 0; text-decoration: none; color: var(--on-dark); margin-right: auto; }
 .brand svg { width: 46px; height: auto; flex: none; }
 .brand svg .accent { stroke: var(--accent); } /* logo parts marked class="accent" take the theme accent */
+.brand .logo-img { height: 56px; width: auto; flex: none; } /* logo.webp/.png when there's no logo.svg */
+.brand .logo-img.on-light { background: #fff; padding: 6px 10px; border-radius: 8px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 .monogram {
   width: 42px; height: 42px; flex: none; border-radius: 10px; display: grid; place-items: center;
   background: var(--accent); color: var(--accent-ink); font-weight: 800; font-size: 1rem; letter-spacing: .02em;
@@ -133,6 +136,10 @@ section { padding: 72px 0; }
   background: linear-gradient(100deg, rgba(8, 8, 8, .88) 0%, rgba(8, 8, 8, .7) 45%, rgba(8, 8, 8, .3) 100%);
 }
 .hero .wrap { position: relative; z-index: 2; }
+/* No hero photo: a soft gradient in the brand colors instead of the photo overlay */
+.hero:not(:has(.hero-photo))::before {
+  background: radial-gradient(ellipse 70% 80% at 85% 20%, var(--dark-2), transparent 70%), linear-gradient(160deg, var(--dark-2) 0%, var(--dark) 60%);
+}
 /* Home hero fills the first screen, leaving room for the bars above it and the trust strip below */
 .hero:not(.page-hero) { min-height: calc(100svh - 230px); display: grid; align-content: center; }
 @media (min-width: 640px) { .hero:not(.page-hero) { min-height: calc(100svh - 160px); } }
@@ -218,7 +225,21 @@ section { padding: 72px 0; }
 .about p { color: var(--on-dark-muted); }
 .about-grid { display: grid; gap: 32px; align-items: center; }
 .about img, .about .ph { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: var(--radius); }
+.about img.wide { aspect-ratio: 3 / 2; } /* home.about.photo_wide: landscape photos, e.g. two owners side by side */
 .about .eyebrow { color: var(--on-dark-muted); }
+
+/* Areas served (inside About) */
+.about h3 { margin-top: 28px; }
+.areas { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.areas li { padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .18); color: var(--on-dark); font-size: .9rem; }
+
+/* Reviews */
+.review-grid { display: grid; gap: 16px; margin-top: 36px; }
+.review { margin: 0; display: flex; flex-direction: column; padding: 26px 24px; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); }
+.review .stars { color: var(--accent); letter-spacing: .12em; margin-bottom: 12px; }
+.review blockquote { margin: 0 0 18px; flex: 1; }
+.review figcaption { font-weight: 700; font-size: .95rem; }
+.reviews .actions { margin-top: 28px; }
 
 /* Gallery */
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 36px; }
@@ -287,6 +308,7 @@ section { padding: 72px 0; }
 @media (min-width: 640px) {
   .service-grid { grid-template-columns: 1fr 1fr; }
   .gallery { grid-template-columns: repeat(3, 1fr); }
+  .review-grid { grid-template-columns: 1fr 1fr; }
   .form { padding: 32px; }
   .form .row { grid-template-columns: 1fr 1fr; }
 }
@@ -304,6 +326,7 @@ section { padding: 72px 0; }
   .pairs { grid-template-columns: 1fr 1fr; }
   .about-grid { grid-template-columns: 2fr 3fr; gap: 56px; }
   .gallery { grid-template-columns: repeat(4, 1fr); }
+  .review-grid { grid-template-columns: repeat(3, 1fr); }
   .content-grid { grid-template-columns: 2fr 1fr; gap: 56px; }
   .estimate-grid { grid-template-columns: 2fr 3fr; gap: 56px; }
   .footer-grid { grid-template-columns: 2fr 1fr 1fr; }
@@ -315,4 +338,5 @@ section { padding: 72px 0; }
 @media (max-width: 420px) {
   .wordmark { font-size: .85rem; }
   .brand svg { width: 38px; }
+  .brand .logo-img { height: 40px; }
 }

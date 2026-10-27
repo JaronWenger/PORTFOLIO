@@ -1,0 +1,254 @@
+{
+  "slug": "crg-concrete",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Columbia River Gorge Concrete and Excavation, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+  "theme": {
+    "dark": "#141414",
+    "dark_2": "#1f1f1f",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b9bec4",
+    "accent": "#c9a55a",
+    "accent_ink": "#1a1405",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "CRG Concrete and Excavation",
+    "legal_name": "Columbia River Gorge Concrete and Excavation LLC",
+    "logo_has_name": true,
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia River Gorge",
+    "phone_display": "(509) 310-3580",
+    "phone_tel": "+15093103580",
+    "email": "Info@CRGconcrete.com",
+    "license": "Licensed, bonded & insured in WA & OR · WA #605515910 · OR #251600",
+    "trust": [
+      "Locally owned & operated",
+      "Licensed, bonded & insured in WA & OR",
+      "Residential & commercial",
+      "Free estimates"
+    ],
+    "footer_blurb": "Residential and commercial concrete and excavation contractor, based right here in the Columbia River Gorge.",
+    "areas": [
+      "Hood River",
+      "White Salmon",
+      "The Dalles",
+      "Bingen",
+      "Lyle",
+      "Parkdale",
+      "Trout Lake",
+      "Stevenson",
+      "Cascade Locks"
+    ],
+    "hours": [
+      "Mon–Sat 8am–6pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "CRG Concrete and Excavation | Concrete & Excavation Contractor in Hood River, OR",
+    "description": "Residential and commercial concrete and excavation in Hood River, White Salmon, The Dalles and the Columbia River Gorge. Driveways, patios, foundations, retaining walls, grading and site prep. Licensed in WA and OR.",
+    "hero_photo": "hero",
+    "hero_alt": "New concrete slab beside a modern shop",
+    "eyebrow": "Columbia River Gorge Concrete and Excavation · Hood River, OR",
+    "headline": "From site prep to final pour.",
+    "lead": "Residential and commercial concrete and excavation across the Columbia River Gorge. Because we do both, your project goes from dirt work to finished concrete with one company.",
+    "services_eyebrow": "What we do",
+    "services_title": "Concrete & excavation services",
+    "about": {
+      "eyebrow": "Who we are",
+      "photo": "slab",
+      "photo_alt": "Finished concrete slab",
+      "title": "Locally owned, right here in the Gorge",
+      "paragraphs": [
+        "Columbia River Gorge Concrete and Excavation LLC is a locally owned and operated concrete and excavation contractor proudly serving the Columbia River Gorge and surrounding communities in Washington and Oregon.",
+        "With years of hands-on industry experience, our team is committed to high-quality workmanship, dependable service and efficient project completion.",
+        "We're fully licensed, bonded and insured in both Washington (#605515910) and Oregon (#251600), and we follow strict safety standards on every job."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      [
+        "driveway",
+        "Concrete driveway"
+      ],
+      [
+        "walkway",
+        "Curved concrete walkway"
+      ],
+      [
+        "stairs",
+        "Concrete stairs"
+      ],
+      [
+        "foundation",
+        "Foundation in White Salmon"
+      ],
+      [
+        "entry",
+        "Concrete entry walk"
+      ],
+      [
+        "retaining-wall",
+        "Concrete retaining wall"
+      ],
+      [
+        "site-aerial",
+        "Site work from above"
+      ],
+      [
+        "patio",
+        "Concrete patio"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your project",
+    "text": "Send us the details and we'll get back to you with a free estimate. We're open Monday to Saturday, 8am–6pm.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your project details and will reach out soon."
+  },
+  "services": [
+    {
+      "slug": "concrete-flatwork",
+      "name": "Custom Concrete & Flatwork",
+      "blurb": "Driveways, patios, walkways, steps and slabs.",
+      "intro": "Whether you're looking for a new driveway, patio, walkway, steps, fire pit, planter boxes or an outdoor kitchen slab, we deliver precision craftsmanship and durable results.",
+      "includes": [
+        "Driveways",
+        "Patios and walkways",
+        "Steps",
+        "Fire pits and planter boxes",
+        "Outdoor kitchen slabs"
+      ],
+      "photos": [
+        [
+          "driveway",
+          "Concrete driveway"
+        ],
+        [
+          "walkway",
+          "Curved walkway"
+        ],
+        [
+          "finishing",
+          "Finishing fresh concrete"
+        ]
+      ]
+    },
+    {
+      "slug": "foundations",
+      "name": "Foundations",
+      "blurb": "Foundations for homes, shops, garages and commercial buildings.",
+      "intro": "A strong foundation is the most important part of any structure. We excavate and pour foundations with proper grading, footing preparation and reinforcement.",
+      "includes": [
+        "Foundation excavation",
+        "Concrete foundations",
+        "Homes, shops, garages and sheds",
+        "Commercial buildings"
+      ],
+      "photos": [
+        [
+          "foundation",
+          "Foundation project in White Salmon"
+        ],
+        [
+          "foundation-2",
+          "Foundation wall"
+        ]
+      ]
+    },
+    {
+      "slug": "retaining-walls",
+      "name": "Retaining Walls",
+      "blurb": "Retaining walls that improve drainage and stop erosion.",
+      "intro": "Retaining walls that improve drainage, prevent soil erosion and increase usable space, built for your soil conditions and load requirements.",
+      "includes": [
+        "Concrete retaining walls",
+        "Drainage",
+        "Erosion control"
+      ],
+      "photos": [
+        [
+          "retaining-wall",
+          "Concrete retaining wall"
+        ],
+        [
+          "sign-wall",
+          "Concrete feature wall"
+        ]
+      ]
+    },
+    {
+      "slug": "excavation-grading",
+      "name": "Excavation & Grading",
+      "blurb": "Grading, backfilling, foundation prep and heavy material moving.",
+      "intro": "Because we specialize in both excavation and concrete, we streamline your project from site preparation to final pour.",
+      "includes": [
+        "Grading",
+        "Backfilling",
+        "Foundation preparation",
+        "Driveway and private road prep",
+        "Heavy material moving"
+      ],
+      "photos": [
+        [
+          "pad",
+          "Graded building pad"
+        ],
+        [
+          "slab-prep",
+          "Prepped slab base"
+        ]
+      ]
+    },
+    {
+      "slug": "land-clearing",
+      "name": "Land & Site Clearing",
+      "blurb": "Tree and stump removal, brush clearing and home site leveling.",
+      "intro": "Getting a lot ready to build? We clear and level home sites.",
+      "includes": [
+        "Tree and stump removal",
+        "Brush clearing",
+        "Home site clearing and leveling"
+      ],
+      "photos": [
+        [
+          "clearing",
+          "Cleared home site"
+        ],
+        [
+          "clearing-2",
+          "Site clearing"
+        ]
+      ]
+    },
+    {
+      "slug": "trenching-septic",
+      "name": "Utility Trenching & Septic",
+      "blurb": "Utility trenching and septic tank installation.",
+      "intro": "Utility trenches dug and backfilled, and septic tanks installed.",
+      "includes": [
+        "Utility trenching",
+        "Septic tank installation",
+        "Backfilling"
+      ],
+      "photos": [
+        [
+          "trench",
+          "Utility trench"
+        ],
+        [
+          "tank",
+          "Tank installation"
+        ]
+      ]
+    }
+  ]
+}

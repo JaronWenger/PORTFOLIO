@@ -28,10 +28,9 @@
   <meta name="twitter:card" content="summary">
 
   <link rel="preload" as="image" href="/images/template-macbook.webp" fetchpriority="high">
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="/images/jw-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/jw-icon-32.png">
+  <link rel="apple-touch-icon" href="/images/jw-apple-touch-icon.png">
 
   <style>
     :root {
@@ -260,6 +259,13 @@
     }
     .faq details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
     .faq details p { color: var(--muted); margin: 0 0 22px; max-width: 40em; }
+
+    /* P.S.: the short version for skimmers, right before the form */
+    .ps { text-align: center; }
+    .ps .wrap { max-width: 760px; }
+    .ps p { text-align: left; font-size: 1.15rem; line-height: 1.75; margin-bottom: 1.1em; }
+    .ps .btn { margin-top: 18px; box-shadow: 0 12px 30px rgba(29, 107, 71, .25); }
+    .ps .btn svg { stroke: currentColor; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 
     /* Contact: dark, the form on the right */
     .contact { background: var(--dark); color: var(--on-dark); position: relative; overflow: hidden; }
@@ -490,7 +496,7 @@
             <span class="tag">Launch price</span>
             <h3>Website</h3>
             <div class="amount">$750</div>
-            <p>Sites like this usually run <span class="was">$1,500–2,500</span>.</p>
+            <p>Sites like this usually run <span class="was">$1,500–5,000</span>.</p>
             <ul class="checks">
               <li>Modern design with your branding</li>
               <li>Built mobile-first</li>
@@ -650,6 +656,15 @@
           </div>
           <p class="form-error" role="alert" hidden>Something went wrong. Please call or text me at (717) 723-5127.</p>
         </form>
+      </div>
+    </section>
+
+    <!-- 9. P.S. (below the form, for skimmers) -->
+    <section class="ps band-soft">
+      <div class="wrap">
+        <p><strong>P.S.</strong> If you skimmed down here, here's the short version: I build your new website first, before you pay anything. If you love it, it's yours for $750, plus $21/mo for hosting with edits included. If you don't, you owe nothing. And if you change your mind within 30 days, I refund you.</p>
+        <p>Every visitor who can't find how to call you is a job that goes to someone else. Seeing your new site costs you nothing, and the form above takes about a minute.</p>
+        <a class="btn btn-primary" href="#contact">See your new site first <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </div>
     </section>
   </main>

@@ -1,0 +1,193 @@
+{
+  "slug": "pioneer-plumbing",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Pioneer Plumbing Services, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request Service",
+  "header_cta": "Request Service",
+  "theme": {
+    "dark": "#0f2740",
+    "dark_2": "#163455",
+    "on_dark": "#f2f5f8",
+    "on_dark_muted": "#aebccb",
+    "accent": "#f28c28",
+    "accent_ink": "#1f1000",
+    "soft": "#f3f5f7",
+    "line": "#dfe4ea"
+  },
+  "business": {
+    "name": "Pioneer Plumbing Services",
+    "legal_name": "Pioneer Plumbing Services LLC",
+    "initials": "PP",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "the Mid-Columbia Gorge",
+    "phone_display": "(541) 296-3150",
+    "phone_tel": "+15412963150",
+    "email": "Pioneerplumbingservicesllc@gmail.com",
+    "license": "Licensed, bonded & insured in Oregon · CCB #243666",
+    "trust": [
+      "Family owned",
+      "Licensed, bonded & insured",
+      "CCB #243666",
+      "Rated 2nd Best in the Gorge"
+    ],
+    "footer_blurb": "Family-owned plumbing and gas services for homes and businesses across the Mid-Columbia Gorge.",
+    "areas": [
+      "The Dalles",
+      "Hood River",
+      "Rowena",
+      "Cascade Locks",
+      "Odell",
+      "Dufur",
+      "Mosier",
+      "Maupin",
+      "Condon",
+      "Wasco"
+    ],
+    "hours": [
+      "Mon–Thu 8am–5pm",
+      "Fri 8am–4pm",
+      "Sat–Sun closed"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Pioneer Plumbing Services | Plumber in The Dalles & Hood River, OR",
+    "description": "Family-owned plumbing and gas services in The Dalles, Hood River and the Mid-Columbia Gorge. Leaks, drains, water heaters, gas lines, new construction and remodels. CCB #243666.",
+    "hero_photo": "hero",
+    "hero_alt": "Plumber at work",
+    "eyebrow": "Pioneer Plumbing Services · The Dalles & Hood River, OR",
+    "headline": "Got a leak? We've got you.",
+    "lead": "Family-owned plumbing and gas services for homes and businesses across the Mid-Columbia Gorge. Licensed, bonded and insured in Oregon.",
+    "services_eyebrow": "What we do",
+    "services_title": "Plumbing & gas services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "owners",
+      "photo_alt": "Jamia and Kia Long, owners",
+      "photo_wide": true,
+      "title": "Family owned, rated 2nd Best in the Gorge",
+      "paragraphs": [
+        "Pioneer Plumbing is a family-owned company run by Jamia and Kia Long, recently rated 2nd Best in the Gorge by the community.",
+        "We provide a wide range of plumbing and gas services, residential and commercial, all throughout the Mid-Columbia Gorge. Our years of experience ensure you get our very best service."
+      ]
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request service",
+    "title": "Got a plumbing problem? Let's fix it.",
+    "text": "Tell us what's going on and we'll get back to you. Office hours are Monday to Thursday 8am–5pm and Friday 8am–4pm.",
+    "address_label": "Service address",
+    "details_label": "What's going on?",
+    "button": "Request Service",
+    "thanks": "We got your request and will reach out soon."
+  },
+  "services": [
+    {
+      "slug": "leak-repair",
+      "name": "Leaks & Pipe Repair",
+      "blurb": "Leaking pipes, sudden changes in water pressure and new piping.",
+      "intro": "Got a leak? Sudden change in water pressure? We work on leaking pipes and install new piping.",
+      "includes": [
+        "Leaking pipes",
+        "Water pressure problems",
+        "New piping",
+        "Residential and commercial"
+      ],
+      "photos": [
+        [
+          "pipe-repair",
+          "Plumber repairing a pipe"
+        ],
+        [
+          "copper-pipe",
+          "Copper pipe fitting"
+        ]
+      ]
+    },
+    {
+      "slug": "drains",
+      "name": "Drains",
+      "blurb": "Slow, clogged and leaking drains.",
+      "intro": "Drain trouble? We work on drains of all kinds for homes and businesses.",
+      "includes": [
+        "Drains",
+        "Sinks",
+        "Residential and commercial"
+      ],
+      "photos": [
+        [
+          "bathroom",
+          "Bathroom with tub and shower"
+        ]
+      ]
+    },
+    {
+      "slug": "toilets-sinks",
+      "name": "Toilets, Sinks & Fixtures",
+      "blurb": "Repair and installation of toilets, sinks, tubs and showers.",
+      "intro": "We work on toilets and sinks, and install bath tubs, showers, dishwashers and garbage disposals.",
+      "includes": [
+        "Toilets",
+        "Sinks",
+        "Bath tubs and showers",
+        "Dishwashers and garbage disposals"
+      ],
+      "photos": [
+        [
+          "bathroom-sink",
+          "Bathroom sink and faucet"
+        ],
+        [
+          "shower",
+          "Shower fixture"
+        ]
+      ]
+    },
+    {
+      "slug": "water-heaters",
+      "name": "Water Heaters",
+      "blurb": "Hot water heater installation.",
+      "intro": "No hot water, or time for a new water heater? We install hot water heaters for homes and businesses.",
+      "includes": [
+        "Hot water heater installation",
+        "Residential and commercial"
+      ]
+    },
+    {
+      "slug": "gas-lines",
+      "name": "Gas Lines",
+      "blurb": "Gas lines and gas range installation.",
+      "intro": "We handle your gas needs, from new gas lines to hooking up a gas range.",
+      "includes": [
+        "Gas lines",
+        "Gas range installation",
+        "Residential and commercial"
+      ]
+    },
+    {
+      "slug": "new-construction",
+      "name": "New Construction & Remodels",
+      "blurb": "Plumbing for new construction and remodels.",
+      "intro": "Building new or remodeling? We plumb new construction and remodels throughout the Gorge.",
+      "includes": [
+        "New construction",
+        "Remodels",
+        "Fixture and appliance installation",
+        "Residential and commercial"
+      ],
+      "photos": [
+        [
+          "bathroom-remodel",
+          "Remodeled bathroom"
+        ],
+        [
+          "pipe-stock",
+          "Pipe on a construction site"
+        ]
+      ]
+    }
+  ]
+}

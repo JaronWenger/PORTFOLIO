@@ -1,0 +1,224 @@
+{
+  "slug": "beam-excavating",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Beam Excavating, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+  "theme": {
+    "dark": "#1c1c1c",
+    "dark_2": "#282828",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b9bec4",
+    "accent": "#f2c200",
+    "accent_ink": "#1a1500",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "Beam Excavating",
+    "legal_name": "Beam Excavating, Inc.",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 386-5747",
+    "phone_tel": "+15413865747",
+    "email": "beamexcavating@gmail.com",
+    "license": "Bonded & insured · DEQ certified · OR CCB #161840 · WA BEAMEEI840PQ",
+    "trust": [
+      "Family owned since 2004",
+      "Bonded & insured",
+      "DEQ certified",
+      "OR CCB #161840"
+    ],
+    "footer_blurb": "Building our community one job at a time. 1535 Osprey Dr, Hood River, OR 97031. Fax (541) 386-5994.",
+    "social": {}
+  },
+  "home": {
+    "title": "Beam Excavating | Excavation Contractor in Hood River, OR",
+    "description": "Family-owned excavation in Hood River and the Columbia Gorge since 2004. Site prep, land clearing, underground utilities, water and sewer systems, septic, road construction, demolition and trucking.",
+    "hero_photo": "hero",
+    "hero_alt": "Graded drive and pavilion at Mt. View Orchards",
+    "eyebrow": "Beam Excavating, Inc. · Hood River, OR",
+    "headline": "Building our community one job at a time.",
+    "lead": "Family-owned excavation across the Columbia Gorge since 2004. Residential and commercial, from land clearing and site prep to water mains and septic systems.",
+    "services_eyebrow": "What we do",
+    "services_title": "Excavation services",
+    "about": {
+      "eyebrow": "Our story",
+      "photo": "equipment",
+      "photo_alt": "Beam Excavating equipment on a job site",
+      "title": "Local, family owned since 2004",
+      "paragraphs": [
+        "Beam Excavating is a local, family-owned business operating in the entire Columbia Gorge. We started in 2004 with smaller projects and grew into significant undertakings, including our biggest project to date: a waterline stretching through downtown Hood River.",
+        "Chad Beam, owner and founder, is from Hood River and keeps great relationships with his clients. Our crew brings decades of experience in septic systems, precision grading, pipe work and commercial projects.",
+        "Because we are local, we support local. Beam backs fundraisers, high school events and local causes, because we believe in growing our community one job at a time."
+      ]
+    },
+    "gallery_title": "Our work",
+    "gallery": [
+      [
+        "orchard-drive",
+        "Mt. View Orchards drive and pavilion"
+      ],
+      [
+        "orchard-grade",
+        "Grading the orchard drive"
+      ],
+      [
+        "waterline",
+        "Waterline installation"
+      ],
+      [
+        "site-prep",
+        "GPS-graded site prep"
+      ],
+      [
+        "excavator",
+        "Excavator on site"
+      ],
+      [
+        "orchard-road",
+        "Finished orchard road"
+      ],
+      [
+        "hauling",
+        "Hauling with the dump truck"
+      ],
+      [
+        "a1-truck",
+        "A-1 Septic Tank Service truck"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Let us help",
+    "text": "Give us a call or send us the details. We'd love to work up a complimentary estimate for you.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your project details and will get back to you as soon as we can."
+  },
+  "services": [
+    {
+      "slug": "site-preparation",
+      "name": "Land Clearing & Site Prep",
+      "blurb": "Clearing, grading and prep for homes, garages and arenas.",
+      "intro": "Just bought the property of your dreams? We clear your land and prep it for whatever you want to use it for. Our GPS grading technology saves you time and money.",
+      "includes": [
+        "Land clearing",
+        "Site preparation",
+        "GPS grading",
+        "Foundation work"
+      ],
+      "photos": [
+        [
+          "site-prep",
+          "GPS-graded site"
+        ],
+        [
+          "site-prep-2",
+          "Site preparation"
+        ]
+      ]
+    },
+    {
+      "slug": "underground-utilities",
+      "name": "Underground Utilities",
+      "blurb": "Trenching, conduit and pipe replacement and installation.",
+      "intro": "Sometimes things break, including underground utilities. We replace conduit and piping, and excavate and backfill trenching for new utilities.",
+      "includes": [
+        "Utility trenching",
+        "Conduit and pipe replacement",
+        "Backfill"
+      ],
+      "photos": [
+        [
+          "waterline",
+          "Waterline installation"
+        ]
+      ]
+    },
+    {
+      "slug": "water-systems",
+      "name": "Water & Sewer Systems",
+      "blurb": "Water main, storm, sewer and public works piping.",
+      "intro": "We have the commercial capabilities and experience to lay water main, storm, sewer and most other public works piping.",
+      "includes": [
+        "Water mains",
+        "Storm and sewer",
+        "Public works piping",
+        "Residential and commercial"
+      ],
+      "photos": [
+        [
+          "waterline",
+          "Waterline installation"
+        ]
+      ]
+    },
+    {
+      "slug": "septic-systems",
+      "name": "Septic Systems",
+      "blurb": "New septic systems and drain fields.",
+      "intro": "We've been installing septic systems and drain fields since 2004, and we prioritize our clients even after installation. Our sister company, A-1 Septic Tank Service, handles pumping and inspections.",
+      "includes": [
+        "Septic system installation",
+        "Drain fields",
+        "Septic pumping via A-1 Septic Tank Service",
+        "Pre-sale tank inspections"
+      ],
+      "photos": [
+        [
+          "a1-truck",
+          "A-1 Septic Tank Service truck"
+        ]
+      ]
+    },
+    {
+      "slug": "road-construction",
+      "name": "Road Construction & Driveways",
+      "blurb": "Roads, driveways and parking lots.",
+      "intro": "From private drives to roadways, we build roads that last, like the 2,000-foot driveway we graded and compacted through Mt. View Orchards.",
+      "includes": [
+        "Road construction",
+        "Driveways",
+        "Parking lots",
+        "Precision grading"
+      ],
+      "photos": [
+        [
+          "orchard-drive",
+          "Mt. View Orchards drive"
+        ],
+        [
+          "orchard-road",
+          "Orchard road"
+        ]
+      ]
+    },
+    {
+      "slug": "demolition-trucking",
+      "name": "Demolition & Trucking",
+      "blurb": "Demolition, plus hauling gravel, bark and fill dirt.",
+      "intro": "Not only can we build it, we can demolish it too. And if you need gravel, bark or fill dirt hauled in, we can help you spread it.",
+      "includes": [
+        "Demolition",
+        "Site clearing",
+        "Gravel, bark and fill dirt hauling"
+      ],
+      "photos": [
+        [
+          "hauling",
+          "Hauling with the dump truck"
+        ],
+        [
+          "equipment",
+          "Equipment on site"
+        ]
+      ]
+    }
+  ]
+}

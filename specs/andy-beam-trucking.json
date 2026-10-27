@@ -1,0 +1,227 @@
+{
+  "slug": "andy-beam-trucking",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Andy Beam Trucking, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Quote",
+  "header_cta": "Get a Quote",
+  "theme": {
+    "dark": "#24282b",
+    "dark_2": "#30353a",
+    "on_dark": "#f4f4f2",
+    "on_dark_muted": "#b9bec4",
+    "accent": "#d8342a",
+    "accent_ink": "#ffffff",
+    "soft": "#f5f5f3",
+    "line": "#e2e2de"
+  },
+  "business": {
+    "name": "Andy Beam Trucking",
+    "legal_name": "Andy Beam Trucking LLC",
+    "logo_has_name": true,
+    "city": "Hood River",
+    "state": "OR",
+    "area": "Hood River and nearby",
+    "phone_display": "(541) 399-3523",
+    "phone_tel": "+15413993523",
+    "trust": [
+      "No minimums",
+      "Small loads under 5 yards",
+      "Locally owned & operated",
+      "25+ years in trucking"
+    ],
+    "footer_blurb": "Small load gravel, bark and compost delivery in Hood River, Odell, Parkdale and Mosier. Call or text for a quote. Cash, check or credit card.",
+    "areas": [
+      "Hood River",
+      "Odell",
+      "Parkdale",
+      "Mosier"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Andy Beam Trucking | Small Load Gravel, Bark & Compost Delivery in Hood River, OR",
+    "description": "Small load gravel, sand, bark, mulch and compost delivery in Hood River, Odell, Parkdale and Mosier. No minimums. Most jobs $120–$290. Call or text (541) 399-3523.",
+    "hero_photo": "hero",
+    "hero_alt": "Andy Beam Trucking dump truck",
+    "eyebrow": "Andy Beam Trucking · Hood River, OR",
+    "headline": "Small loads. No minimums. Fast delivery.",
+    "lead": "Gravel, bark and compost delivered to driveways, landscaping and tight-access jobs around Hood River. No oversized truck required. Most jobs run $120–$290.",
+    "services_eyebrow": "Material delivery made easy",
+    "services_title": "What we deliver",
+    "reviews": {
+      "eyebrow": "Testimonials",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Wow, we lucked out and got same day service on short notice. Excellent pricing. We really appreciate this local service. A valuable asset to our community. Thank you Heather and Andy.",
+          "name": "Mike McAllister"
+        },
+        {
+          "quote": "Andy had actually hand spread the gravel at my muddy driveway entrance, so I was able to drive right in to my property. That made me feel great. Well done!",
+          "name": "Susan Lestock"
+        },
+        {
+          "quote": "I recommend Andy to anyone in the gorge who needs a small load of anything whether it's gravel, compost or bark.",
+          "name": "Wade Berens"
+        },
+        {
+          "quote": "Very friendly, best prices and same day service. Highly recommend and will most likely use their services again.",
+          "name": "Jaime Munoz"
+        },
+        {
+          "quote": "Fast scheduling, very responsive team and great service! Would highly recommend.",
+          "name": "Noah Ruckwardt"
+        },
+        {
+          "quote": "Quick delivery, delightful conversation, good price. What's not to love?",
+          "name": "Jared Wolf"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "photo": "owners",
+      "photo_alt": "Andy and Heather with the truck",
+      "title": "Local. Experienced. Reliable.",
+      "paragraphs": [
+        "Andy Beam Trucking LLC is a locally owned business serving Hood River and surrounding areas, with over 25 years of experience in trucking and material handling.",
+        "Many companies require large minimum loads. We focus on smaller deliveries, under 5 yards, so you only pay for what you actually need.",
+        "Our smaller truck gets into tight driveways and residential neighborhoods that larger trucks can't. We show up on time, communicate clearly, and get your material where it needs to go."
+      ],
+      "photo_wide": true
+    },
+    "gallery_title": "Recent work",
+    "gallery": [
+      [
+        "dump",
+        "Dropping a load in a driveway"
+      ],
+      [
+        "driveway",
+        "Fresh gravel driveway"
+      ],
+      [
+        "gravel-pile",
+        "Gravel delivery"
+      ],
+      [
+        "driveway-2",
+        "Long gravel driveway"
+      ],
+      [
+        "load",
+        "A load of gravel"
+      ],
+      [
+        "bark",
+        "Bark delivery"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Get a quote",
+    "title": "Call or text for a fast quote",
+    "text": "Send your project details, or call or text (541) 399-3523 for a fast response. We'll help estimate how much material you need. Most jobs range between $120 and $290 depending on material and distance.",
+    "address_label": "Delivery address",
+    "details_label": "What material, and how much?",
+    "button": "Get My Quote",
+    "thanks": "Got it. We'll reach out soon with your quote."
+  },
+  "services": [
+    {
+      "slug": "gravel-delivery",
+      "name": "Gravel Delivery",
+      "blurb": "Crushed rock, driveway gravel, base rock, decorative stone and drain rock.",
+      "intro": "Small load gravel delivery for homeowners, driveways and landscaping projects throughout Hood River and surrounding areas, in quantities under 5 yards.",
+      "includes": [
+        "Crushed rock",
+        "Driveway gravel",
+        "Base rock",
+        "Decorative stone",
+        "Drain rock"
+      ],
+      "photos": [
+        [
+          "gravel-pile",
+          "Gravel delivery"
+        ],
+        [
+          "load",
+          "A load of gravel"
+        ]
+      ]
+    },
+    {
+      "slug": "driveways",
+      "name": "Driveways & Paths",
+      "blurb": "Driveway refresh, new driveways, walkways and paths.",
+      "intro": "Refreshing a driveway, building a pathway or working on drainage? We deliver right to your location, and we can spread it with the truck.",
+      "includes": [
+        "Driveway gravel refresh",
+        "New driveway installation",
+        "Walkways and paths",
+        "Drainage projects"
+      ],
+      "photos": [
+        [
+          "driveway",
+          "Fresh gravel driveway"
+        ],
+        [
+          "driveway-2",
+          "Long gravel driveway"
+        ]
+      ]
+    },
+    {
+      "slug": "bark-mulch",
+      "name": "Bark & Mulch Delivery",
+      "blurb": "Bark and mulch for landscaping and garden beds.",
+      "intro": "Small loads of bark and mulch for landscaping and garden beds, without paying for more than you need.",
+      "includes": [
+        "Bark",
+        "Mulch",
+        "Landscaping and garden beds"
+      ],
+      "photos": [
+        [
+          "bark",
+          "Bark delivery"
+        ]
+      ]
+    },
+    {
+      "slug": "compost",
+      "name": "Compost Delivery",
+      "blurb": "Compost for gardens and landscaping.",
+      "intro": "Compost delivered in small loads for your garden and landscaping projects.",
+      "includes": [
+        "Compost",
+        "Garden beds",
+        "Landscaping"
+      ],
+      "photos": [
+        [
+          "customer",
+          "Delivery to a happy customer"
+        ]
+      ]
+    },
+    {
+      "slug": "sand",
+      "name": "Sand Delivery",
+      "blurb": "Sand in small loads.",
+      "intro": "Sand delivered in loads under 5 yards, right where you need it.",
+      "includes": [
+        "Sand",
+        "Small loads under 5 yards"
+      ],
+      "photos": [
+        [
+          "dump",
+          "Dropping a load"
+        ]
+      ]
+    }
+  ]
+}

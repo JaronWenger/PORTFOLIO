@@ -1,1 +1,4 @@
 site/template/images/*  10 stock photos downloaded by hand by Jaron on 2026-10-26 (source site per photo not recorded)
+site/pioneer-plumbing/images/* (except owners.webp)  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-26:
+  hero 29226620 · pipe-repair 6419128 · copper-pipe 3721272 · bathroom-sink 6444979 · bathroom 11701114 · shower 4194864 · pipe-stock 29301874 · bathroom-remodel 7031570
+  (https://www.pexels.com/photo/<id>/)

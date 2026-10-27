@@ -52,14 +52,35 @@ class Spec:
         label = escape(alt or 'Photo')
         return f'<div class="ph{" " + cls if cls else ""}" role="img" aria-label="{label}"><span>Photo: {label}</span></div>'
 
-    def logo(self):
-        path = os.path.join(self.out, 'logo.svg')
-        if os.path.exists(path):
-            return open(path).read().strip()
+    def hero_photo(self, root, name, alt):
+        """Hero background photo; with no photo the hero is plain dark (no placeholder box)."""
+        if name and os.path.exists(os.path.join(self.out, 'images', name + '.webp')):
+            return self.photo(root, name, alt, lazy=False, cls='hero-photo')
+        return ''
+
+    def logo_file(self):
+        """The spec's logo file name (logo.svg preferred, then logo.webp / logo.png), or None."""
+        for name in ('logo.svg', 'logo.webp', 'logo.png'):
+            if os.path.exists(os.path.join(self.out, name)):
+                return name
+        return None
+
+    def logo(self, root):
+        name = self.logo_file()
+        if name == 'logo.svg':
+            return open(os.path.join(self.out, name)).read().strip()
+        if name:
+            # business.logo_on_light: a logo made for white backgrounds sits on a white plate
+            cls = 'logo-img on-light' if self.b.get('logo_on_light') else 'logo-img'
+            return f'<img class="{cls}" src="{root}{name}" alt="">'
+        if not self.b.get('initials'):
+            return ''  # no logo and no initials: the name alone, never a made-up mark
         return f'<span class="monogram" aria-hidden="true">{escape(self.b["initials"])}</span>'
 
     def brand(self, root):
-        return f'<a class="brand" href="{root}">{self.logo()}<span class="wordmark">{escape(self.b["name"])}</span></a>'
+        # business.logo_has_name: the logo already spells the name, so the text is for screen readers only
+        cls = 'visually-hidden' if self.b.get('logo_has_name') else 'wordmark'
+        return f'<a class="brand" href="{root}">{self.logo(root)}<span class="{cls}">{escape(self.b["name"])}</span></a>'
 
     def pair(self, root, before, after, label):
         """Before/after comparison slider: the before photo is clipped over the after photo."""
@@ -77,8 +98,9 @@ class Spec:
     # --- shared page chrome -------------------------------------------------
 
     def head(self, root, title, description):
-        icon = (f'<link rel="icon" href="{root}logo.svg" type="image/svg+xml">'
-                if os.path.exists(os.path.join(self.out, 'logo.svg')) else '')
+        logo = self.logo_file()
+        kind = ' type="image/svg+xml"' if logo == 'logo.svg' else ''
+        icon = f'<link rel="icon" href="{root}{logo}"{kind}>' if logo else ''
         return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,6 +118,14 @@ class Spec:
   <div class="preview-bar">{self.c['preview_bar']}</div>
 '''
 
+    def page_links(self, root, cls=''):
+        """Home-page sections that exist for this business, as nav links."""
+        h = self.c['home']
+        sections = [('gallery', 'Our Work', h.get('gallery')), ('reviews', 'Reviews', h.get('reviews')),
+                    ('about', 'About', True)]
+        a = f' class="{cls}"' if cls else ''
+        return ''.join(f'<li><a{a} href="{root}#{id_}">{label}</a></li>' for id_, label, on in sections if on)
+
     def header(self, root):
         links = ''.join(f'<li><a href="{root}{s["slug"]}/">{escape(s["name"])}</a></li>' for s in self.services)
         cta = escape(self.c.get('header_cta', 'Free Estimate'))
@@ -108,8 +138,7 @@ class Spec:
             <button class="nav-link" type="button" aria-expanded="false" aria-controls="services-menu">Services {CHEVRON}</button>
             <ul class="submenu" id="services-menu">{links}</ul>
           </li>
-          <li><a class="nav-link" href="{root}#gallery">Our Work</a></li>
-          <li><a class="nav-link" href="{root}#about">About</a></li>
+          {self.page_links(root, 'nav-link')}
         </ul>
       </nav>
       <a class="header-phone" href="tel:{self.b['phone_tel']}">{PHONE_ICON}{escape(self.b['phone_display'])}</a>
@@ -120,7 +149,7 @@ class Spec:
       <h3>Services</h3>
       <ul>{links}</ul>
       <h3>Company</h3>
-      <ul><li><a href="{root}">Home</a></li><li><a href="{root}#gallery">Our Work</a></li><li><a href="{root}#about">About</a></li></ul>
+      <ul><li><a href="{root}">Home</a></li>{self.page_links(root)}</ul>
       <div class="actions">
         <a class="btn btn-accent" href="#estimate">{escape(self.cta)}</a>
         {self.phone_link('btn btn-outline-light')}
@@ -140,8 +169,9 @@ class Spec:
         e = self.c['estimate']
         options = ''.join(f'<option{" selected" if s["name"] == selected else ""}>{escape(s["name"])}</option>'
                           for s in self.services)
-        lines = [f'<li><a href="tel:{self.b["phone_tel"]}">{escape(self.b["phone_display"])}</a></li>',
-                 f'<li><a href="mailto:{self.b["email"]}">{escape(self.b["email"])}</a></li>']
+        lines = [f'<li><a href="tel:{self.b["phone_tel"]}">{escape(self.b["phone_display"])}</a></li>']
+        if self.b.get('email'):
+            lines.append(f'<li><a href="mailto:{self.b["email"]}">{escape(self.b["email"])}</a></li>')
         if self.b.get('license'):
             lines.append(f'<li>{escape(self.b["license"])}</li>')
         return f'''    <section class="estimate" id="estimate">
@@ -171,12 +201,15 @@ class Spec:
 
     def footer(self, root):
         links = ''.join(f'<li><a href="{root}{s["slug"]}/">{escape(s["name"])}</a></li>' for s in self.services)
-        contact = [f'<li><a href="tel:{self.b["phone_tel"]}">{escape(self.b["phone_display"])}</a></li>',
-                   f'<li><a href="mailto:{self.b["email"]}">{escape(self.b["email"])}</a></li>']
+        contact = [f'<li><a href="tel:{self.b["phone_tel"]}">{escape(self.b["phone_display"])}</a></li>']
+        if self.b.get('email'):
+            contact.append(f'<li><a href="mailto:{self.b["email"]}">{escape(self.b["email"])}</a></li>')
         for label, url in self.b.get('social', {}).items():
             contact.append(f'<li><a href="{escape(url)}">{escape(label)}</a></li>')
         if self.b.get('license'):
             contact.append(f'<li>{escape(self.b["license"])}</li>')
+        for line in self.b.get('hours', []):
+            contact.append(f'<li>{escape(line)}</li>')
         return f'''  <footer class="site-footer">
     <div class="wrap">
       <div class="footer-grid">
@@ -230,11 +263,48 @@ class Spec:
     </section>
 '''
         about = ''.join(f'<p>{escape(p)}</p>' for p in h['about']['paragraphs'])
-        gallery = ''.join(self.photo(root, n, a) for n, a in h['gallery'])
+        if self.b.get('areas'):
+            about += ('<h3>Areas we serve</h3><ul class="areas">'
+                      + ''.join(f'<li>{escape(a)}</li>' for a in self.b['areas']) + '</ul>')
+
+        reviews = ''
+        if h.get('reviews'):
+            rv = h['reviews']
+            quotes = ''.join(f'''          <figure class="review">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <blockquote>{escape(r["quote"])}</blockquote>
+            <figcaption>{escape(r["name"])}{", " + escape(r["place"]) if r.get("place") else ""}</figcaption>
+          </figure>
+''' for r in rv['items'])
+            link = (f'<div class="actions"><a class="btn btn-outline-dark" href="{escape(rv["link"])}">{escape(rv["link_label"])} →</a></div>'
+                    if rv.get('link') else '')
+            reviews = f'''
+    <section class="reviews" id="reviews">
+      <div class="wrap">
+        <span class="eyebrow">{escape(rv.get('eyebrow', 'Reviews'))}</span>
+        <h2>{escape(rv['title'])}</h2>
+        <div class="review-grid">
+{quotes}        </div>
+        {link}
+      </div>
+    </section>
+'''
+
+        gallery = ''
+        if h.get('gallery'):
+            gallery = f'''
+    <section id="gallery">
+      <div class="wrap">
+        <span class="eyebrow">Our work</span>
+        <h2>{escape(h.get('gallery_title', 'Recent projects'))}</h2>
+        <div class="gallery">{''.join(self.photo(root, n, a) for n, a in h['gallery'])}</div>
+      </div>
+    </section>
+'''
         return (self.head(root, h['title'], h['description']) + self.header(root) + f'''
   <main>
     <section class="hero">
-      {self.photo(root, h.get('hero_photo'), h.get('hero_alt', ''), lazy=False, cls='hero-photo')}
+      {self.hero_photo(root, h.get('hero_photo'), h.get('hero_alt', ''))}
       <div class="wrap">
         <span class="eyebrow">{escape(h['eyebrow'])}</span>
         <h1>{escape(h['headline'])}</h1>
@@ -254,26 +324,18 @@ class Spec:
 {cards}        </div>
       </div>
     </section>
-{showcase}
+{reviews}{showcase}
     <section class="about" id="about">
       <div class="wrap about-grid">
-        {self.photo(root, h['about'].get('photo'), h['about'].get('photo_alt', 'Owner'))}
+        {self.photo(root, h['about'].get('photo'), h['about'].get('photo_alt', 'Owner'), cls='wide' if h['about'].get('photo_wide') else '')}
         <div>
-          <span class="eyebrow">About us</span>
+          <span class="eyebrow">{escape(h['about'].get('eyebrow', 'About us'))}</span>
           <h2>{escape(h['about']['title'])}</h2>
           {about}
         </div>
       </div>
     </section>
-
-    <section id="gallery">
-      <div class="wrap">
-        <span class="eyebrow">Our work</span>
-        <h2>Recent projects</h2>
-        <div class="gallery">{gallery}</div>
-      </div>
-    </section>
-
+{gallery}
 {self.estimate()}  </main>
 
 ''' + self.footer(root))
@@ -297,7 +359,7 @@ class Spec:
                 + self.header(root) + f'''
   <main>
     <section class="hero page-hero">
-      {self.photo(root, hero, s['name'], lazy=False, cls='hero-photo')}
+      {self.hero_photo(root, hero, s['name'])}
       <div class="wrap">
         <p class="breadcrumb"><a href="{root}">Home</a> / Services</p>
         <h1>{escape(s["name"])} in {escape(city)}</h1>
