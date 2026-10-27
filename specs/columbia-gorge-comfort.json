@@ -1,0 +1,117 @@
+{
+  "slug": "columbia-gorge-comfort",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Columbia Gorge Comfort Solutions, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Book a Service",
+  "header_cta": "Book a Service",
+
+  "theme": {
+    "dark": "#13212e",
+    "dark_2": "#1c2e3f",
+    "on_dark": "#f2f5f8",
+    "on_dark_muted": "#b0bdca",
+    "accent": "#f08a24",
+    "accent_ink": "#1d1003",
+    "soft": "#f3f5f7",
+    "line": "#dfe4e9"
+  },
+
+  "business": {
+    "name": "Columbia Gorge Comfort Solutions",
+    "legal_name": "Columbia Gorge Comfort Solutions LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 238-7826",
+    "phone_tel": "+15412387826",
+    "email": "info@columbiagcs.com",
+    "trust": ["Locally owned in The Dalles", "Heating, cooling & refrigeration", "Residential & commercial", "Honest, upfront pricing"],
+    "footer_blurb": "Heating, cooling, ventilation and refrigeration for homes and businesses in The Dalles and the Columbia Gorge. 615 E 4th St, The Dalles, OR 97058.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Columbia Gorge Comfort Solutions | HVAC in The Dalles, OR",
+    "description": "Heating and cooling installs, service, maintenance, mini splits, custom ductwork and commercial refrigeration in The Dalles and the Columbia Gorge.",
+    "hero_photo": "mini-split-brick",
+    "hero_alt": "Mini split heat pump on a brick building",
+    "eyebrow": "Columbia Gorge Comfort Solutions · The Dalles, OR",
+    "headline": "Comfort you can count on, from people who care.",
+    "lead": "Reliable heating, cooling and ventilation for homes and businesses across the Gorge, with fair pricing and a personal touch.",
+    "services_eyebrow": "What we do",
+    "services_title": "Heating & cooling services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "tech",
+      "photo_alt": "Technician installing a mini split",
+      "title": "Built on integrity, driven by heart",
+      "paragraphs": [
+        "Columbia GCS was founded by Jameson Dexter and Scot Braley, two friends and business partners with a shared belief in fairness, honesty and trust.",
+        "From day one, the goal has been simple: treat every customer like family. That means showing up on time, doing the job right, and always being transparent with our work and pricing.",
+        "Whether it's a quick repair or a full system installation, you can count on expert craftsmanship, fair pricing and a team that truly cares."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      ["mini-split-brick", "Mini split on a brick building"], ["heat-pump", "New outdoor heat pump"],
+      ["ductwork", "New ductwork in a commercial build"], ["air-handler", "Air handler and water heater"],
+      ["custom-duct", "Custom duct from our sheet metal shop"], ["thermostat", "Smart thermostat"],
+      ["refrigeration", "Commercial refrigeration"], ["mini-split", "Mini split outdoor unit"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Book a service",
+    "title": "Let's get you comfortable.",
+    "text": "Tell us what's going on and we'll get back to you to schedule a visit.",
+    "address_label": "Service address",
+    "details_label": "What's going on?",
+    "button": "Request Service",
+    "thanks": "We got your request and will reach out soon to schedule your visit."
+  },
+
+  "services": [
+    {
+      "slug": "installs", "name": "New & Replacement Systems",
+      "blurb": "Let us help you find the right system for your home.",
+      "intro": "Whether you're building new or replacing an old system, we'll help you choose the right equipment and install it right.",
+      "includes": ["Furnaces, heat pumps and air conditioners", "Air handlers", "New construction installs", "System replacements"],
+      "photos": [["heat-pump", "New outdoor heat pump"], ["air-handler", "Air handler install"]]
+    },
+    {
+      "slug": "mini-splits", "name": "Mini Splits",
+      "blurb": "Ductless heating and cooling for rooms, additions and shops.",
+      "intro": "Mini splits heat and cool without ductwork, which makes them a great fit for additions, shops and older homes.",
+      "includes": ["Single-head and multi-head systems", "Homes, shops and offices", "Additions and ADUs", "Replacing window units and baseboard heat"],
+      "photos": [["mini-split-brick", "Mini split on a brick building"], ["mini-split", "Mini split outdoor unit"], ["mini-split-trailer", "Mini split on a jobsite office"]]
+    },
+    {
+      "slug": "service-repair", "name": "Service & Repair",
+      "blurb": "We have the parts and knowledge to get you back up and running.",
+      "intro": "When your heat or AC quits, we'll find the problem and fix it, with honest advice about your options.",
+      "includes": ["Heating and cooling repairs", "Compressor replacement", "Thermostats", "Honest advice before any work"],
+      "photos": [["compressor", "Compressor replacement"], ["service", "Technician servicing a unit"], ["thermostat", "Smart thermostat"]]
+    },
+    {
+      "slug": "maintenance", "name": "Maintenance Plans",
+      "blurb": "Maintenance contracts to keep you running and worry free.",
+      "intro": "Regular maintenance keeps your system efficient and catches small problems before they become big ones.",
+      "includes": ["Seasonal tune-ups", "System cleaning", "Maintenance contracts", "Homes and businesses"],
+      "photos": [["maintenance", "Technician maintaining a system"]]
+    },
+    {
+      "slug": "ductwork-custom-metal", "name": "Ductwork & Custom Metal",
+      "blurb": "New ductwork and custom pieces from our own sheet metal shop.",
+      "intro": "We can build just about anything in our custom sheet metal shop, from duct fittings to full duct systems.",
+      "includes": ["New ductwork", "Custom duct fittings", "Custom sheet metal", "Residential and commercial"],
+      "photos": [["custom-duct", "Custom duct from our sheet metal shop"], ["ductwork", "New ductwork in a commercial build"], ["ductwork-2", "Ductwork in a new home"]]
+    },
+    {
+      "slug": "commercial-refrigeration", "name": "Commercial Refrigeration",
+      "blurb": "Walk-ins, refrigeration and ice machine maintenance.",
+      "intro": "Restaurants and businesses depend on their refrigeration. We service and maintain it so you stay open.",
+      "includes": ["Commercial refrigeration", "Ice machine maintenance", "Walk-in coolers and freezers", "Service and repairs"],
+      "photos": [["refrigeration", "Commercial refrigeration"], ["ice-machine", "Ice machine maintenance"]]
+    }
+  ]
+}

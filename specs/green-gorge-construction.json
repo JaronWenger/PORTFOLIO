@@ -1,0 +1,95 @@
+{
+  "slug": "green-gorge-construction",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Green Gorge Construction, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#18261f",
+    "dark_2": "#22352b",
+    "on_dark": "#f2f5f3",
+    "on_dark_muted": "#b0bfb6",
+    "accent": "#7fbf6a",
+    "accent_ink": "#0d1d08",
+    "soft": "#f3f5f2",
+    "line": "#dde3dc"
+  },
+
+  "business": {
+    "name": "Green Gorge Construction",
+    "legal_name": "Green Gorge Construction",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 800-8442",
+    "phone_tel": "+15418008442",
+    "trust": ["Work directly with the owner", "Free estimates", "No job too small", "Oregon & Washington sides of the Gorge"],
+    "footer_blurb": "Bathroom remodels, walk-in showers and tub refinishing on both sides of the Columbia Gorge. 805 E 14th St, The Dalles, OR 97058.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Green Gorge Construction | Bathroom Remodeling in The Dalles, OR",
+    "description": "Bathroom remodels, walk-in showers, tub refinishing and repairs on the Oregon and Washington sides of the Columbia Gorge. Free estimates. No job too small.",
+    "hero_photo": "hero",
+    "hero_alt": "Remodeled bathroom with a walk-in shower",
+    "eyebrow": "Green Gorge Construction · The Dalles, OR",
+    "headline": "The bathroom you've been wanting, built by one craftsman.",
+    "lead": "Bathroom remodels, walk-in showers and tub refinishing on both sides of the Gorge. You work directly with the owner from estimate to finish.",
+    "services_eyebrow": "What we do",
+    "services_title": "Remodeling services",
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Craftsman at work",
+      "title": "Meet Jay Sauer",
+      "paragraphs": [
+        "Green Gorge Construction is Jay Sauer's business. Jay is the owner and the craftsman, and your only needed contact from estimate to finish.",
+        "We serve the Oregon and Washington sides of the Columbia Gorge, and rural customers are welcome.",
+        "Estimates are free, and no job is too small."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your project.",
+    "text": "Send us what you have in mind and we'll get back to you to set up a free estimate.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon to set up your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "bathroom-remodels", "name": "Bathroom Remodels",
+      "blurb": "Full and partial bathroom remodels, start to finish.",
+      "intro": "From a refresh to a full gut and rebuild, we handle your bathroom remodel from start to finish.",
+      "includes": ["Full bathroom remodels", "Vanities and fixtures", "Tile and flooring", "One point of contact the whole way"],
+      "photos": [["bathroom", "Remodeled bathroom"]]
+    },
+    {
+      "slug": "walk-in-showers", "name": "Walk-In Showers",
+      "blurb": "Tub-to-shower conversions and custom walk-in showers.",
+      "intro": "A walk-in shower is easier to use, easier to clean and opens up the room.",
+      "includes": ["Tub-to-shower conversions", "Custom tile showers", "Low-threshold and accessible entries", "Glass and grab bars"],
+      "photos": [["shower", "Walk-in shower"]]
+    },
+    {
+      "slug": "tub-refinishing", "name": "Tub Refinishing",
+      "blurb": "Make a worn tub look new without replacing it.",
+      "intro": "Refinishing brings back a worn or dated tub for a fraction of the cost of replacing it.",
+      "includes": ["Bathtub refinishing", "Chip and crack repair", "Color updates", "Less mess than a replacement"],
+      "photos": [["tub", "Refinished bathtub"]]
+    },
+    {
+      "slug": "repairs", "name": "Repairs & Small Jobs",
+      "blurb": "No job too small.",
+      "intro": "Got a project that's too small for the big outfits? That's no problem here.",
+      "includes": ["Small repairs", "Fixture swaps", "Emergency services", "Rural customers welcome"],
+      "photos": [["repairs", "Home repair"]]
+    }
+  ]
+}

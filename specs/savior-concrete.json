@@ -1,0 +1,129 @@
+{
+  "slug": "savior-concrete",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for The Savior Concrete Company, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#1b1a17",
+    "dark_2": "#2a2823",
+    "on_dark": "#f6f4ee",
+    "on_dark_muted": "#c0bba9",
+    "accent": "#d4af37",
+    "accent_ink": "#1b1500",
+    "soft": "#f6f4ee",
+    "line": "#e5e1d4"
+  },
+
+  "business": {
+    "name": "The Savior Concrete Company",
+    "legal_name": "The Savior Concrete Company LLC",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "city": "Camas",
+    "state": "WA",
+    "area": "Clark County and Portland",
+    "phone_display": "(360) 210-3430",
+    "phone_tel": "+13602103430",
+    "email": "thesaviornw@gmail.com",
+    "license": "OR CCB #240249 · WA #SAVIOSC765B4",
+    "trust": ["Family owned", "20+ years of experience", "OR CCB #240249", "WA #SAVIOSC765B4"],
+    "footer_blurb": "Family-owned concrete contractor serving Washington and Oregon: driveways, patios, walkways, retaining walls, stamped and decorative concrete.",
+    "hours": ["Mon–Fri 7:00 am – 5:00 pm", "Sat 8:00 am – 3:00 pm", "Sun closed"],
+    "areas": ["Camas, WA", "Vancouver, WA", "Clark County", "Portland, OR"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "The Savior Concrete Company | Concrete Contractor in Camas, WA",
+    "description": "Driveways, sidewalks, patios, retaining walls, steps, stamped and decorative concrete and ADA ramps in Clark County and Portland. Family owned, 20+ years of experience.",
+    "hero_photo": "hero",
+    "hero_alt": "Concrete paver patio with gravel joints",
+    "eyebrow": "The Savior Concrete Company · Camas, WA",
+    "headline": "Top-quality concrete, done right the first time.",
+    "lead": "Driveways, patios, walkways, steps, retaining walls and any concrete finish, for homes and businesses across Clark County and Portland.",
+    "services_eyebrow": "What we do",
+    "services_title": "Concrete services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "Ray and his crew were fantastic and professional through the whole process and I am beyond happy I hired them for the job. The quality of their work is amazing and they did exactly what I asked for. I'd rate them a solid 10/10 and will definitely be coming back for more concrete work in the future.", "name": "Kayda Pepion"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "sign",
+      "photo_alt": "Finished walkway with The Savior Concrete Company yard sign",
+      "title": "Small, family owned, and proud of every pour",
+      "paragraphs": [
+        "The Savior Concrete Company is a small family-owned business that prides itself in top quality concrete for your home, building or residence, with over 20 years of experience.",
+        "We received our education at the World of Concrete in Las Vegas, and our knowledge was formed through years of partnering with companies large and small.",
+        "No matter the size of the project, we take pride in excellent work, competitive fees and outstanding results on time, every time, because we value your time and money."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      ["steps-herringbone", "Curved steps with herringbone inlay"], ["patio-stamped", "Stamped concrete patio"],
+      ["steps", "Front porch steps"], ["walkway-herringbone", "Walkway with herringbone border"],
+      ["retaining-wall", "Retaining wall with steps"], ["driveway", "Driveway with decorative borders"],
+      ["walkway-curved", "Curved garden walkway"], ["stamped", "Stamped patio under a pergola"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Let's talk about your project.",
+    "text": "Tell us about your project and we'll get back to you with a free estimate. Prices vary with materials and labor, so every quote is built for your job.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon to set up your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "driveways", "name": "Driveways & Slabs",
+      "blurb": "Driveways, garage floors, basement floors and slabs.",
+      "intro": "From new driveways to garage and basement floors, we pour slabs that look good and hold up.",
+      "includes": ["Driveways", "Garage floors", "Basement floors", "Slabs of every size"],
+      "photos": [["driveway", "Driveway with decorative borders"], ["slab", "Raised patio slab"]]
+    },
+    {
+      "slug": "patios", "name": "Patios",
+      "blurb": "Backyard patios in any finish, from broom to stamped.",
+      "intro": "A new patio gives you more room to live outdoors. We build them in any finish you like.",
+      "includes": ["Backyard patios", "Stamped and colored patios", "Covered patios", "Patio extensions"],
+      "photos": [["patio-stamped", "Stamped concrete patio"], ["patio", "Stamped patio beside a home"], ["patio-2", "Patio with stamped border"]]
+    },
+    {
+      "slug": "walkways-sidewalks", "name": "Walkways & Sidewalks",
+      "blurb": "Walkways, paths and sidewalks that make your home easy to get around.",
+      "intro": "Straight or curved, plain or decorative, we build walkways and sidewalks that last.",
+      "includes": ["Front and side walkways", "Garden paths", "Sidewalks", "Herringbone and stamped borders"],
+      "photos": [["walkway-herringbone", "Walkway with herringbone border"], ["walkway-curved", "Curved garden walkway"], ["walkway-stamped", "Stamped side-yard walkway"]]
+    },
+    {
+      "slug": "steps-retaining-walls", "name": "Steps & Retaining Walls",
+      "blurb": "Steps, stairs and retaining walls built for strength and looks.",
+      "intro": "Steps and retaining walls take careful forming and finishing. We handle both, together or on their own.",
+      "includes": ["Front porch steps", "Curved and decorative steps", "Retaining walls", "Walls with built-in steps"],
+      "photos": [["steps", "Front porch steps"], ["steps-herringbone", "Curved steps with herringbone inlay"], ["retaining-wall", "Retaining wall with steps"], ["wall-steps", "Retaining wall and stairs"]]
+    },
+    {
+      "slug": "decorative-concrete", "name": "Decorative & Stamped Concrete",
+      "blurb": "Stamped, colored, exposed aggregate, sand finish and acid stain.",
+      "intro": "We specialize in any concrete finish, so your project can look exactly the way you want.",
+      "includes": ["Stamped concrete", "Colored concrete", "Exposed aggregate and sand finish", "Acid stain finishes"],
+      "photos": [["stamped", "Stamped patio under a pergola"], ["stamped-2", "Stamped concrete with wood-plank border"], ["acid-stain", "Acid-stained concrete floor"]]
+    },
+    {
+      "slug": "ada-ramps-curbs", "name": "City ADA Ramps & Curbs",
+      "blurb": "ADA ramps, curbs and city sidewalk work.",
+      "intro": "We build ADA-compliant ramps, curbs and sidewalks for cities and commercial properties.",
+      "includes": ["City ADA ramps", "Curbs", "Commercial sidewalks", "Handrails and crossings"],
+      "photos": [["ada-ramp", "Corner ADA ramp"], ["ada-crosswalk", "ADA ramp at a crosswalk"], ["curb", "Concrete curb"]]
+    }
+  ]
+}

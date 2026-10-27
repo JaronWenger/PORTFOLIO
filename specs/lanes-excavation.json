@@ -1,0 +1,109 @@
+{
+  "slug": "lanes-excavation",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Lanes Excavation, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#22201c",
+    "dark_2": "#302d27",
+    "on_dark": "#f5f3ee",
+    "on_dark_muted": "#bdb7aa",
+    "accent": "#f2c200",
+    "accent_ink": "#1d1700",
+    "soft": "#f5f4f0",
+    "line": "#e3e0d8"
+  },
+
+  "business": {
+    "name": "Lanes Excavation",
+    "legal_name": "Lanes Excavation Inc",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 490-2633",
+    "phone_tel": "+15414902633",
+    "trust": ["Locally owned in Hood River", "Owner Jeremy Lane", "Bonded & insured", "Serving the Gorge"],
+    "footer_blurb": "Excavation, site prep, utilities, septic, drainage, sewer lines and driveways in Hood River and the Columbia Gorge.",
+    "social": {"Facebook": "https://m.facebook.com/profile.php?id=367430120076174"}
+  },
+
+  "home": {
+    "title": "Lanes Excavation | Excavation Contractor in Hood River, OR",
+    "description": "Site preparation, foundation excavation, utilities, septic systems, drainage, sewer lines, driveways and stump removal in Hood River and the Columbia Gorge.",
+    "hero_photo": "hero",
+    "hero_alt": "Excavator digging on a job site",
+    "eyebrow": "Lanes Excavation · Hood River, OR",
+    "headline": "Dirt work done right, from the first dig.",
+    "lead": "Site prep, foundations, utilities, septic, drainage and driveways across Hood River and the Gorge. Send your project and we'll get back to you, no voicemail needed.",
+    "services_eyebrow": "What we do",
+    "services_title": "Excavation services",
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Excavator on a job site",
+      "title": "Local dirt work from Jeremy Lane",
+      "paragraphs": [
+        "Lanes Excavation is owned and run by Jeremy Lane, and has been digging in Hood River and the Columbia Gorge for years.",
+        "From preparing a building site to running utilities, putting in septic systems and fixing drainage, we handle the dirt work that every project starts with.",
+        "Send us your project details any time and we'll get back to you with a free estimate."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your project.",
+    "text": "Send us your project details and we'll get back to you with a free estimate. No phone tag, no full voicemail box.",
+    "address_label": "Project address",
+    "details_label": "What do you need dug, built or fixed?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon about your estimate."
+  },
+
+  "services": [
+    {
+      "slug": "site-preparation", "name": "Site Preparation",
+      "blurb": "Clearing, grading and prep for new homes, shops and additions.",
+      "intro": "Every build starts with a well-prepared site. We clear, grade and get the ground ready.",
+      "includes": ["Clearing and grading", "Building pads", "Foundation excavation", "Backfill"],
+      "photos": [["site-prep", "Site preparation"]]
+    },
+    {
+      "slug": "utilities", "name": "Utilities & Sewer Lines",
+      "blurb": "Trenching for water, power and sewer lines.",
+      "intro": "We dig and backfill trenches for new utilities and replace failing sewer lines.",
+      "includes": ["Water and power trenching", "Sewer line installation and repair", "Utility hookups", "Backfill and compaction"],
+      "photos": [["trench", "Utility trench"]]
+    },
+    {
+      "slug": "septic-systems", "name": "Septic Systems",
+      "blurb": "New septic systems and drain fields.",
+      "intro": "We install septic systems and drain fields for homes outside sewer service.",
+      "includes": ["New septic systems", "Drain fields", "Tank installation", "Repairs and replacements"],
+      "photos": [["septic", "Septic installation"]]
+    },
+    {
+      "slug": "drainage", "name": "Drainage",
+      "blurb": "Fix standing water, wet basements and runoff.",
+      "intro": "Good drainage protects your home and land. We find where the water's going and fix it.",
+      "includes": ["French drains", "Footing drains", "Culverts and ditches", "Grading for runoff"],
+      "photos": [["drainage", "Drainage work"]]
+    },
+    {
+      "slug": "driveways", "name": "Driveways",
+      "blurb": "New gravel driveways and repairs.",
+      "intro": "From a new driveway to fixing ruts and washouts, we build driveways that hold up to Gorge weather.",
+      "includes": ["New gravel driveways", "Driveway repair and regrading", "Base rock and gravel", "Culverts"],
+      "photos": [["driveway", "Gravel driveway"]]
+    },
+    {
+      "slug": "stump-removal", "name": "Stump Removal",
+      "blurb": "Stumps dug out so you can build or landscape.",
+      "intro": "We pull stumps and clean up the hole so the ground is ready for what's next.",
+      "includes": ["Stump excavation", "Root removal", "Backfill and grading", "Haul-away"],
+      "photos": [["stump", "Stump removal"]]
+    }
+  ]
+}

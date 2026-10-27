@@ -1,0 +1,112 @@
+{
+  "slug": "ben-bailey-carpet",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Ben Bailey Carpet &amp; Upholstery Steam Cleaners, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Book a Cleaning",
+  "header_cta": "Book Now",
+
+  "theme": {
+    "dark": "#102a3a",
+    "dark_2": "#17384c",
+    "on_dark": "#f1f6f9",
+    "on_dark_muted": "#a9bfcc",
+    "accent": "#4cc3e8",
+    "accent_ink": "#052230",
+    "soft": "#f2f7f9",
+    "line": "#dce7ec"
+  },
+
+  "business": {
+    "name": "Ben Bailey Carpet & Upholstery",
+    "legal_name": "Ben Bailey Carpet & Upholstery Steam Cleaners LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "the Columbia River Gorge",
+    "phone_display": "(541) 296-4907",
+    "phone_tel": "+15412964907",
+    "license": "Licensed & Insured",
+    "trust": ["Serving the Gorge since 1993", "Family owned & operated", "Licensed & insured", "100% satisfaction guarantee"],
+    "footer_blurb": "Carpet, upholstery, tile and area rug steam cleaning plus water, fire and smoke restoration, from North Bonneville to Arlington since 1993.",
+    "areas": ["The Dalles", "Hood River", "North Bonneville", "Arlington", "and everywhere in between"],
+    "social": {"Facebook": "https://www.facebook.com/BenBaileyCarpetCleaning/"}
+  },
+
+  "home": {
+    "title": "Ben Bailey Carpet & Upholstery Steam Cleaners | The Dalles, OR",
+    "description": "Truck-mounted carpet, upholstery, tile and grout and area rug steam cleaning plus water, fire and smoke restoration across the Columbia River Gorge since 1993.",
+    "hero_photo": "hero",
+    "hero_alt": "Freshly steam-cleaned carpet in a bright living room",
+    "eyebrow": "Ben Bailey Carpet & Upholstery · The Dalles, OR",
+    "headline": "A fresher, cleaner home. Trusted for over 30 years.",
+    "lead": "Professional deep steam cleaning that removes dirt, stains and allergens, all throughout the Gorge from North Bonneville to Arlington.",
+    "services_eyebrow": "What we clean",
+    "services_title": "Cleaning & restoration services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "We attempted to clean our own carpet and made a mess of it... totally soap and water saturated and still not clean. Ken came over 3 times to re-clean and treat the carpet. He was very punctual and the rug looks so much better! Ken even offered to help me bring all the furniture back in. Awesome.", "name": "Regena Kepler", "place": "Facebook"},
+        {"quote": "FANTASTIC SERVICE! I called on Tuesday to see if I could schedule a one-room cleaning and Kendra said they had time the next day. The soiled spots were gone, the rug was clean and the room smelled great!", "name": "Customer review"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Our family",
+      "photo": "about",
+      "photo_alt": "Carpet cleaning in progress",
+      "title": "Kept in the family since 1993",
+      "paragraphs": [
+        "Kendra Thomas was born and raised in The Dalles. She took over her father Ben Bailey's business when he retired.",
+        "The business has stayed in the family: Kendra, her husband Ken and their children all work together to provide the utmost professional service.",
+        "We back our work with a 100% customer satisfaction guarantee. If you're not happy, we'll clean it a second time at no charge."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Book your cleaning.",
+    "text": "Tell us what needs cleaning and we'll get back to you with a time and a free estimate. Carpet cleaning is 40¢ per sq ft with a $145 shop minimum.",
+    "address_label": "Address",
+    "details_label": "What needs cleaning? (rooms, furniture, rugs)",
+    "button": "Request My Cleaning",
+    "thanks": "We got your request and will reach out soon to get you on the schedule."
+  },
+
+  "services": [
+    {
+      "slug": "carpet-cleaning", "name": "Carpet Steam Cleaning",
+      "blurb": "Truck-mounted steam up to 230°: the cleanest, driest carpet possible.",
+      "intro": "Our truck-mounted systems deliver up to 230 degrees of steam and powerful extraction, with Rotovac and Rx20 wands for the deepest clean.",
+      "includes": ["Truck-mounted steam cleaning", "Rotovac and Rx20 deep-cleaning wands", "Spot and stain treatment", "40¢ per sq ft, $145 shop minimum"],
+      "photos": [["carpet", "Steam cleaning a carpet"]]
+    },
+    {
+      "slug": "upholstery-cleaning", "name": "Upholstery Cleaning",
+      "blurb": "Sofas, love seats, recliners, sectionals and chairs.",
+      "intro": "We steam clean your furniture to lift dirt, stains and odors.",
+      "includes": ["Sofas: $80–$320", "Love seats: $60–$280", "Recliners: $40–$170", "Sectionals: $120–$400", "Kitchen chairs: $10–$30"],
+      "photos": [["upholstery", "Cleaning a sofa"]]
+    },
+    {
+      "slug": "tile-grout", "name": "Tile, Grout & Hard Floors",
+      "blurb": "Tile and grout, LVT, LVP and linoleum.",
+      "intro": "Hard floors hold onto dirt in the grout lines and texture. We get it out.",
+      "includes": ["Tile and grout: $1/sq ft", "LVT and LVP: $1–$1.25/sq ft", "Linoleum", "Residential and commercial"],
+      "photos": [["tile", "Clean tile floor"]]
+    },
+    {
+      "slug": "area-rugs", "name": "Area Rug Cleaning",
+      "blurb": "Area rugs cleaned with pickup and drop-off.",
+      "intro": "We pick up your area rugs, clean them and bring them back. Pricing varies by size.",
+      "includes": ["Pickup and drop-off", "Pricing by size", "Stain and odor treatment", "Ozone treatments"],
+      "photos": [["rug", "Area rug"]]
+    },
+    {
+      "slug": "water-fire-restoration", "name": "Water, Fire & Smoke Restoration",
+      "blurb": "Water extraction, sewer cleanup and fire and smoke restoration.",
+      "intro": "When water, fire or smoke damage hits, call us fast. We extract the water and clean up the damage.",
+      "includes": ["Water extraction ($250 minimum)", "Sewer cleanup ($500 minimum)", "Fire and smoke restoration", "Ozone treatments"],
+      "photos": [["water", "Water damage cleanup"]]
+    }
+  ]
+}

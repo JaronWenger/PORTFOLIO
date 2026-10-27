@@ -2,3 +2,24 @@ site/template/images/*  10 stock photos downloaded by hand by Jaron on 2026-10-2
 site/pioneer-plumbing/images/* (except owners.webp)  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-26:
   hero 29226620 · pipe-repair 6419128 · copper-pipe 3721272 · bathroom-sink 6444979 · bathroom 11701114 · shower 4194864 · pipe-stock 29301874 · bathroom-remodel 7031570
   (https://www.pexels.com/photo/<id>/)
+site/affordable-arbor-care/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 11930042 · about 8821018 · removal 7812853 · pruning 35606516 · stump 325333 · firewood 6832273
+  (https://www.pexels.com/photo/<id>/)
+site/ben-bailey-carpet/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 4107275 · about 5591482 · carpet 4107276 · upholstery 4401538 · tile 6196582 · rug 3116898 · water 18302377
+  (https://www.pexels.com/photo/<id>/)
+site/grace-landscape/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 6728926 · about 11364122 · mowing 6728919 · acreage 13630739 · wall 34257452 · patio 17240696 · cleanup 1623214
+  (https://www.pexels.com/photo/<id>/)
+site/heberts-appliance/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 17158638 · about 35290678 · repair 33388390 · inventory 28479466 · parts 34054478
+  (https://www.pexels.com/photo/<id>/)
+site/lanes-excavation/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 27434713 · about 5125782 · site-prep 11680715 · trench 9389356 · septic 29301874 · drainage 32257223 · driveway 4424176 · stump 11826861
+  (https://www.pexels.com/photo/<id>/)
+site/one-last-cast-plumbing/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 6419128 · about 8486928 · new-construction 14953886 · remodel 6956840 · repair 16509869
+  (https://www.pexels.com/photo/<id>/)
+site/green-gorge-construction/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 3958966 · about 5691513 · bathroom 17069809 · shower 7614405 · tub 1571461 · repairs 9606740
+  (https://www.pexels.com/photo/<id>/)

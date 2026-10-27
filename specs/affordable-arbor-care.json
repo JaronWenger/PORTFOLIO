@@ -1,0 +1,105 @@
+{
+  "slug": "affordable-arbor-care",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Affordable Arbor Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Free Bid",
+  "header_cta": "Free Bid",
+
+  "theme": {
+    "dark": "#1b2617",
+    "dark_2": "#273521",
+    "on_dark": "#f4f5f0",
+    "on_dark_muted": "#b9c0ad",
+    "accent": "#f39a1e",
+    "accent_ink": "#1d1100",
+    "soft": "#f5f5f0",
+    "line": "#e1e3d9"
+  },
+
+  "business": {
+    "name": "Affordable Arbor Care",
+    "legal_name": "Affordable Arbor Care LLC",
+    "logo_has_name": true,
+    "city": "Milwaukie",
+    "state": "OR",
+    "area": "the Portland area",
+    "phone_display": "(503) 260-4280",
+    "phone_tel": "+15032604280",
+    "email": "dougleitz@yahoo.com",
+    "license": "Licensed, Bonded & Insured · CCB #210432",
+    "trust": ["Licensed, Bonded & Insured", "CCB #210432", "Free estimates", "Call or text Doug"],
+    "footer_blurb": "Tree removal, pruning, stump grinding and seasoned firewood in Milwaukie and the Portland area.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Affordable Arbor Care | Tree Service in Milwaukie, OR",
+    "description": "Tree removal, pruning and shaping, stump grinding and dry seasoned firewood in Milwaukie and the Portland area. Licensed, bonded and insured. CCB #210432.",
+    "hero_photo": "hero",
+    "hero_alt": "Arborist working in a tall tree",
+    "eyebrow": "Affordable Arbor Care · Milwaukie, OR",
+    "headline": "Tree work done safely, at a fair price.",
+    "lead": "Tree removal, pruning and stump grinding across Milwaukie and the Portland area. Call or text Doug for a free bid.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "These are the arborists you want for your trees. Doug came out the same day, gave a very reasonable quote and chopped down the tree the next day.", "name": "Charles Lewis"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Tree crew at work",
+      "title": "Call Doug direct",
+      "paragraphs": [
+        "Affordable Arbor Care is Doug Leitz's tree service in Milwaukie, licensed, bonded and insured (CCB #210432).",
+        "Call or text Doug with photos of your trees and what you need done, and he'll get you a free bid.",
+        "If you know Doug, then you know it's good wood: we also sell dry, seasoned firewood."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free bid",
+    "title": "Request a bid.",
+    "text": "Tell us about your trees and we'll get back to you with a free bid. Photos help: text them to (503) 260-4280.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Request My Free Bid",
+    "thanks": "We got your request and will reach out soon with your bid."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Safe removal of dead, damaged or unwanted trees.",
+      "intro": "Whether a tree is dead, damaged or just in the way, we take it down safely and clean up after.",
+      "includes": ["Dead and hazardous trees", "Trees close to homes and structures", "Cleanup and haul-away", "Free bids"],
+      "photos": [["removal", "Tree removal"]]
+    },
+    {
+      "slug": "pruning-shaping", "name": "Pruning & Shaping",
+      "blurb": "Healthier, better-looking trees with proper pruning.",
+      "intro": "Good pruning keeps trees healthy, safe and looking their best.",
+      "includes": ["Crown thinning and shaping", "Deadwood removal", "Clearance from roofs and lines", "Ornamental trees"],
+      "photos": [["pruning", "Arborist pruning a tree"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Stumps ground down so you can use your yard again.",
+      "intro": "Stump grinding removes the eyesore and lets you replant, lay sod or build.",
+      "includes": ["Single stumps or whole yards", "Grinding below grade", "Cleanup of grindings", "Pairs with tree removal"],
+      "photos": [["stump", "Stump grinding"]]
+    },
+    {
+      "slug": "firewood", "name": "Firewood",
+      "blurb": "Dry, seasoned firewood: you-load bins or delivery.",
+      "intro": "All bins are a mix of firewood types seasoned for a year or longer, covered from the rain and ready to burn.",
+      "includes": ["You-load bins, just shy of 1/3 cord", "$80 cash or $100 debit/credit per bin", "First come, first served", "Call Doug about delivery or larger quantities"],
+      "photos": [["firewood", "Firewood stacked and ready to burn"]]
+    }
+  ]
+}

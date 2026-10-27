@@ -1,0 +1,130 @@
+{
+  "slug": "big-reds-concrete",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Big Red's Concrete, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+
+  "theme": {
+    "dark": "#121212",
+    "dark_2": "#1e1e1e",
+    "on_dark": "#f5f5f3",
+    "on_dark_muted": "#b8b8b4",
+    "accent": "#c8102e",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f4f2",
+    "line": "#e2e2de",
+    "wordmark_font": "\"Arial Black\", \"Helvetica Neue\", Arial, sans-serif"
+  },
+
+  "business": {
+    "name": "Big Red's Concrete",
+    "legal_name": "Big Red's Concrete",
+    "city": "Vancouver",
+    "state": "WA",
+    "area": "the Portland metro area",
+    "phone_display": "(503) 932-0333",
+    "phone_tel": "+15039320333",
+    "email": "jrkalamafoni@gmail.com",
+    "license": "WA L&I #BIGRERC808P7",
+    "trust": ["Free quotes", "Residential & small commercial", "20+ years in concrete", "WA L&I #BIGRERC808P7"],
+    "footer_blurb": "Residential and small commercial concrete in Vancouver, WA and the Portland metro area: driveways, patios, decorative concrete, foundations and retaining walls.",
+    "areas": ["Vancouver, WA", "Washougal, WA", "Camas, WA", "Battle Ground, WA", "Portland, OR", "Gresham, OR"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Big Red's Concrete | Concrete Contractor in Vancouver, WA",
+    "description": "Driveways, patios, stamped and decorative concrete, ADU foundations, retaining walls and steps in Vancouver, WA and the Portland metro area. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "Concrete pump truck pouring a slab at sunset",
+    "eyebrow": "Big Red's Concrete · Vancouver, WA",
+    "headline": "Concrete done right, from the ground up.",
+    "lead": "Driveways, walkways, patios, decorative concrete, ADU foundations, retaining walls and steps for homes across Vancouver and the Portland metro area.",
+    "services_eyebrow": "What we do",
+    "services_title": "Concrete services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "Thanks to Big Red's Concrete for giving us an estimate and staying inside that price, we were also happy with how fast the job was completed from start to finish.", "name": "Silvia Packston", "place": "Vancouver"},
+        {"quote": "They went above and beyond what was expected. They even handled the permitting process for our sidewalk which took a lot off of our plate.", "name": "Daniel Jarvis", "place": "Vancouver"},
+        {"quote": "I was happy with how fast they were able to finish our patio. We were expecting company the following week and they made sure they were in and out quickly and efficiently. We got a decorative patio and it looks amazing.", "name": "Tim Moody", "place": "Washougal"},
+        {"quote": "JR and his crew were exceptional at what they do, if I have any other concrete projects I will be sure to call them!", "name": "Shelley Williams", "place": "Portland"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Meet the owner",
+      "photo": "owners",
+      "photo_alt": "John \"Big Red\" Kalamafoni and his wife",
+      "title": "John \"Big Red\" Kalamafoni",
+      "paragraphs": [
+        "John started out working for his father's concrete contracting company at the age of 12, and worked with him into his early 20s.",
+        "He then spent over a decade in commercial concrete before starting Big Red's Concrete in 2020.",
+        "His nickname reflects not only his towering presence but his dedication to delivering big results on every project, from a new driveway to a decorative patio."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      ["driveway-1", "New concrete driveway"], ["stamped-1", "Stamped concrete patio"],
+      ["foundation-1", "Concrete foundation walls"], ["patio-2", "Backyard patio slab"],
+      ["driveway-4", "Driveway and approach"], ["firepit", "Stamped patio with fire pit"],
+      ["steps", "Front porch steps"], ["patio-3", "Patio beside a home"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Let's talk about your project.",
+    "text": "Tell us what you're planning and we'll reach out to schedule your free quote. Free quotes for homeowners and property managers.",
+    "address_label": "Project address",
+    "details_label": "Describe the work",
+    "button": "Get My Free Quote",
+    "thanks": "We got your request and will reach out shortly to schedule your free quote."
+  },
+
+  "services": [
+    {
+      "slug": "driveways", "name": "Concrete Driveways",
+      "blurb": "New driveways, replacements and repairs that add curb appeal.",
+      "intro": "A concrete driveway is one of the best investments for your home's curb appeal and durability. We pour new driveways and replace or repair old ones.",
+      "includes": ["New driveway installation", "Driveway replacement and repair", "City sidewalks and approaches", "Sand finish and exposed aggregate options"],
+      "photos": [["driveway-1", "New concrete driveway"], ["driveway-2", "Driveway beside a lawn"], ["driveway-3", "Driveway in front of a garage"]]
+    },
+    {
+      "slug": "patios", "name": "Patios",
+      "blurb": "Backyard patios built to last, plain or decorative.",
+      "intro": "From a simple backyard slab to a decorative stamped patio, we build outdoor spaces you'll use for years.",
+      "includes": ["Backyard and side-yard patios", "Stamped and colored patios", "Fire pit surrounds", "Front porches and entryways"],
+      "photos": [["patio-1", "Backyard patio slab"], ["patio-2", "Large patio beside a home"], ["firepit", "Stamped patio with fire pit"]]
+    },
+    {
+      "slug": "decorative-concrete", "name": "Decorative Concrete",
+      "blurb": "Stamped, stained, colored and exposed aggregate finishes.",
+      "intro": "Decorative concrete gives you the look of stone or tile with the strength of concrete.",
+      "includes": ["Stamped concrete", "Concrete stains and dyes", "Colored concrete", "Sand finish and exposed aggregate"],
+      "photos": [["stamped-1", "Stamped concrete patio"], ["stamped-2", "Stamped concrete walkway"], ["firepit", "Stamped patio with fire pit"]]
+    },
+    {
+      "slug": "foundations", "name": "Foundations & ADU Foundations",
+      "blurb": "Footings and stem walls for new homes, additions and ADUs.",
+      "intro": "A strong foundation is essential for a happy home. We build new foundations and repair old ones, from footings to stem walls.",
+      "includes": ["New construction foundations", "ADU and home addition foundations", "Footings and stem walls", "Repairing old foundations"],
+      "photos": [["foundation-1", "Concrete foundation walls"], ["foundation-2", "Foundation for a new build"]]
+    },
+    {
+      "slug": "retaining-walls", "name": "Retaining Walls",
+      "blurb": "Poured and block retaining walls that hold back the earth and look good doing it.",
+      "intro": "A well-built retaining wall makes sloped land usable and adds character to your outdoor space.",
+      "includes": ["Poured-in-place concrete retaining walls", "Precast concrete retaining walls", "Masonry walls with precast blocks", "Landscaping walls"],
+      "photos": [["wall", "Retaining wall under construction"]]
+    },
+    {
+      "slug": "steps-walkways", "name": "Steps & Walkways",
+      "blurb": "Concrete steps, stairs, walkways and entryways.",
+      "intro": "Safe, solid steps and walkways that make getting around your home easier.",
+      "includes": ["Front and back steps", "Stairways", "Walkways and paths", "Concrete entranceways"],
+      "photos": [["steps", "Front porch steps"], ["stairs", "Concrete stairway"], ["walkway", "Walkway to a new home"]]
+    }
+  ]
+}

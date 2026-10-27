@@ -1,0 +1,88 @@
+{
+  "slug": "one-last-cast-plumbing",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for One Last Cast Plumbing, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#0f2232",
+    "dark_2": "#163043",
+    "on_dark": "#f1f5f8",
+    "on_dark_muted": "#a8bac8",
+    "accent": "#4fc3f7",
+    "accent_ink": "#04202e",
+    "soft": "#f2f6f9",
+    "line": "#dde6ec"
+  },
+
+  "business": {
+    "name": "One Last Cast Plumbing",
+    "legal_name": "One Last Cast Plumbing LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 980-3247",
+    "phone_tel": "+15419803247",
+    "trust": ["14-month warranty", "Recommended by local realtors", "BBB Accredited", "Locally owned in The Dalles"],
+    "footer_blurb": "New construction and remodel plumbing, plus repairs, for homes in The Dalles and the Columbia Gorge.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "One Last Cast Plumbing | Plumber in The Dalles, OR",
+    "description": "New construction plumbing, remodel plumbing and repairs in The Dalles and the Columbia Gorge, backed by a 14-month warranty.",
+    "hero_photo": "hero",
+    "hero_alt": "Plumber working under a sink",
+    "eyebrow": "One Last Cast Plumbing · The Dalles, OR",
+    "headline": "Plumbing done right, backed for 14 months.",
+    "lead": "New construction, remodels and repairs for homes across The Dalles and the Gorge, from the plumber local realtors recommend.",
+    "services_eyebrow": "What we do",
+    "services_title": "Plumbing services",
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Plumber at work",
+      "title": "Will Macomber, owner",
+      "paragraphs": [
+        "One Last Cast Plumbing is Will Macomber's company, based in The Dalles and BBB Accredited.",
+        "Local realtors recommend Will for new construction, remodels and the repairs that come up when a home changes hands.",
+        "Every job is backed by a 14-month warranty."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your project.",
+    "text": "New build, remodel or repair: send us the details and we'll get back to you with a free estimate.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon about your estimate."
+  },
+
+  "services": [
+    {
+      "slug": "new-construction", "name": "New Construction Plumbing",
+      "blurb": "Complete plumbing for new homes and additions.",
+      "intro": "We plumb new homes and additions from rough-in to final fixtures, working with your builder's schedule.",
+      "includes": ["Rough-in plumbing", "Water and drain lines", "Fixture installation", "Working with builders and GCs"],
+      "photos": [["new-construction", "Rough-in plumbing"]]
+    },
+    {
+      "slug": "remodels", "name": "Remodel Plumbing",
+      "blurb": "Kitchens, bathrooms and remodels of every size.",
+      "intro": "Moving a sink, adding a bathroom or updating a kitchen? We handle the plumbing so your remodel stays on track.",
+      "includes": ["Bathroom remodels", "Kitchen remodels", "Moving and adding fixtures", "Updating old pipes"],
+      "photos": [["remodel", "Bathroom remodel"]]
+    },
+    {
+      "slug": "repairs", "name": "Plumbing Repairs",
+      "blurb": "Leaks, fixtures and repairs, including before a home sale.",
+      "intro": "From a leaky faucet to repairs on an inspection list, we'll get it fixed right.",
+      "includes": ["Leak repairs", "Faucets, toilets and sinks", "Inspection and home-sale repairs", "Backed by our 14-month warranty"],
+      "photos": [["repair", "Plumbing repair"]]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "grace-landscape",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Grace Landscape Maintenance, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+
+  "theme": {
+    "dark": "#17261b",
+    "dark_2": "#213426",
+    "on_dark": "#f3f6f2",
+    "on_dark_muted": "#b2c1b3",
+    "accent": "#86c45a",
+    "accent_ink": "#0f1f07",
+    "soft": "#f3f6f1",
+    "line": "#dee5da"
+  },
+
+  "business": {
+    "name": "Grace Landscape Maintenance",
+    "legal_name": "GRACE Landscape Maintenance LLC",
+    "city": "Wood Village",
+    "state": "OR",
+    "area": "East Portland and the Gresham area",
+    "phone_display": "(503) 995-0572",
+    "phone_tel": "+15039950572",
+    "license": "CCB #244900",
+    "trust": ["Weekly maintenance", "Small yards to 8-acre properties", "CCB #244900", "Free quotes"],
+    "footer_blurb": "Weekly landscape maintenance, retaining walls and patios for homes and properties in Wood Village, Fairview, Gresham and Troutdale.",
+    "areas": ["Wood Village", "Fairview", "Gresham", "Troutdale"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Grace Landscape Maintenance | Landscaping in Wood Village, OR",
+    "description": "Weekly landscape maintenance, cleanups, retaining walls and patios in Wood Village, Fairview, Gresham and Troutdale. CCB #244900. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "Freshly mowed lawn and trimmed landscaping",
+    "eyebrow": "Grace Landscape Maintenance · Wood Village, OR",
+    "headline": "A yard you're proud of, every week.",
+    "lead": "Weekly maintenance plus bigger projects like retaining walls and patios, for homes and large properties across East Portland.",
+    "services_eyebrow": "What we do",
+    "services_title": "Landscaping services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "Grace Landscape does exceptional work! Very thorough, very meticulous.", "name": "Gary Swoboda"},
+        {"quote": "I cannot say enough good things about Jorge and his company.", "name": "Jessica M. Quaicoe"},
+        {"quote": "These guys are unbelievable!", "name": "Georgette Taluy"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Landscaper at work",
+      "title": "Jorge and the Grace crew",
+      "paragraphs": [
+        "Grace Landscape Maintenance is Jorge's company, licensed with the Oregon CCB (#244900).",
+        "We take care of yards week in and week out, and take on bigger jobs too: retaining walls, patios and properties up to 8 acres.",
+        "Ask for a maintenance quote and we'll set up a schedule that fits your property."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Get a maintenance quote.",
+    "text": "Tell us about your property and what you need, and we'll get back to you with a free quote.",
+    "address_label": "Property address",
+    "details_label": "What do you need? (weekly care, a project, property size)",
+    "button": "Get My Free Quote",
+    "thanks": "We got your request and will reach out soon with your quote."
+  },
+
+  "services": [
+    {
+      "slug": "weekly-maintenance", "name": "Weekly Maintenance",
+      "blurb": "Mowing, edging, trimming and cleanup on a regular schedule.",
+      "intro": "Regular care keeps your yard looking good all season without you lifting a finger.",
+      "includes": ["Mowing and edging", "Shrub and hedge trimming", "Weeding and bed care", "Weekly or every-other-week visits"],
+      "photos": [["mowing", "Mowing a lawn"]]
+    },
+    {
+      "slug": "large-properties", "name": "Large Properties",
+      "blurb": "Acreage and large lots, up to 8 acres.",
+      "intro": "Big properties need a crew that can keep up. We maintain lots up to 8 acres.",
+      "includes": ["Acreage mowing", "Field and border trimming", "Seasonal cleanups", "Ongoing maintenance plans"],
+      "photos": [["acreage", "Large mowed property"]]
+    },
+    {
+      "slug": "retaining-walls", "name": "Retaining Walls",
+      "blurb": "Block retaining walls that hold back slopes and frame beds.",
+      "intro": "A retaining wall makes a sloped yard usable and gives your beds a clean edge.",
+      "includes": ["Block retaining walls", "Raised garden beds", "Slope and erosion control", "Planting after the build"],
+      "photos": [["wall", "Block retaining wall"]]
+    },
+    {
+      "slug": "patios", "name": "Patios",
+      "blurb": "Paver and stone patios for outdoor living.",
+      "intro": "A new patio gives you more room to enjoy your yard.",
+      "includes": ["Paver patios", "Stone patios and paths", "Base prep and drainage", "Finishing with plantings"],
+      "photos": [["patio", "Paver patio"]]
+    },
+    {
+      "slug": "cleanups", "name": "Seasonal Cleanups",
+      "blurb": "Spring and fall cleanups, leaf removal and bed refreshes.",
+      "intro": "Start the season right with a full cleanup of your yard and beds.",
+      "includes": ["Leaf removal", "Pruning and cutbacks", "Bed refresh", "Haul-away"],
+      "photos": [["cleanup", "Fall leaf cleanup"]]
+    }
+  ]
+}
