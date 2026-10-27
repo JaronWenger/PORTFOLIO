@@ -1,17 +1,23 @@
-# 🌐 PORTFOLIO 
+# jaronwenger.com
 
-[jaronwenger.com](https://jaronwenger.com) Chronological order of my projects & ventures.
+Hosted on Cloudflare Pages: pushing to `main` deploys. Cloudflare runs `npm run build` and publishes `build/`.
 
+| Path | What | Source |
+|---|---|---|
+| `/` | "Built Before You Buy" landing page for local service businesses | `site/index.html` |
+| `/privacy/` | Privacy policy | `site/privacy/` |
+| `/portfolio/` | Software portfolio (React) | `src/` |
+| `/<slug>/` | Private spec sites for prospects (never indexed) | `specs/<slug>.json` → `site/<slug>/` |
 
-<img width="1496" alt="Screenshot 2025-02-04 at 8 46 43 PM" src="https://github.com/user-attachments/assets/7d3c4aa2-9ffd-49b6-813f-762695235a97" />
+## Commands
 
+- `npm start`: run the React portfolio locally
+- `npm run build`: build the portfolio, then `scripts/assemble.js` moves it to `build/portfolio/`, copies `site/` to the root of `build/` and checks the spec rules
+- `npm run preview`: build, then serve it the way Cloudflare does at `http://localhost:8788`
 
+## Spec sites
 
-## Tech stack
-<img align="left" alt="Java" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />        
-<img align="left" alt="Java" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-<img align="left" alt="Java" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-<img align="left" alt="Java" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-<img align="left" alt="Java" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+- Rules that keep specs private: [`SPECS.md`](SPECS.md)
+- How to make one from a config: [`specs/README.md`](specs/README.md)
 
- 
+When a prospect buys, their site moves to its own GitHub repo and Cloudflare Pages project on their domain, and the spec here is taken down.

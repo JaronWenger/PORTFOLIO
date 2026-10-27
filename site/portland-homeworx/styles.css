@@ -1,5 +1,5 @@
 /* Spec template styles. specs/build.py copies this file into each spec folder
-   and prepends a :root block with the business's theme colors. */
+   and appends a :root block with the business's theme colors. */
 :root {
   --ink: #141414;
   --muted: #5e5e5b;
