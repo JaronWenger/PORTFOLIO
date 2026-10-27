@@ -1,0 +1,116 @@
+{
+  "slug": "template",
+  "year": 2026,
+  "preview_bar": "Template demo: Ridgeline Painting Co. is a fictional business. Built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#13203a",
+    "dark_2": "#1b2b4b",
+    "on_dark": "#f3f4f7",
+    "on_dark_muted": "#b3b9c7",
+    "accent": "#e9b44c",
+    "accent_ink": "#1d1606",
+    "soft": "#f5f4f0",
+    "line": "#e3e1da"
+  },
+
+  "business": {
+    "name": "Ridgeline Painting Co.",
+    "legal_name": "Ridgeline Painting Co. (fictional example business)",
+    "initials": "RP",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 555-0142",
+    "phone_tel": "+15415550142",
+    "email": "hello@example.com",
+    "license": "Licensed, Bonded & Insured · CCB# 000000 (example)",
+    "trust": ["Licensed, Bonded & Insured", "CCB# 000000 (example)", "Locally owned", "Free estimates"],
+    "footer_blurb": "Residential and commercial painting for homes and businesses in Hood River and the Columbia Gorge.",
+    "social": { "Facebook": "https://www.facebook.com/" }
+  },
+
+  "home": {
+    "title": "Ridgeline Painting Co. | Painting Contractor in Hood River, OR",
+    "description": "Interior and exterior painting, cabinet refinishing, staining and more in Hood River and the Columbia Gorge. Licensed, bonded and insured. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Freshly painted two-story home",
+    "eyebrow": "Ridgeline Painting Co. · Hood River, OR",
+    "headline": "Painting done right, the first time.",
+    "lead": "Interior and exterior painting, cabinets, decks and more for homes and businesses across the Columbia Gorge.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting services",
+    "about": {
+      "photo": "team",
+      "photo_alt": "Painter at work on a ladder",
+      "title": "Locally owned in Hood River",
+      "paragraphs": [
+        "Ridgeline Painting is a small, local crew painting homes and businesses across the Columbia Gorge.",
+        "We take the time to prep every surface properly, protect your home while we work, and leave the job site clean at the end of every day.",
+        "From a single room to a full exterior, you get clear communication, a written estimate and a finish you'll be proud of."
+      ]
+    },
+    "gallery": [
+      ["gallery-1", "Painted home exterior"], ["gallery-2", "Painted living room"],
+      ["gallery-3", "White kitchen cabinets"], ["gallery-4", "Room prepped for painting"],
+      ["gallery-5", "Stained wood deck"], ["gallery-6", "Painted front door"],
+      ["gallery-7", "Bright painted bedroom"], ["gallery-8", "Commercial office interior"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Let's talk about your project.",
+    "text": "Tell us what you'd like painted and we'll get back to you with a free, written estimate.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon to set up your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Siding, trim and doors, with careful prep for a finish that lasts.",
+      "intro": "A fresh exterior protects your home and boosts curb appeal. Most of a lasting paint job is in the prep, so that's where we start.",
+      "includes": ["Siding, trim, fascia and soffits", "Front doors, garage doors and shutters", "Surface prep: washing, scraping, sanding, caulking and priming", "Residential and commercial properties"],
+      "photos": [["gallery-1", "Painted home exterior"], ["gallery-6", "Painted front door"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior Painting",
+      "blurb": "Walls, ceilings and trim, from a single room to the whole house.",
+      "intro": "Whether it's one room or the whole house, we protect your floors and furniture, cut clean lines and leave every room ready to use.",
+      "includes": ["Walls, ceilings, trim and doors", "Floors and furniture covered and protected", "Clean, sharp lines", "A thorough cleanup when we're done"],
+      "photos": [["gallery-2", "Painted living room"], ["gallery-7", "Bright painted bedroom"]]
+    },
+    {
+      "slug": "cabinet-refinishing", "name": "Cabinet Refinishing",
+      "blurb": "A new look for dated cabinets, without the cost of replacing them.",
+      "intro": "Refinishing gives your kitchen a whole new look for a fraction of the cost of new cabinets.",
+      "includes": ["Kitchen and bathroom cabinets", "Doors, drawer fronts and frames", "Cleaning, sanding and priming for a durable finish", "Hardware removed and reinstalled"],
+      "photos": [["gallery-3", "White kitchen cabinets"]]
+    },
+    {
+      "slug": "deck-fence-staining", "name": "Deck & Fence Staining",
+      "blurb": "Protect and refresh decks, fences and outdoor wood.",
+      "intro": "Sun and rain wear down outdoor wood fast. Cleaning and staining brings it back and protects it for seasons to come.",
+      "includes": ["Decks, railings and stairs", "Fences and gates", "Cleaning and prep before staining", "Solid, semi-transparent and clear finishes"],
+      "photos": [["gallery-5", "Stained wood deck"]]
+    },
+    {
+      "slug": "drywall-repair", "name": "Drywall Repair",
+      "blurb": "Holes, cracks and damaged sections patched smooth and ready for paint.",
+      "intro": "From small holes to damaged sections, we repair drywall so it blends in with the rest of the wall, then finish it with paint.",
+      "includes": ["Holes, dents and cracks", "Damaged sections replaced", "Texture matched to the surrounding wall", "Primed and painted to blend in"],
+      "photos": [["gallery-4", "Room prepped for painting"]]
+    },
+    {
+      "slug": "pressure-washing", "name": "Pressure Washing",
+      "blurb": "Siding, decks, driveways and patios cleaned, before paint or just to refresh.",
+      "intro": "Pressure washing brings back siding, decks and concrete, and it's the first step of every exterior paint job.",
+      "includes": ["Siding and exterior walls", "Decks and fences", "Driveways, walkways and patios", "Prep before exterior painting"]
+    }
+  ]
+}

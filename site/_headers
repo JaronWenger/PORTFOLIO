@@ -10,3 +10,9 @@
 #
 # /nwtree/*
 #   X-Robots-Tag: noindex
+
+/elliott-painting/*
+  X-Robots-Tag: noindex
+
+/template/*
+  X-Robots-Tag: noindex

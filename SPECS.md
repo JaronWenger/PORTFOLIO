@@ -4,6 +4,8 @@ A spec is a prospect's site, built before I contact them and hosted privately at
 `jaronwenger.com/[slug]/` (e.g. `/nwtree/`). These rules keep specs private and
 out of search results.
 
+To start a new spec from the template, see [`specs/README.md`](specs/README.md).
+
 ## Rules
 
 1. **One self-contained folder per spec:** `site/[slug]/`. It holds its own HTML,
@@ -20,9 +22,11 @@ out of search results.
      X-Robots-Tag: noindex
    ```
 4. **Never link a spec** from the main site's nav, footer or pages, and never
-   add it to `site/sitemap.xml`.
-5. **Slugs** are lowercase letters, numbers and hyphens. `privacy`, `images` and
-   `portfolio` are taken.
+   add it to `site/sitemap.xml`. The one exception is `/template/`, the
+   fictional demo business: the landing page hero links to it as a sample. It
+   still follows rules 1 to 3 and stays out of the sitemap.
+5. **Slugs** are lowercase letters, numbers and hyphens. `privacy`, `images`,
+   `portfolio` and `template` are taken.
 
 `npm run build` runs `scripts/assemble.js`, which treats every folder in `site/`
 except `privacy` and `images` as a spec. It fails the build if a spec is missing the meta tag
