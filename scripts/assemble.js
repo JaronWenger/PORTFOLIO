@@ -12,9 +12,9 @@ const ROOT = path.join(__dirname, '..');
 const BUILD = path.join(ROOT, 'build');
 const SITE = path.join(ROOT, 'site');
 
-// Folders in site/ that are real pages of the main site. Any other folder in
+// Folders in site/ that belong to the main site (pages, images). Any other folder in
 // site/ is treated as a private spec preview.
-const SITE_PAGES = ['privacy'];
+const SITE_PAGES = ['privacy', 'images'];
 
 const fail = (message) => {
     console.error(`\nassemble: ${message}\n`);

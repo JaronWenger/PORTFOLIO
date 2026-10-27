@@ -21,11 +21,11 @@ out of search results.
    ```
 4. **Never link a spec** from the main site's nav, footer or pages, and never
    add it to `site/sitemap.xml`.
-5. **Slugs** are lowercase letters, numbers and hyphens. `privacy` and
+5. **Slugs** are lowercase letters, numbers and hyphens. `privacy`, `images` and
    `portfolio` are taken.
 
 `npm run build` runs `scripts/assemble.js`, which treats every folder in `site/`
-except `privacy` as a spec. It fails the build if a spec is missing the meta tag
+except `privacy` and `images` as a spec. It fails the build if a spec is missing the meta tag
 or the header rule, or appears in the sitemap. If you add a real page to the
 main site as a folder, add its name to `SITE_PAGES` in that script.
 
