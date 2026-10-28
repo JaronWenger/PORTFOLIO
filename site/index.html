@@ -29,7 +29,7 @@
   <meta property="og:image:alt" content="Jaron Wenger">
   <meta name="twitter:card" content="summary">
 
-  <link rel="preload" as="image" href="/images/template-macbook.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="/images/template-tree-macbook.webp" fetchpriority="high">
   <link rel="icon" type="image/svg+xml" href="/images/jw-icon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/jw-icon-32.png">
   <link rel="apple-touch-icon" href="/images/jw-apple-touch-icon.png">
@@ -151,20 +151,41 @@
     .hero-proof li { display: flex; align-items: center; gap: 8px; }
     .hero-proof svg { width: 16px; height: 16px; stroke: var(--glow); fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
 
-    /* Sample site on a laptop */
-    .hero-demo { position: relative; display: block; margin: 52px auto 0; max-width: 560px; text-decoration: none; }
-    .hero-demo img {
-      position: relative; display: block; width: 100%; height: auto;
-      filter: drop-shadow(0 30px 50px rgba(0, 0, 0, .55));
-      transition: transform .35s ease;
+    /* Sample sites: a phone beside a laptop. Every few seconds a soft wipe sweeps
+       diagonally (top left to bottom right) across both screens to the next sample site. */
+    .hero-demo { position: relative; margin: 52px auto 0; max-width: 560px; }
+    .demo-stage { position: relative; display: block; padding-left: 9%; text-decoration: none; }
+    .demo-laptop, .demo-phone { display: grid; transition: transform .35s ease; }
+    .demo-laptop { filter: drop-shadow(0 30px 50px rgba(0, 0, 0, .55)); }
+    .demo-phone {
+      position: absolute; left: 0; bottom: -2%; width: 23%; z-index: 1;
+      filter: drop-shadow(0 18px 30px rgba(0, 0, 0, .6));
     }
-    .hero-demo:hover img { transform: translateY(-6px); }
-    .hero-demo .demo-label {
-      position: absolute; left: 50%; bottom: -6px; transform: translate(-50%, 50%); white-space: nowrap;
-      display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 999px;
-      background: #fff; color: var(--ink); font-size: .88rem; font-weight: 650;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+    .demo-stage:hover .demo-laptop, .demo-stage:hover .demo-phone { transform: translateY(-6px); }
+    .demo-laptop img, .demo-phone img { grid-area: 1 / 1; display: block; width: 100%; height: auto; visibility: hidden; }
+    .demo-laptop img.is-active, .demo-phone img.is-active { visibility: visible; z-index: 1; }
+    /* The incoming site: a soft-edged mask sweeps across it, top left to bottom right */
+    .demo-laptop img.is-entering, .demo-phone img.is-entering {
+      visibility: visible; z-index: 2;
+      -webkit-mask-image: linear-gradient(to bottom right, #000 44%, transparent 56%);
+      mask-image: linear-gradient(to bottom right, #000 44%, transparent 56%);
+      -webkit-mask-size: 300% 300%; mask-size: 300% 300%;
+      -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+      animation: demo-wipe 1.2s cubic-bezier(.65, 0, .35, 1) both;
     }
+    .demo-laptop img.is-entering { animation-delay: .15s; } /* the wipe reaches the phone (left) first */
+    @keyframes demo-wipe {
+      from { -webkit-mask-position: 100% 100%; mask-position: 100% 100%; }
+      to { -webkit-mask-position: 0 0; mask-position: 0 0; }
+    }
+    .demo-cta { display: flex; justify-content: center; margin-top: 36px; }
+    .demo-cta a {
+      display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 24px; border-radius: 999px;
+      border: 1px solid rgba(63, 207, 142, .5); background: rgba(63, 207, 142, .1); color: var(--on-dark);
+      font-size: .95rem; font-weight: 650; text-decoration: none;
+      transition: background-color .25s ease;
+    }
+    .demo-cta a:hover { background: rgba(63, 207, 142, .18); }
 
     /* Scrolling strip of selling points, the last row of the dark hero */
     .ticker { position: relative; z-index: 1; overflow: hidden; margin-top: 72px; border-top: 1px solid var(--dark-line); padding: 18px 0; font-size: .92rem; color: var(--on-dark-muted); }
@@ -325,6 +346,26 @@
     .lead-form .form-done h3 { margin-bottom: 6px; font-size: 1.4rem; }
     .lead-form .form-done p { color: var(--muted); margin: 0; }
 
+    /* About me: who they'd be working with */
+    .about { display: grid; gap: 32px; align-items: center; }
+    .about-photo { width: 100%; max-width: 280px; height: auto; border-radius: 20px; box-shadow: 0 24px 50px -28px rgba(15, 20, 18, .45); }
+    .about h2 { margin-bottom: 18px; }
+    .about-copy > p { color: var(--muted); font-size: 1.08rem; }
+    .about-copy h3 { margin: 28px 0 14px; font-size: 1.2rem; }
+    .about .checks { border-top: 0; padding-top: 0; margin-bottom: 24px; }
+    .about .checks li { color: var(--muted); align-items: flex-start; }
+    .about .checks li::before {
+      flex: none; display: grid; place-items: center; width: 22px; height: 22px; margin-top: 2px; border-radius: 50%;
+      background: var(--brand); color: var(--brand-ink); font-size: .7rem;
+    }
+    .about .checks strong { color: var(--ink); }
+    .about-sign { margin: 0; font-size: .95rem; color: var(--muted); }
+    .about-sign strong { color: var(--ink); }
+    @media (min-width: 760px) {
+      .about { grid-template-columns: 300px minmax(0, 1fr); gap: 56px; }
+      .about-photo { max-width: none; }
+    }
+
     /* Footer */
     footer { background: var(--dark); color: var(--on-dark-muted); border-top: 1px solid var(--dark-line); padding: 28px 0; font-size: .92rem; }
     footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
@@ -407,10 +448,21 @@
               <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Columbia Gorge &amp; Portland</li>
             </ul>
           </div>
-          <a class="hero-demo" href="/template/" target="_blank" rel="noopener">
-            <img src="/images/template-macbook.webp" width="1100" height="649" alt="Sample painting company website shown on a laptop" fetchpriority="high">
-            <span class="demo-label">See a sample site &rarr;</span>
-          </a>
+          <div class="hero-demo">
+            <a class="demo-stage" href="/template-tree/" target="_blank" rel="noopener">
+              <span class="demo-laptop">
+                <img class="is-active" src="/images/template-tree-macbook.webp" width="1100" height="649" alt="Sample tree service website on a laptop" data-sample="tree" data-href="/template-tree/" data-name="tree service" fetchpriority="high">
+                <img src="/images/template-pressure-washing-macbook.webp" width="1100" height="649" alt="" data-sample="pressure-washing" data-href="/template-pressure-washing/" data-name="pressure washing" aria-hidden="true" decoding="async">
+                <img src="/images/template-macbook.webp" width="1100" height="649" alt="" data-sample="painting" data-href="/template/" data-name="painting company" aria-hidden="true" decoding="async">
+              </span>
+              <span class="demo-phone">
+                <img class="is-active" src="/images/template-tree-iphone.webp" width="388" height="784" alt="Sample tree service website on a phone" data-sample="tree" data-href="/template-tree/" data-name="tree service" decoding="async">
+                <img src="/images/template-pressure-washing-iphone.webp" width="388" height="784" alt="" data-sample="pressure-washing" data-href="/template-pressure-washing/" data-name="pressure washing" aria-hidden="true" decoding="async">
+                <img src="/images/template-iphone.webp" width="388" height="784" alt="" data-sample="painting" data-href="/template/" data-name="painting company" aria-hidden="true" decoding="async">
+              </span>
+            </a>
+            <div class="demo-cta"><a href="/template-tree/" target="_blank" rel="noopener">See a sample site &rarr;</a></div>
+          </div>
         </div>
       </div>
 
@@ -616,6 +668,26 @@
       </div>
     </section>
 
+    <!-- About me (adapted from the cinestoke.com/agency "Who you'd be working with" callout) -->
+    <section id="about" class="band-soft">
+      <div class="wrap about">
+        <img class="about-photo" src="/images/jaron.webp" width="640" height="801" alt="Jaron Wenger" loading="lazy">
+        <div class="about-copy">
+          <span class="eyebrow">Who you'd be working with</span>
+          <h2>Hey, I'm Jaron.</h2>
+          <p>Writing code became my passion in high school, and I've been building for the web ever since.</p>
+          <p>My mission is simple: help local businesses win more work. You're the people your community counts on, and your website is your storefront now. It's the first place customers go to decide whether to call you, and it should look as good as the work you do.</p>
+          <h3>You work with me. Not an agency.</h3>
+          <ul class="checks">
+            <li><span><strong>A direct line to me.</strong> You get my cell. Text a change and I make it. No support tickets, no account manager.</span></li>
+            <li><span><strong>Hand-coded, not a page builder.</strong> I write the code myself instead of using a Wix or Squarespace template, which is why your site loads almost instantly and I can change anything.</span></li>
+            <li><span><strong>Built to make your phone ring.</strong> Call and quote buttons on every page, fast on any phone, and a text the moment a new lead comes in.</span></li>
+          </ul>
+          <p class="about-sign"><strong>Jaron Wenger</strong> · Web designer &amp; developer · <a href="tel:+17177235127">(717) 723-5127</a></p>
+        </div>
+      </div>
+    </section>
+
     <!-- 8. Contact -->
     <section class="contact" id="contact">
       <div class="wrap">
@@ -686,10 +758,47 @@
   </div>
 
   <script>
-    // GA: count clicks on the sample site in the hero
-    document.querySelector('.hero-demo').addEventListener('click', function () {
-      if (window.gtag) gtag('event', 'sample_site_click');
-    });
+    // Sample sites in the hero: every few seconds both screens wipe to the next site
+    // (CSS animation on .is-entering), and the links follow. It waits while the pointer
+    // is on the button, so its link never changes under a click.
+    (function () {
+      var demo = document.querySelector('.hero-demo');
+      var stage = demo.querySelector('.demo-stage');
+      var cta = demo.querySelector('.demo-cta a');
+      var laptops = demo.querySelectorAll('.demo-laptop img');
+      var phones = demo.querySelectorAll('.demo-phone img');
+      var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var current = 0;
+
+      var setActive = function (imgs, i) {
+        imgs.forEach(function (img, n) {
+          img.classList.toggle('is-active', n === i);
+          img.classList.remove('is-entering');
+          img.alt = n === i ? 'Sample ' + img.dataset.name + ' website on a ' + (img.closest('.demo-phone') ? 'phone' : 'laptop') : '';
+          if (n === i) img.removeAttribute('aria-hidden'); else img.setAttribute('aria-hidden', 'true');
+        });
+      };
+      var next = function () {
+        if (document.hidden || cta.matches(':hover')) { setTimeout(next, 1500); return; }
+        var i = (current + 1) % laptops.length;
+        current = i;
+        stage.href = cta.href = laptops[i].dataset.href;
+        [laptops, phones].forEach(function (imgs) {
+          imgs[i].classList.add('is-entering');
+          // Once the wipe has finished (1.2s, laptop .15s later), the new site becomes the base layer
+          setTimeout(function () { setActive(imgs, i); }, 1500);
+        });
+        setTimeout(next, 5000);
+      };
+      if (!reduced) setTimeout(next, 4000);
+
+      // GA: count clicks on the sample site, and which one
+      [stage, cta].forEach(function (link) {
+        link.addEventListener('click', function () {
+          if (window.gtag) gtag('event', 'sample_site_click', { sample: laptops[current].dataset.sample });
+        });
+      });
+    })();
 
     // Lead form, same pattern as cinestoke.com/agency: submits straight to the
     // HubSpot Forms API (HubSpot also emails the lead notification). The portal

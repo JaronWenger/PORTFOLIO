@@ -8,7 +8,10 @@ This folder is **not published**. Only the output in `site/<slug>/` is.
 
 - `build.py`: the generator
 - `template/styles.css`, `template/script.js`: shared design and behavior, copied into each spec
-- `examples/painting-company.json`: a fictional painting company (Ridgeline Painting Co.), published at `/template/` as a reference
+- `template/designs/<name>.css` (+ `designs/fonts/`): optional designs layered on top of `styles.css` (see `design` below)
+- `examples/painting-company.json`: a fictional painting company (Ridgeline Painting Co.), published at `/template/` as a reference (classic design)
+- `examples/tree-service.json`: a fictional tree service (Highline Tree Co.), published at `/template-tree/` as a reference (centered design)
+- `examples/pressure-washing.json`: a fictional pressure washing company (Brightwater Pressure Washing), published at `/template-pressure-washing/` (centered design)
 
 ## Make a new spec
 
@@ -37,6 +40,10 @@ Rerun step 4 after any config change. It overwrites the spec's HTML, CSS and JS,
 ## Config notes
 
 - **`preview_bar`** is HTML (it can contain a link). Everything else is plain text.
+- **`design`** picks the look. Leave it out for `classic` (dark header bar, left-aligned hero, text service cards).
+  `"design": "centered"` floats the header over a full-screen photo hero, centers a big serif headline
+  (Playfair Display, self-hosted in the spec's `fonts/`), and puts each service's photo on its card.
+  Same config fields either way, so any spec can switch designs by changing this one line.
 - **`theme`** keys map to the CSS variables at the top of `template/styles.css`:
   - `dark` and `dark_2`: header, hero, about and footer backgrounds
   - `accent`: buttons and checkmarks

@@ -22,11 +22,11 @@ To start a new spec from the template, see [`specs/README.md`](specs/README.md).
      X-Robots-Tag: noindex
    ```
 4. **Never link a spec** from the main site's nav, footer or pages, and never
-   add it to `site/sitemap.xml`. The one exception is `/template/`, the
-   fictional demo business: the landing page hero links to it as a sample. It
-   still follows rules 1 to 3 and stays out of the sitemap.
+   add it to `site/sitemap.xml`. The exceptions are the fictional demo
+   businesses `/template/`, `/template-tree/` and `/template-pressure-washing/`: the landing page hero links to them as samples. They
+   still follow rules 1 to 3 and stay out of the sitemap.
 5. **Slugs** are lowercase letters, numbers and hyphens. `privacy`, `images`,
-   `portfolio` and `template` are taken.
+   `portfolio`, `template` and `template-*` (the demos) are taken.
 
 `npm run build` runs `scripts/assemble.js`, which treats every folder in `site/`
 except `privacy` and `images` as a spec. It fails the build if a spec is missing the meta tag

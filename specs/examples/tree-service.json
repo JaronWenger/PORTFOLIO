@@ -1,0 +1,113 @@
+{
+  "slug": "template-tree",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Template demo: Highline Tree Co. is a fictional business. Built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Quote",
+  "header_cta": "Get a Quote",
+
+  "theme": {
+    "dark": "#0f1813",
+    "dark_2": "#17241c",
+    "on_dark": "#f2f5f2",
+    "on_dark_muted": "#aebbb2",
+    "accent": "#7cc86f",
+    "accent_ink": "#0b1d0e",
+    "soft": "#f3f5f1",
+    "line": "#dfe5dc",
+    "muted": "#5a625c"
+  },
+
+  "business": {
+    "name": "Highline Tree Co.",
+    "legal_name": "Highline Tree Co. (fictional example business)",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia Gorge",
+    "phone_display": "(541) 555-0187",
+    "phone_tel": "+15415550187",
+    "email": "hello@example.com",
+    "license": "Licensed, Bonded & Insured · CCB# 000000 (example)",
+    "trust": ["Licensed, Bonded & Insured", "CCB# 000000 (example)", "Locally owned", "Free quotes"],
+    "footer_blurb": "Tree removal, pruning, stump grinding and cleanup for homes and properties across Hood River and the Columbia Gorge.",
+    "areas": ["Hood River", "Odell", "Parkdale", "Mosier", "The Dalles", "White Salmon", "Bingen"],
+    "social": { "Facebook": "https://www.facebook.com/" }
+  },
+
+  "home": {
+    "title": "Highline Tree Co. | Tree Service in Hood River, OR",
+    "description": "Tree removal, pruning, stump grinding and hazard tree assessment in Hood River and the Columbia Gorge. Licensed, bonded and insured. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "Large oak tree shading a lawn and driveway",
+    "eyebrow": "Hood River, OR",
+    "headline": "Tree Removal",
+    "lead": "Removals, pruning and stump grinding. Done safely, cleaned up every time.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "about": {
+      "photo": "about",
+      "photo_alt": "Arborist working in the woods",
+      "title": "Locally owned in Hood River",
+      "paragraphs": [
+        "Highline Tree Co. is a small, local crew taking care of trees for homes and properties across the Columbia Gorge.",
+        "Big removals near houses, careful pruning and stump grinding: we plan every job before the first cut, protect your yard while we work, and haul everything away when we're done.",
+        "You get a clear written quote, a crew that shows up when we say, and a yard that looks better than when we arrived."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Tell us about your trees.",
+    "text": "Send a few details and we'll get back to you with a free, written quote.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Quote",
+    "thanks": "We got your request and will reach out soon about your free quote."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Dead, leaning or unwanted trees taken down safely, even right next to the house.",
+      "intro": "When a tree has to come down, we take it down in sections, control every piece and protect your home, driveway and landscaping along the way.",
+      "includes": ["Full removals, big or small", "Trees close to homes, fences and power lines", "Dead, dying and leaning trees", "Wood hauled away or cut to firewood length"],
+      "photos": [["removal", "Crew cutting up a removed tree"]]
+    },
+    {
+      "slug": "pruning-trimming", "name": "Pruning & Trimming",
+      "blurb": "Healthier, safer trees with better shape, light and views.",
+      "intro": "Good pruning keeps trees healthy and strong, lets light into your yard and clears branches away from roofs and power lines.",
+      "includes": ["Crown thinning and shaping", "Deadwood removal", "Clearance from roofs, driveways and lines", "View pruning"],
+      "photos": [["pruning", "Climber pruning a tree"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Stumps ground below grade so you get your yard back.",
+      "intro": "We grind stumps below the surface so you can plant, seed or build right over the spot.",
+      "includes": ["Stumps of any size", "Surface roots ground out", "Chips raked out or left for mulch", "Ready for lawn or planting"],
+      "photos": [["stump", "Cut tree stump"]]
+    },
+    {
+      "slug": "hazard-trees", "name": "Hazard Tree Assessment",
+      "blurb": "Not sure a tree is safe? We'll take a look and tell you straight.",
+      "intro": "Rot, cracks and lean aren't always easy to spot. We check the trees near your home and give you honest options, from pruning to removal.",
+      "includes": ["On-site tree inspection", "Rot, cracks, lean and root problems", "Clear recommendations", "Written quote for any work"],
+      "photos": [["hazard", "Old oak with a hollow trunk"]]
+    },
+    {
+      "slug": "brush-chipping", "name": "Brush Chipping & Cleanup",
+      "blurb": "Branches, brush and storm debris chipped and hauled away.",
+      "intro": "After a storm or a big yard project, we chip the brush on site and leave the yard clean.",
+      "includes": ["On-site chipping", "Storm debris cleanup", "Firewood cut and stacked on request", "Chips hauled away or left for mulch"],
+      "photos": [["chipping", "Logs being cut after a removal"]]
+    },
+    {
+      "slug": "lot-clearing", "name": "Lot & View Clearing",
+      "blurb": "Overgrown lots and blocked views opened back up.",
+      "intro": "From a building lot to an overgrown back corner, we clear trees and brush so you can use the space again.",
+      "includes": ["Clearing for building lots and driveways", "Thinning overgrown areas", "Opening up views", "Brush and wood hauled away"],
+      "photos": [["clearing", "Arborist with a chainsaw among pine trees"]]
+    }
+  ]
+}

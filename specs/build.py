@@ -41,6 +41,10 @@ class Spec:
         self.out = os.path.join(ROOT, 'site', config['slug'])
         self.services = config['services']
         self.cta = config.get('cta_label', 'Get a Free Estimate')
+        # design: "classic" is template/styles.css alone; any other name layers template/designs/<name>.css on top
+        self.design = config.get('design', 'classic')
+        if self.design != 'classic' and not os.path.exists(os.path.join(TEMPLATE, 'designs', self.design + '.css')):
+            sys.exit(f'specs/build.py: unknown design "{self.design}" (no specs/template/designs/{self.design}.css)')
 
     # --- small pieces -------------------------------------------------------
 
@@ -91,6 +95,11 @@ class Spec:
                 f'<input type="range" min="0" max="100" value="50" aria-label="{escape(label)}: drag to compare before and after">'
                 f'<span class="ba-line" aria-hidden="true"></span></figure>'
                 f'<p class="ba-caption">{escape(label)}</p></div>')
+
+    def service_photo(self, s):
+        """A service's main photo: hero_photo, else the first pair's after photo, else its first photo."""
+        pairs, photos = s.get('pairs', []), s.get('photos', [])
+        return s.get('hero_photo') or (pairs[0][1] if pairs else photos[0][0] if photos else None)
 
     def phone_link(self, cls, label=None):
         return f'<a class="{cls}" href="tel:{self.b["phone_tel"]}">{PHONE_ICON} {escape(label or self.b["phone_display"])}</a>'
@@ -238,8 +247,11 @@ class Spec:
     def home(self):
         root = './'
         h = self.c['home']
+        # Non-classic designs show each service's photo on its card
+        card_photo = (lambda s: self.photo(root, self.service_photo(s), s['name'], cls='card-photo')
+                      if self.design != 'classic' and self.service_photo(s) else '')
         cards = ''.join(f'''          <a class="service-card" href="{s["slug"]}/">
-            <h3>{escape(s["name"])}</h3>
+            {card_photo(s)}<h3>{escape(s["name"])}</h3>
             <p>{escape(s["blurb"])}</p>
             <span class="more">Learn more →</span>
           </a>
@@ -352,7 +364,7 @@ class Spec:
             media = '<div class="pairs">' + ''.join(self.pair(root, b, a, label) for b, a, label in pairs) + '</div>'
         elif photos:
             media = '<div class="photo-row">' + ''.join(self.photo(root, n, a) for n, a in photos) + '</div>'
-        hero = s.get('hero_photo') or (pairs[0][1] if pairs else photos[0][0] if photos else self.c['home'].get('hero_photo'))
+        hero = self.service_photo(s) or self.c['home'].get('hero_photo')
         city = self.b['city']
         return (self.head(root, f'{s["name"]} in {city}, {self.b["state"]} | {self.b["name"]}',
                           f'{s["name"]} in {city} and {self.b["area"]} by {self.b["name"]}. {s["blurb"]}')
@@ -398,6 +410,10 @@ class Spec:
         theme = self.c.get('theme', {})
         overrides = ''.join(f'  {THEME_VARS[k]}: {v};\n' for k, v in theme.items() if k in THEME_VARS)
         css = open(os.path.join(TEMPLATE, 'styles.css')).read()
+        if self.design != 'classic':
+            css += '\n' + open(os.path.join(TEMPLATE, 'designs', self.design + '.css')).read()
+            # Designs self-host their fonts so the spec folder stays self-contained (SPECS.md rule 1)
+            shutil.copytree(os.path.join(TEMPLATE, 'designs', 'fonts'), os.path.join(self.out, 'fonts'), dirs_exist_ok=True)
         with open(os.path.join(self.out, 'styles.css'), 'w') as f:
             f.write(css + (f'\n/* Theme: {self.b["name"]} (from specs config) */\n:root {{\n{overrides}}}\n' if overrides else ''))
         shutil.copy(os.path.join(TEMPLATE, 'script.js'), os.path.join(self.out, 'script.js'))

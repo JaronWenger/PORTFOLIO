@@ -1,0 +1,109 @@
+/* Design: centered. specs/build.py appends this after the base styles when a config
+   has "design": "centered". Full-screen photo hero with the header floating over it,
+   centered serif headlines, photo service cards, rounded buttons.
+   Playfair Display: SIL Open Font License, self-hosted in fonts/. */
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600 800;
+  font-display: swap;
+  src: url(fonts/playfair-display.woff2) format("woff2");
+}
+:root {
+  --display-font: "Playfair Display", Georgia, "Times New Roman", serif;
+  --wordmark-font: var(--display-font);
+  --radius: 14px;
+  --header-h: 76px;
+}
+h1, h2 { font-family: var(--display-font); font-weight: 700; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2.7rem, 8.5vw, 5.4rem); line-height: 1.04; }
+h2 { font-size: clamp(2rem, 4.6vw, 3rem); line-height: 1.1; }
+.eyebrow { font-size: .74rem; letter-spacing: .28em; color: var(--muted); }
+
+/* Buttons: rounded, sentence case */
+.btn { border-radius: 10px; text-transform: none; letter-spacing: 0; font-size: 1rem; font-weight: 650; }
+.btn-accent { box-shadow: 0 6px 20px rgba(0, 0, 0, .18); transition: transform .15s, filter .15s; }
+.btn-accent:hover { transform: translateY(-1px); filter: brightness(1.06); }
+.btn-outline-light { border-color: rgba(255, 255, 255, .45); background: rgba(255, 255, 255, .06); }
+
+/* Header floats over the hero, then turns solid on scroll (script.js adds .scrolled) */
+.site-header { background: transparent; transition: background-color .2s, box-shadow .2s; }
+.site-header.scrolled, .site-header.menu-open { background: var(--dark); box-shadow: 0 1px 0 rgba(255, 255, 255, .06); }
+.site-header .wrap { min-height: var(--header-h); }
+.wordmark { text-transform: none; letter-spacing: 0; font-size: 1.4rem; }
+.nav-link { font-weight: 500; }
+/* Services arrow appears only on hover or when the menu is open */
+.has-menu .chevron { opacity: 0; transition: opacity .15s, transform .15s; }
+.has-menu.open .chevron, .has-menu .nav-link:focus-visible .chevron { opacity: 1; }
+@media (hover: hover) { .has-menu:hover .chevron { opacity: 1; } }
+.site-header .btn { border-radius: 999px; font-size: .9rem; padding: 0 20px; }
+.header-phone { font-weight: 600; font-size: .95rem; }
+.mobile-menu { border-top: 0; }
+
+/* Hero: full-bleed photo under the header, everything centered */
+main > .hero:first-child { margin-top: calc(-1 * var(--header-h)); padding-top: calc(var(--header-h) + 72px); }
+.hero { text-align: center; }
+.hero::before { background: linear-gradient(180deg, rgba(6, 10, 8, .62) 0%, rgba(6, 10, 8, .36) 45%, rgba(6, 10, 8, .66) 100%); }
+.hero h1, .hero .lead { margin-left: auto; margin-right: auto; }
+.hero h1 { max-width: 11em; text-shadow: 0 2px 24px rgba(0, 0, 0, .25); }
+.hero .lead { max-width: 34em; font-size: clamp(1.05rem, 2.2vw, 1.3rem); color: rgba(255, 255, 255, .9); }
+.hero .eyebrow { color: color-mix(in srgb, var(--accent) 55%, #fff); margin-bottom: 18px; }
+.hero .actions { justify-content: center; margin-top: 34px; }
+.hero .actions .btn-outline-light { display: none; } /* one button in the hero; the phone stays in the header and action bar */
+.hero .actions .btn-accent { min-height: 60px; padding: 0 40px; font-size: 1.12rem; border-radius: 12px; }
+.hero:not(.page-hero) { min-height: calc(100svh - 34px); } /* the whole first screen, under the preview bar */
+.page-hero { padding-bottom: 80px; }
+.page-hero h1 { font-size: clamp(2.4rem, 6.5vw, 4.2rem); }
+.breadcrumb { letter-spacing: .04em; }
+
+/* Trust strip: light and quiet */
+.trust { background: var(--bg); color: var(--ink); border-bottom: 1px solid var(--line); padding: 20px 0; }
+.trust ul { font-weight: 600; }
+
+/* Section heads centered */
+section > .wrap > .eyebrow, section > .wrap > h2, section > .wrap > .lead { text-align: center; margin-left: auto; margin-right: auto; }
+section > .wrap > .actions { justify-content: center; }
+.services { background: var(--bg); }
+
+/* Service cards with a photo on top */
+.service-grid { gap: 22px; margin-top: 44px; }
+.service-card { padding: 0; overflow: hidden; border: 0; background: var(--soft); box-shadow: 0 1px 2px rgba(0, 0, 0, .04); transition: transform .2s, box-shadow .2s; }
+.service-card:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(0, 0, 0, .12); }
+.service-card .card-photo { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 0; transition: transform .4s; }
+.service-card:hover .card-photo { transform: scale(1.03); }
+.service-card h3 { padding: 20px 22px 0; font-family: var(--display-font); font-size: 1.4rem; font-weight: 700; }
+.service-card p { padding: 0 22px; }
+.service-card .more { padding: 12px 22px 22px; }
+
+/* About */
+.about h2 { font-size: clamp(2rem, 4.2vw, 2.8rem); }
+.about img, .about .ph { border-radius: var(--radius); }
+
+/* Reviews */
+.reviews { background: var(--soft); }
+.review { border: 0; box-shadow: 0 1px 2px rgba(0, 0, 0, .05); }
+.review blockquote { font-size: 1.05rem; }
+
+/* Service page content */
+.content-grid h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); }
+.checklist li::before { background: var(--accent); color: var(--accent-ink); }
+.side-card { border: 1px solid var(--line); background: var(--bg); }
+.photo-row img, .photo-row .ph { border-radius: var(--radius); }
+
+/* Estimate */
+.estimate-info h2 { font-size: clamp(2rem, 4.2vw, 2.8rem); }
+.form { border: 0; border-radius: 18px; box-shadow: 0 18px 50px rgba(0, 0, 0, .08); }
+.form input, .form select, .form textarea { border-radius: 10px; }
+
+@media (min-width: 900px) {
+  /* Nav centered on the page, not between the logo and the phone */
+  .site-header .wrap { position: relative; }
+  .main-nav { position: absolute; left: 50%; transform: translateX(-50%); margin: 0; }
+  .brand { margin-right: auto; }
+  .header-phone { margin-right: 6px; }
+  main > .hero:first-child { padding-top: calc(var(--header-h) + 120px); }
+  .service-grid { gap: 28px; }
+}
+@media (max-width: 599px) {
+  .wordmark { font-size: 1.15rem; letter-spacing: 0; }
+}

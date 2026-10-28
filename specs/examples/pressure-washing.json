@@ -1,0 +1,113 @@
+{
+  "slug": "template-pressure-washing",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Template demo: Brightwater Pressure Washing is a fictional business. Built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Quote",
+  "header_cta": "Get a Quote",
+
+  "theme": {
+    "dark": "#0c1420",
+    "dark_2": "#142133",
+    "on_dark": "#f1f4f8",
+    "on_dark_muted": "#aab5c5",
+    "accent": "#3a86ee",
+    "accent_ink": "#ffffff",
+    "soft": "#f2f5f9",
+    "line": "#dde3eb",
+    "muted": "#5a6270"
+  },
+
+  "business": {
+    "name": "Brightwater Pressure Washing",
+    "legal_name": "Brightwater Pressure Washing (fictional example business)",
+    "city": "Portland",
+    "state": "OR",
+    "area": "the Portland metro area",
+    "phone_display": "(503) 555-0164",
+    "phone_tel": "+15035550164",
+    "email": "hello@example.com",
+    "license": "Licensed & Insured · CCB# 000000 (example)",
+    "trust": ["Licensed & Insured", "CCB# 000000 (example)", "Locally owned", "Free quotes"],
+    "footer_blurb": "House washing, driveway and patio cleaning, roof moss removal and more for homes across Portland.",
+    "areas": ["Portland", "Beaverton", "Tigard", "Lake Oswego", "Milwaukie", "Gresham", "Vancouver, WA"],
+    "social": { "Facebook": "https://www.facebook.com/" }
+  },
+
+  "home": {
+    "title": "Brightwater Pressure Washing | Portland, OR",
+    "description": "House washing, driveway and patio cleaning, roof moss removal, deck and gutter cleaning in Portland and the metro area. Licensed and insured. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "Home with a freshly washed driveway and walkway",
+    "eyebrow": "Portland, OR",
+    "headline": "Pressure Washing",
+    "lead": "Houses, driveways, decks and roofs, cleaned the right way and left spotless.",
+    "services_eyebrow": "What we do",
+    "services_title": "Exterior cleaning",
+    "about": {
+      "photo": "about",
+      "photo_alt": "Washing house siding with a pressure washer",
+      "title": "Locally owned in Portland",
+      "paragraphs": [
+        "Brightwater is a small, local crew cleaning homes across the Portland metro area.",
+        "Every surface gets the right method: soft washing for siding and roofs, high pressure only where it belongs, so the dirt comes off and nothing gets damaged.",
+        "You get a clear written quote, a crew that shows up on time, and a house that looks years newer when we pack up."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "What can we clean for you?",
+    "text": "Send a few details and we'll get back to you with a free, written quote.",
+    "address_label": "Property address",
+    "details_label": "What needs cleaning?",
+    "button": "Get My Free Quote",
+    "thanks": "We got your request and will reach out soon about your free quote."
+  },
+
+  "services": [
+    {
+      "slug": "house-washing", "name": "House Washing",
+      "blurb": "Siding, trim and eaves soft washed clean, without damaging paint.",
+      "intro": "A gentle soft wash lifts dirt, mildew and green growth off your siding without blasting the paint, so your home looks fresh and stays protected.",
+      "includes": ["Vinyl, wood, Hardie and stucco siding", "Trim, eaves and soffits", "Mildew and algae removal", "Plants and fixtures protected"],
+      "photos": [["house", "Clean white house exterior"]]
+    },
+    {
+      "slug": "driveway-cleaning", "name": "Driveway Cleaning",
+      "blurb": "Oil, tire marks and grime lifted out of concrete and pavers.",
+      "intro": "Surface cleaning gets years of dirt and stains out of your driveway and sidewalks in an even, streak-free finish.",
+      "includes": ["Concrete and paver driveways", "Sidewalks and walkways", "Oil and rust stain treatment", "Even, stripe-free surface cleaning"],
+      "photos": [["driveway", "Freshly washed driveway in front of a home at dusk"]]
+    },
+    {
+      "slug": "patio-cleaning", "name": "Patio & Steps",
+      "blurb": "Patios, steps and walkways cleaned and safe to walk on again.",
+      "intro": "Moss and grime make patios and steps slick and dingy. We clean them down to the surface so they look good and are safe underfoot.",
+      "includes": ["Concrete and stone patios", "Front steps and stairs", "Moss and algae removal", "Pool decks and walkways"],
+      "photos": [["patio", "Worker pressure washing stone steps"]]
+    },
+    {
+      "slug": "roof-moss-removal", "name": "Roof & Moss Removal",
+      "blurb": "Moss and streaks cleared off your roof with a safe soft wash.",
+      "intro": "Portland's wet winters grow moss fast. We remove it and treat the roof with a low-pressure soft wash that won't damage shingles.",
+      "includes": ["Moss removal", "Soft wash roof treatment", "Black streak removal", "Gutters cleared of debris afterward"],
+      "photos": [["roof", "Moss growing between roof tiles"]]
+    },
+    {
+      "slug": "deck-fence-cleaning", "name": "Deck & Fence Cleaning",
+      "blurb": "Gray, weathered wood brought back before staining or just to refresh.",
+      "intro": "Cleaning brings gray, weathered wood back to its natural color and gets it ready for a new coat of stain.",
+      "includes": ["Decks, railings and stairs", "Wood and vinyl fences", "Prep for staining or sealing", "Low pressure that's safe for wood"],
+      "photos": [["deck", "Clean wooden deck and railing"]]
+    },
+    {
+      "slug": "gutter-cleaning", "name": "Gutter Cleaning",
+      "blurb": "Gutters and downspouts cleared so rain goes where it should.",
+      "intro": "Clogged gutters overflow onto siding and foundations. We clear them out by hand, flush the downspouts and haul the debris away.",
+      "includes": ["Gutters cleared by hand", "Downspouts flushed", "Debris bagged and hauled away", "Gutter faces brightened on request"],
+      "photos": [["gutters", "Worker clearing leaves from a gutter"]]
+    }
+  ]
+}

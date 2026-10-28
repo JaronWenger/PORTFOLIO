@@ -17,6 +17,12 @@
 /template/*
   X-Robots-Tag: noindex
 
+/template-tree/*
+  X-Robots-Tag: noindex
+
+/template-pressure-washing/*
+  X-Robots-Tag: noindex
+
 /lester-moving/*
   X-Robots-Tag: noindex
 

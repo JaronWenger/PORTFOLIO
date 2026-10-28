@@ -44,3 +44,9 @@ site/brent-hofer-painting/images/*  Pexels, free license (https://www.pexels.com
 site/harmon-painting/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
   hero 24245767 · about 5798984 · exterior 8583907 · interior 7218011 · lead-safe 5691677
   (https://www.pexels.com/photo/<id>/)
+site/template-tree/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-28 by photo id:
+  hero 38336347 · about 13725078 · removal 7812853 · pruning 35606516 · stump 325333 · hazard 37476840 · chipping 4205986 · clearing 8821018
+  (https://www.pexels.com/photo/<id>/)
+site/template-pressure-washing/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-28 by photo id:
+  hero 1396132 · about 5652626 · house 12551958 · driveway 106399 · patio 14965464 · roof 15260086 · deck 10847167 · gutters 7788264
+  (https://www.pexels.com/photo/<id>/)
