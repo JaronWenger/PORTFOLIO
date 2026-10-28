@@ -24,3 +24,6 @@ yarn-error.log*
 
 # Wrangler local preview (npm run preview)
 .wrangler/
+
+# Claude Code docs (local only)
+/.claude/
