@@ -1,0 +1,134 @@
+{
+  "slug": "elliott-painting",
+  "year": 2026,
+  "preview_bar": "Private preview built for Elliott Painting Inc by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>. Not live yet.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#0d0d0d",
+    "dark_2": "#1c1c1b",
+    "on_dark": "#f2f2f0",
+    "on_dark_muted": "#b4b4b0",
+    "accent": "#ffffff",
+    "accent_ink": "#141414",
+    "soft": "#f4f3f0",
+    "line": "#e2e1dc"
+  },
+
+  "business": {
+    "name": "Elliott Painting Inc",
+    "legal_name": "Elliott Painting Inc",
+    "city": "Oregon City",
+    "state": "OR",
+    "area": "NW Oregon",
+    "phone_display": "(503) 956-0878",
+    "phone_tel": "+15039560878",
+    "email": "Elliottpainting2022@gmail.com",
+    "license": "Licensed, Bonded & Insured · OR CCB# 242214",
+    "trust": ["Licensed, Bonded & Insured", "OR CCB# 242214", "Locally owned in Oregon City", "Free estimates"],
+    "footer_blurb": "Quality residential and commercial painting you can trust in the PNW. Locally owned in Oregon City, serving NW Oregon.",
+    "social": { "Facebook": "https://www.facebook.com/386078844586131" }
+  },
+
+  "home": {
+    "title": "Elliott Painting Inc | Painting Contractor in Oregon City, OR",
+    "description": "Locally owned painting and construction company in Oregon City. Interior and exterior painting, cabinet refinishing, drywall repair, carpentry, epoxy and pressure washing across NW Oregon.",
+    "hero_photo": "exterior-blue-front",
+    "hero_alt": "Blue two-story home painted by Elliott Painting",
+    "eyebrow": "Elliott Painting Inc · Oregon City, OR",
+    "headline": "Quality painting you can trust in the PNW.",
+    "lead": "Residential and commercial painting, cabinets, drywall and more for homes and businesses across NW Oregon.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting and construction services",
+    "showcase": {
+      "eyebrow": "Cabinet refinishing",
+      "title": "Before & after",
+      "lead": "Dated wood cabinets turned into a bright, modern kitchen, without the cost of new cabinets.",
+      "pairs": [
+        ["kitchen-1-before", "kitchen-1-after", "Kitchen cabinets"],
+        ["kitchen-2-before", "kitchen-2-after", "Kitchen cabinets"]
+      ],
+      "link": "cabinet-refinishing",
+      "link_label": "Cabinet refinishing"
+    },
+    "about": {
+      "photo": "owner",
+      "photo_alt": "Elliott Painting Inc owner on the Oregon coast",
+      "title": "Locally owned in Oregon City",
+      "paragraphs": [
+        "At Elliott Painting Inc, we take pride in bringing color and craftsmanship to homes and businesses in NW Oregon. As an Oregon City locally owned painting and construction company, we are dedicated to delivering high-quality workmanship with a personal touch.",
+        "Our skilled team specializes in interior and exterior painting, drywall repair, cabinet refinishing, carpentry, epoxy and pressure washing. We use premium materials and proven techniques to ensure a flawless finish that stands the test of time.",
+        "We believe in building lasting relationships with our clients by providing reliable service, transparent communication, and results that exceed expectations. When you choose Elliott Painting, you are supporting a business that values quality, integrity, and the local community."
+      ]
+    },
+    "gallery": [
+      ["exterior-blue-front", "Blue two-story home"], ["kitchen-1-after", "Refinished white kitchen cabinets"],
+      ["exterior-craftsman-garage", "Craftsman home and garage"], ["exterior-modern", "Modern white home"],
+      ["kitchen-2-after", "Refinished kitchen"], ["exterior-craftsman-deck", "Craftsman home with deck"],
+      ["exterior-white", "White two-story home"], ["exterior-blue-back", "Blue home, back patio"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Let's bring your vision to life.",
+    "text": "Tell us about your project and we'll get back to you with a free estimate. We stay in constant communication with our customers until the job is done.",
+    "address_label": "Project address",
+    "details_label": "Project details",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon to set up your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Siding, trim and doors, with careful prep for a finish that stands the test of time.",
+      "intro": "Exterior painting for homes and businesses in Oregon City and across NW Oregon. We use premium materials and proven techniques to ensure a flawless finish that stands the test of time.",
+      "includes": ["Siding, trim, fascia and soffits", "Front doors, garage doors and shutters", "Surface prep: washing, scraping, sanding, caulking and priming", "Residential and commercial properties"],
+      "photos": [["exterior-blue-front", "Blue two-story home, exterior painting"], ["exterior-craftsman-deck", "Craftsman home with wraparound deck"], ["exterior-modern", "Modern white home with black trim"], ["exterior-gray", "Gray two-story home"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior Painting",
+      "blurb": "Walls, ceilings and trim, from a single room to an entire property.",
+      "intro": "Whether you are refreshing a single room or transforming an entire property, we bring the same professionalism and attention to detail to every interior.",
+      "includes": ["Walls, ceilings, trim and doors", "Homes, offices, shops and garages", "Furniture and floors protected while we work", "Clean lines and a thorough cleanup"],
+      "pairs": [["garage-before", "garage-after", "Garage interior"]]
+    },
+    {
+      "slug": "cabinet-refinishing", "name": "Cabinet Refinishing",
+      "blurb": "Turn dated wood cabinets into a bright, modern kitchen without replacing them.",
+      "intro": "Cabinet refinishing gives your kitchen a whole new look for a fraction of the cost of new cabinets. See the before and after below.",
+      "includes": ["Kitchen and bathroom cabinets", "Doors, drawer fronts and frames", "Cleaning, sanding and priming for a durable finish", "Hardware removed and reinstalled"],
+      "pairs": [["kitchen-1-before", "kitchen-1-after", "Kitchen cabinets"], ["kitchen-2-before", "kitchen-2-after", "Kitchen cabinets"]]
+    },
+    {
+      "slug": "drywall-repair", "name": "Drywall Repair",
+      "blurb": "Holes, cracks and damaged sections patched smooth and ready for paint.",
+      "intro": "From small holes to damaged sections, we repair drywall so it blends in with the rest of the wall, then finish it with paint.",
+      "includes": ["Holes, dents and cracks", "Damaged sections replaced", "Texture matched to the surrounding wall", "Primed and painted to blend in"],
+      "hero_photo": "exterior-craftsman-garage"
+    },
+    {
+      "slug": "carpentry", "name": "Carpentry",
+      "blurb": "Trim, repairs and small construction projects around your home or business.",
+      "intro": "As a painting and construction company, we handle the carpentry that often comes before a great paint job, along with small projects around your property.",
+      "includes": ["Trim and baseboards", "Rotted wood and siding repair before painting", "Small construction projects", "Residential and commercial properties"],
+      "hero_photo": "exterior-craftsman-garage"
+    },
+    {
+      "slug": "epoxy-floors", "name": "Epoxy Floors",
+      "blurb": "Tough, easy-to-clean epoxy coatings for garages and shops.",
+      "intro": "Epoxy coatings turn bare concrete into a durable, easy-to-clean floor for garages, shops and commercial spaces.",
+      "includes": ["Garage floors", "Shops and commercial spaces", "Concrete cleaning and surface prep", "A finished floor that is easy to keep clean"],
+      "hero_photo": "exterior-craftsman-garage"
+    },
+    {
+      "slug": "pressure-washing", "name": "Pressure Washing",
+      "blurb": "Siding, decks, driveways and patios cleaned, before paint or just to refresh.",
+      "intro": "Pressure washing brings back siding, decks and concrete, and it is the first step of every exterior paint job.",
+      "includes": ["Siding and exterior walls", "Decks and fences", "Driveways, walkways and patios", "Prep before exterior painting"],
+      "photos": [["pressure-washing", "Patio and walkway after pressure washing"]]
+    }
+  ]
+}

@@ -1,9 +1,42 @@
-// Elliott Painting Inc: spec preview behavior (self-contained, see SPECS.md)
+// Spec template behavior. specs/build.py copies this file into each spec folder.
 
-// Close the Services menu when tapping anywhere else
+var header = document.querySelector('.site-header');
+var menuToggle = document.querySelector('.menu-toggle');
+var mobileMenu = document.getElementById('mobile-menu');
+var servicesItem = document.querySelector('.has-menu');
+var servicesButton = servicesItem && servicesItem.querySelector('.nav-link');
+
+function setMobileMenu(open) {
+  mobileMenu.hidden = !open;
+  menuToggle.setAttribute('aria-expanded', String(open));
+  header.classList.toggle('menu-open', open);
+}
+
+function setServicesMenu(open) {
+  servicesItem.classList.toggle('open', open);
+  servicesButton.setAttribute('aria-expanded', String(open));
+}
+
+// Phone: hamburger opens and closes the full menu; picking a link closes it
+menuToggle.addEventListener('click', function () { setMobileMenu(mobileMenu.hidden); });
+mobileMenu.addEventListener('click', function (e) { if (e.target.closest('a')) setMobileMenu(false); });
+
+// Desktop: Services opens on hover (CSS) or click/tap (here)
+servicesButton.addEventListener('click', function () { setServicesMenu(!servicesItem.classList.contains('open')); });
+
+// Click outside or press Escape to close either menu
 document.addEventListener('click', function (e) {
-  document.querySelectorAll('.nav-services[open]').forEach(function (menu) {
-    if (!menu.contains(e.target)) menu.removeAttribute('open');
+  if (!servicesItem.contains(e.target)) setServicesMenu(false);
+  if (!header.contains(e.target)) setMobileMenu(false);
+});
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape') { setServicesMenu(false); setMobileMenu(false); }
+});
+
+// Before/after sliders: the range input moves the divider
+document.querySelectorAll('.ba input').forEach(function (input) {
+  input.addEventListener('input', function () {
+    input.closest('.ba').style.setProperty('--pos', input.value + '%');
   });
 });
 
@@ -16,9 +49,9 @@ document.querySelectorAll('.estimate-form').forEach(function (form) {
     form.innerHTML =
       '<div class="form-done" role="status">' +
         '<h3>Thanks' + (name ? ', ' + name.replace(/[<>&"]/g, '') : '') + '!</h3>' +
-        '<p>We got your request and will reach out soon to set up your free estimate.</p>' +
+        '<p>' + form.dataset.thanks + '</p>' +
         '<p class="preview-note"><strong>Preview:</strong> this request was not sent anywhere. ' +
-        'On the live site, every estimate request texts and emails you instantly and is saved to your CRM, ' +
+        'On the live site, every request texts and emails you instantly and is saved to your CRM, ' +
         'so no lead slips through.</p>' +
       '</div>';
   });

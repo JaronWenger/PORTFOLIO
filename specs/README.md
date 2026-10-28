@@ -47,7 +47,3 @@ Rerun step 4 after any config change. It overwrites the spec's HTML, CSS and JS,
   - Media: each service can have `pairs` (before/after) or `photos`, or neither.
   - Top photo: `hero_photo` sets it. Without one, the page uses the first pair's after photo, then the first photo, then the home hero.
 - **The estimate form is demo-only:** it shows a thank-you and a preview note, and sends nothing. At launch, wire it to a HubSpot form in the owner's own account.
-
-## Earlier specs
-
-`site/elliott-painting/` was hand-built before this template existed, from the same design. It doesn't have a config here, so edit its HTML directly.
