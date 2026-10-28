@@ -13,7 +13,7 @@ Hosted on Cloudflare Pages: pushing to `main` deploys. Cloudflare runs `npm run 
 
 - `npm start`: run the React portfolio locally
 - `npm run build`: build the portfolio, then `scripts/assemble.js` moves it to `build/portfolio/`, copies `site/` to the root of `build/` and checks the spec rules
-- `npm run preview`: build, then serve it the way Cloudflare does at `http://localhost:8788`
+- `npm run dev`: build, then serve it the way Cloudflare does at `http://localhost:8788`
 
 ## Spec sites
 

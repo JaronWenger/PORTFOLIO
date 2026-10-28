@@ -30,7 +30,7 @@ This folder is **not published**. Only the output in `site/<slug>/` is.
    /<slug>/*
      X-Robots-Tag: noindex
    ```
-6. **Preview:** `npm run preview`, then open `http://localhost:8788/<slug>/`
+6. **Preview:** `npm run dev`, then open `http://localhost:8788/<slug>/`
 
 Rerun step 4 after any config change. It overwrites the spec's HTML, CSS and JS, but never touches `logo.svg` or `images/`.
 

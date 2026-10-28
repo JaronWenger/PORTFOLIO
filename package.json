@@ -12,7 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && node scripts/assemble.js",
-    "preview": "npm run build && npx -y wrangler@3.114.0 pages dev build --port 8788",
+    "dev": "npm run build && npx -y wrangler@3.114.0 pages dev build --port 8788",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
