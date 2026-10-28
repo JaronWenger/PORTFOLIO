@@ -23,3 +23,24 @@ site/one-last-cast-plumbing/images/*  Pexels, free license (https://www.pexels.c
 site/green-gorge-construction/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
   hero 3958966 · about 5691513 · bathroom 17069809 · shower 7614405 · tub 1571461 · repairs 9606740
   (https://www.pexels.com/photo/<id>/)
+site/chandler-tree/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 6631307 · about 8820192 · removal 11932165 · pruning 6174457 · stump 3619797 · chipping 4205986 · hazard 37476840
+  (https://www.pexels.com/photo/<id>/)
+site/columbia-climbers/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 29893592 · about 13725078 · hazard 7812853 · removal 4205989 · trimming 35606516 · chipping 8817844
+  (https://www.pexels.com/photo/<id>/)
+site/jepson-arbor/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 30817748 · about 13779225 · health 140963 · pruning 5231045 · cabling 29089947 · removal 11930042
+  (https://www.pexels.com/photo/<id>/)
+site/eds-arbor-care/images/* (except about, snow, from their own site)  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 5587971 · removal 8821018 · pruning 5231044 · stump 8265693 · emergency 4170448 · landscaping 17240696
+  (https://www.pexels.com/photo/<id>/)
+site/pacific-sky-remodeling/images/* (except all others, from their own site)  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  cabinets 4682120
+  (https://www.pexels.com/photo/<id>/)
+site/brent-hofer-painting/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 14495871 · about 1917849 · exterior 8583736 · interior 6474471 · cabinets 7535019 · commercial 6474199
+  (https://www.pexels.com/photo/<id>/)
+site/harmon-painting/images/*  Pexels, free license (https://www.pexels.com/license/), downloaded 2026-10-27 by photo id:
+  hero 24245767 · about 5798984 · exterior 8583907 · interior 7218011 · lead-safe 5691677
+  (https://www.pexels.com/photo/<id>/)

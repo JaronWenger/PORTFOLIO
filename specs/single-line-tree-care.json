@@ -1,0 +1,120 @@
+{
+  "slug": "single-line-tree-care",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Single Line Tree Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#262020",
+    "dark_2": "#342c2c",
+    "on_dark": "#f5f2f1",
+    "on_dark_muted": "#c0b5b3",
+    "accent": "#6cdee8",
+    "accent_ink": "#062a2e",
+    "soft": "#f5f3f2",
+    "line": "#e3dedc"
+  },
+
+  "business": {
+    "name": "Single Line Tree Care",
+    "legal_name": "Single Line Tree Care LLC",
+    "city": "Hillsboro",
+    "state": "OR",
+    "area": "Hillsboro and Washington County",
+    "phone_display": "(503) 926-3325",
+    "phone_tel": "+15039263325",
+    "license": "CCB #236912",
+    "logo_has_name": true,
+    "trust": ["Licensed, insured & bonded", "Free estimates", "High-risk removals", "CCB #236912"],
+    "footer_blurb": "Tree removal, trimming, stump grinding, storm clean-up and lot cleaning in Hillsboro and Washington County. 535 SW Maple St #1, Hillsboro, OR 97123. Office (971) 226-3244.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Single Line Tree Care | Tree Service in Hillsboro, OR",
+    "description": "High-risk tree removal, trimming, stump grinding, storm clean-up and lot cleaning in Hillsboro and Washington County. Licensed, insured and bonded. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Single Line climber working up a tall trunk",
+    "eyebrow": "Single Line Tree Care · Hillsboro, OR",
+    "headline": "High-risk trimming and removal, done safely.",
+    "lead": "Big trees over houses, fences and busy streets are what we do best. Licensed, insured and bonded, with free estimates across Washington County.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "Chet and his team did an amazing job trimming, pruning, (and removing a couple of volunteer stragglers) our trees which had been minimally maintained since we bought the home over 4 years ago. Chet was able to come out quickly to look around and gave me a quote before he left.", "name": "Meagan Voorhees"},
+        {"quote": "It was a great pleasure to work with Chet and his crews. He gave us a fair bid and we went for it. The crew were incredibly professional and thorough in their tree trimming, removals, and stump grinding.", "name": "KrisD"},
+        {"quote": "I had a huge limb break off my very tall oak tree. Chet & his crew came out to inspect the tree and clean up the aftermath of the limb falling across my deck & patio.", "name": "Carolyn"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "about",
+      "photo_alt": "The Single Line Tree Care truck",
+      "title": "Local, careful and quick to quote",
+      "paragraphs": [
+        "Single Line Tree Care is a Hillsboro tree service run by Chet, with Angel leading the crew in the field.",
+        "We specialize in high-risk trimming and removal: tall firs next to houses, trees over fences and decks, and trees along busy roads. We take extra care to protect your landscaping while we work.",
+        "Chet comes out to look at your trees, gives you a fair quote on the spot, and gets you on the schedule."
+      ]
+    },
+    "gallery_title": "Recent jobs",
+    "gallery": [
+      ["crew", "Crew and stump grinder on a job"], ["removal", "Removing a tall tree beside a house"],
+      ["grinder", "Stump grinding by a fence"], ["street", "Removing a tree along a busy street"],
+      ["cleanup", "Clean-up between houses"], ["tall", "Tall firs beside a home"],
+      ["truck", "Single Line truck on a job"], ["after", "Yard after tree work"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your trees.",
+    "text": "Send us a few details and Chet will get back to you to set up a free estimate.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request. Chet will reach out soon to set up your estimate."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Total Tree Removal",
+      "blurb": "Any size tree, removed safely, including high-risk removals.",
+      "intro": "Our team can safely remove any size tree from your property, including trees right next to houses, fences and roads.",
+      "includes": ["High-risk removals", "Trees next to houses and fences", "Roadside trees", "Clean-up when we're done"],
+      "photos": [["removal", "Removing a tall tree beside a house"], ["street", "Removing a tree along a busy street"], ["tall", "Tall firs beside a home"]]
+    },
+    {
+      "slug": "tree-trimming", "name": "Tree Trimming & Pruning",
+      "blurb": "Keep your trees healthy and looking their best.",
+      "intro": "Trimming and pruning keep your trees healthy, safe and looking good, even after years without care.",
+      "includes": ["Trimming and pruning", "Overgrown trees", "Deadwood removal", "Care for your landscaping"],
+      "photos": [["climber", "Climber trimming a tall tree"], ["yard", "Trees trimmed around a home"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Get rid of unsightly stumps and trip hazards.",
+      "intro": "We grind stumps down so they're gone for good and your yard is ready for what's next.",
+      "includes": ["Stump grinding", "Tracked grinders for tight yards", "Surface roots", "Clean-up of grindings"],
+      "photos": [["grinder", "Stump grinding by a fence"], ["stump", "Grinding a stump in a backyard"], ["machine", "Our stump grinder"]]
+    },
+    {
+      "slug": "storm-cleanup", "name": "Storm Clean-Up",
+      "blurb": "Broken limbs and fallen trees cleared fast.",
+      "intro": "When a limb breaks or a tree comes down, we'll inspect it, make a plan and clean up the aftermath.",
+      "includes": ["Fallen limbs and trees", "Damage to decks and patios", "Inspection of damaged trees", "Haul-away"],
+      "photos": [["cleanup", "Clean-up between houses"]]
+    },
+    {
+      "slug": "lot-cleaning", "name": "Lot Cleaning",
+      "blurb": "Overgrown lots cleared and ready to use.",
+      "intro": "We clear overgrown lots of brush, trees and debris for homeowners, builders and businesses.",
+      "includes": ["Brush and debris clearing", "Tree and stump removal", "Residential and commercial lots", "Haul-away"],
+      "photos": [["lot", "Clearing a commercial lot"]]
+    }
+  ]
+}

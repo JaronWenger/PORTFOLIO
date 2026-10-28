@@ -1,0 +1,98 @@
+{
+  "slug": "harmon-painting",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Harmon Painting, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Estimate",
+  "header_cta": "Get an Estimate",
+
+  "theme": {
+    "dark": "#1f2530",
+    "dark_2": "#2a313d",
+    "on_dark": "#f3f4f6",
+    "on_dark_muted": "#b3b9c4",
+    "accent": "#4fb3a9",
+    "accent_ink": "#04211e",
+    "soft": "#f3f5f6",
+    "line": "#dee2e6"
+  },
+
+  "business": {
+    "name": "Harmon Painting",
+    "legal_name": "Harmon Painting LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "The Dalles and Wasco County",
+    "phone_display": "(541) 980-9322",
+    "phone_tel": "+15419809322",
+    "license": "CCB #241786",
+    "trust": ["Owner Corey Harmon", "Licensed, bonded & insured", "Lead-safe certified", "CCB #241786"],
+    "footer_blurb": "Interior and exterior painting for homes and small businesses in The Dalles and the Columbia Gorge.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Harmon Painting | House Painter in The Dalles, OR",
+    "description": "Interior and exterior painting and lead-safe renovation from owner-operator Corey Harmon in The Dalles, Oregon. Licensed, bonded and insured.",
+    "hero_photo": "hero",
+    "hero_alt": "Freshly painted front porch",
+    "eyebrow": "Harmon Painting · The Dalles, OR",
+    "headline": "The best painters in town.",
+    "lead": "Interior and exterior painting for homes and small businesses in The Dalles, done by owner Corey Harmon. Licensed, bonded, insured and lead-safe certified.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {"quote": "The best painters in town. Professional, meticulous, up to date on new products and courteous. Always looks great. Never leave debris.", "name": "Lauretta Burman"},
+        {"quote": "Top notch professionals and top notch work! Can't be beat!", "name": "C.J. Toole"},
+        {"quote": "They were polite, quick and quiet.", "name": "Lucas Massengale"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Paint roller on a ladder",
+      "title": "Meet Corey Harmon",
+      "paragraphs": [
+        "Harmon Painting is Corey Harmon's company, based in The Dalles and serving Wasco County.",
+        "Corey paints homes inside and out for residential and small commercial customers, and he's certified for lead-based paint renovation, so older homes are in good hands.",
+        "Harmon Painting is licensed with the Oregon CCB, bonded and insured."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Estimates",
+    "title": "Tell us about your project.",
+    "text": "Send us a few details and Corey will get back to you with an estimate.",
+    "address_label": "Project address",
+    "details_label": "What would you like painted?",
+    "button": "Request My Estimate",
+    "thanks": "We got your request. Corey will reach out soon about your estimate."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Fresh color that stands up to Gorge sun and wind.",
+      "intro": "We prep and paint siding, trim, doors and porches so your home looks great and stays protected.",
+      "includes": ["Siding, trim and doors", "Porches and railings", "Prep and scraping", "Clean-up every day"],
+      "photos": [["exterior", "Freshly painted two-story home"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior Painting",
+      "blurb": "Clean, careful painting for walls, ceilings and trim.",
+      "intro": "Interior painting done neatly and quietly, with your furniture and floors protected.",
+      "includes": ["Walls and ceilings", "Trim and doors", "Homes and small offices", "No debris left behind"],
+      "photos": [["interior", "Rolling paint on an interior wall"]]
+    },
+    {
+      "slug": "lead-safe-painting", "name": "Lead-Safe Renovation",
+      "blurb": "Certified lead-based paint renovation for older homes.",
+      "intro": "Older homes can have lead-based paint under the layers. Harmon Painting is a certified Lead-Based Paint Renovation contractor, so those homes are handled the right way.",
+      "includes": ["Lead-based paint renovation", "Older and historic homes", "Safe prep and containment", "Interior and exterior"],
+      "photos": [["lead-safe", "Painting a ceiling with trim masked"]]
+    }
+  ]
+}

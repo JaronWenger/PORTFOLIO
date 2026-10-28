@@ -1,0 +1,110 @@
+{
+  "slug": "brent-hofer-painting",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Brent C. Hofer Painting, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#0d0d0d",
+    "dark_2": "#1a1a1a",
+    "on_dark": "#f6f4f0",
+    "on_dark_muted": "#bab6ae",
+    "accent": "#f4b36b",
+    "accent_ink": "#2b1600",
+    "soft": "#f6f4f0",
+    "line": "#e4e0d8"
+  },
+
+  "business": {
+    "name": "Brent C. Hofer Painting",
+    "legal_name": "Brent C. Hofer Painting, LLC",
+    "city": "Oregon City",
+    "state": "OR",
+    "area": "Oregon City, Canby and the Portland metro area",
+    "phone_display": "(503) 891-1329",
+    "phone_tel": "+15038911329",
+    "license": "CCB #217640",
+    "trust": ["Family operated", "Licensed, bonded & insured", "Miller Paint, made in the Northwest", "CCB #217640"],
+    "footer_blurb": "Residential and light commercial painting from Oregon City to the Portland metro area and out to Canby. Licensed, bonded and insured.",
+    "areas": ["Oregon City", "Canby", "Beaverton", "Portland metro"],
+    "hours": ["Mon–Fri: 8am–5pm"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Brent C. Hofer Painting | House Painters in Oregon City, OR",
+    "description": "Interior, exterior and cabinet painting for homes, plus light commercial painting, from a family-operated Oregon City painting company. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Two-story home with a porch at dusk",
+    "eyebrow": "Brent C. Hofer Painting · Oregon City, OR",
+    "headline": "Nothing thrills us more than hearing “I love it!”",
+    "lead": "Interior, exterior and cabinet painting from a family-operated Oregon City team with over 50 years of combined experience.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Second to none",
+      "items": [
+        {"quote": "We highly recommend Brent and his team! Brent spent the time to hear our vision and went the extra mile to ensure we had the color combination we were looking for! His team are hard working, skilled professional painters.", "name": "Mac Panosh"},
+        {"quote": "Brent came when he said he would, took great consideration in not harming my plants around the home, and everything they had to move to paint, they put back in the original place. I recently listed my home for sale, and it SOLD thanks to Brent being on-time and doing such a detailed job.", "name": "Dawn D."},
+        {"quote": "Brent Hofer Painting painted the interior of our house. That included the ceiling, walls, baseboards, trim and doors. They did an outstanding job!! Brent and his crew were very professional and careful to detail. They even finished a day early!", "name": "Dena Lund"},
+        {"quote": "A few months later, our 120 year old home started to show some bubbles in the paint on one side. Brent came back and refinished that side of the home at no charge because he guarantees his work.", "name": "Customer review"},
+        {"quote": "Brent charged a very fair price and guarantees his work; he is prompt, returns calls, follows up and follows thru. If I could give him more stars on this review I would!!", "name": "Nola B."},
+        {"quote": "From beginning to end, Brent and his whole crew were professional, on time and did an amazing job. He communicated very well and our home is fresh and it looks beautiful.", "name": "Greg Baker"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Our story",
+      "photo": "about",
+      "photo_alt": "Painter working on a home's exterior",
+      "title": "A team that treats you like family",
+      "paragraphs": [
+        "Brent C. Hofer Painting started as a local, family-owned Oregon City business. Brent now employs the Texta family to run daily operations, and our team has over 50 years of painting experience between them. Many of us are family.",
+        "Every job starts with Brent: he meets you, looks at the work and emails a free written estimate. For exteriors, we pressure wash and caulk first and paint five or more days later.",
+        "We use Miller Paint, made right here in the Northwest, and we donate painting jobs to auctions that support schools, children's hospitals and programs for kids."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your project.",
+    "text": "Send us a few details and Brent will reach out to set up a visit and send your free written estimate.",
+    "address_label": "Project address",
+    "details_label": "What would you like painted?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request. Brent will reach out soon to set up your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Protect and refresh your home with paint made for Northwest weather.",
+      "intro": "We pressure wash and caulk first, then come back five or more days later to paint, using products that protect your home for long-lasting beauty.",
+      "includes": ["Pressure washing and caulking", "Siding, trim and doors", "Miller Paint with the right mildewcides", "Older and historic homes"],
+      "photos": [["exterior", "Blue two-story home"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior Painting",
+      "blurb": "Walls, ceilings, trim and doors with crisp, careful detail.",
+      "intro": "We repaint rooms, ceilings, trim and baseboards, and we respect your home and your time while we're there.",
+      "includes": ["Walls and ceilings", "Baseboards, trim and doors", "Caulking and texture work", "Clean-up every day"],
+      "photos": [["interior", "Painter rolling an interior wall"]]
+    },
+    {
+      "slug": "cabinet-painting", "name": "Cabinet Painting",
+      "blurb": "Update your kitchen or bath without replacing cabinets.",
+      "intro": "Refinishing kitchen and bathroom cabinets is one of the best ways to transform your home.",
+      "includes": ["Kitchen cabinets", "Bathroom cabinets", "Painting during or after a remodel", "Durable finishes"],
+      "photos": [["cabinets", "Kitchen with white cabinets"]]
+    },
+    {
+      "slug": "light-commercial", "name": "Light Commercial Painting",
+      "blurb": "Offices, churches, duplexes and rental properties.",
+      "intro": "We've painted the inside and outside of small office buildings, duplexes, fourplexes, churches and more.",
+      "includes": ["Small office buildings", "Churches", "Duplexes, fourplexes and rentals", "Tenant improvements and remodels"],
+      "photos": [["commercial", "Painter spraying an interior"]]
+    }
+  ]
+}

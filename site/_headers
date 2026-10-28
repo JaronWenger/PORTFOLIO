@@ -73,3 +73,33 @@
 
 /affordable-arbor-care/*
   X-Robots-Tag: noindex
+
+/chandler-tree/*
+  X-Robots-Tag: noindex
+
+/columbia-climbers/*
+  X-Robots-Tag: noindex
+
+/jepson-arbor/*
+  X-Robots-Tag: noindex
+
+/pacific-sky-remodeling/*
+  X-Robots-Tag: noindex
+
+/eds-arbor-care/*
+  X-Robots-Tag: noindex
+
+/confluence-tree-care/*
+  X-Robots-Tag: noindex
+
+/single-line-tree-care/*
+  X-Robots-Tag: noindex
+
+/brent-hofer-painting/*
+  X-Robots-Tag: noindex
+
+/north-central-painting/*
+  X-Robots-Tag: noindex
+
+/harmon-painting/*
+  X-Robots-Tag: noindex

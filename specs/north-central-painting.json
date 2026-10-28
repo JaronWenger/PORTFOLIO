@@ -1,0 +1,122 @@
+{
+  "slug": "north-central-painting",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for North Central Painting, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#15191c",
+    "dark_2": "#1f2529",
+    "on_dark": "#f3f5f4",
+    "on_dark_muted": "#b2bab6",
+    "accent": "#6ee03a",
+    "accent_ink": "#0b2400",
+    "soft": "#f3f5f3",
+    "line": "#dde2de"
+  },
+
+  "business": {
+    "name": "North Central Painting",
+    "legal_name": "North Central Painting LLC",
+    "city": "Gresham",
+    "state": "OR",
+    "area": "Gresham and the Portland metro area",
+    "phone_display": "(971) 227-2868",
+    "phone_tel": "+19712272868",
+    "email": "ncpaintingnw@gmail.com",
+    "license": "CCB #224511",
+    "logo_has_name": true,
+    "trust": ["Honest + reliable + professional", "Licensed, bonded & insured", "Call or text Ben", "CCB #224511"],
+    "footer_blurb": "Interior and exterior house painting, deck refinishing, pressure washing and gutter clean-outs from Ben Johnson in Gresham, Oregon.",
+    "hours": ["Mon–Fri: 8am–5pm"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "North Central Painting | House Painter in Gresham, OR",
+    "description": "Interior and exterior house painting, deck refinishing, pressure washing and gutter clean-outs from owner Ben Johnson in Gresham, Oregon. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Blue two-story home freshly painted",
+    "eyebrow": "North Central Painting · Gresham, OR",
+    "headline": "Honest. Reliable. Professional.",
+    "lead": "Ben Johnson paints every home himself, with the prep, detail and top-tier products that make a paint job last.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Why neighbors call Ben",
+      "items": [
+        {"quote": "Feeling so fortunate to have had Ben of North Central Painting give the exterior of our home a much needed total facelift. His meticulous attention to prepping, detail and his respect of our home was so professional. The whole process from initial bid to completion was well done.", "name": "Anne-Marie Fischer"},
+        {"quote": "Ben painted the ceiling and walls of our living room and dining room. He did an excellent job. He even suggested a slightly different shade of gray. He was right on the suggestion. If you want somebody that is a thorough and detailed Painter then Ben is the guy.", "name": "Randy Gernhart"},
+        {"quote": "Our deck turned out better than new. Amazing attention to detail. I appreciate all the hard work. We will definitely use them in the future, and recommend them to anyone needing work done!", "name": "Matt Groza"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Meet the owner",
+      "photo": "about",
+      "photo_alt": "Ben Johnson, owner of North Central Painting",
+      "title": "Ben Johnson, owner + professional house painter",
+      "paragraphs": [
+        "North Central Painting is Ben Johnson's company, licensed in Oregon since 2019 and based in Gresham.",
+        "Ben does the work himself, with the residential painting knowledge and experience to tackle your project and help transform your home. Every job comes with the same promise of quality, attention to detail, dedication and durability.",
+        "We only use top-quality materials: Sherwin-Williams, Miller Paint, Benjamin Moore, 3M, FrogTape, Purdy, Wooster and more. Call or text Ben any time."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      ["entry", "Gray home with a white arched entry"], ["ranch", "Ranch home with fresh trim"],
+      ["two-story", "Two-story home in gray"], ["modern", "Modern home in olive green"],
+      ["kitchen", "Kitchen walls and trim"], ["log-home", "Stained log home"],
+      ["gray-house", "Gray home with white trim"], ["stairs", "Refinished deck stairs"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Ever wondered what it would cost?",
+    "text": "Tell us about your painting project and Ben will get back to you with a free estimate.",
+    "address_label": "Project address",
+    "details_label": "What would you like painted?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request. Ben will reach out soon about your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Curb appeal that stands out in your neighborhood.",
+      "intro": "Whether your exterior paint is failing or you're tired of the color, a new exterior makes your home stand out. If you're selling, painting is the quickest, most cost-effective way to raise its value.",
+      "includes": ["Full prep and repairs", "Siding, trim and doors", "Color help", "Top-tier paints"],
+      "photos": [["hero", "Blue two-story home"], ["two-story", "Two-story home in gray"], ["modern", "Modern home in olive green"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior Painting",
+      "blurb": "Walls, ceilings and trim, painted with care.",
+      "intro": "From one room to the whole house, Ben brings the same attention to detail, and he'll help you pick the right shade.",
+      "includes": ["Walls and ceilings", "Trim, doors and fireplaces", "Kitchens and bathrooms", "Color suggestions"],
+      "photos": [["kitchen", "Kitchen walls and trim"], ["fireplace", "Painted fireplace surround"], ["bathroom", "Bathroom walls and trim"]]
+    },
+    {
+      "slug": "deck-refinishing", "name": "Deck Refinishing",
+      "blurb": "Decks, stairs and log homes restored and protected.",
+      "intro": "We strip, clean and refinish decks and wood so they look better than new and hold up to the weather.",
+      "includes": ["Deck refinishing", "Stairs and railings", "Log and wood siding", "Stains and sealers"],
+      "photos": [["stairs", "Refinished deck stairs"], ["log-home", "Stained log home"]]
+    },
+    {
+      "slug": "pressure-washing", "name": "Pressure Washing",
+      "blurb": "Wash away mold, mildew and algae.",
+      "intro": "Here in the Northwest it rains a lot, and mold, mildew and algae thrive. Pressure washing at least twice a year is low-cost maintenance that keeps surfaces healthy.",
+      "includes": ["House washing", "Decks, patios and walkways", "Seasonal surface maintenance", "Prep before painting"],
+      "photos": []
+    },
+    {
+      "slug": "gutter-cleanouts", "name": "Gutter Clean-Outs",
+      "blurb": "Keep water off your roof and fascia.",
+      "intro": "A thorough gutter cleaning every spring and fall keeps leaves from clogging downspouts and sending water over the sides, where it can damage your roof and fascia.",
+      "includes": ["Spring and fall cleanings", "Downspout clearing", "Seasonal maintenance plans", "Debris haul-away"],
+      "photos": []
+    }
+  ]
+}

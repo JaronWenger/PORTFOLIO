@@ -1,0 +1,105 @@
+{
+  "slug": "jepson-arbor",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Jepson Arbor Specialists, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Assessment",
+  "header_cta": "Request an Assessment",
+
+  "theme": {
+    "dark": "#1d2320",
+    "dark_2": "#28302b",
+    "on_dark": "#f4f3ee",
+    "on_dark_muted": "#bdbdb0",
+    "accent": "#c9a96e",
+    "accent_ink": "#201608",
+    "soft": "#f5f4ef",
+    "line": "#e2e0d6",
+    "wordmark_font": "Georgia, \"Times New Roman\", serif"
+  },
+
+  "business": {
+    "name": "Jepson Arbor Specialists",
+    "legal_name": "Jepson Arbor Specialists LLC",
+    "city": "Milwaukie",
+    "state": "OR",
+    "area": "the greater Portland area",
+    "phone_display": "(503) 709-8657",
+    "phone_tel": "+15037098657",
+    "trust": ["Certified arborist", "28 years in tree care", "Homeowners & HOAs", "High-end work, fair prices"],
+    "footer_blurb": "Tree health assessments, pruning, cabling and removals from a certified arborist in Milwaukie, serving the greater Portland area.",
+    "hours": ["Mon–Sat: 7am–5pm"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Jepson Arbor Specialists | Certified Arborist in Milwaukie, OR",
+    "description": "Certified arborist Cody Jepson provides tree health assessments, pruning, cabling and tree removal across the greater Portland area.",
+    "hero_photo": "hero",
+    "hero_alt": "A large, mature tree spreading over a park",
+    "eyebrow": "Jepson Arbor Specialists · Milwaukie, OR",
+    "headline": "High-end arborist care, without the high-end price.",
+    "lead": "Certified arborist Cody Jepson has cared for trees across the Portland area for 28 years, from West Hills estates to HOA communities.",
+    "services_eyebrow": "What we do",
+    "services_title": "Arborist services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Trusted with mature trees",
+      "items": [
+        {"quote": "Our experiences with Jepson Arbor Specialists have all been great. We have used them several times over the years to assess the health of our trees as well as tree removal, when necessary.", "name": "Janet B."},
+        {"quote": "After finishing my extensive work, Jepson Arbor Specialists came back to carefully remove a diseased Birch on my neighbor's lot.", "name": "Yelp review"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About",
+      "photo": "about",
+      "photo_alt": "Arborist pruning a branch",
+      "title": "Meet Cody Jepson",
+      "paragraphs": [
+        "Jepson Arbor Specialists is Cody Jepson's company. Cody is a certified arborist with 28 years in tree care.",
+        "Our goal is simple: quality, high-end arborist services without the high-end price, for homeowners and HOAs across the greater Portland area.",
+        "Many of our customers have us back year after year to check on the health of their trees, and we'll always give you the facts without pressure."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Tree assessment",
+    "title": "Tell us about your trees.",
+    "text": "Send us a few details and Cody will get back to you to set up a visit.",
+    "address_label": "Property address",
+    "details_label": "What would you like looked at?",
+    "button": "Request My Assessment",
+    "thanks": "We got your request. Cody will reach out soon to set up a visit."
+  },
+
+  "services": [
+    {
+      "slug": "tree-health", "name": "Tree Health Assessments",
+      "blurb": "A certified arborist's honest look at the health of your trees.",
+      "intro": "Not sure if a tree is healthy, declining or a risk? Cody will look it over and give you clear facts and options.",
+      "includes": ["Tree health checks", "Disease and decline", "Risk assessment", "Clear recommendations, no pressure"],
+      "photos": [["health", "Home surrounded by mature trees"]]
+    },
+    {
+      "slug": "pruning", "name": "Pruning",
+      "blurb": "Careful pruning that keeps mature trees healthy and beautiful.",
+      "intro": "Mature trees are worth protecting. We prune for structure, health and clearance without over-cutting.",
+      "includes": ["Structural pruning", "Crown thinning and cleaning", "Clearance from homes and roofs", "Ornamental and specimen trees"],
+      "photos": [["pruning", "Pruning a tree with loppers"]]
+    },
+    {
+      "slug": "cabling-bracing", "name": "Cabling & Bracing",
+      "blurb": "Support for large, heavy limbs and split trunks.",
+      "intro": "Cabling and bracing can help support a valuable tree with heavy limbs or weak unions, so you can keep it longer.",
+      "includes": ["Cabling large limbs", "Bracing weak unions", "Support for mature oaks and maples", "Follow-up inspections"],
+      "photos": [["cabling", "Mature tree in a yard"]]
+    },
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Careful removal of dead, diseased and hazardous trees.",
+      "intro": "When a tree can't be saved, we remove it carefully and protect the landscape around it.",
+      "includes": ["Dead and diseased trees", "Hazardous trees", "Tight spaces near homes", "Clean-up when we're done"],
+      "photos": [["removal", "Cutting a tree with a chainsaw"]]
+    }
+  ]
+}

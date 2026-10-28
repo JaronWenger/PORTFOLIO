@@ -1,0 +1,105 @@
+{
+  "slug": "columbia-climbers",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Columbia Climbers Tree Service, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Free Consultation",
+  "header_cta": "Free Consultation",
+
+  "theme": {
+    "dark": "#1a2630",
+    "dark_2": "#24333f",
+    "on_dark": "#f2f5f7",
+    "on_dark_muted": "#b2bfc9",
+    "accent": "#f2a93b",
+    "accent_ink": "#2a1700",
+    "soft": "#f3f5f7",
+    "line": "#dde3e8"
+  },
+
+  "business": {
+    "name": "Columbia Climbers Tree Service",
+    "legal_name": "Columbia Climbers Tree Service",
+    "city": "Washougal",
+    "state": "WA",
+    "area": "Washougal, Camas and the Columbia River Gorge",
+    "phone_display": "(360) 335-1222",
+    "phone_tel": "+13603351222",
+    "trust": ["Hazard trees are our specialty", "Family run in Washougal", "Licensed, bonded & insured", "Free consultations"],
+    "footer_blurb": "Tree removal, hazard trees, trimming and chipping for homes and businesses in Washougal and the Columbia River Gorge.",
+    "hours": ["Mon–Fri: 8am–5pm"],
+    "social": {"Facebook": "https://m.facebook.com/ColumbiaClimbersTreeService/"}
+  },
+
+  "home": {
+    "title": "Columbia Climbers Tree Service | Washougal, WA",
+    "description": "Hazard tree removal, tree removal, trimming and chipping in Washougal and the Columbia River Gorge. Family run, licensed, bonded and insured. Free consultations.",
+    "hero_photo": "hero",
+    "hero_alt": "Looking up into tall evergreen trees",
+    "eyebrow": "Columbia Climbers · Washougal, WA",
+    "headline": "Hazard trees are our specialty.",
+    "lead": "Big firs, leaning maples and storm-damaged trees, taken down carefully by a family-run crew that's been climbing in the Gorge for over two decades.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Customers who keep calling us back",
+      "items": [
+        {"quote": "John of Columbia Climbers Tree Service has been trimming and removing our large trees for several years. We have found John and his crew to be efficient, courteous, and pay attention to detail.", "name": "Cathie N."},
+        {"quote": "Excellent company and great service provided by professional people. Have been using them for tree removal and chipping for over 15 years at my forested property in the Columbia River Gorge.", "name": "Christina B."},
+        {"quote": "We had a huge old maple between our house and a new office, and it overhung both. They carefully tied off each branch and lowered it to the ground.", "name": "Amy L."}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "about",
+      "photo_alt": "Tree worker in the forest",
+      "title": "John and Karen's family business",
+      "paragraphs": [
+        "Columbia Climbers is a local, family-run tree service in Washougal, owned by John and Karen Detally.",
+        "For over two decades we've taken care of trees across the Columbia River Gorge, from single trims to big fir removals on forested properties. Some of our customers have been calling us for more than 15 years.",
+        "We work with homeowners and businesses, and every job starts with a free consultation so we can make a plan that fits your property."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free consultation",
+    "title": "Tell us about your trees.",
+    "text": "Send us a few details and we'll reach out to set up a free consultation.",
+    "address_label": "Property address",
+    "details_label": "What's going on with your trees?",
+    "button": "Request My Consultation",
+    "thanks": "We got your request and will reach out soon to set up your consultation."
+  },
+
+  "services": [
+    {
+      "slug": "hazard-trees", "name": "Hazard Tree Removal",
+      "blurb": "Leaning, split and storm-damaged trees, taken down carefully.",
+      "intro": "Hazard trees are our specialty. When a tree is cracked, leaning or hanging over your house, we take it down piece by piece and lower it safely to the ground.",
+      "includes": ["Leaning and split trees", "Trees over houses and buildings", "Storm-damaged trees", "Branches tied off and lowered"],
+      "photos": [["hazard", "Cutting a tree with a chainsaw"]]
+    },
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Big firs, maples and more, removed from homes and forested land.",
+      "intro": "From one tree in the backyard to several large firs on acreage, we remove trees safely and clean up after ourselves.",
+      "includes": ["Large fir removal", "Residential and commercial", "Forested and rural properties", "Clean-up when we're done"],
+      "photos": [["removal", "Chainsaw cutting logs"]]
+    },
+    {
+      "slug": "tree-trimming", "name": "Tree Trimming",
+      "blurb": "Trimming that keeps your trees healthy and away from your home.",
+      "intro": "Regular trimming keeps your trees healthy and keeps limbs off your roof, power lines and driveway.",
+      "includes": ["Trimming and thinning", "Limbs over roofs and driveways", "Deadwood removal", "Ongoing care for repeat customers"],
+      "photos": [["trimming", "Climber trimming a tree"]]
+    },
+    {
+      "slug": "chipping", "name": "Chipping & Clean-Up",
+      "blurb": "Brush chipped and debris cleared so your property is ready to enjoy.",
+      "intro": "We chip the brush and clear the debris, so your property looks better than when we arrived.",
+      "includes": ["Brush chipping", "Debris clean-up", "Haul-away", "Forested property clean-up"],
+      "photos": [["chipping", "Fresh wood chips"]]
+    }
+  ]
+}

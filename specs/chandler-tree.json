@@ -1,0 +1,112 @@
+{
+  "slug": "chandler-tree",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Chandler Tree, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+
+  "theme": {
+    "dark": "#1b2419",
+    "dark_2": "#253122",
+    "on_dark": "#f3f5f0",
+    "on_dark_muted": "#b5bfae",
+    "accent": "#e8423f",
+    "accent_ink": "#ffffff",
+    "soft": "#f3f5f1",
+    "line": "#dde3d8"
+  },
+
+  "business": {
+    "name": "Chandler Tree",
+    "legal_name": "Chandler Tree, Inc.",
+    "city": "Corbett",
+    "state": "OR",
+    "area": "the Columbia Gorge and east Portland metro",
+    "phone_display": "(503) 960-3867",
+    "phone_tel": "+15039603867",
+    "license": "CCB #249248",
+    "trust": ["Licensed, bonded & insured", "Free quotes", "Local to Corbett", "CCB #249248"],
+    "footer_blurb": "Tree removal, pruning, stump grinding and cleanup from Corbett, Oregon. Licensed, bonded and insured.",
+    "social": {}
+  },
+
+  "home": {
+    "title": "Chandler Tree | Tree Service in Corbett, OR",
+    "description": "Tree removal, pruning, stump grinding, chipping and hazard tree assessment from Corbett, Oregon. Licensed, bonded and insured. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "Tall evergreen forest in the Pacific Northwest",
+    "eyebrow": "Chandler Tree · Corbett, OR",
+    "headline": "Reliable tree care for your property.",
+    "lead": "Precision pruning, safe removals and stump grinding from your community arborists in Corbett. Licensed, bonded and insured.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our neighbors say",
+      "items": [
+        {"quote": "Chandler Tree is amazing. They came over quickly and took care of some dying trees that were leaning over the house as well as damaging the house and driveway. The whole crew was working quickly and happy to be there.", "name": "Galen Beasley"},
+        {"quote": "Thank you to Chandler Tree for taking down our huge tree in our backyard! They communicated well and were able to quickly get the job done! It was no easy task!", "name": "Jessica Haley"},
+        {"quote": "Excellent, friendly and professional. Chandler Tree Service removed four very tall and large trees that were threatening to cause serious damage during the winter ice and wind events.", "name": "Ron Cannon"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "about",
+      "photo_alt": "Arborist with a chainsaw",
+      "title": "Your community arborists",
+      "paragraphs": [
+        "Chandler Tree is owned by Graham Chandler and based in Corbett, Oregon.",
+        "Our mission is to bring expert tree care that protects your home, enhances your landscape and adds lasting value. From precision pruning to safe removals, our crew delivers top-tier results with the care your property deserves.",
+        "It's not just about cutting costs. It's about doing the job right, and we stay in constant communication with you until the job is done."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Tell us about your trees.",
+    "text": "Send us a few details and we'll get back to you with a free quote.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Quote",
+    "thanks": "We got your request and will reach out soon about your free quote."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Safe removal of dead, dying and unwanted trees, big or small.",
+      "intro": "When a tree has to come down, we take it down safely and protect your home, driveway and landscape along the way.",
+      "includes": ["Tree removal and felling", "Trees near homes and structures", "Dead and dying trees", "Clean-up when we're done"],
+      "photos": [["removal", "Cutting a tree with a chainsaw"]]
+    },
+    {
+      "slug": "pruning", "name": "Tree Pruning",
+      "blurb": "Precision pruning for healthier, safer, better-looking trees.",
+      "intro": "Good pruning keeps trees healthy, clears branches away from your roof and lines, and lets more light into your yard.",
+      "includes": ["Crown thinning and shaping", "Deadwood removal", "Clearing branches from roofs and lines", "Pruning for health and safety"],
+      "photos": [["pruning", "Arborist pruning from a lift"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Grind stumps below grade so you can reclaim your yard.",
+      "intro": "We grind stumps down so you can mow, plant or build where the tree used to be.",
+      "includes": ["Stump grinding", "Surface root grinding", "Clean-up of grindings", "Single stumps or whole yards"],
+      "photos": [["stump", "Tree stump"]]
+    },
+    {
+      "slug": "chipping-cleanup", "name": "Chipping & Debris Removal",
+      "blurb": "Limbs chipped and debris hauled so your yard is left clean.",
+      "intro": "We chip limbs and haul away debris, so all you're left with is a clean yard.",
+      "includes": ["Limb chipping", "Debris removal and haul-away", "A clean yard when we leave"],
+      "photos": [["chipping", "Cut logs and wood chips"]]
+    },
+    {
+      "slug": "hazard-trees", "name": "Hazard Tree Assessment",
+      "blurb": "Find out if a leaning or damaged tree is a risk before it fails.",
+      "intro": "Leaning, cracked or rotting trees near your home can fail in winter ice and wind. We'll look them over and tell you honestly what needs to happen.",
+      "includes": ["Hazard tree assessment", "Leaning and storm-damaged trees", "Honest recommendations", "Removal or pruning when needed"],
+      "photos": [["hazard", "Old tree with a hollow trunk"]]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "eds-arbor-care",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Ed's Arbor Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#1e2316",
+    "dark_2": "#2a3120",
+    "on_dark": "#f4f4ec",
+    "on_dark_muted": "#bdbfa9",
+    "accent": "#f2c94c",
+    "accent_ink": "#2a2000",
+    "soft": "#f5f5ee",
+    "line": "#e1e2d4"
+  },
+
+  "business": {
+    "name": "Ed's Arbor Care",
+    "legal_name": "Ed's Arbor Care LLC",
+    "city": "Gresham",
+    "state": "OR",
+    "area": "Gresham, Troutdale and the greater Portland area",
+    "phone_display": "(503) 804-7353",
+    "phone_tel": "+15038047353",
+    "license": "CCB #192464",
+    "trust": ["Since 2010", "ISA Certified Arborist", "24-hour emergency service", "CCB #192464"],
+    "footer_blurb": "Tree removal, pruning, stump removal, landscaping and snow removal across Gresham, Troutdale and the greater Portland area. 33410 SE Francis St, Gresham, OR 97080.",
+    "areas": ["Gresham", "Troutdale", "Fairview", "Portland", "Sandy", "Boring", "Corbett", "Damascus", "Camas, WA", "Clackamas", "Lake Oswego", "Vancouver, WA"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Ed's Arbor Care | Tree Service in Gresham & Troutdale, OR",
+    "description": "Tree removal, pruning, stump removal, landscaping and 24-hour emergency tree service in Gresham, Troutdale and Portland since 2010. ISA Certified Arborist.",
+    "hero_photo": "hero",
+    "hero_alt": "Home surrounded by fall trees",
+    "eyebrow": "Ed's Arbor Care · Gresham, OR",
+    "headline": "Tree care that's a cut above, since 2010.",
+    "lead": "Tree removal, pruning and stump removal for Gresham, Troutdale and the greater Portland area, with a 24-hour line when a tree can't wait.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Our neighbors' go-to tree company",
+      "items": [
+        {"quote": "Ed was super polite, professional, knowledgeable, and helpful. I can't recommend him more highly! Compared to the other people we had out, Ed was head and shoulders above the competition.", "name": "Molly G."},
+        {"quote": "Nothing to say bad about Ed's Arbor Care. Reasonable prices, great customer service, goes above and beyond on each job. Always meets or exceeds expectations on each project.", "name": "Wendy S."},
+        {"quote": "Ed's Arbor Care is our go-to company for any issues with trees. We have used them to remove trees at different properties and are always recommending them to anyone needing help with trees.", "name": "Nita S."}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "about",
+      "photo_alt": "Ed's Arbor Care climber working high in a tree",
+      "title": "Two friends, one goal",
+      "paragraphs": [
+        "Ed's Arbor Care was started in 2010 by two friends, Edward Dreske II and Jason Banzer, with one idea: incredible service at an incredible price, treating every customer like family.",
+        "Ed grew up working on his father's tree crews, served in the Marines, and became an ISA Certified Arborist. Jason worked his way up from raking leaves and dragging brush to pruning from bucket trucks and supervising crews.",
+        "We're owner operated, members of the Tree Care Industry Association, and licensed, bonded and insured in Oregon."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your trees.",
+    "text": "Send us a few details and we'll get back to you with a free estimate. For an emergency, call Ed any time at (503) 804-7353.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will reach out soon about your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Safe removal of dead, dying and unwanted trees.",
+      "intro": "When a tree is dead, dying or endangering the trees and buildings around it, it's time to remove it. We take it down safely and clean up.",
+      "includes": ["Dead and dying trees", "Hazard trees near homes", "Residential and commercial", "Clean-up and haul-away"],
+      "photos": [["removal", "Arborist holding a chainsaw"]]
+    },
+    {
+      "slug": "pruning", "name": "Tree & Shrub Pruning",
+      "blurb": "Pruning, trimming and deadwooding for healthy trees.",
+      "intro": "Our arborists prune trees and shrubs for health, safety and looks, from fine detail work to big canopies.",
+      "includes": ["Tree trimming and pruning", "Shrub pruning", "Deadwooding", "Power line clearing"],
+      "photos": [["pruning", "Pruning branches with loppers"]]
+    },
+    {
+      "slug": "stump-removal", "name": "Stump Removal",
+      "blurb": "Stump grinding and removal to reclaim your yard.",
+      "intro": "We grind stumps out so you can replant, landscape or just mow over the spot.",
+      "includes": ["Stump grinding", "Stump removal", "Root clean-up", "Landscape-friendly work"],
+      "photos": [["stump", "Axe resting on a tree stump"]]
+    },
+    {
+      "slug": "emergency", "name": "24-Hour Emergency Tree Service",
+      "blurb": "A tree on your house or blocking your drive? Call Ed any time.",
+      "intro": "Our 24-hour live customer service is ready to take your call at any time and dispatch a crew before your tree problem becomes a disaster.",
+      "includes": ["Storm-damaged trees", "Trees on houses and cars", "Blocked driveways and roads", "Available 24 hours"],
+      "photos": [["emergency", "Storm damage across a neighborhood"]]
+    },
+    {
+      "slug": "landscaping", "name": "Landscaping & Tree Care",
+      "blurb": "Planting, deep fertilization and seasonal care.",
+      "intro": "Beyond cutting, we help your trees and landscape thrive with planting, fertilization and winterizing.",
+      "includes": ["Tree planting", "Deep fertilization", "Winterizing", "Landscaping"],
+      "photos": [["landscaping", "Backyard landscape"]]
+    },
+    {
+      "slug": "snow-removal", "name": "Snow Removal",
+      "blurb": "Plowing and snow removal when winter hits.",
+      "intro": "When snow shuts down the east side, we clear it so you can get moving again.",
+      "includes": ["Snow plowing", "Driveways and lots", "Residential and commercial", "Storm response"],
+      "photos": [["snow", "Snow plow clearing a lot"]]
+    }
+  ]
+}

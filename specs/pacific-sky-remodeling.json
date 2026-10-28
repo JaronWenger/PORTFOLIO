@@ -1,0 +1,120 @@
+{
+  "slug": "pacific-sky-remodeling",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Pacific Sky Remodeling, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Estimate",
+  "header_cta": "Get a Quote",
+
+  "theme": {
+    "dark": "#0f1e2d",
+    "dark_2": "#172a3d",
+    "on_dark": "#f1f5f9",
+    "on_dark_muted": "#a9bccd",
+    "accent": "#6cc644",
+    "accent_ink": "#0b2005",
+    "soft": "#f2f6f9",
+    "line": "#dce5ec"
+  },
+
+  "business": {
+    "name": "Pacific Sky Remodeling",
+    "legal_name": "Pacific Sky Remodeling LLC",
+    "city": "Troutdale",
+    "state": "OR",
+    "area": "the Portland metro area",
+    "phone_display": "(503) 997-7725",
+    "phone_tel": "+15039977725",
+    "email": "pacificskyremodeling@gmail.com",
+    "trust": ["Family owned", "30-year painting legacy", "Residential & commercial", "Color matching"],
+    "footer_blurb": "House painting, cabinet painting, staining and repairs for homes and businesses across the Portland metro area. 1146 SW Livingston Pl, Troutdale, OR 97060.",
+    "hours": ["Mon–Sat: 8am–5pm", "Sun: Closed"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Pacific Sky Remodeling | House Painters in Troutdale, OR",
+    "description": "Family-owned house painters in Troutdale. Exterior and interior painting, cabinet painting, staining, color matching and siding, deck and trim repairs.",
+    "hero_photo": "hero",
+    "hero_alt": "Gray house with a teal gable, freshly painted",
+    "eyebrow": "Pacific Sky Remodeling · Troutdale, OR",
+    "headline": "House painting done with family pride.",
+    "lead": "Exterior and interior painting, cabinets, staining and repairs from a family-owned team with a 30-year painting legacy.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting & repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "I would HIGHLY recommend Pacific Sky Remodeling. Marco Sr. and Marco Jr. were both a pleasure to work with. I am more than pleased and satisfied with the finished project and the whole experience.", "name": "Karyn W."},
+        {"quote": "Can't say enough good things about this company. Love the new color of my house and all the small little details that they got perfect.", "name": "Taryn R."},
+        {"quote": "If you're looking for painters we'd highly recommend Pacific Sky Remodeling. We had them paint the exterior of our home a couple years ago and just recently had them paint our kitchen cabinets.", "name": "Bill B."}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "crew",
+      "photo_alt": "Pacific Sky crew painting a house",
+      "title": "A family that takes pride in its work",
+      "paragraphs": [
+        "Pacific Sky Remodeling is a family-owned company run by Marco and Scarlette, with Marco Sr. and Marco Jr. on the job.",
+        "Our legacy goes back 30 years, from painting emergency ladder access in New York City to office buildings on the busy streets of Los Angeles. We finally found home in Portland, Oregon, where we live and work today.",
+        "We paint homes and businesses inside and out, and we take care of the small details that make a paint job last."
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      ["hero", "Gray house with a teal gable"], ["ranch", "Ranch home repainted in tan"],
+      ["entry", "Black front door and dark siding"], ["two-story", "Two-story home in green and white"],
+      ["log-porch", "Log porch restored"], ["interior", "Interior trim and paneling"],
+      ["siding", "Spraying shingle siding"], ["crew", "Crew at work on a home"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Estimates",
+    "title": "Tell us about your project.",
+    "text": "Send us a few details and we'll get back to you with an estimate.",
+    "address_label": "Project address",
+    "details_label": "What would you like painted or repaired?",
+    "button": "Request My Estimate",
+    "thanks": "We got your request and will reach out soon about your estimate."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Fresh, lasting color for siding, trim and doors.",
+      "intro": "We prep, pressure wash and paint your home's exterior so it looks sharp and holds up to Northwest weather.",
+      "includes": ["Siding, trim and doors", "Pressure washing and prep", "Spray and brush application", "Residential and commercial"],
+      "photos": [["hero", "Gray house with a teal gable"], ["ranch", "Ranch home repainted in tan"], ["two-story", "Two-story home in green and white"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior Painting",
+      "blurb": "Walls, ceilings, trim and doors, done clean and careful.",
+      "intro": "We protect your floors and furniture, then paint with crisp lines and careful detail.",
+      "includes": ["Walls and ceilings", "Trim, doors and paneling", "Homes and offices", "Clean job sites"],
+      "photos": [["interior", "Interior trim and paneling"], ["interior-prep", "Interior prep with windows masked"]]
+    },
+    {
+      "slug": "cabinet-painting", "name": "Cabinet Painting",
+      "blurb": "Give your kitchen a new look without new cabinets.",
+      "intro": "Painting your cabinets is one of the fastest ways to update a kitchen or bathroom.",
+      "includes": ["Kitchen cabinets", "Bathroom vanities", "Custom paint colors", "Smooth, durable finishes"],
+      "photos": [["cabinets", "Kitchen with white cabinets"]]
+    },
+    {
+      "slug": "staining-color", "name": "Staining & Color Matching",
+      "blurb": "Stain for wood and decks, and color matched to what you love.",
+      "intro": "From log homes to decks and fences, we stain and seal wood, and we can match almost any color you bring us.",
+      "includes": ["Deck and fence staining", "Log homes and porches", "Color matching", "A wide variety of products"],
+      "photos": [["log-porch", "Log porch restored"], ["chalet", "Cedar chalet with a deck"]]
+    },
+    {
+      "slug": "repairs", "name": "Siding, Deck & Trim Repairs",
+      "blurb": "We fix it before we paint it.",
+      "intro": "Rotted siding, trim and deck boards get repaired before the paint goes on, so the finish lasts.",
+      "includes": ["Siding repair", "Deck repair", "Trim replacement", "Lead-based paint renovation"],
+      "photos": [["siding", "Spraying shingle siding"]]
+    }
+  ]
+}

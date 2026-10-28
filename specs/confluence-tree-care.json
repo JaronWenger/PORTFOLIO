@@ -1,0 +1,118 @@
+{
+  "slug": "confluence-tree-care",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Confluence Tree Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Get a Quote",
+
+  "theme": {
+    "dark": "#1a221f",
+    "dark_2": "#24302b",
+    "on_dark": "#f3f4f0",
+    "on_dark_muted": "#b4bdb5",
+    "accent": "#e08a3c",
+    "accent_ink": "#241000",
+    "soft": "#f4f4f0",
+    "line": "#dfe2da"
+  },
+
+  "business": {
+    "name": "Confluence Tree Care",
+    "legal_name": "Confluence Tree Care, LLC",
+    "city": "Washougal",
+    "state": "WA",
+    "area": "Clark County, Skamania County and the Portland metro area",
+    "phone_display": "(360) 335-5601",
+    "phone_tel": "+13603355601",
+    "email": "confluencetreecare@gmail.com",
+    "license": "WA Lic CONFLTC793D6 · OR CCB 237188",
+    "logo_on_light": true,
+    "trust": ["ISA Certified Arborist", "Licensed in WA & OR", "Bonded & insured", "Level 3 rope access"],
+    "footer_blurb": "High quality tree care and great customer service from Washougal, WA. Tree removal, pruning and view enhancement, storm damage and onsite milling.",
+    "areas": ["Washougal", "Camas", "Vancouver", "Ridgefield", "Brush Prairie", "Skamania County", "Portland metro"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Confluence Tree Care | Certified Arborist in Washougal, WA",
+    "description": "Tree removal, pruning and view enhancement, storm damage and onsite milling from ISA Certified Arborist Mark Trevithick in Washougal, WA. Licensed in WA and OR.",
+    "hero_photo": "hero",
+    "hero_alt": "A tall tree being felled on a forested property",
+    "eyebrow": "Confluence Tree Care · Washougal, WA",
+    "headline": "Where high quality tree care and great customer service meet.",
+    "lead": "Removals, pruning, view work and storm clean-up from an ISA Certified Arborist with 20 years of climbing behind him.",
+    "services_eyebrow": "Our services",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What people are saying",
+      "items": [
+        {"quote": "Mark Trevithick was where he said he would be, when he said he would be there. Communication was clear and prompt. Pricing was reasonable. Their work was precise. Above and beyond my expectations.", "name": "Shelly H."},
+        {"quote": "We had overgrown maples, alders, and who knows what else blocking our view of the valley and mountains. Our yard is open and our view is beautiful. They were on time, worked hard, and cleaned up.", "name": "Alice B."},
+        {"quote": "Mark and his crew removed my 70 year old tree-of-heaven. In expert fashion, Mark climbed the tree and with rigging lowered branches to the ground protecting property and avoiding powerlines.", "name": "Bill L."},
+        {"quote": "Wow! Confluence came and removed a rotting cherry tree in a day, including grinding the stump and left it amazingly clean and tidy! Tree? What tree?", "name": "Melinda C."},
+        {"quote": "We called Mark the Saturday that the big windstorm hit Camas. We had a multi-trunked cedar tree that was cracked and threatening ours and our neighbor's home. Mark came as soon as it was safe and worked tirelessly all day to secure this huge tree.", "name": "Mary J."},
+        {"quote": "We called Confluence Tree Care for a tough job to reclaim our view. Mark and his crew are personable, professional, and proficient. Will not hesitate to rehire or recommend.", "name": "Michael Hammerquist"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Meet Mark",
+      "photo": "about",
+      "photo_alt": "Mark Trevithick in his climbing helmet",
+      "title": "Mark Trevithick, owner & ISA Certified Arborist",
+      "paragraphs": [
+        "Mark has been climbing in some form for 20 years, starting as a rock climber and climbing guide in Moab, Utah, then as an industrial rope access technician working up to Level 3 Supervisor.",
+        "He and Briana settled in Washougal in 2014, bought six acres, and started planting trees. Climbing and pruning their own trees, planting an orchard and reclaiming blackberry thickets with native species led straight to Confluence Tree Care.",
+        "Today Mark is an ISA Board Certified Arborist, licensed in Washington and Oregon, bonded and insured, and certified Level 3 with both SPRAT and IRATA."
+      ]
+    },
+    "gallery_title": "From the job site",
+    "gallery": [
+      ["hero", "Felling a tall tree"], ["storm", "Uprooted tree after a storm"],
+      ["milling", "Milling a log into lumber onsite"], ["view", "Opening up a view of the valley"],
+      ["tree", "Fall color in the canopy"], ["rope", "Rope access work at height"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Get in touch",
+    "title": "Tell us about your trees.",
+    "text": "Send us a few details and Mark will get back to you to plan your job and give you a quote.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Request My Quote",
+    "thanks": "We got your request. Mark will reach out soon."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Safety and the preservation of your property come first.",
+      "intro": "There are several ways to go about a removal, and you can choose any combination: chop and drop, firewood, or take it all away.",
+      "content_title": "Removal your way",
+      "includes": ["Chop and drop: we get it on the ground and you take it from there", "Firewood: we cut it to size and chip or haul the rest", "Take it away: we get it down and take it all away", "Rigging to protect your home and lines"],
+      "photos": [["hero", "Felling a tall tree"]]
+    },
+    {
+      "slug": "pruning-view", "name": "Pruning & View Enhancement",
+      "blurb": "Improve a favorite view, protect your home, or let in more sun.",
+      "intro": "We come up with a pruning plan that's good for you and your tree, using modern rigging and ANSI A300 pruning standards.",
+      "includes": ["View enhancement", "ANSI A300 pruning standards", "Modern rigging to protect your property", "No climbing spurs on trees that are staying"],
+      "photos": [["view", "Opening up a view of the valley"], ["tree", "Fall color in the canopy"]]
+    },
+    {
+      "slug": "storm-damage", "name": "Storm Damage Mitigation",
+      "blurb": "Broken limbs, hung-up branches and trees on the ground.",
+      "intro": "If a storm-damaged tree isn't too badly hurt, we may be able to prune the damage and save the rest. If it's already down, we'll buck it up for firewood or take it away.",
+      "includes": ["Pruning storm-damaged trees", "Removing broken and hung-up limbs", "Bucking downed trees for firewood", "Removing trees too damaged to recover"],
+      "photos": [["storm", "Uprooted tree after a storm"]]
+    },
+    {
+      "slug": "onsite-milling", "name": "Onsite Milling",
+      "blurb": "Turn your tree into slabs or lumber instead of saying goodbye.",
+      "intro": "Don't want to say goodbye to your tree forever? We team up with Riverwoods Milling, LLC to turn it into slabs or lumber.",
+      "includes": ["Slabs and lumber from your tree", "Milling on your property", "Partnered with Riverwoods Milling, LLC", "Scheduled after removal"],
+      "photos": [["milling", "Milling a log into lumber onsite"]]
+    }
+  ]
+}
