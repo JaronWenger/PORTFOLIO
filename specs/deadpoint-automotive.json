@@ -1,0 +1,137 @@
+{
+  "slug": "deadpoint-automotive",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for DeadPoint Automotive, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#f2c230",
+    "accent_ink": "#1d1800",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "DeadPoint Automotive",
+    "legal_name": "DeadPoint Automotive",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "Hood River, OR",
+    "phone_display": "(360) 558-1036",
+    "phone_tel": "+13605581036",
+    "trust": [
+      "Open weekends",
+      "Towing available",
+      "Progress photos",
+      "Hood River local"
+    ],
+    "footer_blurb": "Hood River auto repair from Michael. Open weekends, towing available, and progress photos so you can see the work.",
+    "hours": [],
+    "social": {},
+    "license": "1444B Tucker Rd, Hood River, OR 97031"
+  },
+  "home": {
+    "title": "DeadPoint Automotive | Auto Repair in Hood River, OR",
+    "description": "Local auto repair from Michael. Open weekends, towing available, and progress photos sent along the way. DeadPoint Automotive, 1444B Tucker Rd, Hood River, OR 97031.",
+    "hero_photo": "lift-tall",
+    "hero_alt": "SUV raised on a two-post lift",
+    "eyebrow": "DeadPoint Automotive · Hood River, OR",
+    "headline": "Auto Repair",
+    "lead": "Local auto repair from Michael. Open weekends, towing available, and progress photos sent along the way.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "lift-mechanic",
+      "title": "See the work as it happens",
+      "paragraphs": [
+        "DeadPoint Automotive is Michael's shop on Tucker Road. He sends progress photos as he works, so you can see exactly what's being done to your car.",
+        "Open on weekends and able to tow your car in, DeadPoint makes it easy to get your car fixed when it fits your schedule."
+      ],
+      "photo_alt": "Mechanic under a raised SUV"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Michael will get back to you. Or call (360) 558-1036.",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Michael will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "repair",
+      "name": "General Auto Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "towing",
+      "name": "Towing",
+      "blurb": "We can tow your car to the shop.",
+      "intro": "Car not drivable? Call and we'll tow it to the shop.",
+      "includes": [
+        "Tows to the shop",
+        "Breakdowns",
+        "Hood River area",
+        "Call ahead"
+      ],
+      "photos": [
+        [
+          "tow",
+          "Car loaded on a tow truck"
+        ],
+        [
+          "roadside",
+          "Car with the hood up on the roadside"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "slug": "amp-auto-tech",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for AMP Auto Tech, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f6fd0",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "AMP Auto Tech",
+    "legal_name": "AMP Auto Tech",
+    "city": "Aloha",
+    "state": "OR",
+    "area": "the Portland metro area",
+    "phone_display": "(503) 504-4032",
+    "phone_tel": "+15035044032",
+    "trust": [
+      "Independent Subaru specialists",
+      "Since 2000",
+      "Locally owned",
+      "Honesty & integrity"
+    ],
+    "footer_blurb": "Independent Subaru specialists, locally owned and operated since 2000. Routine maintenance to complete engine swaps and performance builds.",
+    "hours": [
+      "Mon–Fri: 10am–6pm"
+    ],
+    "social": {},
+    "license": "3506 SW 209th Ave, Aloha, OR 97007"
+  },
+  "home": {
+    "title": "AMP Auto Tech | Independent Subaru Specialists in Aloha, OR",
+    "description": "Locally owned and operated since 2000, we're one of the Portland metro area's few Subaru specialists. AMP Auto Tech, 3506 SW 209th Ave, Aloha, OR 97007.",
+    "hero_photo": "engine-subaru",
+    "hero_alt": "Boxer engine under the hood",
+    "eyebrow": "AMP Auto Tech · Aloha, OR",
+    "headline": "Independent Subaru Specialists",
+    "lead": "Locally owned and operated since 2000, we're one of the Portland metro area's few Subaru specialists.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Dale is by far the mechanic I trust the most. I cannot overstate how knowledgeable, trustworthy and fair he is. I don't trust anyone with my subaru more than him. He is a great guy through and through. I'd give him 6 stars if it was possible!",
+          "name": "Google review"
+        },
+        {
+          "quote": "They rebuilt my engine and did an excellent job. Very good price, speedy, great work, and Dale kept me up to date on progress. This is the place to go if your Subaru needs fixing.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Dale is amazing. His work is amazing. He's great at communicating and his pricing is great as well. Highly recommend!",
+          "name": "nikki b."
+        },
+        {
+          "quote": "Dale has done work for our kids Subaru awhile back and was a piece of cake to work with. Honest, knowledgeable and very reasonably priced.",
+          "name": "Brendan Q."
+        },
+        {
+          "quote": "Dale was great. Nice to work with and performed a 60k service on our 2011 Outback. Nothing to fix but he saved me over the dealership and did a thorough check out.",
+          "name": "Ed K."
+        },
+        {
+          "quote": "I can't thank you enough for the care you have shown my car and the kindness you've shown me.",
+          "name": "Rebecca, Portland"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "lift",
+      "title": "Honesty and integrity",
+      "paragraphs": [
+        "We owe our success to staying true to our core belief that the needs of the customer shall always be met. We take great pride in knowing that our customers drive away after every visit knowing they are getting the best service possible.",
+        "Our strongest qualities are honesty and integrity. We believe in keeping you informed and providing options to match your budget and goals. We are always ready to answer your questions or concerns."
+      ],
+      "photo_alt": "SUV raised on a lift"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Dale will get back to you. Or call (503) 504-4032 (Mon–Fri: 10am–6pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Dale will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "subaru-maintenance",
+      "name": "Subaru Maintenance",
+      "blurb": "Scheduled service, done by a Subaru specialist.",
+      "intro": "Scheduled maintenance from a Subaru specialist, with a thorough check-over every time and savings over the dealership.",
+      "includes": [
+        "30k, 60k and 90k services",
+        "Oil changes and fluids",
+        "Thorough inspections",
+        "Options to match your budget"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    },
+    {
+      "slug": "subaru-diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Check engine lights, noises and problems other shops have overlooked, diagnosed by someone who knows Subarus inside and out.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "timing",
+      "name": "Timing Belts",
+      "blurb": "Timing belts and water pumps, done on schedule.",
+      "intro": "Timing belts on Outbacks, Foresters, Imprezas and more, with progress updates along the way.",
+      "includes": [
+        "Timing belts",
+        "Water pumps",
+        "Tensioners and idlers",
+        "Seals"
+      ],
+      "photos": [
+        [
+          "engine-subaru",
+          "Boxer engine under the hood"
+        ],
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ]
+      ]
+    },
+    {
+      "slug": "engine-rebuilds",
+      "name": "Engine Rebuilds & Swaps",
+      "blurb": "Head gaskets, rebuilds and complete engine swaps.",
+      "intro": "We have no problem taking on any task, all the way up to engine rebuilds and complete engine swaps for your Subaru.",
+      "includes": [
+        "Engine rebuilds",
+        "Complete engine swaps",
+        "Head gaskets and leaks",
+        "Progress updates"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "engine-two",
+          "Two mechanics working in an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "clutches",
+      "name": "Clutches",
+      "blurb": "Clutch replacements for manual Subarus.",
+      "intro": "Slipping or grabbing clutch? We replace clutches on manual Subarus.",
+      "includes": [
+        "Clutch replacement",
+        "Flywheels",
+        "Hydraulics",
+        "Manual transmissions"
+      ],
+      "photos": [
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ],
+        [
+          "lift",
+          "SUV raised on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "performance",
+      "name": "Performance Builds",
+      "blurb": "WRX and STI performance work.",
+      "intro": "Routine maintenance to complete engine swaps and performance builds. If you want more out of your Subaru, talk to Dale.",
+      "includes": [
+        "Performance builds",
+        "Turbo work",
+        "Engine swaps",
+        "WRX and STI"
+      ],
+      "photos": [
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ],
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ]
+      ]
+    }
+  ]
+}

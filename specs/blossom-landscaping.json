@@ -1,0 +1,282 @@
+{
+  "slug": "blossom-landscaping",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Blossom Landscaping, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Request a Quote",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#3f9a4a",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Blossom Landscaping",
+    "legal_name": "Blossom Landscaping LLC",
+    "city": "Battle Ground",
+    "state": "WA",
+    "area": "Battle Ground and Clark County",
+    "phone_display": "(360) 213-5300",
+    "phone_tel": "+13602135300",
+    "license": "23708 NE Canyon Loop Rd, Battle Ground, WA 98604",
+    "logo_has_name": true,
+    "trust": [
+      "Experience",
+      "Professional",
+      "Competitive",
+      "5.0 on Google"
+    ],
+    "footer_blurb": "Retaining walls, patios and walkways, water features, landscape lighting, drainage and lawns in Battle Ground and Clark County. Experience · Professional · Competitive.",
+    "hours": [
+      "Mon–Fri: 8am–6pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Blossom Landscaping | Landscaping in Battle Ground, WA",
+    "description": "Retaining walls, paver and flagstone walkways and patios, water features, landscape lighting, drainage, lawns and bark in Battle Ground and Clark County, WA.",
+    "hero_photo": "front",
+    "hero_alt": "Curved paver walkway and stone planter in a front yard",
+    "eyebrow": "Battle Ground, WA",
+    "headline": "Experience · Professional · Competitive",
+    "lead": "Retaining walls, patios and walkways, water features, landscape lighting, drainage and lawns across Battle Ground and Clark County.",
+    "services_eyebrow": "What we do",
+    "services_title": "Landscaping services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "David with Blossom landscaping is absolutely awesome.",
+          "name": "Mindy G."
+        },
+        {
+          "quote": "He and his crew take excellent care of our lawn, and general yard work.",
+          "name": "Customer for over 10 years"
+        },
+        {
+          "quote": "Great people, awesome skills, easy to work with and very professional.",
+          "name": "Bonnie W."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "pillar",
+      "title": "Talk to David",
+      "paragraphs": [
+        "Blossom Landscaping LLC is David's landscaping company in Battle Ground, Washington.",
+        "From retaining walls and flagstone patios to water features and landscape lighting, every photo on this page is our own work."
+      ],
+      "photo_alt": "Stone pillar with house number and river rock"
+    },
+    "gallery_title": "Our work",
+    "gallery": [
+      [
+        "front-2",
+        "Paver path and round retaining wall planter"
+      ],
+      [
+        "pillar-night",
+        "Lit stone pillar and walkway at dusk"
+      ],
+      [
+        "waterfall",
+        "Rock waterfall water feature beside a patio"
+      ],
+      [
+        "flag-patio",
+        "Flagstone patio with lights under a gazebo"
+      ],
+      [
+        "wall-lawn",
+        "Retaining wall with shrubs above a new lawn"
+      ],
+      [
+        "basalt",
+        "Basalt column fountain in river rock"
+      ],
+      [
+        "night-walk",
+        "Paver walkway with landscape lights at night"
+      ],
+      [
+        "flagstone",
+        "Flagstone walkway along a house"
+      ],
+      [
+        "wall-long",
+        "Long retaining wall with drain rock along a fence"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Request a quote",
+    "title": "Tell David about your yard.",
+    "text": "Tell us about your yard and what you have in mind, and David will get back to you. Or call (360) 213-5300.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Quote",
+    "thanks": "Thanks! David will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "retaining-walls",
+      "name": "Retaining Walls",
+      "blurb": "Block walls, planters and walls under decks.",
+      "intro": "Retaining walls hold back slopes, create level space and frame planting beds. We build block retaining walls, planters and walls under decks.",
+      "includes": [
+        "Block retaining walls",
+        "Retaining wall planters",
+        "Walls under decks",
+        "Drain rock behind the wall"
+      ],
+      "photos": [
+        [
+          "wall-steps",
+          "Block retaining wall beside a lawn"
+        ],
+        [
+          "curve",
+          "Curved block wall with river rock and pavers"
+        ],
+        [
+          "deck-wall",
+          "Block retaining wall below a deck"
+        ]
+      ]
+    },
+    {
+      "slug": "patios-walkways",
+      "name": "Patios & Walkways",
+      "blurb": "Paver and flagstone paths and patios.",
+      "intro": "Paver pathways, flagstone walkways and patios that tie your yard together.",
+      "includes": [
+        "Paver pathways",
+        "Flagstone walkways",
+        "Flagstone patios",
+        "Front entries"
+      ],
+      "photos": [
+        [
+          "front",
+          "Curved paver walkway and stone planter in a front yard"
+        ],
+        [
+          "flagstone",
+          "Flagstone walkway along a house"
+        ],
+        [
+          "flag-path",
+          "Curved flagstone path"
+        ]
+      ]
+    },
+    {
+      "slug": "water-features",
+      "name": "Water Features",
+      "blurb": "Waterfalls and fountains, with lighting.",
+      "intro": "A water feature adds sound and movement to a yard. We build water features with lighting so they look good after dark too.",
+      "includes": [
+        "Rock waterfalls",
+        "Fountains",
+        "Water feature lighting",
+        "River rock settings"
+      ],
+      "photos": [
+        [
+          "waterfall",
+          "Rock waterfall water feature beside a patio"
+        ],
+        [
+          "basalt",
+          "Basalt column fountain in river rock"
+        ],
+        [
+          "feature-night",
+          "Lit boulder water feature at night"
+        ]
+      ]
+    },
+    {
+      "slug": "landscape-lighting",
+      "name": "Landscape Lighting",
+      "blurb": "Pathway and landscape lights.",
+      "intro": "Pathway and landscape lighting makes your yard safer and shows off your work at night.",
+      "includes": [
+        "Pathway lighting",
+        "Landscape lighting",
+        "Patio lighting",
+        "Pillars and entries"
+      ],
+      "photos": [
+        [
+          "night-walk",
+          "Paver walkway with landscape lights at night"
+        ],
+        [
+          "lights-1",
+          "Stone path lit by path lights at night"
+        ],
+        [
+          "pillar-night",
+          "Lit stone pillar and walkway at dusk"
+        ]
+      ]
+    },
+    {
+      "slug": "drainage",
+      "name": "Drainage & River Rock",
+      "blurb": "Drainage installs and river rock beds.",
+      "intro": "Drainage installation keeps water where it belongs, and river rock beds finish it off.",
+      "includes": [
+        "Drainage installation",
+        "River rock beds",
+        "Drain rock",
+        "Along fences and foundations"
+      ],
+      "photos": [
+        [
+          "drain",
+          "Drain and river rock along a fence line"
+        ],
+        [
+          "bed",
+          "River rock bed along a curved block border"
+        ]
+      ]
+    },
+    {
+      "slug": "lawns-bark",
+      "name": "Lawns, Bark & Yard Care",
+      "blurb": "New lawns, bark dust and yard care.",
+      "intro": "New lawns, fresh bark dust and the yard care that keeps it all looking good, including sprinkler repairs.",
+      "includes": [
+        "New lawns",
+        "Bark dust",
+        "Lawn and yard care",
+        "Sprinkler repairs"
+      ],
+      "photos": [
+        [
+          "lawn",
+          "New lawn with fresh bark beds"
+        ],
+        [
+          "lawn-2",
+          "Backyard lawn with bark beds along the fence"
+        ],
+        [
+          "lawn-3",
+          "New lawn and bark under a deck"
+        ]
+      ]
+    }
+  ]
+}

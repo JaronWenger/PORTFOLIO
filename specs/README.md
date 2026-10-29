@@ -19,6 +19,8 @@ This folder is **not published**. Only the output in `site/<slug>/` is.
 2. **Fill it in from the prospect's current site:**
    - `slug`, `preview_bar`, `business`, `theme` colors
    - home page wording, services, `estimate` wording
+     (`estimate.address_label` defaults to "Project address" with the hint "street, city, zip";
+     set `estimate.address_hint` to change the hint, e.g. "Vehicle" / "year, make, model" for auto shops)
    - Use their own words wherever possible. Don't invent reviews, years in business, awards or prices.
 3. **Add their brand and photos** to `site/<slug>/`:
    - Their real logo as `logo.svg`, `logo.webp` or `logo.png`. Never draw one. No logo? Leave it out and the header shows the name alone.

@@ -1,0 +1,226 @@
+{
+  "slug": "cnc-auto-care",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for CNC Auto Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#3a6db5",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "CNC Auto Care",
+    "legal_name": "CNC Auto Care LLC",
+    "city": "Vancouver",
+    "state": "WA",
+    "area": "Vancouver, Washington",
+    "phone_display": "(360) 991-9676",
+    "phone_tel": "+13609919676",
+    "email": "cnc3201@outlook.com",
+    "license": "3201 NE Whitman Ave, Vancouver, WA 98662 · Call (360) 448-7723",
+    "logo_has_name": true,
+    "trust": [
+      "Established 2018",
+      "Open Saturdays",
+      "Text or call",
+      "Pre-purchase inspections"
+    ],
+    "footer_blurb": "A specialized auto repair shop offering reliable preventive and corrective services to keep your vehicle running safely and smoothly. Serving Vancouver, Washington since 2018.",
+    "hours": [
+      "Mon–Fri: 9am–6pm",
+      "Sat: 9am–4pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "CNC Auto Care | Auto Repair in Vancouver, WA",
+    "description": "Professional auto repair services in Vancouver, WA: tune-ups and preventive maintenance, diagnostics, brakes, repairs and pre-purchase inspections. Established 2018.",
+    "hero_photo": "shop",
+    "hero_alt": "The CNC Auto Care shop on NE Whitman Ave",
+    "eyebrow": "CNC Auto Care · Vancouver, WA",
+    "headline": "Professional Auto Repair",
+    "lead": "Reliable preventive and corrective services to keep your vehicle running safely and smoothly.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "If you want it done well the first time, call CNC Auto Care. I have dropped my Suburban in multiple times for a lot of different care. Everytime I pick my truck up, it is better than we could have imagined it. They always pick up on other things that may cause issues down the line, they never try to fix things that are not needed and they go over the parts when the labor is all done.",
+          "name": "Kristine Larson"
+        },
+        {
+          "quote": "I had a leaking sunroof with flooding! They got me in same day, fixed the problem, and vacuumed all the water out. Such a relief. I also had my brakes repaired earlier this year. Good pricing and communication on both. They have my loyalty. Really appreciate you guys! Thanks Miguel!",
+          "name": "Jacqueline"
+        },
+        {
+          "quote": "CNC has been our go to mechanic shop for years. They are always quick to diagnose the issue. Their prices are very fair and they are up front about how much the repairs will cost. Miguel is the kindest person and gets to know his clients. All of the mechanics in the shop are very helpful and knowledgeable.",
+          "name": "Kayla Wolfe"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Who we are",
+      "photo": "lift-white",
+      "title": "Specialized automotive care since 2018",
+      "paragraphs": [
+        "At CNC Auto Care, we are a specialized auto repair shop offering reliable preventive and corrective services to keep your vehicle running safely and smoothly.",
+        "Established in 2018, CNC Auto Care LLC serves Vancouver, Washington, with a focus on specialized automotive care. Our journey is driven by a steady commitment to excellence and high-end technology, ensuring that every car receives precise attention and the professional mechanical repair it needs to perform at its best."
+      ],
+      "photo_alt": "Mechanic under a car on a lift"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Miguel and the team will get back to you. Or text (360) 991-9676 or call (360) 448-7723, Monday to Friday 9am to 6pm and Saturday 9am to 4pm.",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Miguel and the team will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "tune-ups-maintenance",
+      "name": "Tune-Ups & Preventive Maintenance",
+      "blurb": "Keep your vehicle running smoothly.",
+      "intro": "Keep your vehicle running smoothly with expert tune-ups and preventive care.",
+      "includes": [
+        "Tune-ups",
+        "Oil and filter changes",
+        "Fluids, belts and hoses",
+        "Preventive care"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ]
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Accurate fault detection using advanced diagnostic technology.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ],
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ]
+      ]
+    },
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "From a brake inspection to pads, rotors and calipers, we get your brakes right.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc2",
+          "New brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "repairs",
+      "name": "Repairs",
+      "blurb": "Complete mechanical repairs.",
+      "intro": "Complete mechanical repairs with attention to detail and safety.",
+      "includes": [
+        "Mechanical repairs",
+        "Clutches",
+        "Catalytic converters",
+        "Leaks and water damage"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "under-mech",
+          "Mechanic checking under a raised car"
+        ]
+      ]
+    },
+    {
+      "slug": "parts",
+      "name": "Parts & Components",
+      "blurb": "Quality parts for reliable performance.",
+      "intro": "Quality parts selected for reliable performance, safety, and durability.",
+      "includes": [
+        "Quality parts",
+        "Reliable performance",
+        "Safety",
+        "Durability"
+      ],
+      "photos": [
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ],
+        [
+          "engine-bay",
+          "Engine bay under the hood"
+        ]
+      ]
+    },
+    {
+      "slug": "inspection",
+      "name": "Pre-Purchase Inspections",
+      "blurb": "Know what you're buying before you buy it.",
+      "intro": "Thinking about a used car? Bring it in before you buy and we'll go over it so you know exactly what you're getting.",
+      "includes": [
+        "Full vehicle look-over",
+        "Test drive",
+        "Leaks, wear and damage",
+        "Honest report on what we find"
+      ],
+      "photos": [
+        [
+          "mechanic-clipboard",
+          "Mechanic with a clipboard inspecting a car"
+        ],
+        [
+          "customer-clipboard",
+          "Mechanic going over a repair with a customer"
+        ]
+      ]
+    }
+  ]
+}

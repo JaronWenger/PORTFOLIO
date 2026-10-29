@@ -1,0 +1,157 @@
+{
+  "slug": "edys-auto-shop",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Edy's Auto Shop, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f7ed8",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Edy's Auto Shop",
+    "legal_name": "Edy's Auto Shop",
+    "city": "Gresham",
+    "state": "OR",
+    "area": "Gresham, OR",
+    "phone_display": "(503) 489-0310",
+    "phone_tel": "+15034890310",
+    "trust": [
+      "Open Saturdays",
+      "Honest, fair prices",
+      "Quick turnaround",
+      "Gresham locals"
+    ],
+    "footer_blurb": "Honest, affordable auto repair in Gresham, with detailed explanations before we start.",
+    "hours": [
+      "Mon–Fri: 8am–6pm",
+      "Sat: 8am–4pm"
+    ],
+    "social": {},
+    "license": "2200 NW Birdsdale Ave, Gresham, OR 97030"
+  },
+  "home": {
+    "title": "Edy's Auto Shop | Auto Repair in Gresham, OR",
+    "description": "Honest, fair prices and quick service. You'll know exactly what the issue is before we start. Edy's Auto Shop, 2200 NW Birdsdale Ave, Gresham, OR 97030.",
+    "hero_photo": "vintage-lift",
+    "hero_alt": "Older car raised on a lift",
+    "eyebrow": "Edy's Auto Shop · Gresham, OR",
+    "headline": "Auto Repair",
+    "lead": "Honest, fair prices and quick service. You'll know exactly what the issue is before we start.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Honest, fair prices, and very stress free!! Will only use this shop in the future!! Dropped my car off on Friday after work and was ready to pick up first thing in the morning!! Support local businesses!!",
+          "name": "Google review"
+        },
+        {
+          "quote": "Super late review, but I've taken my car here multiple times through a family friend, and they always provide exceptional and timely care! Thank you for your work.",
+          "name": "Google review"
+        },
+        {
+          "quote": "The only mechanic to go to, great affordable and quick service, always include detailed service getting done on your vehicle, so you know exactly what's the issue on your vehicle before they start working on it. Thank you edy and your crew for always keeping quality work and quick service.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-clipboard",
+      "title": "Edy and the crew",
+      "paragraphs": [
+        "Edy's Auto Shop is a local Gresham shop on NW Birdsdale Ave. We explain exactly what's going on with your vehicle before we start working on it, then get it done quickly at a fair price."
+      ],
+      "photo_alt": "Mechanic going over a repair with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Edy will get back to you. Or call (503) 489-0310 (Mon–Fri: 8am–6pm; Sat: 8am–4pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Edy will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    },
+    {
+      "slug": "repair",
+      "name": "General Auto Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    }
+  ]
+}

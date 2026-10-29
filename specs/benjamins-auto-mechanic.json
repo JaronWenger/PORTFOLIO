@@ -1,0 +1,237 @@
+{
+  "slug": "benjamins-auto-mechanic",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Benjamin's Auto Mechanic, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#d93a2b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Benjamin's Auto Mechanic",
+    "legal_name": "Benjamin's Auto Mechanic",
+    "city": "Hillsboro",
+    "state": "OR",
+    "area": "Hillsboro, OR",
+    "phone_display": "(503) 648-9881",
+    "phone_tel": "+15036489881",
+    "trust": [
+      "Family owned",
+      "Serving Hillsboro 20+ years",
+      "Towing available",
+      "Call or text"
+    ],
+    "footer_blurb": "A family-owned auto repair shop where honesty, integrity, and good business are as important to us as to our customers. Serving Hillsboro for more than 20 years.",
+    "hours": [],
+    "social": {
+      "Facebook": "https://www.facebook.com/bensauto"
+    },
+    "email": "benauto2002@gmail.com",
+    "license": "335 SW Oak St, Hillsboro, OR 97123 · Cell (503) 421-0510"
+  },
+  "home": {
+    "title": "Benjamin's Auto Mechanic | Family-Owned Auto Repair in Hillsboro, OR",
+    "description": "Honesty, integrity, and good business are as important to us as to our customers. Serving Hillsboro for more than 20 years. Benjamin's Auto Mechanic, 335 SW Oak St, Hillsboro, OR 97123 · Cell (503) 421-0510.",
+    "hero_photo": "mercedes-lift",
+    "hero_alt": "Classic sedan on a shop lift",
+    "eyebrow": "Benjamin's Auto Mechanic · Hillsboro, OR",
+    "headline": "Family-Owned Auto Repair",
+    "lead": "Honesty, integrity, and good business are as important to us as to our customers. Serving Hillsboro for more than 20 years.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Fast service, very good prices. I got my lift gate fixed here.",
+          "name": "Google review"
+        },
+        {
+          "quote": "I called last minute to get a car I was interested in buying in to get inspected before purchase. They were so accommodating and saw us right away. Very fair price, and excellent customer service.",
+          "name": "Casey C."
+        },
+        {
+          "quote": "Very good mechanics. Knowledgeable. I appreciated their honesty and how straight to the point they were. Thank you",
+          "name": "Google review"
+        },
+        {
+          "quote": "If you want to fix your car's small issues here is the best place to go! Quick, respectful, and polite!",
+          "name": "Anahita P."
+        },
+        {
+          "quote": "Wow great friendly service. Explained everything in detail, what was wrong what was working great, and didn't try to up sell or keep the car for a long duration of time.",
+          "name": "Michael R."
+        },
+        {
+          "quote": "Trust is so hard to come by these days, but I trust them 100%!",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-clipboard",
+      "title": "Expertise for your peace of mind",
+      "paragraphs": [
+        "Benjamin Auto Mechanic is a family-owned auto repair shop where honesty, integrity, and good business are as important to us as to our customers. We hold our work to the highest standard in the automotive industry.",
+        "We have been serving the Hillsboro area for more than 20 years. Our affordable service and customer satisfaction have expanded our customer base to Beaverton, Portland, Tigard, Sherwood, Forest Grove and Cornelius.",
+        "Expertise for your peace of mind: you can rest assured that you and your car will be well cared for, at our shop and once you're back on the road."
+      ],
+      "photo_alt": "Mechanic going over a repair with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and we'll get back to you. Or call or text (503) 421-0510 or (503) 648-9881, or email benauto2002@gmail.com to schedule your appointment.",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! We will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "towing",
+      "name": "Towing",
+      "blurb": "Towing to our shop.",
+      "intro": "Car won't move? Call us about towing it to the shop.",
+      "includes": [
+        "Towing to our shop",
+        "Breakdowns",
+        "Cars and light trucks",
+        "Call (503) 421-0510"
+      ],
+      "photos": [
+        [
+          "tow",
+          "Car loaded on a tow truck"
+        ],
+        [
+          "roadside",
+          "Car with the hood up on the roadside"
+        ]
+      ]
+    },
+    {
+      "slug": "tune-ups",
+      "name": "Tune-Ups",
+      "blurb": "Plugs, coils and a smoother running engine.",
+      "intro": "A tune-up brings back power, smooth idle and better mileage.",
+      "includes": [
+        "Spark plugs and wires",
+        "Ignition coils",
+        "Filters",
+        "Gaskets and leaks"
+      ],
+      "photos": [
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ],
+        [
+          "oil-cap",
+          "Gloved hand on an engine oil cap"
+        ]
+      ]
+    },
+    {
+      "slug": "electric",
+      "name": "Electrical",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "brake-system",
+      "name": "Brake System",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "Grinding, squealing or a soft pedal? We inspect the whole brake system and fix what needs fixing.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "inspection",
+      "name": "Pre-Purchase Inspections",
+      "blurb": "Know what you're buying before you buy it.",
+      "intro": "Thinking about a used car? Bring it in before you buy and we'll go over it so you know exactly what you're getting.",
+      "includes": [
+        "Full vehicle look-over",
+        "Test drive",
+        "Leaks, wear and damage",
+        "Honest report on what we find"
+      ],
+      "photos": [
+        [
+          "mechanic-clipboard",
+          "Mechanic with a clipboard inspecting a car"
+        ],
+        [
+          "customer-clipboard",
+          "Mechanic going over a repair with a customer"
+        ]
+      ]
+    },
+    {
+      "slug": "repair",
+      "name": "General Auto Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    }
+  ]
+}

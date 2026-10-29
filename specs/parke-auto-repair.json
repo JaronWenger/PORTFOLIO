@@ -1,0 +1,207 @@
+{
+  "slug": "parke-auto-repair",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Parke Auto Repair, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#3fa556",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Parke Auto Repair",
+    "legal_name": "Parke Auto Repair LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "The Dalles, OR",
+    "phone_display": "(541) 980-7560",
+    "phone_tel": "+15419807560",
+    "trust": [
+      "Diagnosis in a day or two",
+      "Tune-ups to engine swaps",
+      "Local & family taught",
+      "Across from Big Jim's"
+    ],
+    "footer_blurb": "Jamie Parke's shop on East 2nd Street: tune-ups, brakes, clutches, engine swaps, transmission replacements and diagnostics.",
+    "hours": [
+      "Mon–Fri: 8am–5pm"
+    ],
+    "social": {
+      "Facebook": "https://www.facebook.com/parkeauto"
+    },
+    "license": "2937 E 2nd St, The Dalles, OR 97058 · across from Big Jim's"
+  },
+  "home": {
+    "title": "Parke Auto Repair | Auto Repair in The Dalles, OR",
+    "description": "Tune-ups and brakes to clutches, engine swaps and transmission replacements, with most diagnoses done within a day or two. Parke Auto Repair, 2937 E 2nd St, The Dalles, OR 97058 · across from Big Jim's.",
+    "hero_photo": "engine-two",
+    "hero_alt": "Two mechanics working in an engine bay",
+    "eyebrow": "Parke Auto Repair · The Dalles, OR",
+    "headline": "Auto Repair",
+    "lead": "Tune-ups and brakes to clutches, engine swaps and transmission replacements, with most diagnoses done within a day or two.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "about": {
+      "eyebrow": "About Jamie",
+      "photo": "lift-mechanic",
+      "title": "Meet Jamie Parke",
+      "paragraphs": [
+        "Jamie Parke learned the trade from his dad, Jerry, and worked at The Dalles Auto Sales and Point S Tires before opening his own shop on East 2nd Street, across from Big Jim's.",
+        "His approach to diagnosis is simple: scanners and listening. Most cars are diagnosed within a day or two."
+      ],
+      "photo_alt": "Mechanic under a raised SUV"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Jamie will get back to you. Or call (541) 980-7560 (Mon–Fri: 8am–5pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Jamie will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "tuneup",
+      "name": "Tune-Ups",
+      "blurb": "Plugs, coils and a smoother running engine.",
+      "intro": "A tune-up brings back power, smooth idle and better mileage.",
+      "includes": [
+        "Spark plugs and wires",
+        "Ignition coils",
+        "Filters",
+        "Gaskets and leaks"
+      ],
+      "photos": [
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ],
+        [
+          "oil-cap",
+          "Gloved hand on an engine oil cap"
+        ]
+      ]
+    },
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "Grinding, squealing or a soft pedal? We inspect the whole brake system and fix what needs fixing.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "clutches",
+      "name": "Clutches",
+      "blurb": "Clutch replacements and transmission work.",
+      "intro": "Slipping, grinding or trouble shifting? We handle clutch replacements and transmission repairs.",
+      "includes": [
+        "Clutch replacement",
+        "Transmission repair and replacement",
+        "Shifting problems",
+        "Manual and automatic"
+      ],
+      "photos": [
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ],
+        [
+          "lift",
+          "SUV raised on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "engine-swaps",
+      "name": "Engine Swaps",
+      "blurb": "From misfires to major engine work.",
+      "intro": "When an engine is done, a swap can put a good vehicle back on the road for a lot less than replacing it.",
+      "includes": [
+        "Misfires and rough running",
+        "Oil and coolant leaks",
+        "Timing belts",
+        "Major engine repairs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "engine-two",
+          "Two mechanics working in an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "transmission",
+      "name": "Transmission Replacement",
+      "blurb": "Transmissions swapped and back on the road.",
+      "intro": "When a transmission is beyond saving, we replace it and get you driving again.",
+      "includes": [
+        "Transmission replacement",
+        "Shifting problems",
+        "Automatic and manual",
+        "Clutch work"
+      ],
+      "photos": [
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ],
+        [
+          "under-car",
+          "Suspension and exhaust under a raised car"
+        ]
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Scanners and listening. Most diagnoses are done within a day or two.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "slug": "continuum-landscape",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Continuum Landscape & Design, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#6f9a3c",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Continuum Landscape & Design",
+    "legal_name": "Continuum Landscape and Design LLC",
+    "city": "Battle Ground",
+    "state": "WA",
+    "area": "Clark County and the Portland metro area",
+    "phone_display": "(503) 757-5278",
+    "phone_tel": "+15037575278",
+    "email": "ericbock@continuumlandscaping.com",
+    "license": "Battle Ground, WA · Local, owner-operated",
+    "logo_has_name": false,
+    "trust": [
+      "23+ years of experience",
+      "Local, owner-operated",
+      "Residential install specialists",
+      "5.0 on Google"
+    ],
+    "footer_blurb": "Landscape construction, design and maintenance in Clark County and the Portland metro area. Perpetuating beauty, forging sustainability.",
+    "hours": [
+      "Mon–Fri: 8am–5pm",
+      "Sat: by appointment"
+    ],
+    "areas": [
+      "Battle Ground",
+      "Vancouver",
+      "Clark County",
+      "Select Portland metro projects"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Continuum Landscape & Design | Landscaping in Battle Ground & Clark County, WA",
+    "description": "Landscape design and installation in Battle Ground, Clark County and the Portland metro area: hardscaping, water features, irrigation, drainage, lawns, bark and plants. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Stone patio with a fire pit and Adirondack chairs at dusk",
+    "eyebrow": "Battle Ground, WA · Clark County",
+    "headline": "Turning Dreams into Reality",
+    "lead": "It begins with an idea and we transform it into reality through creativity and sustainability. Hardscaping, water features, irrigation, drainage, lawns and plantings across Clark County.",
+    "services_eyebrow": "What we do",
+    "services_title": "Our most requested services",
+    "about": {
+      "eyebrow": "About Continuum",
+      "photo": "eric",
+      "title": "Eric Bock, owner and creative artist",
+      "paragraphs": [
+        "Continuum Landscape was born from a passion for sustainability, creativity and beauty. Owner and creative artist Eric Bock has a love for the outdoors, our planet, and creating with his hands.",
+        "He has extensive knowledge in plants, rock work, irrigation, water feature installation and repair, lighting, drainage, hardscaping, carpentry, sustainability and permaculture, food forests and habitat restoration. His designs and installations are rooted in over 23 years of landscape experience and world travel.",
+        "From simple to intricate, we help you envision and create your perfect outdoor space."
+      ],
+      "photo_alt": "Stone patio and boulder garden"
+    },
+    "gallery_title": "Our work",
+    "gallery": [
+      [
+        "waterfall",
+        "Rock waterfall into a pond"
+      ],
+      [
+        "firepit",
+        "Round stone fire pit"
+      ],
+      [
+        "stream",
+        "Stream under a red Japanese maple"
+      ],
+      [
+        "steps",
+        "Natural stone steps through a garden"
+      ],
+      [
+        "pavers",
+        "New paver patio"
+      ],
+      [
+        "creek-2",
+        "Dry creek bed through a garden"
+      ],
+      [
+        "flagstone",
+        "Flagstone walk with ferns"
+      ],
+      [
+        "screen",
+        "Patio with a wood privacy screen"
+      ],
+      [
+        "bubbler",
+        "Bubbling boulder fountain in a garden"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free landscaping estimate",
+    "title": "Tell Eric about your yard.",
+    "text": "Tell us about your yard and what you have in mind, and Eric will get back to you about a free estimate. Or call (503) 757-5278.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Free Estimate",
+    "thanks": "Thanks! Eric will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "hardscaping",
+      "name": "Hardscaping & Patios",
+      "blurb": "Patios, pavers, flagstone, steps and fire pits.",
+      "intro": "Outdoor living spaces built to last: paver and flagstone patios, natural stone steps, walkways and fire pits. We don't cut corners. We build landscapes that last.",
+      "includes": [
+        "Paver patios",
+        "Flagstone and natural stone",
+        "Steps and walkways",
+        "Fire pits"
+      ],
+      "photos": [
+        [
+          "pavers",
+          "New paver patio"
+        ],
+        [
+          "steps",
+          "Natural stone steps through a garden"
+        ],
+        [
+          "firepit",
+          "Round stone fire pit"
+        ]
+      ]
+    },
+    {
+      "slug": "water-features",
+      "name": "Water Features",
+      "blurb": "Waterfalls, streams and fountains, installed and repaired.",
+      "intro": "From a bubbling boulder to a full waterfall and stream, we design, install and repair water features, with lighting to match.",
+      "includes": [
+        "Waterfalls and streams",
+        "Bubbling rock fountains",
+        "Water feature repair",
+        "Landscape lighting"
+      ],
+      "photos": [
+        [
+          "waterfall",
+          "Rock waterfall into a pond"
+        ],
+        [
+          "stream",
+          "Stream under a red Japanese maple"
+        ],
+        [
+          "bubbler",
+          "Bubbling boulder fountain in a garden"
+        ]
+      ]
+    },
+    {
+      "slug": "irrigation",
+      "name": "Irrigation Installation & Repair",
+      "blurb": "Smart watering systems that protect your yard.",
+      "intro": "Smart watering systems that protect your lawn and landscaping investment, from new installs to repairs on the system you have.",
+      "includes": [
+        "New irrigation systems",
+        "Irrigation repair",
+        "Smart watering",
+        "Lawns and beds"
+      ],
+      "photos": [
+        [
+          "garden-2",
+          "New plantings and bark along a white fence"
+        ],
+        [
+          "front",
+          "Front yard with fresh plantings and a stone feature"
+        ]
+      ]
+    },
+    {
+      "slug": "lawns-drainage",
+      "name": "Lawn Renovation & Drainage",
+      "blurb": "Fix drainage, level yards and rebuild lawns.",
+      "intro": "Fix drainage, level yards, and rebuild unhealthy lawns. Dry creek beds move water and look great doing it.",
+      "includes": [
+        "Drainage solutions",
+        "Dry creek beds",
+        "Yard leveling",
+        "Lawn renovation"
+      ],
+      "photos": [
+        [
+          "creek",
+          "Dry creek bed with river rock"
+        ],
+        [
+          "turf",
+          "Crew installing a new lawn"
+        ]
+      ]
+    },
+    {
+      "slug": "bark-installation",
+      "name": "Bark Installation",
+      "blurb": "Fresh bark for curb appeal and fewer weeds.",
+      "intro": "Fresh bark instantly upgrades curb appeal and reduces weeds.",
+      "includes": [
+        "Bark installation",
+        "Bed cleanup",
+        "Curb appeal",
+        "Weed reduction"
+      ],
+      "photos": [
+        [
+          "beds",
+          "Fresh bark beds with new plants and boulders"
+        ],
+        [
+          "garden-2",
+          "New plantings and bark along a white fence"
+        ]
+      ]
+    },
+    {
+      "slug": "plant-installation",
+      "name": "Plant Installation & Landscape Design",
+      "blurb": "Plants and designs for the Pacific Northwest.",
+      "intro": "Professional plant layout and installation designed for the Pacific Northwest climate, from a simple refresh to a full yard upgrade and design. Eric also brings knowledge of sustainability, permaculture, food forests and habitat restoration.",
+      "includes": [
+        "Landscape design",
+        "Plant installation",
+        "Full yard upgrades",
+        "Sustainable and habitat plantings"
+      ],
+      "photos": [
+        [
+          "garden",
+          "Garden beds and stonework by a house"
+        ],
+        [
+          "path",
+          "Flagstone path with flowers"
+        ]
+      ]
+    }
+  ]
+}

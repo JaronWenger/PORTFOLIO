@@ -1,0 +1,134 @@
+{
+  "slug": "columbia-tree-service",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Columbia Tree Service, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#121a14",
+    "dark_2": "#1b261e",
+    "on_dark": "#f3f5f1",
+    "on_dark_muted": "#b3bdb3",
+    "accent": "#f2cf3a",
+    "accent_ink": "#1d1800",
+    "soft": "#f4f5f1",
+    "line": "#e0e4db",
+    "muted": "#5b625a"
+  },
+
+  "business": {
+    "name": "Columbia Tree Service",
+    "legal_name": "Columbia Tree Service",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "Hood River, The Dalles and the surrounding communities",
+    "phone_display": "(541) 386-2555",
+    "phone_tel": "+15413862555",
+    "email": "kris@columbiatreeservice.net",
+    "license": "Licensed, bonded, insured & registered · P.O. Box 581, Hood River, OR 97031",
+    "logo_has_name": true,
+    "trust": ["In business since 1992", "Licensed, bonded & insured", "Free estimates", "Senior discounts"],
+    "footer_blurb": "Residential and commercial tree care in Hood River and The Dalles since 1992. The Dalles: (541) 298-2555 · Toll free: (800) 386-2555. Visa, MasterCard, Discover and cash accepted.",
+    "hours": ["Mon–Fri: 6:30am–5pm", "Sat–Sun: Closed", "24-hour emergency service"],
+    "areas": ["Hood River", "The Dalles", "Surrounding communities"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Columbia Tree Service | Tree Care in Hood River & The Dalles, OR",
+    "description": "Tree removal, pruning and trimming, stump grinding, hazard tree and beetle assessments, and lot clearing for homes and businesses in Hood River and The Dalles since 1992. Free estimates, senior discounts, 24-hour emergency service.",
+    "hero_photo": "hero",
+    "hero_alt": "Fir and pine forest under morning mist",
+    "eyebrow": "Columbia Tree Service · Hood River, OR",
+    "headline": "Tree Care",
+    "lead": "No job too big or too small. Your local tree care specialists in Hood River and The Dalles since 1992, with a fleet of aerial trucks and climbers.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree care services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Nothing but praise for our crew",
+      "items": [
+        {"quote": "For over the past ten years, I have used Columbia Tree Service on many occasions for both big and little jobs for my home and business needs and have always had a terrific five star experience. The crew was prompt, professional, knowledgeable and did a wonderful job making my properties look their best. I highly recommend them.", "name": "Scott G."},
+        {"quote": "We had 15 very tall & healthy trees cut down around house, power lines & shop. Kris and his crew did an excellent job. They were very knowledgable, very experienced, and extremely respectful to us and our property. We have many seedlings around our property and they didn't damage a single one.", "name": "Larry D."},
+        {"quote": "Because of this evaluation and preventive work, we have never experienced trees or their limbs falling during a rain or snow storm. Kris and his crew show up when they are expected, are courteous to the occupants near where they are working, and finish in a timely manner leaving the work area in great shape.", "name": "Jan H., HOA board officer, Hood River"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "fleet",
+      "photo_alt": "Columbia Tree Service bucket trucks set up on a job",
+      "title": "Local tree care since 1992",
+      "paragraphs": [
+        "Columbia Tree Service is a locally owned, professional tree care contractor serving residential and commercial clients in Hood River, The Dalles and the surrounding communities. We've been in business since 1992.",
+        "Whether it's tree or hedge trimming, we have the tools and the knowledge to do the job right the first time. We follow the ISA guidelines for tree trimming, so you never have to worry about your trees being incorrectly pruned, and we have a fleet of aerial trucks and climbers for hazard trees over your house.",
+        "Owner Kris Zorza is hands-on with every job. Our objective is to provide our customers with the highest quality and fastest service."
+      ]
+    },
+    "gallery_title": "Recent jobs",
+    "gallery": [
+      ["fleet", "Two bucket trucks working on tall evergreens"],
+      ["truck", "Columbia Tree Service truck below a tall removal"],
+      ["grinder", "Stump grinder working along a rock wall"],
+      ["poplars", "Bucket truck pruning tall roadside poplars"],
+      ["dead-top", "Climber taking a dead tree down in sections"],
+      ["lot-clearing", "Crew and trucks working along a hillside road"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Let us take care of your trees.",
+    "text": "Tell us what you need and we'll get back to you shortly with a free estimate. Or call us at (541) 386-2555, Monday to Friday, 6:30am to 5pm.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request and will get back to you shortly about your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Big or small, including hazard trees over your house.",
+      "intro": "No job too big or too small. With a fleet of aerial trucks and climbers, we safely take down trees near homes, shops and power lines.",
+      "includes": ["Trees of any size", "Hazard trees over your house", "Aerial trucks and climbers", "Debris cleared when we're done"],
+      "photos": [["removal", "Bucket truck and climber taking down a tall tree"], ["dead-top", "Climber taking a dead tree down in sections"], ["truck", "Columbia Tree Service truck on a removal"]]
+    },
+    {
+      "slug": "tree-pruning-trimming", "name": "Tree Pruning & Trimming",
+      "blurb": "Pruned to ISA guidelines, done right the first time.",
+      "intro": "We follow the ISA guidelines for tree trimming, so you never have to worry about your trees being incorrectly pruned. Tree or hedge trimming, we have the tools and the knowledge to do the job right the first time.",
+      "includes": ["Tree pruning to ISA guidelines", "Tree and hedge trimming", "Deadwooding", "Aerial trucks for tall trees"],
+      "photos": [["pruning", "Bucket truck pruning tall poplars"], ["poplars", "Pruning a row of roadside poplars"]]
+    },
+    {
+      "slug": "stump-grinding-removal", "name": "Stump Grinding & Removal",
+      "blurb": "Stumps ground out or removed completely.",
+      "intro": "From stump grinding to stump removal, no one does it better than the guys of Columbia Tree Service.",
+      "includes": ["Stump grinding", "Full stump removal", "Clean up afterward", "Residential and commercial"],
+      "photos": [["stump", "Stump grinder working beside a rock wall"], ["grinder", "Stump grinder in action"]]
+    },
+    {
+      "slug": "hazard-tree-assessment", "name": "Hazard Tree Assessment",
+      "blurb": "Find the risky trees before a storm does.",
+      "intro": "We assess the trees on your property, then prune or remove trees as necessary, so limbs don't come down in the next rain or snow storm.",
+      "includes": ["Hazard tree assessment", "Preventive pruning and removal", "Homes, businesses and HOAs", "Free estimates"],
+      "photos": [["hazard", "Tall dead tree being taken down"]]
+    },
+    {
+      "slug": "beetle-assessment-treatment", "name": "Beetle Assessment & Tree Treatment",
+      "blurb": "Spot beetle damage early and treat what can be saved.",
+      "intro": "We check your trees for beetle damage, treat trees that can be saved, and safely remove the ones that can't.",
+      "includes": ["Beetle assessment", "Tree treatment", "Removal of beetle-killed trees", "Free estimates"],
+      "photos": [["topping", "Climber topping a dying tree"]]
+    },
+    {
+      "slug": "lot-clearing-fire-prevention", "name": "Lot Clearing & Fire Prevention",
+      "blurb": "Lot clearing, logging and fire prevention work.",
+      "intro": "We clear lots, log and thin trees for fire prevention, helping keep properties safe, healthy and attractive.",
+      "includes": ["Lot clearing", "Logging", "Fire prevention thinning", "Residential and commercial"],
+      "photos": [["lot-clearing", "Crew and trucks working along a hillside road"]]
+    }
+  ]
+}

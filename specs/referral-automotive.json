@@ -1,0 +1,223 @@
+{
+  "slug": "referral-automotive",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Referral Automotive, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f7ed8",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Referral Automotive",
+    "legal_name": "Referral Automotive Inc.",
+    "city": "Gresham",
+    "state": "OR",
+    "area": "Gresham, OR",
+    "phone_display": "(503) 667-4335",
+    "phone_tel": "+15036674335",
+    "trust": [
+      "Family owned",
+      "Military discount",
+      "Foreign & domestic",
+      "Fair prices, honest work"
+    ],
+    "footer_blurb": "Family-owned auto repair in Gresham for foreign and domestic vehicles: brakes, alignments, A/C and heating, engine repair, batteries and oil changes.",
+    "hours": [
+      "Mon–Fri: 8am–6pm"
+    ],
+    "social": {},
+    "license": "964 NE Cleveland Ave, Gresham, OR 97030"
+  },
+  "home": {
+    "title": "Referral Automotive | Honest Auto Repair in Gresham, OR",
+    "description": "Family-owned auto repair for foreign and domestic vehicles. Fair pricing and honest work. Referral Automotive, 964 NE Cleveland Ave, Gresham, OR 97030.",
+    "hero_photo": "suv-shop",
+    "hero_alt": "Black SUV in a repair bay",
+    "eyebrow": "Referral Automotive · Gresham, OR",
+    "headline": "Honest Auto Repair",
+    "lead": "Family-owned auto repair for foreign and domestic vehicles. Fair pricing and honest work.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Great local auto shop. Fair pricing and honest work.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Honesty, great work and fair prices. What more can you ask for?",
+          "name": "Google review"
+        },
+        {
+          "quote": "Great prices! Broke down, and explained in detail, what was causing my issue. Replaced my AC compressor, no more issue. I will bring other vehicles to Joey.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-pay",
+      "title": "A family-owned Gresham shop",
+      "paragraphs": [
+        "Referral Automotive is a family-owned repair shop on NE Cleveland Ave, working on foreign and domestic cars and trucks.",
+        "We explain in detail what's causing your problem before we fix it, and we offer a military discount."
+      ],
+      "photo_alt": "Mechanic talking with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and we will get back to you. Or call (503) 667-4335 (Mon–Fri: 8am–6pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! We will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "Grinding, squealing or a soft pedal? We inspect the whole brake system and fix what needs fixing.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "alignment",
+      "name": "Alignments",
+      "blurb": "Straight steering and even tire wear.",
+      "intro": "Pulling to one side or wearing tires unevenly? An alignment puts things back where they belong.",
+      "includes": [
+        "Wheel alignments",
+        "Steering pull",
+        "Uneven tire wear",
+        "Suspension checks"
+      ],
+      "photos": [
+        [
+          "tire-blue",
+          "Mechanic tightening lug nuts on a wheel"
+        ],
+        [
+          "under-mech",
+          "Mechanic checking under a raised car"
+        ]
+      ]
+    },
+    {
+      "slug": "ac",
+      "name": "A/C & Heating",
+      "blurb": "A/C recharges, compressors and heater problems.",
+      "intro": "From a weak A/C to a failed compressor, we explain what's wrong and fix it.",
+      "includes": [
+        "A/C recharge",
+        "Compressors and leaks",
+        "Heater problems",
+        "Blower and controls"
+      ],
+      "photos": [
+        [
+          "hood-open",
+          "Mechanic leaning into an open hood"
+        ],
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ]
+      ]
+    },
+    {
+      "slug": "engine",
+      "name": "Engine Repair",
+      "blurb": "From misfires to major engine work.",
+      "intro": "Engine trouble doesn't always mean it's time for a new car. We find the problem and fix it right.",
+      "includes": [
+        "Misfires and rough running",
+        "Oil and coolant leaks",
+        "Timing belts",
+        "Major engine repairs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "engine-two",
+          "Two mechanics working in an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "batteries",
+      "name": "Batteries & Electrical",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    }
+  ]
+}

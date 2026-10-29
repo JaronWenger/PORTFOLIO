@@ -1,0 +1,136 @@
+{
+  "slug": "western-edge-tree-service",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Western Edge Tree Service, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#13171a",
+    "dark_2": "#1c2226",
+    "on_dark": "#f2f4f5",
+    "on_dark_muted": "#b0b8bd",
+    "accent": "#e2582c",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f4",
+    "line": "#dfe3e1",
+    "muted": "#5a6166"
+  },
+
+  "business": {
+    "name": "Western Edge Tree Service",
+    "legal_name": "Western Edge Tree Service LLC",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "Hood River and the Columbia Gorge",
+    "phone_display": "(541) 806-1026",
+    "phone_tel": "+15418061026",
+    "email": "westernedgetreeservice@gmail.com",
+    "license": "Licensed, bonded & insured in OR and WA · CCB #182504 · WA #WESTEET922L5",
+    "logo_has_name": true,
+    "trust": ["Since 2007", "Certified arborists", "Licensed in OR & WA · CCB #182504", "Emergency calls day or night"],
+    "footer_blurb": "Large tree removal, pruning, cabling and bracing, stump grinding, storm damage cleanup and lot and view clearing from Scott Paider in Hood River, Oregon. 409 East Eugene Street, Hood River, OR 97031.",
+    "areas": ["Hood River", "Odell", "Parkdale", "Mt. Hood", "Dee", "Mosier", "The Dalles", "Cascade Locks", "White Salmon", "Bingen", "Husum", "BZ Corner", "Trout Lake", "Klickitat", "Cook", "Underwood", "Carson", "Stevenson", "Skamania"],
+    "social": { "Facebook": "https://www.facebook.com/WesternEdgeTreeService" }
+  },
+
+  "home": {
+    "title": "Western Edge Tree Service | Hood River, OR",
+    "description": "Large tree removal, tree pruning, cabling and bracing, stump grinding, storm damage cleanup and lot and view clearing in Hood River and the Columbia Gorge since 2007. Certified arborists, licensed in Oregon and Washington.",
+    "hero_photo": "hero",
+    "hero_alt": "Climber at the top of a tree high above the Columbia River",
+    "eyebrow": "Western Edge Tree Service · Hood River, OR",
+    "headline": "Large Tree Removal",
+    "lead": "Safely removing and maintaining trees in the Gorge since 2007. We are equipped to handle trees of all sizes, with bucket trucks, certified climbers and cranes.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {"quote": "Step aside, Paul Bunyan, for Western Edge Tree Service! Scott and his crew tackled a challenging job on the steep cliffs of the Columbia Gorge to reduce wildfire risk. Scott was very responsive with a straight-forward quote outlining different options and suggestions for budget consideration.", "name": "Robin"},
+        {"quote": "I highly recommend Western Edge Tree Service! Scott and his crew are professional, detail oriented and prompt. Scott helped us identify a hazardous tree and it was swiftly removed. I was impressed with their level of safety and accuracy while felling the tree.", "name": "Liz Alvis"},
+        {"quote": "Scott and his crew Justin and Pierce were such a pleasure to work with. They are the real deal. I'm new to the area and just feel so blessed to be around such great people.", "name": "Karl R"}
+      ]
+    },
+    "about": {
+      "eyebrow": "About Scott",
+      "photo": "climber",
+      "photo_alt": "Western Edge climber at work in a large oak",
+      "title": "Trees, rigging and machinery, all in one place",
+      "paragraphs": [
+        "Trees, high-angle rigging and machinery have been recurring themes for Scott Paider, and Western Edge Tree Service is where they all come together.",
+        "From USFS wildland fire crew to welding and steel construction, Scott has put his hands to work in the air and on the ground for many years. After a decade rigging highline camera systems and stunt safety in the film industry, he brought together his working knowledge of forestry, rigging and high-angle safety in the form of Western Edge.",
+        "Scott has been a Gorge resident and arborist since 1995 and started Western Edge in 2007. We have certified arborists on staff, are members of the International Society of Arboriculture, and are licensed, bonded and insured in Oregon and Washington."
+      ]
+    },
+    "gallery_title": "Recent jobs",
+    "gallery": [
+      ["topping", "Climber taking down the top of a tall pine"],
+      ["fallen", "Storm-downed tree resting on a house"],
+      ["crane", "Crane-assisted removal of a tall tree"],
+      ["bucket", "Bucket truck cutting a trunk in sections"],
+      ["aerial", "Aerial view of the crew and trucks on a job"],
+      ["bucket-truck", "Western Edge bucket truck set up on a road job"],
+      ["cleared", "Large removal cut and stacked in an orchard"],
+      ["uprooted", "Uprooted tree against a home"],
+      ["forest-climb", "Climber high in a sunlit forest"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell Scott about your trees.",
+    "text": "For a free estimate, call or email Scott, or send a few details here. We're available for emergency calls day or night.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request. Scott will reach out soon about your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "large-tree-removal", "name": "Large Tree Removal",
+      "blurb": "Trees of all sizes, with bucket trucks, climbers or a crane.",
+      "intro": "Large trees require special attention and experience to remove safely. Your job may require a bucket truck, certified tree climbers, or crane-assisted removal. We always find the most efficient and cost-effective option for your project.",
+      "includes": ["Bucket truck removals", "Certified tree climbers", "Crane-assisted removals", "Trees of all sizes"],
+      "photos": [["topping", "Climber taking down a tall pine"], ["crane", "Crane lifting a section of trunk"], ["bucket", "Bucket truck cutting a trunk in sections"]]
+    },
+    {
+      "slug": "tree-pruning", "name": "Tree Pruning",
+      "blurb": "For view enhancement, tree health and general safety.",
+      "intro": "Trees of all ages may require pruning to some degree. Under the supervision of our certified arborists, we can prune your trees for view enhancement, tree health and general safety concerns.",
+      "includes": ["Deadwood and hazard limb removal", "Roof, overhead and line clearance", "Crown thinning and wind thinning", "Crown and weight reduction"],
+      "photos": [["pruning", "Climber pruning a large oak"], ["forest-climb", "Climber high in a forest canopy"]]
+    },
+    {
+      "slug": "cabling-bracing", "name": "Cabling & Bracing",
+      "blurb": "Extra support to preserve trees that need it.",
+      "intro": "Cabling and bracing are two methods we use to preserve trees that require additional support. We primarily use dynamic cabling, which lets the tree move naturally while still giving it the support it needs during extreme weather, and limits damage to its surroundings in the event of a failure.",
+      "includes": ["Dynamic cabling", "Bracing with high tensile strength threaded rod", "Keeping splitting trees from splitting further", "Support through extreme weather"],
+      "photos": [["cabling", "Support cable installed between pine limbs"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Stumps ground 1 to 2 feet below grade, with full clean-up.",
+      "intro": "We offer stump grinding to remove the stump 1 to 2 feet below grade, plus wood chipping and full clean-up services to keep your property looking its best.",
+      "includes": ["Stumps ground 1 to 2 feet below grade", "Wood chipping", "Full clean-up", "Ready for lawn or planting"],
+      "photos": [["stump", "Stump grinder working in a landscaped yard"]]
+    },
+    {
+      "slug": "storm-damage-cleanup", "name": "Storm Damage Cleanup",
+      "blurb": "Before and after the Gorge's wind and ice storms.",
+      "intro": "The Gorge is infamous for its strong winds and ice storms. We can assess your property before storm season for preventive measures, and clean up storm damage after the event, day or night.",
+      "includes": ["Pre-storm season assessments", "Emergency calls day or night", "Full clean-up, chipping and hauling", "Trees on homes, fences and roads"],
+      "photos": [["storm", "Ice storm damage being cleared"], ["fallen", "Storm-downed tree on a house"], ["uprooted", "Uprooted tree against a home"]]
+    },
+    {
+      "slug": "lot-view-clearing", "name": "Lot & View Clearing",
+      "blurb": "Room for your new home, or your view back.",
+      "intro": "From residential view enhancement to lot clearing, we can make the improvements and changes you need for building your new home or enhancing your property value. We'll work with you to lay out a creative plan that suits your goals.",
+      "includes": ["Lot clearing for new homes", "View enhancement", "A plan built around your goals", "Chipping and hauling"],
+      "photos": [["lot-clearing", "Cleared lot with logs stacked in rows"], ["cleared", "Large removal cut and stacked"]]
+    }
+  ]
+}

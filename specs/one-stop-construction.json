@@ -1,0 +1,294 @@
+{
+  "slug": "one-stop-construction",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for One Stop Construction, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Request a Quote",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#c8202b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "One Stop Construction",
+    "legal_name": "One Stop Construction & Handyman Services",
+    "city": "Aloha",
+    "state": "OR",
+    "area": "Beaverton and the Portland west side",
+    "phone_display": "(503) 313-4565",
+    "phone_tel": "+15033134565",
+    "email": "ccannon2266@gmail.com",
+    "license": "5555 SW 207th Ave, Aloha, OR 97078 · Oregon CCB #120208",
+    "logo_has_name": false,
+    "trust": [
+      "Serving Portland since 1997",
+      "Oregon CCB #120208",
+      "Our own crews",
+      "4.7 on Google"
+    ],
+    "footer_blurb": "Home repairs, decks, fences, painting, drywall, siding, finish carpentry and remodels for homeowners, realtors and property managers on the Portland west side since 1997.",
+    "areas": [
+      "Beaverton",
+      "Aloha",
+      "Hillsboro",
+      "Bethany",
+      "Tigard",
+      "Lake Oswego",
+      "Portland"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "One Stop Construction | Beaverton Handyman & Home Repairs",
+    "description": "Home repairs, decks, fences, painting, drywall, siding, carpentry and remodels in Beaverton, Aloha, Hillsboro, Tigard and the Portland west side since 1997. Oregon CCB #120208.",
+    "hero_photo": "deck",
+    "hero_alt": "New cedar-toned deck with patio furniture",
+    "eyebrow": "Beaverton · Aloha · Portland west side",
+    "headline": "Your One Stop for Home Repairs",
+    "lead": "Decks, fences, painting, drywall, siding, carpentry and remodels for homeowners, realtors and property managers since 1997. Quality work at a reasonable rate.",
+    "services_eyebrow": "What we do",
+    "services_title": "Construction & handyman services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Working with One Stop Construction was indeed a real pleasure. They arrived on time and kept to the original schedules - always finished on time. They literally transformed my outdated home into one of sheer delight. I would use them again and again!",
+          "name": "Maggie Jamesson"
+        },
+        {
+          "quote": "I was hesitant to have work done on my house because of the \"horror stories you hear about contractors.\" Chris was very professional, gave me ideas to consider in what I wanted done and then got the job done. I was very impressed on the quality of his work.",
+          "name": "Marcia Callender"
+        },
+        {
+          "quote": "I am so impressed with the work you have done! I was amazed with your communication, your quality of work, attention to detail, your ability to work with the store partners and best of all, your price.",
+          "name": "Rick Streedain, Starbucks Coffee Company"
+        },
+        {
+          "quote": "I have been working with Chris for almost a decade and highly recommend him. He is always available, prompt, willing to go the extra mile for me and my clients. Most importantly, I can trust him.",
+          "name": "Scott Osmon, Century 21 All Professionals"
+        },
+        {
+          "quote": "Chris and his crew have been working in my home for years. They have always done a top notch job. Very professional and very clean. My parents are now using his services.",
+          "name": "Brett Newton"
+        },
+        {
+          "quote": "Chris and his workers were professional, honest, and dedicated. The site was always picked up and Chris would arrange meetings to see the progress of the units. I will use Chris and One Stop Construction any time I need work done.",
+          "name": "Tye Southern"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About One Stop",
+      "photo": "patio-cover",
+      "title": "Quality work at a reasonable rate",
+      "paragraphs": [
+        "One Stop Construction & Handyman Services was founded in 1997 with one fundamental goal: do quality work at a reasonable rate. The rest is history!",
+        "Now in business for 20+ years and counting, we have built our business on repeat customers and positive word of mouth.",
+        "We are locally owned and operated and complete most projects using our own crews, so quality control is held to the highest standard. We pride ourselves on the work we complete."
+      ],
+      "photo_alt": "Wood patio cover beside a garden"
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      [
+        "deck",
+        "New cedar-toned deck with patio furniture"
+      ],
+      [
+        "gate",
+        "Arched cedar gate with an arbor"
+      ],
+      [
+        "pergola",
+        "Cedar pergola over a flagstone circle"
+      ],
+      [
+        "balcony",
+        "Second-story deck with cable railing"
+      ],
+      [
+        "fence",
+        "New cedar fence with a framed gate"
+      ],
+      [
+        "kitchen",
+        "Kitchen with a new tile backsplash"
+      ],
+      [
+        "paint",
+        "Freshly painted yellow house"
+      ],
+      [
+        "stairs",
+        "New wood stairs and landing"
+      ],
+      [
+        "deck-rail",
+        "New deck with railings"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Request a quote",
+    "title": "Tell Chris about your project.",
+    "text": "Tell us what you need done and where, and Chris will get back to you. Or call (503) 313-4565.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Quote",
+    "thanks": "Thanks! Chris will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "decks-fences",
+      "name": "Decks, Fences & Gates",
+      "blurb": "New or repaired, from privacy fences to picket fences.",
+      "intro": "Wanting to repair or replace an existing fence or deck? Maybe you want to install a new fence or deck. From privacy to picket fence, our crew is at your service.",
+      "includes": [
+        "New decks",
+        "Deck repair",
+        "Privacy and picket fences",
+        "Gates, patio covers and pergolas"
+      ],
+      "photos": [
+        [
+          "deck",
+          "New cedar-toned deck with patio furniture"
+        ],
+        [
+          "gate",
+          "Arched cedar gate with an arbor"
+        ],
+        [
+          "pergola",
+          "Cedar pergola over a flagstone circle"
+        ]
+      ]
+    },
+    {
+      "slug": "painting",
+      "name": "Painting & Wood Finishes",
+      "blurb": "Interior and exterior painting, stain and varnish.",
+      "intro": "A fresh coat of paint can help spruce up a place. Our crew can paint exteriors and interiors. We also provide stain and varnish services.",
+      "includes": [
+        "Exterior painting",
+        "Interior painting",
+        "Stain and varnish",
+        "Wood finishes"
+      ],
+      "photos": [
+        [
+          "paint",
+          "Freshly painted yellow house"
+        ],
+        [
+          "trim",
+          "Entry with new crown molding, columns and paint"
+        ]
+      ]
+    },
+    {
+      "slug": "drywall",
+      "name": "Drywall & Texturing",
+      "blurb": "New drywall, repairs and texture that matches.",
+      "intro": "We install new drywall and repair or replace existing drywall. Our texturing service is a good way to make drywall more appealing and can also hide imperfections. Our crew has the special tools needed to get great results.",
+      "includes": [
+        "New drywall",
+        "Drywall repair",
+        "Texturing",
+        "Matching existing textured walls"
+      ],
+      "photos": [
+        [
+          "hall",
+          "Finished hallway with new floor and paint"
+        ],
+        [
+          "trim",
+          "Entry with new crown molding, columns and paint"
+        ]
+      ]
+    },
+    {
+      "slug": "siding-carpentry",
+      "name": "Siding, Windows & Carpentry",
+      "blurb": "New siding, repairs and finish carpentry.",
+      "intro": "New siding is an excellent way to give a house a dramatic makeover with a material that is nearly maintenance free. We install new siding or repair and replace damaged siding. Our finish carpenters hang doors, install moldings and stair rails, and match existing trim.",
+      "includes": [
+        "New siding",
+        "Siding repair",
+        "Doors and windows",
+        "Moldings, stair rails and trim"
+      ],
+      "photos": [
+        [
+          "siding",
+          "New siding on a house wall"
+        ],
+        [
+          "window",
+          "Arched window set in new siding"
+        ],
+        [
+          "slider",
+          "New sliding glass door"
+        ]
+      ]
+    },
+    {
+      "slug": "remodels-tile-flooring",
+      "name": "Remodels, Tile & Flooring",
+      "blurb": "Kitchens, baths and floors, start to finish.",
+      "intro": "Considering some remodeling or finishing a space? Tile can dramatically change the look of a bathroom, kitchen or fireplace. We handle all the prep work, including removing old tile or flooring, and install everything from simple to elaborate designs. We also repair and install a variety of floor coverings.",
+      "includes": [
+        "Kitchen and bath remodels",
+        "Tile installation",
+        "Flooring installation and repair",
+        "Insulation and weather sealing"
+      ],
+      "photos": [
+        [
+          "kitchen",
+          "Kitchen with a new tile backsplash"
+        ],
+        [
+          "tub",
+          "Bathroom with a new tile tub surround"
+        ],
+        [
+          "floor",
+          "New plank flooring in a laundry room"
+        ]
+      ]
+    },
+    {
+      "slug": "property-maintenance",
+      "name": "Rental Turnovers & Property Maintenance",
+      "blurb": "For homeowners, realtors and property managers.",
+      "intro": "One Stop is a full service general contractor specializing in maintenance and repair projects for homeowners, realtors, development companies, and apartment and property managers. We complete most projects with our own crews, so quality control stays in our hands.",
+      "includes": [
+        "Rental turnovers",
+        "Repairs before a sale",
+        "Apartment and property managers",
+        "Commercial spaces"
+      ],
+      "photos": [
+        [
+          "bath",
+          "Remodeled bathroom with new flooring"
+        ],
+        [
+          "porch",
+          "Front porch with new columns"
+        ]
+      ]
+    }
+  ]
+}

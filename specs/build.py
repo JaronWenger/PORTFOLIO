@@ -183,6 +183,10 @@ class Spec:
             lines.append(f'<li><a href="mailto:{self.b["email"]}">{escape(self.b["email"])}</a></li>')
         if self.b.get('license'):
             lines.append(f'<li>{escape(self.b["license"])}</li>')
+        # Auto shops ask for the vehicle instead of a street address
+        hint = e.get('address_hint', 'street, city, zip')
+        hint = f' <span class="optional">({escape(hint)})</span>' if hint else ''
+        autocomplete = ' autocomplete="street-address"' if 'address_hint' not in e else ''
         return f'''    <section class="estimate" id="estimate">
       <div class="wrap estimate-grid">
         <div class="estimate-info">
@@ -197,7 +201,7 @@ class Spec:
             <label>Phone <input name="phone" type="tel" autocomplete="tel" required></label>
           </div>
           <label>Email <input name="email" type="email" autocomplete="email" required></label>
-          <label>{escape(e.get('address_label', 'Project address'))} <span class="optional">(street, city, zip)</span> <input name="address" autocomplete="street-address"></label>
+          <label>{escape(e.get('address_label', 'Project address'))}{hint} <input name="address"{autocomplete}></label>
           <label>Service
             <select name="service"><option value="">Choose a service</option>{options}<option>Something else</option></select>
           </label>

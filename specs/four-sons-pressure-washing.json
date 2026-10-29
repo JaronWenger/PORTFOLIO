@@ -1,0 +1,250 @@
+{
+  "slug": "four-sons-pressure-washing",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Four Sons Pressure Washing, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2a8fc4",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Four Sons Pressure Washing",
+    "legal_name": "Four Sons Pressure Washing LLC",
+    "city": "Vancouver",
+    "state": "WA",
+    "area": "Oregon and Southwest Washington",
+    "phone_display": "(360) 718-1354",
+    "phone_tel": "+13607181354",
+    "license": "Washington contractor #FOURSSP842QH",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "trust": [
+      "Family owned & operated",
+      "Twenty years of experience",
+      "Eco-friendly",
+      "Available 24/7"
+    ],
+    "footer_blurb": "Eco-friendly pressure washing for homes, businesses and heavy equipment in Oregon and Southwest Washington. Family owned and operated. Making a difference, one job at a time.",
+    "hours": [
+      "Available 24 hours a day, 7 days a week"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Four Sons Pressure Washing | Pressure Washing in Vancouver, WA",
+    "description": "Eco-friendly pressure washing for homes, businesses and heavy equipment in Vancouver and Southwest Washington and Oregon. Siding, roofs, moss, concrete, decks and more. Family owned. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Pressure washing a commercial walkway",
+    "eyebrow": "Vancouver, WA · Family owned & operated",
+    "headline": "Making a Difference, One Job at a Time",
+    "lead": "Eco-friendly pressure washing for homes, businesses and heavy equipment in Oregon and Southwest Washington. Twenty years of experience.",
+    "services_eyebrow": "What we do",
+    "services_title": "Pressure washing services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "concrete",
+      "title": "Family owned, and we stand behind our work",
+      "paragraphs": [
+        "We are family owned and operated, with twenty years of experience in residential, commercial and heavy equipment cleaning.",
+        "We take pride in what we do and stand behind all work performed. If you're not satisfied with the results of any of our services, just let us know and we'll make it right for you.",
+        "We're available to discuss our services with you 24 hours a day, 7 days a week."
+      ],
+      "photo_alt": "Concrete walkway and steps before and after"
+    },
+    "gallery_title": "Before & after",
+    "gallery": [
+      [
+        "siding",
+        "House siding before and after washing"
+      ],
+      [
+        "deck",
+        "Gray deck before and after washing"
+      ],
+      [
+        "roof",
+        "Shingle roof before and after moss removal"
+      ],
+      [
+        "concrete",
+        "Concrete walkway and steps before and after"
+      ],
+      [
+        "siding-2",
+        "Two-story siding before and after washing"
+      ],
+      [
+        "moss",
+        "Moss-covered walkway before and after cleaning"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "What can we clean for you?",
+    "text": "Tell us what needs cleaning and where, and we'll get back to you with a free estimate. Or call (360) 718-1354. We're available to talk 24 hours a day, 7 days a week.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Get My Free Estimate",
+    "thanks": "Thanks! We'll get back to you soon with your free estimate."
+  },
+  "services": [
+    {
+      "slug": "house-washing",
+      "name": "House & Siding Washing",
+      "blurb": "Siding, awnings and the whole exterior.",
+      "intro": "Dirt, mildew and green growth wash off siding and awnings, and your house looks new again.",
+      "includes": [
+        "Siding",
+        "Awnings",
+        "Whole exterior",
+        "Eco-friendly cleaning"
+      ],
+      "photos": [
+        [
+          "siding",
+          "House siding before and after washing"
+        ],
+        [
+          "siding-2",
+          "Two-story siding before and after washing"
+        ],
+        [
+          "siding-3",
+          "Siding before and after"
+        ]
+      ]
+    },
+    {
+      "slug": "roof-cleaning",
+      "name": "Roof Cleaning",
+      "blurb": "Moss and buildup cleaned off your roof.",
+      "intro": "Northwest roofs grow moss fast. We clean shingle and tile roofs and get rid of the buildup.",
+      "includes": [
+        "Shingle roofs",
+        "Tile roofs",
+        "Moss and buildup",
+        "Before-and-after results"
+      ],
+      "photos": [
+        [
+          "roof",
+          "Shingle roof before and after moss removal"
+        ],
+        [
+          "roof-2",
+          "Roof before and after cleaning"
+        ],
+        [
+          "roof-3",
+          "Tile roof before and after cleaning"
+        ]
+      ]
+    },
+    {
+      "slug": "moss-algae-removal",
+      "name": "Moss & Algae Removal",
+      "blurb": "Slippery green growth, gone.",
+      "intro": "Moss and algae make walkways slippery and roofs look old. We remove it from roofs, concrete and more.",
+      "includes": [
+        "Walkways",
+        "Roofs",
+        "Patios",
+        "Slippery surfaces"
+      ],
+      "photos": [
+        [
+          "moss",
+          "Moss-covered walkway before and after cleaning"
+        ],
+        [
+          "moss-2",
+          "Mossy tile roof before and after"
+        ]
+      ]
+    },
+    {
+      "slug": "concrete-driveways",
+      "name": "Concrete, Driveways & Patios",
+      "blurb": "Driveways, sidewalks, patios and steps.",
+      "intro": "Concrete driveways, sidewalks, patios and steps come back clean and bright.",
+      "includes": [
+        "Driveways",
+        "Sidewalks",
+        "Patios",
+        "Steps"
+      ],
+      "photos": [
+        [
+          "concrete",
+          "Concrete walkway and steps before and after"
+        ],
+        [
+          "moss",
+          "Moss-covered walkway before and after cleaning"
+        ]
+      ]
+    },
+    {
+      "slug": "decks-fences",
+      "name": "Decks & Fences",
+      "blurb": "Gray, weathered wood cleaned back to life.",
+      "intro": "Gray, weathered decks and fences clean up to show the wood underneath.",
+      "includes": [
+        "Decks",
+        "Fences",
+        "Weathered wood",
+        "Eco-friendly cleaning"
+      ],
+      "photos": [
+        [
+          "deck",
+          "Gray deck before and after washing"
+        ],
+        [
+          "deck-2",
+          "Deck boards before and after"
+        ],
+        [
+          "fence",
+          "Wood fence before and after"
+        ]
+      ]
+    },
+    {
+      "slug": "commercial-heavy-equipment",
+      "name": "Commercial & Heavy Equipment",
+      "blurb": "Businesses, storefronts and heavy equipment.",
+      "intro": "Over twenty years of experience in residential, commercial and heavy equipment cleaning. We clean storefronts, walkways and the heavy equipment that keeps your business running.",
+      "includes": [
+        "Commercial buildings",
+        "Storefronts and walkways",
+        "Heavy equipment",
+        "Trucks and machinery"
+      ],
+      "photos": [
+        [
+          "hero",
+          "Pressure washing a commercial walkway"
+        ],
+        [
+          "equipment",
+          "Washing a heavy dump truck"
+        ],
+        [
+          "commercial",
+          "Commercial building before and after"
+        ]
+      ]
+    }
+  ]
+}

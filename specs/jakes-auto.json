@@ -1,0 +1,138 @@
+{
+  "slug": "jakes-auto",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Jake's Auto, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#3fa556",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Jake's Auto",
+    "legal_name": "Jake's Auto LLC",
+    "city": "Washougal",
+    "state": "WA",
+    "area": "Washougal, WA",
+    "phone_display": "(360) 608-5948",
+    "phone_tel": "+13606085948",
+    "trust": [
+      "Out in the country",
+      "Washougal local",
+      "Ask for Jake",
+      "Call for directions"
+    ],
+    "footer_blurb": "Jake's Auto: auto repair out in the country in Washougal.",
+    "hours": [
+      "Mon–Fri: 9am–6pm"
+    ],
+    "social": {},
+    "license": "30117 NE 25th Way, Washougal, WA 98671"
+  },
+  "home": {
+    "title": "Jake's Auto | Auto Repair in Washougal, WA",
+    "description": "Auto repair out in the country in Washougal. Call Jake to get your car in. Jake's Auto, 30117 NE 25th Way, Washougal, WA 98671.",
+    "hero_photo": "red-truck",
+    "hero_alt": "Red truck in a big shop",
+    "eyebrow": "Jake's Auto · Washougal, WA",
+    "headline": "Auto Repair",
+    "lead": "Auto repair out in the country in Washougal. Call Jake to get your car in.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "lift-mechanic",
+      "title": "Out in the country",
+      "paragraphs": [
+        "Jake's Auto is a Washougal shop out on NE 25th Way. It's a bit off the beaten path, so give Jake a call and he'll make sure you find it."
+      ],
+      "photo_alt": "Mechanic under a raised SUV"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Jake will get back to you. Or call (360) 608-5948 (Mon–Fri: 9am–6pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Jake will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    },
+    {
+      "slug": "repair",
+      "name": "General Auto Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    }
+  ]
+}

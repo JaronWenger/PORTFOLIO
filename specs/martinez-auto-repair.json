@@ -1,0 +1,156 @@
+{
+  "slug": "martinez-auto-repair",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Martinez Auto Repair, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#d93a2b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Martinez Auto Repair",
+    "legal_name": "Martinez Auto Repair",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "The Dalles, OR",
+    "phone_display": "(541) 370-4199",
+    "phone_tel": "+15413704199",
+    "trust": [
+      "Open Saturdays",
+      "Emergency repairs",
+      "Affordable, fair prices",
+      "Help for stranded travelers"
+    ],
+    "footer_blurb": "Friendly, affordable auto repair in The Dalles, open Saturdays, helping locals and stranded travelers get back on the road.",
+    "hours": [
+      "Mon–Sat: 8am–5pm"
+    ],
+    "social": {},
+    "license": "206 Jefferson St, The Dalles, OR 97058"
+  },
+  "home": {
+    "title": "Martinez Auto Repair | Getting You Back on the Road in The Dalles, OR",
+    "description": "Emergency repairs, diagnostics and maintenance at fair prices. Open Saturdays. Martinez Auto Repair, 206 Jefferson St, The Dalles, OR 97058.",
+    "hero_photo": "hood-open",
+    "hero_alt": "Mechanic leaning into an open hood",
+    "eyebrow": "Martinez Auto Repair · The Dalles, OR",
+    "headline": "Getting You Back on the Road",
+    "lead": "Emergency repairs, diagnostics and maintenance at fair prices. Open Saturdays.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Stayed late on a Saturday to get my family back on the road! We really appreciate the help!",
+          "name": "Google review"
+        },
+        {
+          "quote": "We were towed in late Friday night and parts were found and installed and we drove away happy on Saturday. Thank you!",
+          "name": "Google review"
+        },
+        {
+          "quote": "Such a great experience! Had my car towed in for an emergency fix on a Saturday and it was fixed in three hours at an affordable price. Thanks!",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "roadside",
+      "title": "Friendly help when you need it",
+      "paragraphs": [
+        "Martinez Auto Repair is Jaime's shop on Jefferson Street. When you break down and other shops are busy or closed, we do our best to get you fixed and back on your way."
+      ],
+      "photo_alt": "Car with the hood up on the roadside"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Jaime will get back to you. Or call (541) 370-4199 (Mon–Sat: 8am–5pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Jaime will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "emergency",
+      "name": "Emergency Repairs",
+      "blurb": "Broke down? We do our best to get you going.",
+      "intro": "Broken down on the way through The Dalles? Call us. We'll find the parts and get you back on the road as quickly as we can, Saturdays included.",
+      "includes": [
+        "Breakdowns and tow-ins",
+        "Saturday repairs",
+        "Parts sourcing",
+        "Travelers welcome"
+      ],
+      "photos": [
+        [
+          "roadside",
+          "Car with the hood up on the roadside"
+        ],
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ]
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    }
+  ]
+}

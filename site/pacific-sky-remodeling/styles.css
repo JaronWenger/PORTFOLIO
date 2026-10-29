@@ -380,6 +380,8 @@ h2 { font-size: clamp(2rem, 4.6vw, 3rem); line-height: 1.1; }
 .has-menu.open .chevron, .has-menu .nav-link:focus-visible .chevron { opacity: 1; }
 @media (hover: hover) { .has-menu:hover .chevron { opacity: 1; } }
 .site-header .btn { border-radius: 999px; font-size: .9rem; padding: 0 20px; }
+/* Wide wordmark logos scale down by width so they never run into the centered nav */
+.brand .logo-img { height: auto; max-height: 56px; max-width: 230px; }
 .header-phone { font-weight: 600; font-size: .95rem; }
 .mobile-menu { border-top: 0; }
 
@@ -446,9 +448,14 @@ section > .wrap > .actions { justify-content: center; }
   .header-phone { margin-right: 6px; }
   main > .hero:first-child { padding-top: calc(var(--header-h) + 120px); }
   .service-grid { gap: 28px; }
+  /* 3, 6 or 9 photos: three across instead of four, so the last row isn't left half empty */
+  .gallery:has(> :last-child:nth-child(3n)):not(:has(> :last-child:nth-child(4n))) { grid-template-columns: repeat(3, 1fr); }
 }
 @media (max-width: 599px) {
   .wordmark { font-size: 1.15rem; letter-spacing: 0; }
+}
+@media (max-width: 420px) {
+  .brand .logo-img { height: auto; max-height: 40px; max-width: 180px; }
 }
 
 /* Theme: Pacific Sky Remodeling (from specs config) */

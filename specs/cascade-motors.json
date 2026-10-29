@@ -1,0 +1,235 @@
+{
+  "slug": "cascade-motors",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Cascade Motors, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f7ed8",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Cascade Motors",
+    "legal_name": "Cascade Motors",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "The Dalles, OR",
+    "phone_display": "(541) 296-1131",
+    "phone_tel": "+15412961131",
+    "trust": [
+      "Honest, fair pricing",
+      "No upselling",
+      "Help for travelers",
+      "Rich & Roger"
+    ],
+    "footer_blurb": "Friendly, honest auto repair in The Dalles. Fair prices, no upselling, and we'll tell you if it's worth fixing.",
+    "hours": [
+      "Mon–Fri: 8am–5pm"
+    ],
+    "social": {},
+    "license": "317 Snipes St, The Dalles, OR 97058"
+  },
+  "home": {
+    "title": "Cascade Motors | Honest Auto Repair in The Dalles, OR",
+    "description": "Friendly, honest and fair. We do top notch work and will let you know if it's worth fixing. Cascade Motors, 317 Snipes St, The Dalles, OR 97058.",
+    "hero_photo": "scissor-lift",
+    "hero_alt": "Mechanic beside a car on a scissor lift",
+    "eyebrow": "Cascade Motors · The Dalles, OR",
+    "headline": "Honest Auto Repair",
+    "lead": "Friendly, honest and fair. We do top notch work and will let you know if it's worth fixing.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "My family was passing through the area when we had a minor emergency, Cascade Motors took time on a Thursday evening before a four day weekend to take a look at it and get us on our way. Kind, knowledgeable, timely - they saved our trip. Very good people. Would highly recommend!!",
+          "name": "Google review"
+        },
+        {
+          "quote": "Brought our Toyota Avalon there to be repaired. They fixed it and it runs GREAT. Roger was in constant contact and Rich was awesome as well. Take your issues to them. They will get the job done.",
+          "name": "Google review"
+        },
+        {
+          "quote": "These guys are great - friendly, honest and fair pricing. I would highly recommend them to anyone, and will continue to use them as long as I'm in the area. No upselling BS",
+          "name": "Tom A."
+        },
+        {
+          "quote": "I'm new to town, Everyone recommended them. Very busy but got me in quickly. Saved lots of $ on a GM trans. Very Friendly, my new go to mechanic",
+          "name": "Greg B."
+        },
+        {
+          "quote": "Cascade fixed our church van electric window, faster than promised and less than estimated. Good enough that I have scheduled my personal vehicle in for a window repair.",
+          "name": "Peter L."
+        },
+        {
+          "quote": "The guys here are AWESOME!! So helpful both in person and on the phone.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-pay",
+      "title": "Rich, Roger and the crew",
+      "paragraphs": [
+        "Cascade Motors is owned by Rich, and with Roger and the crew we've earned a reputation in The Dalles for honest work and fair prices.",
+        "We'll keep you in the loop from start to finish, and we'll tell you straight if a repair is worth doing. Locals and travelers passing through on I-84 count on us alike."
+      ],
+      "photo_alt": "Mechanic talking with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and we will get back to you. Or call (541) 296-1131 (Mon–Fri: 8am–5pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! We will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "clutch",
+      "name": "Clutches & Transmissions",
+      "blurb": "Clutch replacements and transmission work.",
+      "intro": "Slipping, grinding or trouble shifting? We handle clutch replacements and transmission repairs.",
+      "includes": [
+        "Clutch replacement",
+        "Transmission repair and replacement",
+        "Shifting problems",
+        "Manual and automatic"
+      ],
+      "photos": [
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ],
+        [
+          "lift",
+          "SUV raised on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "engine",
+      "name": "Engine Repair",
+      "blurb": "From misfires to major engine work.",
+      "intro": "Engine trouble doesn't always mean it's time for a new car. We find the problem and fix it right.",
+      "includes": [
+        "Misfires and rough running",
+        "Oil and coolant leaks",
+        "Timing belts",
+        "Major engine repairs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "engine-two",
+          "Two mechanics working in an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "electrical-windows",
+      "name": "Electrical & Power Windows",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "repair",
+      "name": "General Auto Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "slug": "dimitris-auto-service",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Dimitri's Auto Service, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f7ed8",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Dimitri's Auto Service",
+    "legal_name": "Dimitri's Auto Service LLC",
+    "city": "Milwaukie",
+    "state": "OR",
+    "area": "Milwaukie, OR",
+    "phone_display": "(503) 305-8534",
+    "phone_tel": "+15033058534",
+    "trust": [
+      "Very good diagnostics",
+      "High quality parts",
+      "Honest & upfront",
+      "Ask for Dimitri"
+    ],
+    "footer_blurb": "Honest, skilled auto repair in Milwaukie with high quality parts and attention to detail.",
+    "hours": [
+      "Mon–Fri: 9am–5pm"
+    ],
+    "social": {},
+    "license": "14200 SE McLoughlin Blvd, Milwaukie, OR 97267"
+  },
+  "home": {
+    "title": "Dimitri's Auto Service | Auto Repair in Milwaukie, OR",
+    "description": "Always upfront, with high quality parts, very good diagnostic skills and attention to detail. Dimitri's Auto Service, 14200 SE McLoughlin Blvd, Milwaukie, OR 97267.",
+    "hero_photo": "engine-scan",
+    "hero_alt": "Clean engine bay with the hood open",
+    "eyebrow": "Dimitri's Auto Service · Milwaukie, OR",
+    "headline": "Auto Repair",
+    "lead": "Always upfront, with high quality parts, very good diagnostic skills and attention to detail.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "My first visit to Dimitri's, and I'm sold! Honesty, competence, expedience - what a relief to find someone I feel I can rely on, and a great state-of-the-art shop. Thanks, Dimitri!",
+          "name": "Debo K."
+        },
+        {
+          "quote": "Wonderful mechanic, absolutely brilliant, good cost, quick service. 10/10 will be going back with all my family vehicles",
+          "name": "David P."
+        },
+        {
+          "quote": "Always up front, easy going demeanor, uses high quality parts, very good diagnostic skills, and his attention to detail is unparalleled.",
+          "name": "George P."
+        },
+        {
+          "quote": "Dimitri helped me with a heating issue my truck was having. He was honest and very reasonable. I would recommend him to anyone.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Got starter replaced on 2012 accord. Exceptional customer service, fast, clean, and knowledgeable",
+          "name": "Google review"
+        },
+        {
+          "quote": "Great service, very knowledgeable about a variety of vehicles",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-pay",
+      "title": "Meet Dimitri",
+      "paragraphs": [
+        "Dimitri's Auto Service is a state-of-the-art shop on McLoughlin Blvd. Dimitri explains what's going on in plain terms, uses high quality parts, and is known for finding problems other shops miss."
+      ],
+      "photo_alt": "Mechanic talking with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Dimitri will get back to you. Or call (503) 305-8534 (Mon–Fri: 9am–5pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Dimitri will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "timing",
+      "name": "Timing Belts",
+      "blurb": "Timing belts and water pumps, done on schedule.",
+      "intro": "A timing belt is cheap insurance compared to the engine damage a failed one can cause.",
+      "includes": [
+        "Timing belts",
+        "Water pumps",
+        "Tensioners and idlers",
+        "Seals"
+      ],
+      "photos": [
+        [
+          "engine-subaru",
+          "Boxer engine under the hood"
+        ],
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ]
+      ]
+    },
+    {
+      "slug": "heating-cooling",
+      "name": "Heating & Cooling",
+      "blurb": "Water pumps, radiators and overheating.",
+      "intro": "No heat in the truck or an engine running hot? We fix thermostats, heater problems and cooling systems.",
+      "includes": [
+        "Water pumps",
+        "Radiators and hoses",
+        "Thermostats",
+        "Overheating problems"
+      ],
+      "photos": [
+        [
+          "engine-hands2",
+          "Mechanic reaching into an engine bay"
+        ],
+        [
+          "engine-bay",
+          "Engine bay under the hood"
+        ]
+      ]
+    },
+    {
+      "slug": "starters-batteries",
+      "name": "Starters & Batteries",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    },
+    {
+      "slug": "repair",
+      "name": "General Auto Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    }
+  ]
+}

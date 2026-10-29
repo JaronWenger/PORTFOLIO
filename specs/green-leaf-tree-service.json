@@ -1,0 +1,123 @@
+{
+  "slug": "green-leaf-tree-service",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Green Leaf Tree Service, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Consultation",
+  "header_cta": "Get a Quote",
+
+  "theme": {
+    "dark": "#111814",
+    "dark_2": "#1a241e",
+    "on_dark": "#f2f5f2",
+    "on_dark_muted": "#b0bcb3",
+    "accent": "#2fa84f",
+    "accent_ink": "#ffffff",
+    "soft": "#f2f6f2",
+    "line": "#dce5dd",
+    "muted": "#58625b"
+  },
+
+  "business": {
+    "name": "Green Leaf Tree Service",
+    "legal_name": "Green Leaf Tree Service LLC",
+    "city": "Forest Grove",
+    "state": "OR",
+    "area": "Portland and the surrounding areas",
+    "phone_display": "(503) 764-6203",
+    "phone_tel": "+15037646203",
+    "email": "rick@greenleaftreeservicellc.com",
+    "license": "Licensed, bonded & insured · OR CCB #239079 · ISA-certified arborists",
+    "trust": ["ISA-certified arborists", "24/7 storm response", "Licensed, bonded & insured", "OR CCB #239079"],
+    "footer_blurb": "Precision tree pruning, tree removal, stump grinding, permitting and planting for commercial, residential and municipal properties in Portland and the surrounding areas. 24-hour emergency service.",
+    "hours": ["24-hour emergency service"],
+    "social": { "Instagram": "https://www.instagram.com/greenleaftreeservicellc" }
+  },
+
+  "home": {
+    "title": "Green Leaf Tree Service | ISA Certified Tree Care for Portland",
+    "description": "Expert tree pruning, tree removal, stump grinding, tree permitting, planting and 24-hour emergency service from ISA-certified arborists. Commercial, residential and municipal properties in Portland and the surrounding areas.",
+    "hero_photo": "hero",
+    "hero_alt": "Looking up into the canopy of a large oak",
+    "eyebrow": "Green Leaf Tree Service · Portland, OR",
+    "headline": "Precision Tree Care",
+    "lead": "Expert tree pruning, tree removal and stump removal from ISA-certified arborists. Commercial, residential and municipal, with 24/7 storm response.",
+    "services_eyebrow": "What we do",
+    "services_title": "Specialized tree care",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What clients say",
+      "items": [
+        {"quote": "Green Leaf Tree Service just finished cutting down my very large Cherry tree that was unfortunately dying. I'm so happy I'm writing the review as they finish cleaning up. They did an amazing job. The tree had power lines near it, was 10ft from our house, back fence and right beside our cement.", "name": "Geoff Smith"},
+        {"quote": "Extremely responsive and did excellent work! They were able to take care of a fairly large and complex job with very little notice, and did a fantastic job in no time at all. They were very knowledgeable, and even had a working relationship with the city arborist.", "name": "J.D. Lemesany"},
+        {"quote": "Rafael and Josh did a fabulous job pruning our red leaf maple. They communicated effectively, were on time and completed the job with cleanup before we knew it. Rafael truly loves what he does and cares for each tree's health. Thank you!!!", "name": "Chris Munk"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Our team",
+      "photo": "about",
+      "photo_alt": "Sunlight through a healthy green tree canopy",
+      "title": "High quality tree care",
+      "paragraphs": [
+        "Green Leaf Tree Service pays special attention to the details of our work to ensure the complete satisfaction of each client. We will make sure your trees are properly taken care of.",
+        "Every job starts with an ISA certified arborist on site, evaluating tree health, structural integrity and the surrounding property, followed by a detailed written proposal. Once you accept, we plan the work for safety and efficiency, perform it with low-impact techniques and controlled section lowering, then haul away and chip the debris. Billing is sent after the work is completed.",
+        "Founder Rafael Lucio Jimenez leads the crew, with ISA certified arborists Rick McKinney (residential, ISA #PN-7583A) and Adam Haas (commercial, ISA #WI-0943A)."
+      ]
+    }
+  },
+
+  "estimate": {
+    "eyebrow": "Free consultation",
+    "title": "Need an arborist consultation?",
+    "text": "Schedule an onsite evaluation of your trees. An ISA certified arborist will assess them and send you a transparent, written proposal.",
+    "address_label": "Property address",
+    "details_label": "Property & tree details",
+    "button": "Request My Consultation",
+    "thanks": "We got your request. Our team will reach out soon to schedule your onsite evaluation."
+  },
+
+  "services": [
+    {
+      "slug": "tree-pruning", "name": "Precision Tree Pruning",
+      "blurb": "Canopy shaping and structural pruning for long-term vitality.",
+      "intro": "Maintain tree health and aesthetics with expert canopy shaping and structural pruning, promoting long-term vitality.",
+      "includes": ["Canopy shaping", "Structural pruning", "Canopy preservation", "Residential, commercial and municipal"],
+      "photos": [["pruning", "Arborist roped into a tree for pruning"]]
+    },
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Dangerous or diseased trees removed with controlled rigging.",
+      "intro": "Safe and efficient removal of dangerous or diseased trees, using controlled rigging and section lowering to protect your property.",
+      "includes": ["Dangerous and diseased trees", "Controlled rigging and section lowering", "Trees near homes and power lines", "Debris hauled away and chipped"],
+      "photos": [["removal", "Chainsaw cutting a felled trunk into rounds"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Unsightly stumps removed and your landscape restored.",
+      "intro": "Complete removal of unsightly stumps, restoring your landscape and preventing pest infestations.",
+      "includes": ["Complete stump removal", "Landscape restored", "Prevents pest infestations", "Thorough clean up"],
+      "photos": [["stump", "Old tree stump with an axe"]]
+    },
+    {
+      "slug": "tree-permitting", "name": "Tree Permitting & Assessments",
+      "blurb": "ISA certified tree risk assessments and permits handled.",
+      "intro": "Experienced ISA certified tree risk assessments, plus help with the tree permits your project needs.",
+      "includes": ["ISA certified tree risk assessments", "Tree permitting", "Tree health and structure evaluation", "Written proposals"],
+      "photos": [["assessment", "Tall mature tree in full leaf"]]
+    },
+    {
+      "slug": "tree-planting", "name": "Tree Planting",
+      "blurb": "New trees planted right, for years of healthy growth.",
+      "intro": "Our ISA certified arborists help choose and plant new trees for residential, commercial and municipal properties.",
+      "includes": ["Replacement trees", "New plantings", "Residential, commercial and municipal", "Ecologically gentle practices"],
+      "photos": [["planting", "Hands mulching a newly planted tree"]]
+    },
+    {
+      "slug": "emergency-services", "name": "Emergency Services",
+      "blurb": "24-hour emergency service and storm response.",
+      "intro": "When a storm brings a tree down, call us any time. We offer 24-hour emergency service and 24/7 storm response across Portland and the surrounding areas.",
+      "includes": ["24-hour emergency service", "24/7 storm response", "Downed and hazardous trees", "Clean up and haul away"],
+      "photos": [["emergency", "Storm-downed tree cut up on a path"]]
+    }
+  ]
+}

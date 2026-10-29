@@ -1,0 +1,276 @@
+{
+  "slug": "columbia-auto-repair-sales",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Columbia Auto Repair & Sales, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#16798a",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Columbia Auto Repair & Sales",
+    "legal_name": "Columbia Auto Repair & Sales LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "the Columbia River Gorge",
+    "phone_display": "(541) 296-2094",
+    "phone_tel": "+15412962094",
+    "email": "sales@gorgetrailers.com",
+    "license": "518 E. 2nd St, The Dalles, OR 97058 · State of Oregon licensed vehicle appraisers",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "trust": [
+      "Serving the Gorge since 1997",
+      "Family owned & operated",
+      "Classic restorations",
+      "Licensed vehicle appraisers"
+    ],
+    "footer_blurb": "Home of C.A.R.S. Automotive restoration, automotive and trailer repairs, and vehicle appraisals, serving The Dalles and the Columbia River Gorge since 1997.",
+    "hours": [
+      "Mon–Fri: 8am–5pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Columbia Auto Repair & Sales | Classic Restoration & Auto Repair in The Dalles, OR",
+    "description": "Home of C.A.R.S.: classic auto restoration, auto and trailer repair, and vehicle appraisals in The Dalles and the Columbia River Gorge since 1997. Family owned and operated.",
+    "hero_photo": "hero",
+    "hero_alt": "Classic cars lined up outside the C.A.R.S. shop on East 2nd Street",
+    "eyebrow": "Home of C.A.R.S. · The Dalles, OR",
+    "headline": "Restoration & Repair",
+    "lead": "Classic auto restoration, automotive and trailer repairs, and vehicle appraisals, serving The Dalles and the Columbia River Gorge since 1997.",
+    "services_eyebrow": "What we do",
+    "services_title": "Our business is you and your car",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "By far the best experience I've ever had with an auto shop. Long story short, I am military and was driving cross country with my 3 kids and two dogs when my radiator blew. They took me in like family and got the work done in a hour and had me back on the road with an amazing price.",
+          "name": "Dimitris Sotos"
+        },
+        {
+          "quote": "The absolute best service! They will not try to sell you something you don't need, but are very honest about what you do need to have repaired. In fact, it is a family business through and through, and at least one of the granddaughters is a grease monkey right and proper. She actually did my tune-up!",
+          "name": "Linda Waters"
+        },
+        {
+          "quote": "After being stranded in Biggs Junction for the weekend with a failed fuel pump and getting no help from the local shop there, I called C.A.R.S. & spoke with Shelby, he told us he could get us in as soon as we got there. He had us back on the road in just a few hours at a very reasonable cost.",
+          "name": "Steve Mack"
+        },
+        {
+          "quote": "Wow, amazing old-school service! Midway on a road trip with my baby and wife, I noticed the AC in my Honda wasn't performing well. These folks got me in same-day and recharged my AC for a very good price.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Very helpful, kind and honest repair shop. They are willing to give advice and upfront about what things cost and competitive prices. Will visit again, thank you",
+          "name": "Christopher Truax"
+        },
+        {
+          "quote": "I was passing through Biggs Junction, and had a problem with the trailer hitch on my pick up truck. Called around, and Randy's crew stepped up and managed to slip us in to replace the hitch. Very reasonable price, prompt service, and oh-so happy customer.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About C.A.R.S.",
+      "photo": "storefront",
+      "title": "Family owned since 1997",
+      "paragraphs": [
+        "In 1997, we began as an automotive sales and repair facility. Ten years later, C.A.R.S. added classic car restoration and light and heavy-duty trailer sales. Today we focus on automotive restorations, automotive and trailer repairs, and appraisals.",
+        "A family owned and operated business, our staff value our customers' loyalty and commitment to shopping locally and supporting small businesses. We are passionate about our industry and do our best to bring our knowledge to you.",
+        "We do our best to treat our clients like we would treat our friends and family. Please feel free to stop by with your auto repair, restoration, or trailer repair questions."
+      ],
+      "photo_alt": "The C.A.R.S. shop in downtown The Dalles"
+    },
+    "gallery_title": "Restoration projects",
+    "gallery": [
+      [
+        "willys",
+        "1950 Willys Jeep truck mid-restoration"
+      ],
+      [
+        "d300",
+        "1964 Dodge D300 restored in turquoise"
+      ],
+      [
+        "apache",
+        "1959 Chevrolet Apache Fleetside"
+      ],
+      [
+        "impala",
+        "1966 Chevrolet Impala in primer"
+      ],
+      [
+        "karman-ghia",
+        "1970 VW Karmann Ghia restoration"
+      ],
+      [
+        "gremlin",
+        "1976 AMC Gremlin restored in orange"
+      ],
+      [
+        "dodge-b3",
+        "1952 Dodge B3 pickup"
+      ],
+      [
+        "lemans",
+        "1966 Pontiac LeMans in the shop"
+      ],
+      [
+        "westfalia",
+        "1982 VW Westfalia van in the shop"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us about your car, truck or trailer and we'll get back to you. Or call (541) 296-2094, Monday to Friday, 8am to 5pm. For a restoration, please call or stop by before bringing the vehicle down so we can be sure we have an opening.",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Our team will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "classic-restoration",
+      "name": "Classic Auto Restoration",
+      "blurb": "30s to 80s classic cars and trucks.",
+      "intro": "Classic auto restoration and repair is our game. We work on a wide variety of vintage classic cars and trucks, and specialize in 30s to 80s Chevrolet, Ford, Dodge/Chrysler, Oldsmobile, Plymouth, AMC, Jeep and others. Restorations can be a lengthy process, so we'll talk through expected timelines and our restoration policies before we start.",
+      "includes": [
+        "30s to 80s cars and trucks",
+        "Chevrolet, Ford, Dodge, AMC, Jeep and more",
+        "Progress photos on request",
+        "We can come look at the vehicle"
+      ],
+      "photos": [
+        [
+          "d300",
+          "1964 Dodge D300 restored in turquoise"
+        ],
+        [
+          "gremlin",
+          "1976 AMC Gremlin restored in orange"
+        ],
+        [
+          "karman-ghia",
+          "1970 VW Karmann Ghia restoration"
+        ],
+        [
+          "willys",
+          "1950 Willys Jeep truck mid-restoration"
+        ]
+      ]
+    },
+    {
+      "slug": "auto-repair",
+      "name": "Auto Repair",
+      "blurb": "Honest repairs for locals and travelers alike.",
+      "intro": "From tune-ups and A/C recharges to fuel pumps and radiators, we get Gorge locals and travelers passing through back on the road.",
+      "includes": [
+        "Diagnostics and tune-ups",
+        "A/C recharge",
+        "Cooling and fuel systems",
+        "Help for stranded travelers"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "hood-open",
+          "Mechanic leaning into an open hood"
+        ]
+      ]
+    },
+    {
+      "slug": "ac-cooling",
+      "name": "A/C & Cooling",
+      "blurb": "A/C recharges, radiators and cooling systems.",
+      "intro": "From an A/C recharge in the middle of a road trip to a blown radiator, we get you cooled down and back on the road.",
+      "includes": [
+        "A/C recharge",
+        "Radiators",
+        "Cooling system repairs",
+        "Road trip breakdowns"
+      ],
+      "photos": [
+        [
+          "hood-open",
+          "Mechanic leaning into an open hood"
+        ],
+        [
+          "engine-bay",
+          "Engine bay under the hood"
+        ]
+      ]
+    },
+    {
+      "slug": "trailer-repair",
+      "name": "Trailer Repair",
+      "blurb": "Light and heavy-duty trailer repairs.",
+      "intro": "We have years of experience with light and heavy-duty trailers, and we repair them as well as cars and trucks.",
+      "includes": [
+        "Utility trailers",
+        "Enclosed trailers",
+        "Hitches",
+        "Light and heavy-duty trailers"
+      ],
+      "photos": [
+        [
+          "storefront",
+          "The C.A.R.S. shop in downtown The Dalles"
+        ]
+      ]
+    },
+    {
+      "slug": "appraisals",
+      "name": "Appraisals & Inspections",
+      "blurb": "State of Oregon licensed vehicle appraisers.",
+      "intro": "We offer vehicle and trailer appraisals and inspections. All services are conducted by industry trained professionals and State of Oregon licensed appraisers.",
+      "includes": [
+        "Vehicle appraisals",
+        "Trailer appraisals",
+        "Inspections",
+        "State of Oregon licensed appraisers"
+      ],
+      "photos": [
+        [
+          "mechanic-clipboard",
+          "Mechanic with a clipboard inspecting a car"
+        ],
+        [
+          "datsun",
+          "Datsun 240Z at the shop"
+        ]
+      ]
+    },
+    {
+      "slug": "steam-cleaning",
+      "name": "Industrial Steam Cleaning",
+      "blurb": "Steam cleaning at our facility.",
+      "intro": "We offer industrial steam cleaning at our facility only.",
+      "includes": [
+        "Industrial steam cleaning",
+        "At our facility only"
+      ],
+      "photos": [
+        [
+          "under-car",
+          "Suspension and exhaust under a raised car"
+        ]
+      ]
+    }
+  ]
+}

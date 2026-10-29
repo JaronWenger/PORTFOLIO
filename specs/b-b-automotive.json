@@ -1,0 +1,157 @@
+{
+  "slug": "b-b-automotive",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for B & B Automotive, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#d93a2b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "B & B Automotive",
+    "legal_name": "B & B Automotive",
+    "city": "Washougal",
+    "state": "WA",
+    "area": "Washougal, WA",
+    "phone_display": "(360) 835-5191",
+    "phone_tel": "+13608355191",
+    "trust": [
+      "Brothers Brian & Blaine",
+      "Honda specialists",
+      "Honda 600 parts",
+      "Honest advice"
+    ],
+    "footer_blurb": "Honda repair and Honda 600 parts and service in Washougal, from brothers Brian and Blaine.",
+    "hours": [
+      "Mon–Fri: 8am–5:30pm"
+    ],
+    "social": {},
+    "license": "984 Washougal River Rd, Washougal, WA 98671"
+  },
+  "home": {
+    "title": "B & B Automotive | Honda Specialists in Washougal, WA",
+    "description": "Honda repair and maintenance, plus parts and service for the classic Honda 600, from brothers Brian and Blaine. B & B Automotive, 984 Washougal River Rd, Washougal, WA 98671.",
+    "hero_photo": "engine-two",
+    "hero_alt": "Two mechanics working in an engine bay",
+    "eyebrow": "B & B Automotive · Washougal, WA",
+    "headline": "Honda Specialists",
+    "lead": "Honda repair and maintenance, plus parts and service for the classic Honda 600, from brothers Brian and Blaine.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "We have taken our older model Honda civics there for years. Brian and Blaine do excellent work, are very reasonable, and will tell you when something doesn't need to be done.",
+          "name": "Leann C."
+        },
+        {
+          "quote": "Blaine and his brother were quite helpful. They got my car on a Friday morning, and done by 3pm.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Honest and hardworking mechanics here.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "engine-hands2",
+      "title": "Brothers Brian and Blaine",
+      "paragraphs": [
+        "B & B Automotive is run by brothers Brian and Blaine, and Honda owners around Washougal have trusted them with their cars for years.",
+        "They're also a go-to shop for the classic 1970s Honda 600, with parts and know-how that are hard to find anywhere else."
+      ],
+      "photo_alt": "Mechanic reaching into an engine bay"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Brian or Blaine will get back to you. Or call (360) 835-5191 (Mon–Fri: 8am–5:30pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Brian or Blaine will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "honda",
+      "name": "Honda Repair & Maintenance",
+      "blurb": "Civics and everyday Hondas, kept running.",
+      "intro": "Older Civics and everyday Hondas are our bread and butter. We'll tell you what needs doing, and when something doesn't.",
+      "includes": [
+        "Honda Civics and more",
+        "Maintenance",
+        "Repairs",
+        "Honest advice on what's needed"
+      ],
+      "photos": [
+        [
+          "snow-car",
+          "Car on a snowy road"
+        ],
+        [
+          "engine-hands2",
+          "Mechanic reaching into an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "honda-600",
+      "name": "Honda 600 Parts & Service",
+      "blurb": "Parts and service for the classic Honda 600.",
+      "intro": "The 1970s Honda 600 is a rare little car, and B & B is one of the places owners turn to for parts and service.",
+      "includes": [
+        "Honda 600 sedans and coupes",
+        "New and used parts",
+        "Service and repair",
+        "Hard-to-find know-how"
+      ],
+      "photos": [
+        [
+          "vintage-garage",
+          "Vintage car in an old garage"
+        ],
+        [
+          "classic-engine",
+          "Classic car with the hood up"
+        ]
+      ]
+    },
+    {
+      "slug": "electrical-diagnostics",
+      "name": "Electrical & Diagnostics",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ],
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ]
+      ]
+    }
+  ]
+}

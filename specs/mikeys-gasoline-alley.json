@@ -1,0 +1,223 @@
+{
+  "slug": "mikeys-gasoline-alley",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Mikey's Gasoline Alley & Mobile Mechanics, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#f2c230",
+    "accent_ink": "#1d1800",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Mikey's Gasoline Alley & Mobile Mechanics",
+    "legal_name": "Mikey's Gasoline Alley & Mobile Mechanics",
+    "city": "Washougal",
+    "state": "WA",
+    "area": "Washougal and Clark County",
+    "phone_display": "(360) 281-8928",
+    "phone_tel": "+13602818928",
+    "trust": [
+      "Mobile & in-shop",
+      "By appointment",
+      "Welding",
+      "Mikey & Sara"
+    ],
+    "footer_blurb": "Mobile mechanic and shop repairs in Washougal from Mikey and Sara. All types of vehicles, welding, and honest, affordable work.",
+    "hours": [
+      "Mon–Fri: 9am–5pm",
+      "Sat: 10am–2pm",
+      "By appointment"
+    ],
+    "social": {},
+    "license": "959 E St, Washougal, WA 98671"
+  },
+  "home": {
+    "title": "Mikey's Gasoline Alley | Mobile Mechanic in Washougal, WA",
+    "description": "We come to you, or bring it to the shop. Honest, affordable repairs on all types of vehicles, plus welding. Mikey's Gasoline Alley & Mobile Mechanics, 959 E St, Washougal, WA 98671.",
+    "hero_photo": "under-light",
+    "hero_alt": "Mechanic inspecting the underside of a car",
+    "eyebrow": "Mikey's Gasoline Alley & Mobile Mechanics · Washougal, WA",
+    "headline": "Mobile Mechanics",
+    "lead": "We come to you, or bring it to the shop. Honest, affordable repairs on all types of vehicles, plus welding.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Brought my car here and it's been awesome! Great work done and Mikey and his wife Sara are SO kind, always reaching out and giving me updates while also looking to fix whatever problems my car has at an affordable price.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Mikey is a very good mechanic. He communicated clearly what the problem was and promptly repaired the car for a reasonable price. The car needed new plugs, ignition coil and valve cover gasket. Thanks Mikey, I appreciate your good service work.",
+          "name": "Google review"
+        },
+        {
+          "quote": "This shop not only fixed my truck, he restored my faith in humanity. I couldn't be happier.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "roadside",
+      "title": "Mikey and Sara",
+      "paragraphs": [
+        "Mikey's Gasoline Alley & Mobile Mechanics is run by Mikey and his wife Sara. Mikey brings the tools to you, or works on your car at the shop on E Street, by appointment.",
+        "You'll get updates along the way and a clear explanation of the problem before anything gets fixed."
+      ],
+      "photo_alt": "Car with the hood up on the roadside"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Mikey or Sara will get back to you. Or call (360) 281-8928 (Mon–Fri: 9am–5pm; Sat: 10am–2pm; By appointment).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Mikey or Sara will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "mobile",
+      "name": "Mobile Mechanic",
+      "blurb": "Repairs at your home, work or roadside.",
+      "intro": "Can't get to a shop? Mikey comes to you, rain or shine, and fixes it where it sits.",
+      "includes": [
+        "We come to you",
+        "All types of vehicles",
+        "Water pumps and more",
+        "By appointment"
+      ],
+      "photos": [
+        [
+          "roadside",
+          "Car with the hood up on the roadside"
+        ],
+        [
+          "tire-roadside",
+          "Mechanic changing a wheel outdoors"
+        ]
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights tracked down to the real cause, like corroded connections, often for far less than a dealer quote.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "tuneup",
+      "name": "Tune-Ups",
+      "blurb": "Plugs, coils and a smoother running engine.",
+      "intro": "Plugs, ignition coils, valve cover gaskets and more, done promptly for a reasonable price.",
+      "includes": [
+        "Spark plugs and wires",
+        "Ignition coils",
+        "Filters",
+        "Gaskets and leaks"
+      ],
+      "photos": [
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ],
+        [
+          "oil-cap",
+          "Gloved hand on an engine oil cap"
+        ]
+      ]
+    },
+    {
+      "slug": "welding",
+      "name": "Welding",
+      "blurb": "Welding and fabrication repairs.",
+      "intro": "Mikey is a skilled welder and can handle challenging repairs that need more than a wrench.",
+      "includes": [
+        "Welding repairs",
+        "Challenging repairs"
+      ],
+      "photos": [
+        [
+          "welding",
+          "Welding sparks in a shop"
+        ],
+        [
+          "welding2",
+          "Welder at work"
+        ]
+      ]
+    },
+    {
+      "slug": "cooling",
+      "name": "Cooling Systems",
+      "blurb": "Water pumps, radiators and overheating.",
+      "intro": "An overheating engine needs attention fast. We fix the cooling system before it causes bigger damage.",
+      "includes": [
+        "Water pumps",
+        "Radiators and hoses",
+        "Thermostats",
+        "Overheating problems"
+      ],
+      "photos": [
+        [
+          "engine-hands2",
+          "Mechanic reaching into an engine bay"
+        ],
+        [
+          "engine-bay",
+          "Engine bay under the hood"
+        ]
+      ]
+    },
+    {
+      "slug": "shop-repairs",
+      "name": "Shop Repairs",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "rooted-tree-care",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Rooted Tree Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#141b17",
+    "dark_2": "#1d2621",
+    "on_dark": "#f2f4f1",
+    "on_dark_muted": "#b2bbb4",
+    "accent": "#a8c66c",
+    "accent_ink": "#16200a",
+    "soft": "#f3f5f1",
+    "line": "#dfe4dc",
+    "muted": "#5a625c"
+  },
+
+  "business": {
+    "name": "Rooted Tree Care",
+    "legal_name": "Rooted Tree Care",
+    "city": "Camas",
+    "state": "WA",
+    "area": "Camas and Southwest Washington",
+    "phone_display": "(503) 314-4771",
+    "phone_tel": "+15033144771",
+    "email": "rootedtreecarewa@gmail.com",
+    "license": "Licensed, bonded & insured · WA #ROOTETC773LN · ISA Certified Arborist #PN-7106A · ISA TRAQ",
+    "trust": ["ISA Certified Arborist", "Tree Risk Assessment Qualified", "Licensed, bonded & insured", "Free estimates"],
+    "footer_blurb": "Tree removal, pruning and planting from ISA Certified Arborist Eric Smith. 570 NE 43rd Ave, Camas, WA 98607.",
+    "social": { "Instagram": "https://www.instagram.com/rootedtreecarewa/" }
+  },
+
+  "home": {
+    "title": "Rooted Tree Care | Certified Arborist in Camas, WA",
+    "description": "Tree removal, pruning and planting from ISA Certified Arborist Eric Smith in Camas, Washington. Licensed, bonded and insured. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Sunlight streaming through a stand of tall trees",
+    "eyebrow": "Rooted Tree Care · Camas, WA",
+    "headline": "Life Amongst Trees",
+    "lead": "Tree removal, pruning and planting from an ISA Certified Arborist with nearly 20 years of experience working with trees. We'll save a tree whenever possible.",
+    "services_eyebrow": "What we do",
+    "services_title": "Our services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What neighbors say about Eric",
+      "items": [
+        {"quote": "I hired Eric to trim two large trees growing into my neighbors yard and blocking sun into mine. He was the only person to come out, be courteous, communicative, personable, and able to tell me what trees these were immediately. Eric is the go to person to use for your tree services.", "name": "Scott G."},
+        {"quote": "Our HOA hired Erik to remove some trees and prune others. Erik was very knowledgeable and professional. His bid was fair market value. Erik and his team were very accommodating and did the job right. We'd gladly hire them again.", "name": "S.C."},
+        {"quote": "We had over 20 trees taken down, which was not an easy task as the job was on a slope and in dumping rain. From beginning to end, we were impressed with the process and thrilled with the results.", "name": "Kim N."},
+        {"quote": "Erik was very responsive, understood what we wanted, taught us about the types of trees we had and how to safely trim them. He scheduled us quickly and did a great job. 10/10 would recommend!", "name": "Sara K."},
+        {"quote": "I have used Rooted Tree Care twice now, both times they have been friendly, prompt, and efficient in their work. The work, haul-off, and clean up were completed in just a few hours. Will definitely be using them again!", "name": "Charlene Z."},
+        {"quote": "Eric removed two large and very prickly hollies and trimmed a few trees away from the power lines at my house. It only took him one day and it was like the trees were never there! On top of all that he's a super nice guy!", "name": "Lily C."}
+      ]
+    },
+    "about": {
+      "eyebrow": "Meet the owner",
+      "photo": "eric",
+      "photo_alt": "Eric Smith, owner of Rooted Tree Care, up in a tree in his climbing helmet",
+      "title": "Eric Smith, ISA Certified Arborist",
+      "paragraphs": [
+        "In 2003 I packed up all of my belongings and moved from my home in a small coastal New England town in search of trees, and boy did I find them. I spent that spring working as a custodian to the great coastal Redwoods in Northern California. At that point I knew trees were my future.",
+        "I then moved up to Portland, started a life with friends, met my wife and started a family. Portland is where I transformed my love for trees into a career, and soon after I earned my ISA Arborist Certification.",
+        "Rooted Tree Care is a continuation of my passion and stewardship towards trees. With nearly 20 years of experience working with trees, we're happy to help you with your arboricultural needs."
+      ]
+    },
+    "gallery_title": "Recent work",
+    "gallery": [
+      ["removal", "Climber taking down a tree over a backyard fence"],
+      ["pruning", "Arborist roped in, pruning a street tree"],
+      ["tall-trees", "Tall trees before a pruning job"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell Eric about your trees.",
+    "text": "Describe the work you need and we'll get back to you ASAP with a free estimate.",
+    "address_label": "Property address",
+    "details_label": "Describe the necessary work",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request. Eric will get back to you ASAP about your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "tree-removal", "name": "Removal",
+      "blurb": "Unwanted trees safely removed, with every bit hauled away.",
+      "intro": "With years of experience, we can help you safely remove your unwanted trees, disposing of all materials in the process. We do hate to cut them down and will save a tree whenever possible. As hard as it is, sometimes you've just gotta remove a tree for safety or aesthetic.",
+      "includes": ["Safe removal of unwanted trees", "All materials disposed of", "Slopes, fences and power lines", "Haul-off and clean up"],
+      "photos": [["removal", "Climber taking down a tree over a backyard fence"]]
+    },
+    {
+      "slug": "pruning", "name": "Pruning",
+      "blurb": "Sometimes your favorite trees can be saved with a little pruning.",
+      "intro": "Pruning can help beautify an aging tree by removing dying or hazardous limbs. It can also help accelerate a tree's growth or train growth in a certain direction or pattern.",
+      "includes": ["Dying and hazardous limb removal", "Clearance from homes and power lines", "Training young trees", "Tree risk assessment (ISA TRAQ)"],
+      "photos": [["pruning", "Arborist roped in, pruning a street tree"], ["tall-trees", "Tall trees ready for pruning"]]
+    },
+    {
+      "slug": "planting", "name": "Planting",
+      "blurb": "It all begins with a new tree.",
+      "intro": "Whether you're replacing a tree or just looking to add to your landscape, Rooted Tree Care can help. Planting trees is one of the most environmentally friendly practices available: replacing oxygen, absorbing toxins and reducing CO2, all while beautifying your landscape and the planet.",
+      "includes": ["Replacement trees", "New trees for your landscape", "Help choosing the right tree", "Planted by a certified arborist"],
+      "photos": [["planting", "Young tree newly planted in a lawn"]]
+    }
+  ]
+}

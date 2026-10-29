@@ -44,6 +44,17 @@
     "lead": "Removals, pruning and stump grinding. Done safely, cleaned up every time.",
     "services_eyebrow": "What we do",
     "services_title": "Tree services",
+    "gallery_title": "Recent jobs",
+    "gallery": [
+      ["gallery-1", "Climber roped into a tall tree"],
+      ["gallery-2", "Storm-downed tree cut up and ready to haul"],
+      ["gallery-3", "Bucking logs with a chainsaw"],
+      ["gallery-4", "Pruning branches with loppers"],
+      ["gallery-5", "Felling cut at the base of a tree"],
+      ["gallery-6", "Cut log rounds stacked after a removal"],
+      ["gallery-7", "Crew pruning a row of young trees"],
+      ["gallery-8", "Cutting a downed trunk into rounds"]
+    ],
     "about": {
       "photo": "about",
       "photo_alt": "Arborist working in the woods",

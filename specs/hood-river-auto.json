@@ -1,0 +1,140 @@
+{
+  "slug": "hood-river-auto",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Hood River Auto, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#d93a2b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Hood River Auto",
+    "legal_name": "Hood River Auto",
+    "city": "Mt Hood Parkdale",
+    "state": "OR",
+    "area": "the Hood River Valley",
+    "phone_display": "(541) 806-2246",
+    "phone_tel": "+15418062246",
+    "trust": [
+      "New & used tires",
+      "Used engines & transmissions",
+      "Subaru, Honda, Toyota & VW",
+      "Open Saturdays"
+    ],
+    "footer_blurb": "New and used tires, used engines and transmissions, parts from our yard, and repairs, up Cooper Spur Road in Parkdale.",
+    "hours": [
+      "Mon–Fri: 8am–6pm",
+      "Sat: 8am–2:30pm"
+    ],
+    "social": {},
+    "license": "6635 Cooper Spur Rd, Mt Hood Parkdale, OR 97041"
+  },
+  "home": {
+    "title": "Hood River Auto | Tires, Parts & Repair in Mt Hood Parkdale, OR",
+    "description": "New and used tires, used engines and transmissions, and repairs for Subaru, Honda, Toyota and VW. Hood River Auto, 6635 Cooper Spur Rd, Mt Hood Parkdale, OR 97041.",
+    "hero_photo": "tire-stack",
+    "hero_alt": "Stacks of tires",
+    "eyebrow": "Hood River Auto · Mt Hood Parkdale, OR",
+    "headline": "Tires, Parts & Repair",
+    "lead": "New and used tires, used engines and transmissions, and repairs for Subaru, Honda, Toyota and VW.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "salvage",
+      "title": "Up Cooper Spur Road",
+      "paragraphs": [
+        "Hood River Auto is up Cooper Spur Road in Parkdale, with new and used tires, a yard full of used parts, and used engines and transmissions for Subaru, Honda, Toyota and VW.",
+        "Call Rafael with your year, make and model and ask what we have."
+      ],
+      "photo_alt": "Old car in a salvage yard"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Rafael will get back to you. Or call (541) 806-2246 (Mon–Fri: 8am–6pm; Sat: 8am–2:30pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Rafael will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "used-engines",
+      "name": "Used Engines & Transmissions",
+      "blurb": "Subaru, Honda, Toyota and VW.",
+      "intro": "Need an engine or transmission? We carry used engines and transmissions for Subaru, Honda, Toyota and VW. Call with your year, make and model.",
+      "includes": [
+        "Used engines",
+        "Used transmissions",
+        "Subaru, Honda, Toyota, VW",
+        "Call to check stock"
+      ],
+      "photos": [
+        [
+          "engine-subaru",
+          "Boxer engine under the hood"
+        ],
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ]
+      ]
+    },
+    {
+      "slug": "tires",
+      "name": "New & Used Tires",
+      "blurb": "New and used tires at fair prices.",
+      "intro": "New and used tires, mounted and balanced.",
+      "includes": [
+        "New tires",
+        "Used tires",
+        "Mounting and balancing",
+        "Flat repair"
+      ],
+      "photos": [
+        [
+          "used-tires",
+          "Pile of used tires"
+        ],
+        [
+          "tire-change",
+          "Mechanic changing a tire"
+        ]
+      ]
+    },
+    {
+      "slug": "used-parts",
+      "name": "Used Parts",
+      "blurb": "Parts from our wrecking yard.",
+      "intro": "Our wrecking yard has used parts for the cars we know best. Call and ask.",
+      "includes": [
+        "Wrecking yard parts",
+        "Subaru, Honda, Toyota, VW",
+        "Used parts",
+        "Call to check"
+      ],
+      "photos": [
+        [
+          "salvage",
+          "Old car in a salvage yard"
+        ],
+        [
+          "engine-bay",
+          "Engine bay under the hood"
+        ]
+      ]
+    }
+  ]
+}

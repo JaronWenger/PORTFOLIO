@@ -1,0 +1,131 @@
+{
+  "slug": "hardwood-interiors",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Hardwood Interiors, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Request a Quote",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#b5763c",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Hardwood Interiors",
+    "legal_name": "Hardwood Interiors",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "Hood River and the Columbia River Gorge",
+    "phone_display": "(541) 399-6246",
+    "phone_tel": "+15413996246",
+    "license": "Hood River, OR · Owner Manuel \"Manny\" Trejo",
+    "logo_has_name": false,
+    "trust": [
+      "Hood River local",
+      "Talk to Manny directly",
+      "5.0 on Google"
+    ],
+    "footer_blurb": "Hardwood floors in Hood River and the Columbia River Gorge. Owner Manny Trejo.",
+    "social": {}
+  },
+  "home": {
+    "title": "Hardwood Interiors | Hardwood Floors in Hood River, OR",
+    "description": "Hardwood floors in Hood River and the Columbia River Gorge. Owner Manny Trejo. Call (541) 399-6246.",
+    "hero_photo": "room-fireplace",
+    "hero_alt": "Room with dark hardwood floors and a stone fireplace",
+    "eyebrow": "Hood River, OR",
+    "headline": "Hardwood Floors in the Gorge",
+    "lead": "Hardwood floors for homes in Hood River and the Columbia River Gorge. Talk to owner Manny Trejo directly.",
+    "services_eyebrow": "What we do",
+    "services_title": "What we do",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "floor-install",
+      "title": "Owner Manny Trejo",
+      "paragraphs": [
+        "Hardwood Interiors is Manny Trejo's flooring business in Hood River.",
+        "Call Manny at (541) 399-6246 to talk about your floors."
+      ],
+      "photo_alt": "Installing hardwood flooring"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request a quote",
+    "title": "Tell Manny about your floors.",
+    "text": "Tell us about the rooms and floors you have in mind, and Manny will get back to you. Or call (541) 399-6246.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Quote",
+    "thanks": "Thanks! Manny will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "hardwood-floors",
+      "name": "Hardwood Floors",
+      "blurb": "Hardwood floors for your home.",
+      "intro": "Hardwood floors are what we do. Call Manny to talk through your rooms, your wood and your timeline.",
+      "includes": [
+        "Hardwood floors",
+        "Homes in the Gorge",
+        "Work directly with the owner",
+        "Call to talk it through"
+      ],
+      "photos": [
+        [
+          "floor-install",
+          "Installing hardwood flooring"
+        ],
+        [
+          "room-wood",
+          "Bright room with hardwood floors"
+        ]
+      ]
+    },
+    {
+      "slug": "flooring-projects",
+      "name": "Whole-Room Projects",
+      "blurb": "One room or the whole house.",
+      "intro": "Whether it's one room or the whole house, tell us what you have in mind and we'll go over it with you.",
+      "includes": [
+        "Single rooms",
+        "Whole houses",
+        "Hood River and the Gorge",
+        "Talk it through with Manny"
+      ],
+      "photos": [
+        [
+          "room-living",
+          "Living room with hardwood floors"
+        ],
+        [
+          "room-fireplace",
+          "Room with dark hardwood floors and a stone fireplace"
+        ]
+      ]
+    },
+    {
+      "slug": "consultation",
+      "name": "Talk to Manny",
+      "blurb": "Questions before you start? Just call.",
+      "intro": "Not sure what you need yet? Give Manny a call at (541) 399-6246 and talk through your project.",
+      "includes": [
+        "Direct line to the owner",
+        "Straight answers",
+        "Hood River and the Gorge",
+        "(541) 399-6246"
+      ],
+      "photos": [
+        [
+          "room-floor",
+          "Empty room with new plank flooring"
+        ]
+      ]
+    }
+  ]
+}

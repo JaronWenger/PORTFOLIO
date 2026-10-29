@@ -1,0 +1,224 @@
+{
+  "slug": "pray-electric",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Pray Electric & Construction, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Estimate",
+  "header_cta": "Request an Estimate",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#c8283a",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Pray Electric & Construction",
+    "legal_name": "Pray Electric & Construction, LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "Oregon and Washington",
+    "phone_display": "(541) 769-0041",
+    "phone_tel": "+15417690041",
+    "email": "office@prayelectric.com",
+    "license": "Emergencies: (541) 980-6808 · CCB OR #234769 · WA #PRAYEEC776R9",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "trust": [
+      "Local to The Dalles",
+      "35+ years of experience",
+      "Licensed in OR & WA",
+      "Emergency line"
+    ],
+    "footer_blurb": "Residential, commercial, light industrial and design-build electrical contracting from The Dalles, serving Oregon and Washington. Experience, hard work, integrity, personal relationships.",
+    "social": {}
+  },
+  "home": {
+    "title": "Pray Electric & Construction | Electrician in The Dalles, OR",
+    "description": "Residential, commercial, light industrial and design-build electrical contracting in The Dalles, serving Oregon and Washington. CCB OR #234769, WA #PRAYEEC776R9.",
+    "hero_photo": "elec-panel-drill",
+    "hero_alt": "Electrician working in an electrical panel",
+    "eyebrow": "The Dalles, OR · Serving Oregon & Washington",
+    "headline": "Electric Work Is Who We Are",
+    "lead": "Residential, commercial, light industrial and design-build electrical contracting. Experience, hard work, integrity, personal relationships.",
+    "services_eyebrow": "What we do",
+    "services_title": "Electrical services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "kimber",
+      "title": "Local to The Dalles",
+      "paragraphs": [
+        "Pray Electric & Construction's foundation is built on quality electricians with many years of experience, strong work ethic and integrity. We value the importance of building relationships with our clients. Electric work is not just what we do, it's who we are, and we're proud of it.",
+        "Owner and electrical contractor Larry Pray is a local from The Dalles with over 35 years of electrical experience. Over the years he worked his way up through local electrical contractors as foreman, project manager, estimator and electrical designer, and he still works in the field supporting his fellow journeymen. In 2021, Pray Electric & Construction LLC was born.",
+        "And then there's Kimber, a silver lab who thinks she is an electrician. You'll often see her with her head out the window of Larry's work truck."
+      ],
+      "photo_alt": "Kimber, the shop dog, riding in a Pray Electric truck"
+    },
+    "gallery_title": "Our team",
+    "gallery": [
+      [
+        "team-1",
+        "Pray Electric team member"
+      ],
+      [
+        "team-2",
+        "Pray Electric team member"
+      ],
+      [
+        "team-3",
+        "Pray Electric team member"
+      ],
+      [
+        "team-4",
+        "Pray Electric team member"
+      ],
+      [
+        "team-5",
+        "Pray Electric team member"
+      ],
+      [
+        "kimber",
+        "Kimber, the shop dog, riding in a Pray Electric truck"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Request an estimate",
+    "title": "Tell us about your electrical project.",
+    "text": "Tell us what you need and where, and our office will get back to you. Or call the office at (541) 769-0041. For emergencies, call (541) 980-6808.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Estimate",
+    "thanks": "Thanks! Our office will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "residential",
+      "name": "Residential",
+      "blurb": "Electrical work for your home.",
+      "intro": "Residential electrical contracting by quality electricians with many years of experience, strong work ethic and integrity.",
+      "includes": [
+        "Homes in The Dalles and the Gorge",
+        "Oregon and Washington",
+        "Experienced electricians",
+        "Emergency line: (541) 980-6808"
+      ],
+      "photos": [
+        [
+          "elec-home-panel",
+          "Electrician checking a home breaker panel"
+        ],
+        [
+          "elec-switches",
+          "New light switches on a wall"
+        ]
+      ]
+    },
+    {
+      "slug": "commercial",
+      "name": "Commercial",
+      "blurb": "Electrical contracting for businesses.",
+      "intro": "Commercial electrical contracting for businesses across Oregon and Washington.",
+      "includes": [
+        "Businesses and offices",
+        "Oregon and Washington",
+        "Experienced electricians",
+        "Personal relationships"
+      ],
+      "photos": [
+        [
+          "elec-hivis",
+          "Electrician in a hard hat wiring a control panel"
+        ],
+        [
+          "elec-panel-drill",
+          "Electrician working in an electrical panel"
+        ]
+      ]
+    },
+    {
+      "slug": "light-industrial",
+      "name": "Light Industrial",
+      "blurb": "Power and controls for industrial spaces.",
+      "intro": "Light industrial electrical contracting, built on quality electricians with many years of experience.",
+      "includes": [
+        "Light industrial sites",
+        "Oregon and Washington",
+        "Experienced electricians",
+        "Hard work and integrity"
+      ],
+      "photos": [
+        [
+          "elec-industrial",
+          "Electrician working on an industrial control cabinet"
+        ],
+        [
+          "elec-wiring",
+          "Electrician connecting wires in a panel"
+        ]
+      ]
+    },
+    {
+      "slug": "electrical-design",
+      "name": "Electrical Design",
+      "blurb": "Design-build electrical, planned before it's built.",
+      "intro": "We provide design-build electrical contracting, so the plan and the install come from the same team.",
+      "includes": [
+        "Design-build projects",
+        "Electrical design",
+        "Owner experienced as an electrical designer",
+        "One team, start to finish"
+      ],
+      "photos": [
+        [
+          "elec-wiring",
+          "Electrician connecting wires in a panel"
+        ]
+      ]
+    },
+    {
+      "slug": "data-wiring",
+      "name": "Data Wiring",
+      "blurb": "Network and data cabling.",
+      "intro": "Data wiring for homes and businesses.",
+      "includes": [
+        "Data wiring",
+        "Homes",
+        "Businesses",
+        "Oregon and Washington"
+      ],
+      "photos": [
+        [
+          "elec-wire",
+          "Wire coming out of a wall box"
+        ]
+      ]
+    },
+    {
+      "slug": "ev-charging",
+      "name": "EV Charging Stations",
+      "blurb": "Home and business EV chargers.",
+      "intro": "Thinking about an electric vehicle? We install EV charging stations.",
+      "includes": [
+        "EV charging stations",
+        "Homes",
+        "Businesses",
+        "Oregon and Washington"
+      ],
+      "photos": [
+        [
+          "ev-home",
+          "Home EV charger by the garage"
+        ],
+        [
+          "ev-wall",
+          "Wall-mounted EV charger"
+        ]
+      ]
+    }
+  ]
+}

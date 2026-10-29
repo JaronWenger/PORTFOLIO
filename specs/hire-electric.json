@@ -1,0 +1,195 @@
+{
+  "slug": "hire-electric",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Hire Electric, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Estimate",
+  "header_cta": "Request an Estimate",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#1d8fd0",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Hire Electric",
+    "legal_name": "Hire Electric, Inc.",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "about 100 miles around The Dalles, in Oregon and Washington",
+    "phone_display": "(541) 296-5574",
+    "phone_tel": "+15412965574",
+    "license": "2700 West Second Street, The Dalles, OR 97058 · Fax (541) 296-2222",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "trust": [
+      "Electrifying the Gorge since 1935",
+      "Licensed, bonded & insured",
+      "Oregon & Washington",
+      "IBEW-trained electricians"
+    ],
+    "footer_blurb": "Residential, commercial, industrial, data, fire and security electrical contracting within about 100 miles of The Dalles, in Oregon and Washington. Electrifying the Gorge since 1935.",
+    "hours": [
+      "Mon–Fri: 7am–5pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Hire Electric | Electrical Contractor in The Dalles, OR",
+    "description": "Electrical contractors in The Dalles since 1935. Residential, commercial, industrial, data, fire alarm and security work within about 100 miles, in Oregon and Washington. Licensed, bonded and insured.",
+    "hero_photo": "elec-industrial",
+    "hero_alt": "Electrician working on an industrial control cabinet",
+    "eyebrow": "The Dalles, OR · Since 1935",
+    "headline": "Electrifying the Gorge",
+    "lead": "Residential, commercial, industrial, data, fire alarm and security electrical contracting within about 100 miles of The Dalles, in Oregon and Washington.",
+    "services_eyebrow": "What we do",
+    "services_title": "Our services",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "elec-panel-drill",
+      "title": "Electrifying the Gorge since 1935",
+      "paragraphs": [
+        "Hire Electric Inc. are electrical contractors that are fully licensed, bonded and insured to perform work in both Oregon and Washington. Hire Electric was established in the late 1930s and was incorporated in 1974.",
+        "We normally have 15 to 25 electricians at any one time, plus an office support staff. Our electricians complete a 5-year training program and keep up a continuing education program every year. Most of our journeyman electricians completed their apprenticeships through the NECA-IBEW Training Center in Portland.",
+        "Hire Electric performs electrical contracting work within approximately a 100-mile radius of The Dalles, Oregon."
+      ],
+      "photo_alt": "Electrician working in an electrical panel"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an estimate",
+    "title": "Tell us about your electrical project.",
+    "text": "Tell us what you need and where, and our office will get back to you. Or call (541) 296-5574, Monday to Friday, 7am to 5pm.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Estimate",
+    "thanks": "Thanks! Our office will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "residential",
+      "name": "Residential",
+      "blurb": "Wiring, outlets, lighting, panels and breakers.",
+      "intro": "Electrical work for your home, from a single outlet or switch to new panels and lighting.",
+      "includes": [
+        "Wire",
+        "Outlets and switches",
+        "Lighting",
+        "Panels and breakers"
+      ],
+      "photos": [
+        [
+          "elec-home-panel",
+          "Electrician checking a home breaker panel"
+        ],
+        [
+          "elec-switches",
+          "New light switches on a wall"
+        ]
+      ]
+    },
+    {
+      "slug": "commercial",
+      "name": "Commercial & Institutional",
+      "blurb": "Wire, conduit, cable trays and lighting.",
+      "intro": "Commercial and institutional electrical contracting throughout the Gorge.",
+      "includes": [
+        "Wire and conduit",
+        "Enclosures",
+        "Cable trays",
+        "Lighting"
+      ],
+      "photos": [
+        [
+          "elec-hivis",
+          "Electrician in a hard hat wiring a control panel"
+        ],
+        [
+          "elec-panel-drill",
+          "Electrician working in an electrical panel"
+        ]
+      ]
+    },
+    {
+      "slug": "industrial",
+      "name": "Industrial",
+      "blurb": "Drives, soft starts, starters, relays and generators.",
+      "intro": "Industrial electrical work for the motors, controls and backup power that keep operations running.",
+      "includes": [
+        "Drives and soft starts",
+        "Starters",
+        "Relays",
+        "Generators"
+      ],
+      "photos": [
+        [
+          "elec-industrial",
+          "Electrician working on an industrial control cabinet"
+        ],
+        [
+          "elec-wiring",
+          "Electrician connecting wires in a panel"
+        ]
+      ]
+    },
+    {
+      "slug": "communications-data",
+      "name": "Communications & Data",
+      "blurb": "Network cables, data and phone jacks, patch panels.",
+      "intro": "Communications and data cabling for offices and facilities.",
+      "includes": [
+        "Network cables",
+        "Phone and data jacks",
+        "Patch panels",
+        "Ladder racks and accessories"
+      ],
+      "photos": [
+        [
+          "elec-wire",
+          "Wire coming out of a wall box"
+        ]
+      ]
+    },
+    {
+      "slug": "fire-alarm",
+      "name": "Fire Alarm",
+      "blurb": "Fire alarm systems for commercial buildings.",
+      "intro": "Fire alarm installation and service. Call us for a more detailed explanation of what we offer.",
+      "includes": [
+        "Fire alarm systems",
+        "Installation",
+        "Service",
+        "Monitoring"
+      ],
+      "photos": [
+        [
+          "elec-wiring",
+          "Electrician connecting wires in a panel"
+        ]
+      ]
+    },
+    {
+      "slug": "security",
+      "name": "Security",
+      "blurb": "Card access, cameras and monitoring.",
+      "intro": "Security systems for businesses and facilities, from card access to cameras and monitoring.",
+      "includes": [
+        "Card access",
+        "Cameras",
+        "Monitoring",
+        "Commercial buildings"
+      ],
+      "photos": [
+        [
+          "elec-hivis",
+          "Electrician in a hard hat wiring a control panel"
+        ]
+      ]
+    }
+  ]
+}

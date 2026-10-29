@@ -1,0 +1,208 @@
+{
+  "slug": "bm-excavation",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for B&M Excavation, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Request a Quote",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#e8961c",
+    "accent_ink": "#141618",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "B&M Excavation",
+    "legal_name": "B&M Excavation LLC",
+    "city": "Carson",
+    "state": "WA",
+    "area": "Carson and the Columbia River Gorge",
+    "phone_display": "(541) 400-1471",
+    "phone_tel": "+15414001471",
+    "license": "Carson, WA",
+    "logo_has_name": true,
+    "logo_on_light": true,
+    "trust": [
+      "Based in Carson, WA",
+      "Earthwork & utilities",
+      "Thinning & masticating",
+      "5.0 on Google"
+    ],
+    "footer_blurb": "Pre-commercial thinning, masticating, earthwork and utilities, and wildland firefighting from Carson, Washington.",
+    "hours": [
+      "Mon–Fri: 7am–5pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "B&M Excavation | Excavation, Thinning & Masticating in Carson, WA",
+    "description": "Pre-commercial thinning, masticating, land clearing, earthwork, utilities, driveways and drainage, and wildland firefighting in Carson, WA and the Columbia River Gorge.",
+    "hero_photo": "excavator",
+    "hero_alt": "Excavator at a dirt work site",
+    "eyebrow": "Carson, WA",
+    "headline": "Excavation, Thinning & Masticating",
+    "lead": "Pre-commercial thinning, masticating, earthwork and utilities, and wildland firefighting. Skilled machine work at a competitive rate.",
+    "services_eyebrow": "What we do",
+    "services_title": "What we do",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "B&M did a wrap around drive for us along with some other grubbing and clearing. Excellent and efficient operator. He did an amazing job!",
+          "name": "Nick S"
+        },
+        {
+          "quote": "Contracted B&M to clear out the Oregon Grape (Salal) and Vine Maple from our property, roughly 4000sqft job. Communication was excellent, overall project was even better. Will be returning customers!",
+          "name": "Otepwow"
+        },
+        {
+          "quote": "B&M dug a long curtain/french drain for us quickly and efficiently. Skilled and efficient machine operation at a competitive rate, I will be recommending to friends for any dirt/rock work, grading.",
+          "name": "Walker S."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "excavator-aerial",
+      "title": "Local machine work in the Gorge",
+      "paragraphs": [
+        "B&M Excavation is based in Carson, Washington. We do pre-commercial thinning, residential and non-residential masticating, earthwork and utilities, and wildland firefighting.",
+        "Call Brandon at (541) 400-1471, Monday to Friday, 7am to 5pm."
+      ],
+      "photo_alt": "Excavator digging, seen from above"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request a quote",
+    "title": "Tell Brandon about your project.",
+    "text": "Tell us about the property and the work you need, and Brandon will get back to you. Or call (541) 400-1471, Monday to Friday, 7am to 5pm.",
+    "address_label": "Property address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Quote",
+    "thanks": "Thanks! Brandon will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "pre-commercial-thinning",
+      "name": "Pre-Commercial Thinning",
+      "blurb": "Thinning young stands for healthier timber.",
+      "intro": "Pre-commercial thinning gives the trees you keep room to grow. Call to talk about your acreage.",
+      "includes": [
+        "Timber stands",
+        "Room for the trees you keep",
+        "Acreage",
+        "Call to discuss your land"
+      ],
+      "photos": [
+        [
+          "thinning",
+          "Sawyer working among pine trees"
+        ]
+      ]
+    },
+    {
+      "slug": "masticating",
+      "name": "Masticating",
+      "blurb": "Residential and non-residential brush masticating.",
+      "intro": "Masticating grinds brush and small trees down in place. We do residential and non-residential masticating.",
+      "includes": [
+        "Residential properties",
+        "Non-residential land",
+        "Brush and small trees",
+        "Overgrown ground"
+      ],
+      "photos": [
+        [
+          "site-aerial",
+          "Excavators clearing a site, seen from above"
+        ]
+      ]
+    },
+    {
+      "slug": "land-clearing",
+      "name": "Land Clearing & Grubbing",
+      "blurb": "Brush, salal and vine maple cleared out.",
+      "intro": "From clearing out salal and vine maple to grubbing a building site, we clear ground efficiently and communicate the whole way.",
+      "includes": [
+        "Brush clearing",
+        "Grubbing",
+        "Vine maple and salal",
+        "Lots and acreage"
+      ],
+      "photos": [
+        [
+          "logs",
+          "Cutting up small logs with a chainsaw"
+        ]
+      ]
+    },
+    {
+      "slug": "earthwork-utilities",
+      "name": "Earthwork & Utilities",
+      "blurb": "Excavation, trenching and utility work.",
+      "intro": "Skilled and efficient machine operation for dirt and rock work, excavation and utilities.",
+      "includes": [
+        "Excavation",
+        "Utility trenches",
+        "Dirt and rock work",
+        "Site prep"
+      ],
+      "photos": [
+        [
+          "excavator",
+          "Excavator at a dirt work site"
+        ],
+        [
+          "excavator-aerial",
+          "Excavator digging, seen from above"
+        ]
+      ]
+    },
+    {
+      "slug": "driveways-drainage",
+      "name": "Driveways, Drainage & Grading",
+      "blurb": "Drives, french drains and grading.",
+      "intro": "Driveways, curtain and french drains, and grading, done quickly and efficiently at a competitive rate.",
+      "includes": [
+        "Driveways",
+        "Curtain and french drains",
+        "Grading",
+        "Rock work"
+      ],
+      "photos": [
+        [
+          "excavator-aerial",
+          "Excavator digging, seen from above"
+        ]
+      ]
+    },
+    {
+      "slug": "wildland-firefighting",
+      "name": "Wildland Firefighting",
+      "blurb": "Equipment and crews for wildland fire.",
+      "intro": "B&M Excavation also works in wildland firefighting.",
+      "includes": [
+        "Wildland fire support",
+        "Heavy equipment",
+        "Fire season",
+        "Call for availability"
+      ],
+      "photos": [
+        [
+          "wildfire",
+          "Wildland firefighter walking through a burn"
+        ],
+        [
+          "wildfire2",
+          "Wildland fire crew working a fire line"
+        ]
+      ]
+    }
+  ]
+}

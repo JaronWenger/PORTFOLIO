@@ -1,0 +1,128 @@
+{
+  "slug": "big-river-construction",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Big River Construction, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Request a Quote",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f7aa3",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Big River Construction",
+    "legal_name": "Big River Construction",
+    "city": "Goldendale",
+    "state": "WA",
+    "area": "Goldendale and Klickitat County",
+    "phone_display": "(509) 261-0698",
+    "phone_tel": "+15092610698",
+    "license": "Goldendale, WA",
+    "logo_has_name": false,
+    "trust": [
+      "Goldendale local",
+      "Chain link fencing",
+      "Cattle & property line fencing",
+      "5.0 on Google"
+    ],
+    "footer_blurb": "Chain link fencing, cattle and property line fencing, and handyman work in Goldendale, Washington.",
+    "social": {}
+  },
+  "home": {
+    "title": "Big River Construction | Fencing & Handyman in Goldendale, WA",
+    "description": "Chain link fencing, cattle and property line fencing, and handyman work in Goldendale, WA. Call (509) 261-0698.",
+    "hero_photo": "rail-fence",
+    "hero_alt": "Rail fence across a green pasture",
+    "eyebrow": "Goldendale, WA",
+    "headline": "Fencing & Handyman Work",
+    "lead": "Chain link fencing, cattle and property line fencing, and handyman work in Goldendale and Klickitat County.",
+    "services_eyebrow": "What we do",
+    "services_title": "What we do",
+    "about": {
+      "eyebrow": "About us",
+      "photo": "fence-posts",
+      "title": "Local to Goldendale",
+      "paragraphs": [
+        "Big River Construction does fencing and handyman work in Goldendale, Washington, from chain link to cattle and property line fences.",
+        "Call Robert at (509) 261-0698 to talk about your project."
+      ],
+      "photo_alt": "Post fence along a field"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request a quote",
+    "title": "Tell Robert about your project.",
+    "text": "Tell us about the fence or job you need done and where, and Robert will get back to you. Or call (509) 261-0698.",
+    "address_label": "Property address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Quote",
+    "thanks": "Thanks! Robert will get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "chain-link-fencing",
+      "name": "Chain Link Fencing",
+      "blurb": "Chain link fences for homes, yards and businesses.",
+      "intro": "Chain link fencing for yards, pets, gardens and businesses.",
+      "includes": [
+        "Chain link fences",
+        "Homes and yards",
+        "Businesses",
+        "Goldendale area"
+      ],
+      "photos": [
+        [
+          "chain-link",
+          "Chain link fence"
+        ]
+      ]
+    },
+    {
+      "slug": "cattle-property-line-fencing",
+      "name": "Cattle & Property Line Fencing",
+      "blurb": "Fencing for livestock and property lines.",
+      "intro": "Cattle fencing and property line fencing for farms, ranches and acreage around Goldendale.",
+      "includes": [
+        "Cattle fencing",
+        "Property line fencing",
+        "Farms and acreage",
+        "Klickitat County"
+      ],
+      "photos": [
+        [
+          "rail-fence",
+          "Rail fence across a green pasture"
+        ],
+        [
+          "fence-posts",
+          "Post fence along a field"
+        ]
+      ]
+    },
+    {
+      "slug": "handyman",
+      "name": "Handyman Work",
+      "blurb": "Repairs and odd jobs around the property.",
+      "intro": "Handyman work around your home or property. Call Robert to talk about what you need done.",
+      "includes": [
+        "Handyman work",
+        "Around the home",
+        "Around the property",
+        "Call Robert"
+      ],
+      "photos": [
+        [
+          "rail-fence2",
+          "Wood rail fence under a tree"
+        ]
+      ]
+    }
+  ]
+}

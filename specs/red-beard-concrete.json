@@ -1,0 +1,149 @@
+{
+  "slug": "red-beard-concrete",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Red Beard Concrete, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Estimate",
+  "header_cta": "Free Estimate",
+
+  "theme": {
+    "dark": "#171615",
+    "dark_2": "#22201e",
+    "on_dark": "#f4f2f0",
+    "on_dark_muted": "#bab4ae",
+    "accent": "#c4321f",
+    "accent_ink": "#ffffff",
+    "soft": "#f5f3f1",
+    "line": "#e3dfdb",
+    "muted": "#625c57"
+  },
+
+  "business": {
+    "name": "Red Beard Concrete",
+    "legal_name": "Red Beard Concrete, LLC",
+    "city": "Brush Prairie",
+    "state": "WA",
+    "area": "Vancouver, WA and Clark County",
+    "phone_display": "(360) 852-6711",
+    "phone_tel": "+13608526711",
+    "email": "jeremiah@redbeardconcrete.com",
+    "license": "Licensed general contractor · 18105 NE 159th St, Brush Prairie, WA",
+    "logo_on_light": true,
+    "trust": ["Residential & commercial", "Licensed general contractor", "Call or text Jeremiah", "Free estimates"],
+    "footer_blurb": "Commercial and residential concrete specialists of Vancouver, WA. From foundations to fire-pits, we do all things concrete and more. Owned and operated by Jeremiah and Lexie White.",
+    "hours": ["Mon–Fri: 7am–5pm"],
+    "social": {
+      "Instagram": "http://www.instagram.com/redbeardconcrete/",
+      "Facebook": "http://www.facebook.com/redbeardconcreteLLC/"
+    }
+  },
+
+  "home": {
+    "title": "Red Beard Concrete | Concrete Contractor in Vancouver, WA",
+    "description": "Commercial and residential concrete specialists of Vancouver, WA: patios, walkways, driveways, garage floors, slabs, decorative and stamped concrete, concrete restoration, fire pits and commercial flatwork. Free estimates.",
+    "hero_photo": "patio",
+    "hero_alt": "Acid-stained concrete patio wrapping around a home",
+    "eyebrow": "Concrete · Vancouver, WA",
+    "headline": "All Things Concrete",
+    "lead": "Commercial and residential concrete specialists. From foundations to fire-pits, we do all things concrete and more.",
+    "services_eyebrow": "What we do",
+    "services_title": "Concrete services",
+    "showcase": {
+      "eyebrow": "Concrete restoration",
+      "title": "Before & after",
+      "lead": "Tired, gray concrete brought back with acid stain, re-staining and sealing. Drag each slider to compare.",
+      "pairs": [
+        ["acid-stain-before", "acid-stain-after", "Acid-stained patio and steps"],
+        ["driveway-before", "driveway-after", "Exposed aggregate driveway, sealed"],
+        ["restain-patio-before", "restain-patio-after", "Covered patio, re-stained"],
+        ["porch-before", "porch-after", "Exposed aggregate porch and walk, sealed"]
+      ],
+      "link": "concrete-restoration",
+      "link_label": "See concrete restoration"
+    },
+    "about": {
+      "eyebrow": "Meet the family",
+      "photo": "family",
+      "photo_alt": "Jeremiah and Lexie White with their son Jericho",
+      "title": "Owned by Jeremiah and Lexie White",
+      "paragraphs": [
+        "Red Beard Concrete is owned and operated by Jeremiah and Lexie White. But the newcomer, Jericho, is the real boss.",
+        "Red Beard's diverse and experienced team put their heart and soul into each job to ensure high quality concrete services no matter what.",
+        "We specialize in all styles and types of concrete work. As a licensed general contractor, we also provide construction and remodeling services to handle projects from start to finish. Inquiries are always welcome!"
+      ]
+    },
+    "gallery_title": "Recent projects",
+    "gallery": [
+      ["steps", "Acid-stained concrete steps"],
+      ["pergola-patio", "Stained patio under a white pergola"],
+      ["stamped", "Stamped concrete patio along a home"],
+      ["fire-pit", "Stamped concrete patio with a built-in fire pit"],
+      ["pump-pour", "Pump truck placing concrete at an apartment site"],
+      ["storefront", "New concrete entry at a commercial building"],
+      ["acid-patio", "Acid-stained patio and steps"],
+      ["apartment-slab", "Fresh slab at an apartment project"],
+      ["pour-truck", "Red Beard truck on a commercial pour"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "What can we pour for you?",
+    "text": "Tell us about your project and Jeremiah will get back to you with a free estimate. Or call or text (360) 852-6711, weekdays 7am to 5pm.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Get My Free Estimate",
+    "thanks": "We got your request. Jeremiah will reach out soon about your free estimate."
+  },
+
+  "services": [
+    {
+      "slug": "patios-walkways", "name": "Patios & Walkways",
+      "blurb": "Stamped, stained and decorative patios and walkways.",
+      "intro": "From a simple broom-finish walkway to a stamped and stained patio with a fire pit, we specialize in all styles and types of concrete work.",
+      "includes": ["Patios", "Walkways and steps", "Stamped and decorative concrete", "Acid stain finishes"],
+      "photos": [["stamped", "Stamped concrete patio along a home"], ["stamped-walk", "Stamped walkway beside a covered porch"], ["steps", "Acid-stained concrete steps"]]
+    },
+    {
+      "slug": "driveways-garage-floors", "name": "Driveways & Garage Floors",
+      "blurb": "Driveways, garage floors and slabs built to last.",
+      "intro": "Driveways, garage floors and slabs, formed, poured and finished by an experienced team that puts their heart and soul into each job.",
+      "includes": ["Driveways", "Garage floors", "Slabs", "Exposed aggregate"],
+      "photos": [["garage-floor", "Smooth new garage floor slab"], ["driveway-after", "Exposed aggregate driveway"]]
+    },
+    {
+      "slug": "concrete-restoration", "name": "Concrete Restoration",
+      "blurb": "Acid stain, re-staining and sealing for tired concrete.",
+      "intro": "Old, gray concrete doesn't have to be torn out. We restore patios, porches and driveways with acid stain, re-staining and sealing.",
+      "includes": ["Acid staining", "Re-staining", "Sealing", "Patios, porches and driveways"],
+      "pairs": [
+        ["acid-stain-before", "acid-stain-after", "Acid-stained patio and steps"],
+        ["restain-patio-before", "restain-patio-after", "Covered patio, re-stained"],
+        ["restain-before", "restain-after", "Patio, re-stained"],
+        ["driveway-before", "driveway-after", "Exposed aggregate driveway, sealed"],
+        ["porch-before", "porch-after", "Exposed aggregate porch and walk, sealed"]
+      ]
+    },
+    {
+      "slug": "fire-pits-decorative", "name": "Fire Pits & Decorative",
+      "blurb": "From foundations to fire-pits.",
+      "intro": "Built-in fire pits, stamped borders and decorative finishes that turn a slab into the best spot in the yard.",
+      "includes": ["Built-in fire pits", "Stamped concrete", "Decorative borders", "Stained finishes"],
+      "photos": [["fire-pit", "Stamped patio with a built-in fire pit"], ["fire-pit-pad", "Round fire pit pad poured beside a home"]]
+    },
+    {
+      "slug": "commercial-industrial", "name": "Commercial & Industrial",
+      "blurb": "Apartments, store fronts, site development and more.",
+      "intro": "Commercial and industrial concrete: apartments, store fronts, post-construction, safety control, site development, structural remodels, ramps and stairs.",
+      "includes": ["Apartments and store fronts", "Site development", "Structural remodel", "Ramps and stairs"],
+      "photos": [["pump-pour", "Pump truck placing concrete at an apartment site"], ["apartment-slab", "Fresh slab at an apartment project"], ["storefront", "New concrete at a commercial entry"]]
+    },
+    {
+      "slug": "general-contracting", "name": "Foundations & General Contracting",
+      "blurb": "Foundations, grading, demolition and full remodels.",
+      "intro": "As a licensed general contractor, we also provide construction and remodeling services to handle projects from start to finish, including demolition, bulk material handling, grading, landscaping and maintenance.",
+      "includes": ["Foundations and slabs", "Demolition and grading", "Bulk material handling", "Construction and remodeling"],
+      "photos": [["pour-crew", "Crew finishing a large pour"], ["pour-truck", "Red Beard truck on a commercial pour"]]
+    }
+  ]
+}

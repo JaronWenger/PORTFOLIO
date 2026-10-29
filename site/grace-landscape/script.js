@@ -33,6 +33,11 @@ document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') { setServicesMenu(false); setMobileMenu(false); }
 });
 
+// Header turns solid once the page scrolls (designs that float it over the hero use this)
+function setScrolled() { header.classList.toggle('scrolled', window.scrollY > 8); }
+window.addEventListener('scroll', setScrolled, { passive: true });
+setScrolled();
+
 // Before/after sliders: the range input moves the divider
 document.querySelectorAll('.ba input').forEach(function (input) {
   input.addEventListener('input', function () {

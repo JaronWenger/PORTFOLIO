@@ -1,0 +1,206 @@
+{
+  "slug": "quality-auto-repair-paint",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Quality Auto Repair & Paint, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#d93a2b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Quality Auto Repair & Paint",
+    "legal_name": "Quality Auto Repair & Paint",
+    "city": "Troutdale",
+    "state": "OR",
+    "area": "Troutdale, OR",
+    "phone_display": "(503) 890-3573",
+    "phone_tel": "+15038903573",
+    "trust": [
+      "Collision & paint",
+      "We work with your insurance",
+      "Responsive communication",
+      "Ask for Serge"
+    ],
+    "footer_blurb": "Auto body, paint and repair in Troutdale. We work with your insurance and keep you in the loop from start to finish.",
+    "hours": [
+      "Mon–Fri: 10am–6pm"
+    ],
+    "social": {},
+    "license": "798 NW Dunbar Ave Ste 120, Troutdale, OR 97060"
+  },
+  "home": {
+    "title": "Quality Auto Repair & Paint | Auto Body & Paint in Troutdale, OR",
+    "description": "Collision repair, paint and mechanical repairs. We work with your insurance on your behalf. Quality Auto Repair & Paint, 798 NW Dunbar Ave Ste 120, Troutdale, OR 97060.",
+    "hero_photo": "spray-gun",
+    "hero_alt": "Painter spraying a car panel",
+    "eyebrow": "Quality Auto Repair & Paint · Troutdale, OR",
+    "headline": "Auto Body & Paint",
+    "lead": "Collision repair, paint and mechanical repairs. We work with your insurance on your behalf.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "10/10 Recommend! My LR4 was fixed within a timely manner and looks like the damage was never there. Serge was so responsive and answered all my questions. When I picked up my car it looked like it was professionally detailed. Thank you so much for everything!",
+          "name": "Google review"
+        },
+        {
+          "quote": "Serg was great! I had an attempted theft and my car was not drivable. They towed it to their shop and had it up and running in a short time. He was very communicative and worked with my insurance on our behalf so we didn't have to do anything on our end",
+          "name": "Google review"
+        },
+        {
+          "quote": "Ordered a replacement front bumper and had it painted. Great customer service, great price, excellent communication.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-clipboard",
+      "title": "Meet Serge",
+      "paragraphs": [
+        "Quality Auto Repair & Paint is Serge Lukyan's shop in Troutdale. Serge answers your questions, works with your insurance on your behalf, and keeps you posted until your car is back looking like the damage was never there."
+      ],
+      "photo_alt": "Mechanic going over a repair with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Serge will get back to you. Or call (503) 890-3573 (Mon–Fri: 10am–6pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Serge will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "collision",
+      "name": "Collision Repair",
+      "blurb": "Back to looking like it never happened.",
+      "intro": "After an accident, we repair the damage so it looks like it was never there.",
+      "includes": [
+        "Collision repair",
+        "Panels and bumpers",
+        "Theft damage",
+        "Like-new finish"
+      ],
+      "photos": [
+        [
+          "spray-gun",
+          "Painter spraying a car panel"
+        ],
+        [
+          "shop-wide",
+          "Repair shop with cars on lifts"
+        ]
+      ]
+    },
+    {
+      "slug": "paint",
+      "name": "Auto Painting",
+      "blurb": "Paint matched and finished right.",
+      "intro": "Bumpers, panels and touch-ups painted to match.",
+      "includes": [
+        "Bumper and panel paint",
+        "Color matching",
+        "Scratches",
+        "Clear coat"
+      ],
+      "photos": [
+        [
+          "spray-gun",
+          "Painter spraying a car panel"
+        ]
+      ]
+    },
+    {
+      "slug": "insurance",
+      "name": "Insurance Claims",
+      "blurb": "We work with your insurance for you.",
+      "intro": "We work with your insurance company on your behalf, so you don't have to do anything on your end.",
+      "includes": [
+        "Insurance claims",
+        "Estimates",
+        "Communication with adjusters",
+        "Updates along the way"
+      ],
+      "photos": [
+        [
+          "customer-clipboard",
+          "Mechanic going over a repair with a customer"
+        ]
+      ]
+    },
+    {
+      "slug": "mechanical-repair",
+      "name": "Mechanical Repair",
+      "blurb": "Everyday repairs on cars and trucks.",
+      "intro": "From small fixes to bigger mechanical repairs, we work on everyday cars and trucks and explain what your vehicle needs before we start.",
+      "includes": [
+        "Mechanical repairs",
+        "Parts replacement",
+        "Cars and trucks",
+        "Straight answers on what it needs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "lift-white",
+          "Mechanic under a car on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "bumpers",
+      "name": "Bumper Replacement",
+      "blurb": "Replacement bumpers ordered and painted.",
+      "intro": "We order replacement bumpers and paint them to match your car.",
+      "includes": [
+        "Replacement bumpers",
+        "Painted to match",
+        "Front and rear",
+        "Installation"
+      ],
+      "photos": [
+        [
+          "shop-wide",
+          "Repair shop with cars on lifts"
+        ]
+      ]
+    },
+    {
+      "slug": "towing",
+      "name": "Towing",
+      "blurb": "Car not drivable? We can tow it in.",
+      "intro": "If your car isn't drivable, we can tow it to the shop.",
+      "includes": [
+        "Tow to our shop",
+        "Theft and accident damage",
+        "Not drivable vehicles",
+        "Call to arrange"
+      ],
+      "photos": [
+        [
+          "tow",
+          "Car loaded on a tow truck"
+        ]
+      ]
+    }
+  ]
+}

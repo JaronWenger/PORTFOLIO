@@ -1,0 +1,282 @@
+{
+  "slug": "treekeeper-tree-service",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Treekeeper Tree Service, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#2f7d3b",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Treekeeper Tree Service",
+    "legal_name": "Treekeeper Tree Service Inc.",
+    "city": "Damascus",
+    "state": "OR",
+    "area": "the Portland metro area",
+    "phone_display": "(503) 998-6076",
+    "phone_tel": "+15039986076",
+    "email": "Treekeepertreeservice@gmail.com",
+    "license": "Oregon CCB #67935 · ISA Certified Arborist #PN-0234A · We accept credit card, check and cash (3% fee on credit cards)",
+    "logo_has_name": false,
+    "trust": [
+      "Serving Portland since 1985",
+      "ISA Certified Arborist",
+      "Licensed, bonded & insured",
+      "4.9 on Google"
+    ],
+    "footer_blurb": "Tree removal, tree trimming and pruning, hedge trimming and stump grinding across the Portland metro area since 1985. Owner and ISA Certified Arborist Dan Sorenson.",
+    "areas": [
+      "Portland",
+      "Lake Oswego",
+      "West Linn",
+      "Tualatin",
+      "Tigard",
+      "Beaverton",
+      "Hillsboro",
+      "Gresham",
+      "Gladstone",
+      "Clackamas",
+      "Oregon City",
+      "Milwaukie",
+      "Happy Valley",
+      "Damascus",
+      "Boring",
+      "Sandy",
+      "Troutdale",
+      "Sherwood",
+      "Canby",
+      "Wilsonville",
+      "Estacada"
+    ],
+    "social": {
+      "Facebook": "https://www.facebook.com/treekeepertreeservice"
+    }
+  },
+  "home": {
+    "title": "Treekeeper Tree Service | Tree Removal & Trimming in Portland, OR",
+    "description": "Tree removal, tree trimming and pruning, hedge trimming and stump grinding across the Portland metro area since 1985. ISA Certified Arborist. Licensed, bonded and insured. Free quotes.",
+    "hero_photo": "hero",
+    "hero_alt": "Treekeeper Tree Service chip truck and chipper",
+    "eyebrow": "Damascus, OR · Serving Portland since 1985",
+    "headline": "We Care About Your Trees",
+    "lead": "Tree removal, trimming and pruning, hedge trimming and stump grinding across the Portland metro area. Owner and ISA Certified Arborist Dan Sorenson. Licensed, bonded and insured.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Dan and his team recently removed two trees from our property. They were very professional, efficient, informative, and quick. We appreciate and support great local business and would highly recommend.",
+          "name": "Armani Lopez"
+        },
+        {
+          "quote": "Dan and his small crew did a great job getting my laurel hedge back under control after I let it get away from me. He was easy to get in touch with and get an estimate from. He came when he said he would and did excellent work, including a very thorough clean up.",
+          "name": "Molly Kim"
+        },
+        {
+          "quote": "Prompt response time, communicative, and quality work! My neighbor's tree was trimmed by another company and looked randomly chopped and butchered. Treekeeper, on the other hand, put thought into how best to trim my tree according to what I wanted.",
+          "name": "Google review"
+        },
+        {
+          "quote": "I could not be more pleased with the work that was done on my extremely overgrown laurel hedge. Dan made sure to check in frequently and made recommendations around how to best support its growth and shaping in the future.",
+          "name": "Cynthia"
+        },
+        {
+          "quote": "Dan and his crew have helped me with landscaping suggestions, maintenance, and resolving problems for years. Dan keeps me informed of the process and progress. He works quickly and efficiently. He makes sure the area is completely cleaned up and that I am satisfied with the work.",
+          "name": "Linda M"
+        },
+        {
+          "quote": "We are repeat customers of Treekeeper - they trim our giant laurel hedge perfectly and efficiently every time. Highly recommended",
+          "name": "Rosalie Wampler"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About Treekeeper",
+      "photo": "climber",
+      "title": "Dan Sorenson, ISA Certified Arborist",
+      "paragraphs": [
+        "Treekeeper Tree Service Inc. was established in 1985 by Dan Sorenson, and has served the Portland metro area ever since. We are licensed, bonded and insured, Oregon CCB #67935.",
+        "Dan is an ISA Certified Arborist (#PN-0234A). To earn certification he passed a lengthy exam covering tree biology, plant health care, tree risk assessment and safety, and he keeps it up through continuing education.",
+        "We go out on a limb to provide customer satisfaction."
+      ],
+      "photo_alt": "Climber taking down a tall tree in sections"
+    },
+    "gallery_title": "Our work",
+    "gallery": [
+      [
+        "hero",
+        "Treekeeper Tree Service chip truck and chipper"
+      ],
+      [
+        "climber",
+        "Climber taking down a tall tree in sections"
+      ],
+      [
+        "hedge",
+        "Long, freshly trimmed hedge"
+      ],
+      [
+        "grinder",
+        "Dan running a stump grinder"
+      ],
+      [
+        "storm",
+        "Storm-downed tree across a sidewalk"
+      ],
+      [
+        "hedge-2",
+        "Neatly trimmed street-side hedge"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Free quote",
+    "title": "Tell Dan about your trees.",
+    "text": "Tell us what you need done and where, and Dan will get back to you with a free, no-obligation quote. Or call (503) 998-6076.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Free Quote",
+    "thanks": "Thanks! Dan will get back to you soon with your free quote."
+  },
+  "services": [
+    {
+      "slug": "tree-removal",
+      "name": "Tree Removal",
+      "blurb": "Trees of all sizes, including tight spots near homes and power lines.",
+      "intro": "Sometimes, because of poor health or landscape design, trees have to be removed. It's important to use an expert, especially in dangerous or tight-spot removals near power lines, homes and other structures. We use rigging, boom trucks, good old-fashioned climbing and hand-cutting, or a combination. Depending on your preference, we cut the tree into firewood or larger pieces, or remove it altogether. Either way, we pride ourselves on a complete cleanup.",
+      "includes": [
+        "Trees of all sizes",
+        "Rigging, boom trucks and climbing",
+        "Firewood or full haul-away, your choice",
+        "Complete cleanup"
+      ],
+      "photos": [
+        [
+          "climber",
+          "Climber taking down a tall tree in sections"
+        ],
+        [
+          "storm-2",
+          "Fallen fir in a front yard"
+        ]
+      ]
+    },
+    {
+      "slug": "tree-trimming-pruning",
+      "name": "Tree Trimming & Pruning",
+      "blurb": "Pruned to ISA standards for health, safety and looks.",
+      "intro": "Anyone can take a trimming tool to a tree, but that doesn't mean it's done right. Proper pruning improves the health and appearance of trees and prolongs their life. Dead, dying or diseased wood is removed, shape is enhanced, and limbs can be raised to clear height, all in accordance with ISA (International Society of Arboriculture) standards. We also prune and trim fruit trees.",
+      "includes": [
+        "Pruning to ISA standards",
+        "Dead and diseased wood removed",
+        "Crown raising and shaping",
+        "Fruit tree pruning"
+      ],
+      "photos": [
+        [
+          "pruning",
+          "Climber working high in a bare tree"
+        ]
+      ]
+    },
+    {
+      "slug": "hedge-shrub-trimming",
+      "name": "Hedge & Shrub Trimming",
+      "blurb": "Overgrown laurels and hedges brought back under control.",
+      "intro": "Because of the Northwest climate, hedges and shrubs can grow out of control quickly. We have experience with all types and sizes of hedges and take seasonal growth into account for each one, saving you time (and your back and neck). We offer a free, no-obligation quote, and all quotes include clean-up and removal of hedge cuttings.",
+      "includes": [
+        "All types and sizes of hedges",
+        "Trimming and shaping",
+        "Overgrown laurel hedges",
+        "Cleanup and haul-away included"
+      ],
+      "photos": [
+        [
+          "hedge",
+          "Long, freshly trimmed hedge"
+        ],
+        [
+          "hedge-2",
+          "Neatly trimmed street-side hedge"
+        ],
+        [
+          "hedge-3",
+          "Trimmed hedge along a driveway"
+        ]
+      ]
+    },
+    {
+      "slug": "stump-grinding",
+      "name": "Stump Grinding",
+      "blurb": "Stumps ground up to 18 inches below grade.",
+      "intro": "Stump grinding is simply the most effective way to remove tree stumps. We can grind your stump at the time of your tree removal or come back later. Stumps can be ground up to 18 inches below grade, and the grindings can be raked back into the hole, left for you to use as mulch, or hauled away.",
+      "includes": [
+        "Stumps of any size",
+        "Up to 18\" below grade",
+        "At removal or later",
+        "Grindings left or hauled away"
+      ],
+      "photos": [
+        [
+          "grinder",
+          "Dan running a stump grinder"
+        ],
+        [
+          "stump",
+          "Large stump ready for grinding"
+        ]
+      ]
+    },
+    {
+      "slug": "emergency-tree-removal",
+      "name": "Emergency Tree Removal",
+      "blurb": "Storm damage and dangerous trees, when time is critical.",
+      "intro": "When a storm brings a tree down on a house, a car or a sidewalk, time is critical. We're available for emergencies and dangerous tree removals, and we leave the site cleaned up.",
+      "includes": [
+        "Storm-damaged trees",
+        "Trees on homes and structures",
+        "Dangerous removals",
+        "Full cleanup"
+      ],
+      "photos": [
+        [
+          "storm",
+          "Storm-downed tree across a sidewalk"
+        ],
+        [
+          "storm-3",
+          "Uprooted tree beside a house"
+        ]
+      ]
+    },
+    {
+      "slug": "tree-permits",
+      "name": "Tree Permits",
+      "blurb": "Help with the permit rules in your city or county.",
+      "intro": "Many cities and counties around Portland require a permit to remove a tree, and Heritage Trees are protected by city code. Ask us about the rules where you live before the work starts.",
+      "includes": [
+        "City and county permit rules",
+        "Heritage Trees",
+        "Portland metro area",
+        "Ask before you cut"
+      ],
+      "photos": [
+        [
+          "hedge-3",
+          "Trimmed hedge along a driveway"
+        ]
+      ]
+    }
+  ]
+}

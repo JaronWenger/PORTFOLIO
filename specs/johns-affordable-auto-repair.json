@@ -1,0 +1,236 @@
+{
+  "slug": "johns-affordable-auto-repair",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for John's Affordable Auto Repair, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#f08a24",
+    "accent_ink": "#1d1000",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "John's Affordable Auto Repair",
+    "legal_name": "John's Affordable Auto Repair",
+    "city": "Gresham",
+    "state": "OR",
+    "area": "Gresham, OR",
+    "phone_display": "(503) 307-7802",
+    "phone_tel": "+15033077802",
+    "trust": [
+      "Honest second opinions",
+      "Open Saturdays",
+      "Fair, upfront prices",
+      "Gresham locals"
+    ],
+    "footer_blurb": "Honest, affordable auto repair in Gresham. Diagnostics, engine work, water pumps, alternators and second opinions from straight shooters.",
+    "hours": [
+      "Mon–Fri: 8am–5pm",
+      "Sat: 9am–3pm"
+    ],
+    "social": {},
+    "license": "2411 NW Eleven Mile Ave, Gresham, OR 97030"
+  },
+  "home": {
+    "title": "John's Affordable Auto Repair | Affordable Auto Repair in Gresham, OR",
+    "description": "Honest work at fair prices, from small code checks to engine swaps. Straight shooters, no hassle. John's Affordable Auto Repair, 2411 NW Eleven Mile Ave, Gresham, OR 97030.",
+    "hero_photo": "engine-hands",
+    "hero_alt": "Mechanic working on an engine with a wrench",
+    "eyebrow": "John's Affordable Auto Repair · Gresham, OR",
+    "headline": "Affordable Auto Repair",
+    "lead": "Honest work at fair prices, from small code checks to engine swaps. Straight shooters, no hassle.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "We took it to this shop for a second opinion because my family and I are consistent customers, and they discovered the true issue(s), which were only a $1475 fix. He also patched and filled up a flat tire for us after the fact completely free of charge.",
+          "name": "Landen Myhrum"
+        },
+        {
+          "quote": "John is a very reliable and honest mechanic. I've had several repairs on my poor vehicle keeping it going until I can upgrade. I treasure his work ethic and his diligence in solving complex problems with simple solutions. He's saved us so much money.",
+          "name": "Google review"
+        },
+        {
+          "quote": "I needed my water pump replaced and contacted multiple mechanics to see how much it could be done for. I got a quote for $280 which is phenomenal. I literally was able to get it done right there while waiting. The owner and everybody that works there is very friendly and very nice and very helpful.",
+          "name": "E G"
+        },
+        {
+          "quote": "Been going to Johns' for a couple years now, and have had both our cars worked on from small code checks, alternator replacement, all the way up to getting a rebuilt bottom end swapped in on my Forester. Top tier service all around, no BS, no hassle. These guys are straight shooters.",
+          "name": "Google review"
+        },
+        {
+          "quote": "I highly recommend this shop!!! I've brought my car here a few times over the years for various things and Justino has always been honest and more than fair! He's a stand up guy in my book and I have never had any issues that he hasn't been able to fix or point me in the right direction.",
+          "name": "Joshua Bettis"
+        },
+        {
+          "quote": "John's Affordable has given excellent service for me and anyone I have referred to them over the years.",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "customer-clipboard",
+      "title": "Honest work, fair prices",
+      "paragraphs": [
+        "John's Affordable Auto Repair is a Gresham shop built on honest, affordable work. We find the real problem, explain it in plain words and fix it for a fair price.",
+        "Customers bring us everything from small code checks and alternator replacements to rebuilt engines, and plenty come to us for a second opinion before paying for a big repair somewhere else."
+      ],
+      "photo_alt": "Mechanic going over a repair with a customer"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and we will get back to you. Or call (503) 307-7802 (Mon–Fri: 8am–5pm; Sat: 9am–3pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! We will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "diagnostics-second-opinions",
+      "name": "Diagnostics & Second Opinions",
+      "blurb": "Find the real problem before you pay for a big repair.",
+      "intro": "Got a big quote somewhere else? Bring it in for a second opinion. We track down the true issue so you only pay for what your car actually needs.",
+      "includes": [
+        "Code checks",
+        "Second opinions on big quotes",
+        "Overheating and leaks",
+        "Plain-language explanations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "engine",
+      "name": "Engine Repair",
+      "blurb": "From misfires to major engine work.",
+      "intro": "From misfires to a rebuilt bottom end swapped in, we handle engine work big and small.",
+      "includes": [
+        "Engine diagnosis",
+        "Head gaskets and leaks",
+        "Rebuilt engine swaps",
+        "Major engine repairs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "engine-two",
+          "Two mechanics working in an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "water-pumps-cooling",
+      "name": "Water Pumps & Cooling",
+      "blurb": "Water pumps, radiators and overheating.",
+      "intro": "Overheating? We replace water pumps, radiators, hoses and thermostats, often while you wait.",
+      "includes": [
+        "Water pumps",
+        "Radiators and hoses",
+        "Thermostats",
+        "Overheating problems"
+      ],
+      "photos": [
+        [
+          "engine-hands2",
+          "Mechanic reaching into an engine bay"
+        ],
+        [
+          "engine-bay",
+          "Engine bay under the hood"
+        ]
+      ]
+    },
+    {
+      "slug": "alternators-electrical",
+      "name": "Alternators & Electrical",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    },
+    {
+      "slug": "flats-tires",
+      "name": "Flat Repair",
+      "blurb": "Flat tires patched and filled.",
+      "intro": "Picked up a nail? We patch flats and get you back on the road.",
+      "includes": [
+        "Flat repair",
+        "Patches and plugs",
+        "Tire checks",
+        "Air top-offs"
+      ],
+      "photos": [
+        [
+          "tire-change",
+          "Mechanic changing a tire"
+        ],
+        [
+          "tire-rack",
+          "Tire rack in a shop"
+        ]
+      ]
+    }
+  ]
+}

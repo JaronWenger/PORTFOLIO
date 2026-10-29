@@ -1,0 +1,234 @@
+{
+  "slug": "protech-mobile-mechanic",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Protech Mobile Mechanic, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#f08a24",
+    "accent_ink": "#1d1000",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Protech Mobile Mechanic",
+    "legal_name": "Protech Mobile Mechanic LLC",
+    "city": "Hillsboro",
+    "state": "OR",
+    "area": "Hillsboro and the west side",
+    "phone_display": "(503) 380-5413",
+    "phone_tel": "+15033805413",
+    "trust": [
+      "We come to you",
+      "Since 2018",
+      "Military discount",
+      "Pre-purchase inspections"
+    ],
+    "footer_blurb": "Mobile auto repair since 2018. Gerron comes to your home, work or roadside for diagnostics, repairs and pre-purchase inspections.",
+    "hours": [
+      "Mon–Sat: 10am–6pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Protech Mobile Mechanic | Mobile Mechanic in Hillsboro, OR",
+    "description": "Skip the shop. Gerron comes to you for diagnostics, repairs and pre-purchase inspections. Protech Mobile Mechanic, Hillsboro, OR.",
+    "hero_photo": "tire-roadside",
+    "hero_alt": "Mechanic changing a wheel outdoors",
+    "eyebrow": "Protech Mobile Mechanic · Hillsboro, OR",
+    "headline": "Mobile Mechanic",
+    "lead": "Skip the shop. Gerron comes to you for diagnostics, repairs and pre-purchase inspections.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Gerron with Protech Mobile Mechanic is an absolute gem! Excellent communication, speedy, thorough, and trust worthy. Reasonable prices and he made everything smooth and easy, start to finish.",
+          "name": "Molly A."
+        },
+        {
+          "quote": "Gerron is the best. Handled everything and saved me twice or three times the amount I paid for a pre-purchase inspection by advocating for me with the dealer about issues he found.",
+          "name": "J. Moose P."
+        },
+        {
+          "quote": "Have had a clutch replacement and alternator replacement, he also did my back brakes with the clutch (he found a problem while doing a look over everything and communicated it, and I told him to go for it). Absolutely wonderful, solid pricing, great communication.",
+          "name": "Google review"
+        },
+        {
+          "quote": "Quick response time, great service. I tried for a local mechanic and even called a buddy who used to be a mobile mechanic but neither of them helped me out.",
+          "name": "Cole H."
+        },
+        {
+          "quote": "Gerron is AMAZING!! He came out right away to help me work on a 1970 Mercury Cougar and exceeded expectations!",
+          "name": "Becky L."
+        },
+        {
+          "quote": "He could have tried to get me for more money and more work, but only charged a few bucks more for the work he put in. For that, I trust him & will use him again - but hopefully not ;)",
+          "name": "Google review"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "roadside",
+      "title": "Meet Gerron",
+      "paragraphs": [
+        "Protech Mobile Mechanic has been bringing the shop to customers since 2018. Gerron comes to your home, work or wherever your car is stuck, so you don't have to tow it or wait days for a shop.",
+        "He looks over everything while he's there, tells you what he finds, and lets you decide. Military discount available."
+      ],
+      "photo_alt": "Car with the hood up on the roadside"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and where it is, and Gerron will get back to you. Or call (503) 380-5413 (Mon–Sat: 10am–6pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Gerron will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "mobile",
+      "name": "Mobile Diagnostics",
+      "blurb": "Check engine lights diagnosed where your car sits.",
+      "intro": "Check engine light on before a road trip? Car won't start? Gerron comes to you and diagnoses it on the spot.",
+      "includes": [
+        "We come to you",
+        "Check engine lights",
+        "No-starts",
+        "Clear explanation of the fix"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "roadside",
+          "Car with the hood up on the roadside"
+        ]
+      ]
+    },
+    {
+      "slug": "inspection",
+      "name": "Pre-Purchase Inspections",
+      "blurb": "Know what you're buying before you buy it.",
+      "intro": "Buying a used car? Gerron will meet you at the seller or dealer, go over the car and help you advocate for any issues he finds.",
+      "includes": [
+        "Full vehicle look-over",
+        "Test drive",
+        "Leaks, wear and damage",
+        "Honest report on what we find"
+      ],
+      "photos": [
+        [
+          "mechanic-clipboard",
+          "Mechanic with a clipboard inspecting a car"
+        ],
+        [
+          "customer-clipboard",
+          "Mechanic going over a repair with a customer"
+        ]
+      ]
+    },
+    {
+      "slug": "clutches",
+      "name": "Clutch Replacement",
+      "blurb": "Clutch replacements and transmission work.",
+      "intro": "Slipping, grinding or trouble shifting? We handle clutch replacements and transmission repairs.",
+      "includes": [
+        "Clutch replacement",
+        "Transmission repair and replacement",
+        "Shifting problems",
+        "Manual and automatic"
+      ],
+      "photos": [
+        [
+          "gear-shift",
+          "Manual gear shifter"
+        ],
+        [
+          "under-car",
+          "Suspension and exhaust under a raised car"
+        ]
+      ]
+    },
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "Grinding, squealing or a soft pedal? We inspect the whole brake system and fix what needs fixing.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "starters-alternators",
+      "name": "Starters & Alternators",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    }
+  ]
+}

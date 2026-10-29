@@ -1,0 +1,137 @@
+{
+  "slug": "cornice-painting",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Cornice Painting LLC, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request a Quote",
+  "header_cta": "Request a Quote",
+
+  "theme": {
+    "dark": "#151a1f",
+    "dark_2": "#1e252c",
+    "on_dark": "#f2f4f6",
+    "on_dark_muted": "#b2bac2",
+    "accent": "#3f6f94",
+    "accent_ink": "#ffffff",
+    "soft": "#f3f5f7",
+    "line": "#dde3e8",
+    "muted": "#5a636b"
+  },
+
+  "business": {
+    "name": "Cornice Painting",
+    "legal_name": "Cornice Painting LLC",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia River Gorge, Oregon and Washington",
+    "phone_display": "(541) 288-8516",
+    "phone_tel": "+15412888516",
+    "license": "Lead-Safe Certified Firm · Oregon CCB #226746 · Washington CORNIPL804CJ",
+    "trust": ["Lead-safe certified firm", "Bonded & insured", "Oregon & Washington licensed", "5.0 on Google"],
+    "footer_blurb": "High-end residential interior and exterior painting, deck staining, carpentry and historic home care across both sides of the Columbia River Gorge. Owned and operated by Ray Culbertson.",
+    "areas": ["Hood River", "Odell", "Parkdale", "Mosier", "The Dalles", "White Salmon", "Bingen", "Underwood", "Carson", "Stevenson"],
+    "social": {}
+  },
+
+  "home": {
+    "title": "Cornice Painting | House Painters in Hood River & White Salmon",
+    "description": "Premium interior and exterior house painting, cabinets, deck staining, carpentry and historic home care in the Columbia River Gorge. Lead-safe certified. Owned and operated by Ray Culbertson.",
+    "hero_photo": "blue-house",
+    "hero_alt": "Freshly painted slate blue home with white trim",
+    "eyebrow": "Cornice Painting · Hood River, OR",
+    "headline": "House Painting",
+    "lead": "Meticulous interior and exterior painting across both sides of the Columbia River, with protective finishes built to withstand the unique Gorge climate.",
+    "services_eyebrow": "What we do",
+    "services_title": "Painting & carpentry",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "Our clients say…",
+      "items": [
+        {"quote": "I am so stoked that we chose Cornice Painting LLC to complete our outdoor painting. I received a few quotes, but I felt most comfortable with Ray. He communicated openly and casually while staying professional, and listened carefully while I spoke to ensure my questions were answered and concerns were addressed.", "name": "Catherine"},
+        {"quote": "Ray did an awfully nice job bringing this old church back to life. It was a challenging project in terms of access and deferred maintenance, and it looks stunning.", "name": "Jen"},
+        {"quote": "Ray did an outstanding job painting our home and staining our new deck in Appleton, WA. He is trustworthy, professional, easy to communicate with, and exhibits great attention to detail.", "name": "Rick"},
+        {"quote": "Ray did an amazing job painting my office in downtown Hood River. The interior job included 3 1/2 walls with one color and 1/2 of a wall with an accent color and Ray made that line laser sharp. My office has such a great look with the paint alone. Ray was super kind, flexible, on time and great communicator regarding timing and pricing. I highly recommend him!", "name": "Danielle"},
+        {"quote": "We really enjoyed working with Ray on our kitchen cabinet and interior paint job. He felt like a real partner in our project, always willing to talk through options and able to work around our schedule. Highly recommend Ray if you are looking for paint help around Hood River.", "name": "Doug"},
+        {"quote": "Ray came and painted my house this summer and he did an amazing job! He was helpful and honest about all adjustments to the bid and I found him to be quite thorough and detail-oriented. I would be glad to hire again for similar projects. Thanks Ray!", "name": "Nicholas"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Meet the owner",
+      "photo": "ray",
+      "photo_alt": "Ray Culbertson on a ladder painting a shingled gable",
+      "title": "Ray Culbertson",
+      "paragraphs": [
+        "Cornice Painting LLC offers high-quality residential specialty painting based in Hood River, Oregon. Ray has nearly a decade of painting experience and provides quick and accurate personalized quotes.",
+        "Ray began painting at age 19, but pursued engineering and business degrees before finding his passion for high-end interior and exterior painting work. When you hire Cornice Painting you are teaming up with a well-educated and experienced professional that will personally work on your property.",
+        "Our lead paint certification allows us to work on homes built prior to 1978 as well as newer-built construction. Ray is also an artist available for small or large-scale artwork such as murals and large canvas paintings."
+      ]
+    },
+    "gallery_title": "Recent work",
+    "gallery": [
+      ["craftsman", "Craftsman home painted teal with white trim"],
+      ["kitchen", "Kitchen cabinets painted deep green"],
+      ["cabin-deck", "Dark green cabin with a newly stained deck"],
+      ["church", "Historic brick church with a freshly painted gable"],
+      ["stairs", "Staircase painted gray and white"],
+      ["cottage", "Sage green cottage with a plum front door"],
+      ["porch", "Wraparound porch floor painted black"],
+      ["cedar-gable", "Cedar-clad gable being finished on scaffolding"],
+      ["shop", "Metal shop building painted blue"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Request a quote",
+    "title": "Tell Ray about your project.",
+    "text": "Tell me a little bit about your project, where you're located, and the best way to contact you. I will do my best to respond within one business day. For more immediate needs, call (541) 288-8516.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Quote",
+    "thanks": "Thanks! Ray will do his best to get back to you within one business day."
+  },
+
+  "services": [
+    {
+      "slug": "exterior-painting", "name": "Exterior Painting",
+      "blurb": "Protective finishes built for the Gorge climate.",
+      "intro": "From high-end custom homes in Hood River and Odell to historic properties in White Salmon, Bingen and Stevenson, we specialize in protective exterior finishes built to withstand the unique Gorge climate.",
+      "includes": ["Siding and trim", "Doors and windows", "Historic homes", "Careful, detail-oriented prep"],
+      "photos": [["blue-house", "Slate blue home with white trim"], ["craftsman", "Craftsman home painted teal"], ["cottage", "Sage green cottage with a plum door"]]
+    },
+    {
+      "slug": "interior-painting", "name": "Interior & Cabinets",
+      "blurb": "Walls, ceilings, kitchen cabinets and laser-sharp lines.",
+      "intro": "Let us take care of all of your interior painting needs, including walls, ceilings, trim, stairs, kitchen cabinets and anything that needs a fresh coat of paint.",
+      "includes": ["Walls and accent walls", "Kitchen cabinets", "Ceilings, trim and stairs", "Homes and offices"],
+      "photos": [["kitchen", "Kitchen cabinets painted deep green"], ["stairs", "Staircase painted gray and white"], ["ceiling", "Finished wood ceiling"], ["vaulted", "Vaulted wood ceiling with scaffolding"]]
+    },
+    {
+      "slug": "decks", "name": "Deck Staining & Building",
+      "blurb": "New decks built, old decks stained and protected.",
+      "intro": "Deck staining that stands up to Gorge weather, plus new deck building when it's time to start fresh.",
+      "includes": ["Deck staining", "Porch floors", "New deck building", "Repairs"],
+      "photos": [["cabin-deck", "Cabin with a newly stained deck"], ["deck", "New cedar deck with a view of the mountains"], ["porch", "Wraparound porch floor painted black"]]
+    },
+    {
+      "slug": "historic-lead-safe", "name": "Historic & Lead-Safe",
+      "blurb": "Lead-safe certified for homes built before 1978.",
+      "intro": "We are lead paint certified, which allows us to work on homes built prior to 1978 as well as newer-built construction, and we love bringing old buildings back to life.",
+      "includes": ["Lead-Safe Certified Firm", "Pre-1978 homes", "Historic properties", "Deferred maintenance"],
+      "photos": [["church", "Historic brick church with a freshly painted gable"], ["cottage", "Older cottage repainted sage green"]]
+    },
+    {
+      "slug": "carpentry-siding", "name": "Carpentry & Siding",
+      "blurb": "Siding, drywall, gutters and small builds.",
+      "intro": "We provide carpentry repairs to restore your home to like new condition. We are proficient in new and replacement siding, deck building, drywall repairs and new gutter systems. If your project requires electrical or plumbing, we can connect you with licensed professionals while we handle the rest.",
+      "includes": ["New and replacement siding", "Drywall repairs", "New gutter systems", "Small build projects"],
+      "photos": [["cedar-gable", "Cedar-clad gable being finished on scaffolding"]]
+    },
+    {
+      "slug": "commercial", "name": "Commercial",
+      "blurb": "Bonded, insured and experienced for commercial work.",
+      "intro": "We are fully bonded and insured to take on commercial projects, and we have the experience to do so in accordance with applicable safety laws.",
+      "includes": ["Offices and storefronts", "Shops and metal buildings", "Masonry walls", "Fully bonded and insured"],
+      "photos": [["shop", "Metal shop building painted blue"], ["the-dalles", "Commercial building in The Dalles"], ["brick-wall", "Long masonry wall painted dark green"]]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "slug": "e-b-motors",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for E & B Motors, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#d42a3c",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "E & B Motors",
+    "legal_name": "E & B Motors LLC",
+    "city": "Gresham",
+    "state": "OR",
+    "area": "the Gresham area",
+    "phone_display": "(503) 489-5088",
+    "phone_tel": "+15034895088",
+    "email": "enbmotors@gmail.com",
+    "license": "335 NE 8th St, Gresham, OR 97030 · Cell (971) 255-2432",
+    "logo_has_name": true,
+    "trust": [
+      "Free diagnosis",
+      "Cars, trucks & motorcycles",
+      "Open Saturdays",
+      "Se habla español"
+    ],
+    "footer_blurb": "A general auto repair shop in Gresham with experienced mechanics, quality service and affordable prices. We service all makes and models, plus motorcycles. Se habla español.",
+    "hours": [
+      "Mon–Fri: 8am–6pm",
+      "Sat: 8am–5pm"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "E & B Motors | Auto Repair in Gresham, OR",
+    "description": "General auto repair in Gresham, OR: maintenance, brakes, tires, mufflers, engine repairs and motorcycle service. Free diagnosis. Open Monday to Saturday. Se habla español.",
+    "hero_photo": "bays",
+    "hero_alt": "Service bays at E & B Motors with cars on blue lifts",
+    "eyebrow": "E & B Motors · Gresham, OR",
+    "headline": "Auto Repair",
+    "lead": "A general auto repair shop specialized in any type of work your vehicle might need. Experienced mechanics, quality service and affordable prices.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "This place offers truly exceptional service. Everything was very professional, and the staff were highly skilled and knowledgeable. If you're looking for trustworthy, high quality mechanics, I highly recommend E & B Motors.",
+          "name": "Google review"
+        },
+        {
+          "quote": "I had a great experience with E & B Motors. Edgar fixed my car's power steering for a much better price than the dealership, and they got it done quicker than I expected. Really appreciate the honest service and fast turnaround. Highly recommend.",
+          "name": "Google review"
+        },
+        {
+          "quote": "We came from out of state and unexpectedly needed work done on our car. We called with only about 5 minutes notice, and they immediately told us to bring it in.",
+          "name": "Maggie H."
+        },
+        {
+          "quote": "So glad I brought my truck here for Sevice! Miguel and the rest of the crew do fantastic work! Never going anywhere else!",
+          "name": "Will S."
+        },
+        {
+          "quote": "Great service, 100% Honesty. A few days ago I sent my car with big engine problems. They took care of it, explained to me what was wrong.",
+          "name": "Jc M."
+        },
+        {
+          "quote": "Best mechanic I've ever been to. Sounds like he'll do just about anything you can when it comes to fixing cars.",
+          "name": "Jon D."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "subaru",
+      "title": "Looking for the right repair?",
+      "paragraphs": [
+        "Have you been looking for affordable repair and for certified mechanics that will perform your repair just right? E & B Motors specializes in many different repairs, and we will gladly help you get what you need.",
+        "From timing belts, maintenance and A/C to engine repair, tires, breakdowns and battery changes, we service all makes and models, plus motorcycles.",
+        "Please contact us to schedule an appointment, or feel free to visit us for a free diagnosis. Se habla español."
+      ],
+      "photo_alt": "Subaru Outback on a lift"
+    },
+    "gallery_title": "In the shop",
+    "gallery": [
+      [
+        "camaro",
+        "Blue Camaro with the hood up in the shop"
+      ],
+      [
+        "buick",
+        "Classic maroon Buick in the shop"
+      ],
+      [
+        "jeep",
+        "Jeep Wrangler with the hood up"
+      ],
+      [
+        "subaru",
+        "Subaru Outback on a lift"
+      ],
+      [
+        "infiniti",
+        "Infiniti SUV in a service bay"
+      ],
+      [
+        "motorcycle",
+        "Sport motorcycle in the shop"
+      ],
+      [
+        "cams",
+        "Camshafts and engine parts laid out during an engine repair"
+      ],
+      [
+        "suspension",
+        "Front suspension and brakes on a classic car"
+      ],
+      [
+        "bays",
+        "Service bays at E & B Motors with cars on blue lifts"
+      ]
+    ]
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and we will get back to you. Or call (503) 489-5088, Monday to Friday 8am to 6pm and Saturday 8am to 5pm.",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! We will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "vehicle-maintenance",
+      "name": "Vehicle Maintenance",
+      "blurb": "Oil changes, filters, belts, hoses and more.",
+      "intro": "Proper vehicle maintenance will help you keep your car in good standing, avoid potentially costly breakdowns and extend the life of your car.",
+      "includes": [
+        "Oil changes",
+        "Cabin, engine air and fuel filters",
+        "Belt and hose checks",
+        "Starters and alternators"
+      ],
+      "photos": [
+        [
+          "subaru",
+          "Subaru Outback on a lift"
+        ],
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Inspections, pads, rotors, drums and lines.",
+      "intro": "From a brake inspection to new pads, rotors and lines, we keep your stopping power where it should be.",
+      "includes": [
+        "Brake inspections",
+        "Brake fluid and flush",
+        "Pads, shoes, rotors and drums",
+        "Brake lines and differential services"
+      ],
+      "photos": [
+        [
+          "suspension",
+          "Front suspension and brakes on a classic car"
+        ],
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ]
+      ]
+    },
+    {
+      "slug": "tires",
+      "name": "Tires",
+      "blurb": "Tire repair and replacement.",
+      "intro": "E & B Motors can do tire repair and also replacements. We will check your tire life and performance to let you know if it is a good option just to repair the current tire or replace it with a new one.",
+      "includes": [
+        "Tire repair",
+        "Tire replacement",
+        "Tire changes",
+        "Tire life and performance checks"
+      ],
+      "photos": [
+        [
+          "tire-change",
+          "Mechanic changing a tire"
+        ],
+        [
+          "tire-blue",
+          "Mechanic tightening lug nuts on a wheel"
+        ]
+      ]
+    },
+    {
+      "slug": "engine-repair",
+      "name": "Engine Repairs",
+      "blurb": "Repair or rebuild before you replace the car.",
+      "intro": "When a car or truck needs major engine repair, the first reaction of many people is to buy a new or used vehicle. Often that's simply not necessary. If your vehicle is in relatively good shape, it makes sense to update it by rebuilding or replacing the engine rather than replacing the vehicle.",
+      "includes": [
+        "Timing belts",
+        "Engine repair and service",
+        "Engine rebuilds and replacements",
+        "A/C"
+      ],
+      "photos": [
+        [
+          "cams",
+          "Camshafts and engine parts laid out during an engine repair"
+        ],
+        [
+          "camaro",
+          "Blue Camaro with the hood up in the shop"
+        ],
+        [
+          "jeep",
+          "Jeep Wrangler with the hood up"
+        ]
+      ]
+    },
+    {
+      "slug": "mufflers",
+      "name": "Mufflers & Exhaust",
+      "blurb": "Mufflers repaired and replaced.",
+      "intro": "Holes and rust are the most common muffler damage, and rain, snow, ice, salted roads and rough road conditions all take their toll. The right muffler depends on the vehicle you own, and we'll help you find it.",
+      "includes": [
+        "Muffler replacement",
+        "Holes and rust",
+        "Exhaust pipes",
+        "All makes and models"
+      ],
+      "photos": [
+        [
+          "under-car",
+          "Suspension and exhaust under a raised car"
+        ],
+        [
+          "exhaust",
+          "Mechanic working under a car"
+        ]
+      ]
+    },
+    {
+      "slug": "motorcycles",
+      "name": "Motorcycle Services",
+      "blurb": "Full motorcycle service and checks.",
+      "intro": "A full motorcycle service irons out mechanical or electrical problems before they affect the safe operation of your bike. Your motorcycle may also be more efficient and more pleasant to ride when all the components are in optimum condition.",
+      "includes": [
+        "Full motorcycle service",
+        "Motorcycle checks",
+        "Mechanical repairs",
+        "Electrical problems"
+      ],
+      "photos": [
+        [
+          "motorcycle",
+          "Sport motorcycle in the shop"
+        ],
+        [
+          "moto",
+          "Mechanic working on a motorcycle"
+        ]
+      ]
+    }
+  ]
+}

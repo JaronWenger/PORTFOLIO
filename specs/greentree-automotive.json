@@ -1,0 +1,242 @@
+{
+  "slug": "greentree-automotive",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Greentree Automotive, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#3f8f3a",
+    "accent_ink": "#ffffff",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Greentree Automotive",
+    "legal_name": "Greentree Automotive",
+    "city": "Hood River",
+    "state": "OR",
+    "area": "the Columbia River Gorge",
+    "phone_display": "(541) 380-1428",
+    "phone_tel": "+15413801428",
+    "license": "2043 12th St, Hood River, OR 97031 · right across from Point S Tires · Towing (541) 806-5044",
+    "logo_has_name": false,
+    "trust": [
+      "Subaru specialists",
+      "All Asian cars",
+      "Genuine OEM parts",
+      "24/7 towing"
+    ],
+    "footer_blurb": "Subaru specialists working on all Asian cars in Hood River, with genuine original manufacturer parts, tires, oil changes and 24/7 towing. Yes, we will work on other cars.",
+    "hours": [
+      "Mon–Fri: 8am–5pm",
+      "Towing: 24/7"
+    ],
+    "social": {}
+  },
+  "home": {
+    "title": "Greentree Automotive | Subaru Specialists & Towing in Hood River, OR",
+    "description": "Subaru specialists in Hood River working on all Asian cars, with genuine original manufacturer parts, oil changes, tires and 24/7 towing, winch outs and recovery.",
+    "hero_photo": "tow-snow",
+    "hero_alt": "Greentree flatbed hauling a pickup through the snow",
+    "eyebrow": "Greentree Automotive · Hood River, OR",
+    "headline": "Subaru Specialists",
+    "lead": "Best trained mechanics in the Gorge, genuine original manufacturer parts, and 24/7 towing when you need it. Yes, we will work on other cars.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Helpful and thoughtful! I made an appointment for a specific issue with my Subaru and they took the time to diagnosis it, call me and talk options for fixing it, and make the changes, all within a couple hours. Will definitely be back for any car needs.",
+          "name": "Google review"
+        },
+        {
+          "quote": "This is my first google review. Green Tree Automotive deserves it. They performed the diagnostics quickly and fixed my issue, avoiding a $6500 dealership fix. From this I can deduce that they are honest and on top of things. Highly recommend.",
+          "name": "Google review"
+        },
+        {
+          "quote": "A real old fashion \"service station\"! They are polite & professional and you just get the feeling they are going to be honest & fair... which they were. Highly recommend! Thanks guys!!",
+          "name": "Kim F."
+        },
+        {
+          "quote": "I was three hours into a 14 hour drive my car failed me just outside of Hood River. I feel like I struck gold with being stuck in Hood River and finding Greentree automotive.",
+          "name": "Linda W."
+        },
+        {
+          "quote": "They replaced a brake line and did a bleed. They did a professional job in a timely manner. They also charge a fair price!",
+          "name": "Google review"
+        },
+        {
+          "quote": "Yet again, Greentree saves the day! A while ago my car broke down in Hood River and these guys saved my bacon in fixing my car, and I did not forget them.",
+          "name": "Hailey R."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Why Greentree",
+      "photo": "winch-out",
+      "title": "Genuine parts, honest answers",
+      "paragraphs": [
+        "We do such a high volume of genuine Subaru parts that we can sell them for less than our competitors, often less than others charge for cheap, after-market parts.",
+        "We often give you the option to buy genuine Subaru parts or, if appropriate, after-market parts. It's your choice. But you'll never pay for genuine Subaru parts and get inferior after-market parts. That's just not right.",
+        "Our loyal customers are our best advertising. Key drop boxes and envelopes are available for after-hours drop off."
+      ],
+      "photo_alt": "Winching a car out of a snowy ditch"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your car is doing and we'll get back to you. Or call (541) 380-1428, Monday to Friday, 8am to 5pm. Need a tow? Call or text 541-806-5044 any time.",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! We will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "subaru",
+      "name": "Subaru & Asian Car Repair",
+      "blurb": "Subaru specialists. All Asian cars.",
+      "intro": "Greentree Automotive works on all Asian cars, and we're Subaru specialists, with genuine original manufacturer parts at prices that often beat cheap after-market parts.",
+      "includes": [
+        "Subaru specialists",
+        "Honda, Toyota and all Asian cars",
+        "Genuine OEM parts",
+        "Yes, we work on other cars"
+      ],
+      "photos": [
+        [
+          "engine-subaru",
+          "Boxer engine under the hood"
+        ],
+        [
+          "lift",
+          "SUV raised on a lift"
+        ]
+      ]
+    },
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Bring us the problem and we'll diagnose it, call you to talk through the options, and make the repair you choose.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "engine-hands2",
+          "Mechanic reaching into an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "oil-changes",
+      "name": "Oil Changes",
+      "blurb": "Drop it off for 4 hours, no appointment needed.",
+      "intro": "If you're dropping off a Subaru, Honda or Toyota for an oil change and can leave it for 4 working hours, you don't need to call or email. Drop it after 9am and we'll have it ready by 2pm. Please call ahead two days before or after a major holiday, or if you need more than an oil change.",
+      "includes": [
+        "No appointment for 4-hour drop-offs",
+        "Subaru, Honda and Toyota",
+        "Key drop box for after hours",
+        "Call for more than an oil change"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    },
+    {
+      "slug": "tires",
+      "name": "Tires",
+      "blurb": "Tire sales, repair and replacement.",
+      "intro": "We do tires now! Competitive prices, full service, special orders available quickly, and the most trustworthy advice in the Gorge.",
+      "includes": [
+        "Competitive prices",
+        "Full service",
+        "Quick special orders",
+        "Trustworthy advice"
+      ],
+      "photos": [
+        [
+          "tire-change",
+          "Mechanic changing a tire"
+        ],
+        [
+          "tire-stack",
+          "Stacks of tires"
+        ]
+      ]
+    },
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "From a squeaky pad to a replaced brake line and bleed, we keep your brakes working right.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "towing",
+      "name": "24/7 Towing",
+      "blurb": "Towing, winch outs and recovery in bad weather.",
+      "intro": "Towing, winch outs and recovery in bad weather, locked keys, out of fuel or a dead battery, 24/7. Call or text 541-806-5044 and leave a message if we don't answer; we call back ASAP. Ask us what it costs and how long it will take, and we'll give you an honest answer.",
+      "includes": [
+        "Towing to our shop or elsewhere",
+        "Winch outs and recovery",
+        "Lockouts, fuel and dead batteries",
+        "Call or text 541-806-5044"
+      ],
+      "photos": [
+        [
+          "wrecker",
+          "Greentree wrecker towing a car in the snow"
+        ],
+        [
+          "tow-night",
+          "Greentree tow truck on a night recovery"
+        ],
+        [
+          "winch-out",
+          "Winching a car out of a snowy ditch"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "slug": "adams-auto",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Adams Auto, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Appointment",
+  "header_cta": "Book Service",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#f08a24",
+    "accent_ink": "#1d1000",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "Adams Auto",
+    "legal_name": "Adams Auto",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "The Dalles, OR",
+    "phone_display": "(541) 370-2890",
+    "phone_tel": "+15413702890",
+    "trust": [
+      "Subaru know-how",
+      "Help for stranded travelers",
+      "Honest & fast",
+      "Reasonable prices"
+    ],
+    "footer_blurb": "Honest, skilled auto repair in The Dalles, from electrical gremlins and Subarus to getting stranded travelers back on the road.",
+    "hours": [
+      "Mon–Fri: 9am–5pm"
+    ],
+    "social": {},
+    "license": "2716 W 2nd St, The Dalles, OR 97058"
+  },
+  "home": {
+    "title": "Adams Auto | Auto Repair in The Dalles, OR",
+    "description": "Honest, skilled and fast, with reasonable prices. From tricky electrical problems to getting travelers back on the road. Adams Auto, 2716 W 2nd St, The Dalles, OR 97058.",
+    "hero_photo": "lift",
+    "hero_alt": "SUV raised on a lift",
+    "eyebrow": "Adams Auto · The Dalles, OR",
+    "headline": "Auto Repair",
+    "lead": "Honest, skilled and fast, with reasonable prices. From tricky electrical problems to getting travelers back on the road.",
+    "services_eyebrow": "What we do",
+    "services_title": "Auto repair services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Adam is just a hands down great guy who really knows his Subarus. He fixed an electrical issue in a few hours that three different mechanics hadn't been able to figure out. Honest, skilled, fast, and very reasonably priced. Couldn't have asked for better.",
+          "name": "Google review"
+        },
+        {
+          "quote": "One of the best shops i came across, after being towed from the side of the highway they were able to squeeze my car in and see what happened, not only did they diagnosed the problem they also went above n beyond with repairing it, HATS OFF to adam and his crew, i will definitely recommend his shop",
+          "name": "Google review"
+        },
+        {
+          "quote": "These guys are awesome! The whole staff is super friendly and helpful! My engine was misfiring and they got me in immediately and got me back on the road! Definitely recommending this shop to anyone",
+          "name": "Jonny Y."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "lift-mechanic",
+      "title": "Adam and his crew",
+      "paragraphs": [
+        "Adams Auto is Adam's shop on West 2nd Street in The Dalles. Locals bring their cars here for honest repairs, and plenty of travelers towed off I-84 have left as fans.",
+        "From engine diagnostics and alternators to A/C and Subarus, Adam and his crew figure out what's wrong and get you back on the road."
+      ],
+      "photo_alt": "Mechanic under a raised SUV"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an appointment",
+    "title": "What's going on with your car?",
+    "text": "Tell us what your vehicle is doing and Adam will get back to you. Or call (541) 370-2890 (Mon–Fri: 9am–5pm).",
+    "address_label": "Vehicle",
+    "address_hint": "year, make, model",
+    "details_label": "What's going on with it?",
+    "button": "Request Appointment",
+    "thanks": "Thanks! Adam will get back to you soon to set up a time."
+  },
+  "services": [
+    {
+      "slug": "diagnostics",
+      "name": "Diagnostics",
+      "blurb": "Check engine lights and hard-to-find problems.",
+      "intro": "Warning lights, strange noises and problems that come and go, tracked down to the real cause so you only pay for the repair you need.",
+      "includes": [
+        "Check engine and warning lights",
+        "Computer scans",
+        "Drivability problems",
+        "Noises, leaks and vibrations"
+      ],
+      "photos": [
+        [
+          "obd",
+          "Scan tool plugged into a car"
+        ],
+        [
+          "diag-tablet",
+          "Mechanic with a diagnostic tablet"
+        ]
+      ]
+    },
+    {
+      "slug": "electrical",
+      "name": "Electrical & Batteries",
+      "blurb": "Batteries, starters, alternators and wiring.",
+      "intro": "Car won't start, battery keeps dying or something electrical acting up? We track it down.",
+      "includes": [
+        "Batteries",
+        "Starters and alternators",
+        "Charging systems",
+        "Wiring problems"
+      ],
+      "photos": [
+        [
+          "battery-jump",
+          "Jumper cables on a car battery"
+        ],
+        [
+          "diag-tester",
+          "Diagnostic tester clipped to an engine"
+        ]
+      ]
+    },
+    {
+      "slug": "engine",
+      "name": "Engine Repair",
+      "blurb": "From misfires to major engine work.",
+      "intro": "Engine trouble doesn't always mean it's time for a new car. We find the problem and fix it right.",
+      "includes": [
+        "Misfires and rough running",
+        "Oil and coolant leaks",
+        "Timing belts",
+        "Major engine repairs"
+      ],
+      "photos": [
+        [
+          "engine-hands",
+          "Mechanic working on an engine with a wrench"
+        ],
+        [
+          "engine-two",
+          "Two mechanics working in an engine bay"
+        ]
+      ]
+    },
+    {
+      "slug": "ac",
+      "name": "A/C & Heating",
+      "blurb": "A/C recharges, compressors and heater problems.",
+      "intro": "Keep cool in the summer and warm in the winter. We diagnose and repair A/C and heating systems.",
+      "includes": [
+        "A/C recharge",
+        "Compressors and leaks",
+        "Heater problems",
+        "Blower and controls"
+      ],
+      "photos": [
+        [
+          "hood-open",
+          "Mechanic leaning into an open hood"
+        ],
+        [
+          "engine-scan",
+          "Clean engine bay with the hood open"
+        ]
+      ]
+    },
+    {
+      "slug": "brakes",
+      "name": "Brakes",
+      "blurb": "Pads, rotors, lines and brake inspections.",
+      "intro": "Grinding, squealing or a soft pedal? We inspect the whole brake system and fix what needs fixing.",
+      "includes": [
+        "Pads and shoes",
+        "Rotors and drums",
+        "Brake lines and fluid",
+        "Brake inspections"
+      ],
+      "photos": [
+        [
+          "brake-caliper",
+          "Mechanic fitting a brake caliper"
+        ],
+        [
+          "brake-disc",
+          "Drilled brake rotor"
+        ]
+      ]
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance & Oil Changes",
+      "blurb": "Oil changes, filters, fluids and scheduled service.",
+      "intro": "Regular maintenance keeps your car running right and catches small problems before they turn into big ones.",
+      "includes": [
+        "Oil and filter changes",
+        "Air and cabin filters",
+        "Fluids, belts and hoses",
+        "Scheduled maintenance"
+      ],
+      "photos": [
+        [
+          "oil-pour",
+          "Pouring fresh oil into an engine"
+        ],
+        [
+          "dipstick",
+          "Checking the oil dipstick"
+        ]
+      ]
+    }
+  ]
+}

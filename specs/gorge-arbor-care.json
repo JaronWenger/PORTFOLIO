@@ -1,0 +1,136 @@
+{
+  "slug": "gorge-arbor-care",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for Gorge Arbor Care, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Get a Free Quote",
+  "header_cta": "Free Quote",
+
+  "theme": {
+    "dark": "#121a12",
+    "dark_2": "#1b261b",
+    "on_dark": "#f2f5f0",
+    "on_dark_muted": "#b1bdb0",
+    "accent": "#8cc63f",
+    "accent_ink": "#102000",
+    "soft": "#f3f6f0",
+    "line": "#dfe6d8",
+    "muted": "#5a6358"
+  },
+
+  "business": {
+    "name": "Gorge Arbor Care",
+    "legal_name": "Gorge Arbor Care LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "Wasco, Sherman, Gilliam and Hood River counties",
+    "phone_display": "(541) 340-4170",
+    "phone_tel": "+15413404170",
+    "email": "gorgearborcare@gmail.com",
+    "license": "Licensed & Bonded · CCB #240846 · ISA Certified Arborist #PN-8524A",
+    "trust": ["Open 24/7", "ISA Certified Arborist", "Licensed & bonded · CCB #240846", "Free estimates"],
+    "footer_blurb": "A locally owned family tree service in The Dalles, serving Wasco, Sherman, Gilliam and Hood River counties. Open 24/7 for tree emergencies.",
+    "hours": ["Open 24/7"],
+    "areas": ["Wasco County", "Sherman County", "Gilliam County", "Hood River County"],
+    "social": {
+      "Facebook": "https://www.facebook.com/profile.php?id=100063542623741",
+      "Yelp": "https://www.yelp.com/biz/gorge-arbor-care-the-dalles"
+    }
+  },
+
+  "home": {
+    "title": "Gorge Arbor Care | Tree Service in The Dalles, OR",
+    "description": "Locally owned family tree service in The Dalles: tree removal, pruning, stump grinding, storm clean-up and 24/7 emergency tree removal across Wasco, Sherman, Gilliam and Hood River counties. Free estimates.",
+    "hero_photo": "hero",
+    "hero_alt": "Trees silhouetted below Mount Hood at sunset",
+    "eyebrow": "Gorge Arbor Care · The Dalles, OR",
+    "headline": "Tree Care",
+    "lead": "Tree removal, pruning, stump grinding and storm clean-up from a locally owned family business. We are one call away, 24/7.",
+    "services_eyebrow": "What we do",
+    "services_title": "Tree services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What our customers say",
+      "items": [
+        {"quote": "Completely exceeded all expectations every step of the way. We had some huge trees overhanging our house that needed trimmed. Josh and his crew got the job done quickly and left it all super clean afterward. Knowledgeable, courteous, professional, all for a great price.", "name": "Jim"},
+        {"quote": "They were fast, clean, and very reasonably priced. The owner, Josh, provided great communication before and during the job. He really is a tree expert! The team he brought were competent, efficient, and friendly. Absolute professionals in every way!", "name": "Britta"},
+        {"quote": "I had three mature oaks that were in need of a good pruning before winter. Josh and his son were thoughtful in their work, professional and I am very happy with the results. They have a new loyal customer.", "name": "Leslie"}
+      ]
+    },
+    "about": {
+      "eyebrow": "Meet the owner",
+      "photo": "josh",
+      "photo_alt": "Josh Woolsey, owner of Gorge Arbor Care, with the company truck",
+      "title": "Josh Woolsey, ISA Certified Arborist",
+      "paragraphs": [
+        "Josh started out in the tree industry over twenty years ago with Asplund Tree Experts as a line clearance arborist. After years of working for different companies in Oregon, he branched out on his own and started Gorge Arbor Care in 2019.",
+        "We're a locally owned family business, and Josh has strived to create a business that is local and affordable for everyone. He's an ISA Certified Arborist, and Gorge Arbor Care is licensed and bonded with the Construction Contractors Board and insured by State Farm.",
+        "Josh works alongside a hard-working crew: Justin, Troy and Devon. We work safely and effectively to meet your specific needs, and our estimates are always free."
+      ]
+    },
+    "gallery_title": "Recent jobs",
+    "gallery": [
+      ["bucket", "Bucket truck pruning a large tree beside a shop"],
+      ["climber", "Climber working high in a birch tree"],
+      ["chipper", "Chipper and dump trailer set up on a residential job"],
+      ["bucket-road", "Bucket truck working on roadside trees"],
+      ["bucket-truck", "Crew member in the bucket of the Gorge Arbor Care truck"],
+      ["truck", "Gorge Arbor Care pickup truck"]
+    ]
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Tell us about your trees.",
+    "text": "Our estimates are always free. Fill out the form to request a call from one of our estimators, or call any time: we're open 24/7.",
+    "address_label": "Property address",
+    "details_label": "What do you need done?",
+    "button": "Get My Free Quote",
+    "thanks": "We got your request. One of our estimators will call you soon about your free quote."
+  },
+
+  "services": [
+    {
+      "slug": "emergency-tree-removal", "name": "Emergency & Storm Clean Up",
+      "blurb": "Here for you 24/7 when a tree comes down or a storm hits.",
+      "intro": "We understand how scary it can be with tree emergencies. If a tree falls on your property and causes damage, we will immediately come to you to provide assistance, day or night.",
+      "includes": ["24/7 emergency tree removal and clean up", "Tarping your roof and securing the building until repairs", "Branch removal and full clean up of storm-damaged trees", "Help with damaged fencing if needed"],
+      "photos": [["bucket", "Bucket truck working on a large tree"]]
+    },
+    {
+      "slug": "tree-removal", "name": "Tree Removal",
+      "blurb": "Planned removal of unhealthy, damaged or unsightly trees.",
+      "intro": "Our most common non-emergency service: a planned removal of unhealthy, nuisance, damaged or unsightly trees, using up-to-date rigging. Safety is our top priority on the job site.",
+      "includes": ["Unhealthy, damaged and nuisance trees", "Up-to-date rigging", "Bucket truck when accessible", "Help choosing a replacement tree"],
+      "photos": [["climber", "Climber working high in a birch tree"]]
+    },
+    {
+      "slug": "pruning", "name": "Pruning",
+      "blurb": "Line clearing, selective pruning, fruit pruning and crown reduction.",
+      "intro": "We prune to arboricultural standards and will advise you on what's best for each tree. We will not top trees, because it's unhealthy for the tree and creates more issues down the road, unless it's a fruit bearing tree.",
+      "includes": ["Line clearing", "Selective and ornamental pruning", "Fruit pruning and wind thinning", "Crown reduction"],
+      "photos": [["bucket-road", "Bucket truck pruning roadside trees"]]
+    },
+    {
+      "slug": "stump-grinding", "name": "Stump Grinding",
+      "blurb": "Surface grinding or complete removal of the stump and roots.",
+      "intro": "Surface grinding typically goes a couple of inches below grade. Full removal takes the stump and roots sixteen to twenty inches below grade.",
+      "includes": ["Surface grinding", "Full stump and root removal", "16 to 20 inches below grade", "Debris hauled off when arranged"],
+      "photos": [["stump", "Freshly cut tree stump"]]
+    },
+    {
+      "slug": "brush-clean-up", "name": "Brush Clean Up",
+      "blurb": "Brush from the job chipped and cleaned up.",
+      "intro": "We clean up the brush that fell from the tree. This is typically done along with a removal, so your yard is left clean when we're done.",
+      "includes": ["Brush chipped on site", "Usually paired with a removal", "Clean up agreed on site", "Chipper and dump trailer on the job"],
+      "photos": [["chipper", "Chipper and dump trailer on a residential job"]]
+    },
+    {
+      "slug": "lot-clearing", "name": "Lot Clearing",
+      "blurb": "Trees cleared from lots so new homes can be built.",
+      "intro": "We clear trees from lots so new homes can be built. This service covers the trees on the lot, not full land clearing.",
+      "includes": ["Lots for new home construction", "Tree removal on the building site", "Brush chipped and cleaned up", "Free estimate on site"],
+      "photos": [["clearing", "Logs cut after clearing trees"]]
+    }
+  ]
+}

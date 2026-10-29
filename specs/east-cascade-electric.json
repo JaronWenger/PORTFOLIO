@@ -1,0 +1,154 @@
+{
+  "slug": "east-cascade-electric",
+  "design": "centered",
+  "year": 2026,
+  "preview_bar": "Preview of a new website for East Cascade Electric, built by <a href=\"https://jaronwenger.com/\">Jaron Wenger</a>.",
+  "cta_label": "Request an Estimate",
+  "header_cta": "Request an Estimate",
+  "theme": {
+    "dark": "#141618",
+    "dark_2": "#1d2024",
+    "on_dark": "#f3f4f5",
+    "on_dark_muted": "#b3b8bd",
+    "accent": "#e3a21a",
+    "accent_ink": "#141618",
+    "soft": "#f4f5f6",
+    "line": "#dfe2e5",
+    "muted": "#5b6168"
+  },
+  "business": {
+    "name": "East Cascade Electric",
+    "legal_name": "East Cascade Electric, LLC",
+    "city": "The Dalles",
+    "state": "OR",
+    "area": "The Dalles and the Columbia River Gorge",
+    "phone_display": "(541) 298-4006",
+    "phone_tel": "+15412984006",
+    "license": "1141 Oak St W, The Dalles, OR 97058",
+    "logo_has_name": false,
+    "trust": [
+      "Residential",
+      "Commercial",
+      "Industrial",
+      "4.5 on Google"
+    ],
+    "footer_blurb": "Residential, commercial and industrial electrical work from our shop on Oak Street in The Dalles.",
+    "social": {}
+  },
+  "home": {
+    "title": "East Cascade Electric | Electrician in The Dalles, OR",
+    "description": "Residential, commercial and industrial electrical work in The Dalles, Oregon. 1141 Oak St W. Call (541) 298-4006.",
+    "hero_photo": "elec-hivis",
+    "hero_alt": "Electrician in a hard hat wiring a control panel",
+    "eyebrow": "The Dalles, OR",
+    "headline": "Electrical Work Done Right",
+    "lead": "Residential, commercial and industrial electrical work from our shop on Oak Street in The Dalles.",
+    "services_eyebrow": "What we do",
+    "services_title": "Electrical services",
+    "reviews": {
+      "eyebrow": "Reviews",
+      "title": "What customers say",
+      "items": [
+        {
+          "quote": "Highly recommend! Completed the job in a timely manner and answered many questions I had.",
+          "name": "Ashley Rodriguez"
+        },
+        {
+          "quote": "Dean was amazing!! He explained everything he was going to do.",
+          "name": "Brent & Kimberly Knopf"
+        },
+        {
+          "quote": "100% Top notch service and professionalism. Thanks Tanner",
+          "name": "Robert May"
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "photo": "elec-wiring",
+      "title": "Local electricians in The Dalles",
+      "paragraphs": [
+        "East Cascade Electric handles residential, commercial and industrial electrical work from our shop at 1141 Oak St W in The Dalles.",
+        "Call (541) 298-4006 to talk about your project."
+      ],
+      "photo_alt": "Electrician connecting wires in a panel"
+    }
+  },
+  "estimate": {
+    "eyebrow": "Request an estimate",
+    "title": "Tell us about your electrical project.",
+    "text": "Tell us what you need and where, and we'll get back to you. Or call (541) 298-4006.",
+    "address_label": "Project address",
+    "details_label": "Tell us about the project",
+    "button": "Request My Estimate",
+    "thanks": "Thanks! We'll get back to you soon."
+  },
+  "services": [
+    {
+      "slug": "residential",
+      "name": "Residential",
+      "blurb": "Outlets, fans, lighting, panels and troubleshooting at home.",
+      "intro": "From a new bathroom outlet to wiring ceiling fans or tracking down a tripping breaker, we take care of the electrical work in your home and answer your questions along the way.",
+      "includes": [
+        "Outlets and switches",
+        "Ceiling fans and lighting",
+        "Breakers and panels",
+        "Troubleshooting"
+      ],
+      "photos": [
+        [
+          "elec-home-panel",
+          "Electrician checking a home breaker panel"
+        ],
+        [
+          "elec-switches",
+          "New light switches on a wall"
+        ]
+      ]
+    },
+    {
+      "slug": "commercial",
+      "name": "Commercial",
+      "blurb": "Electrical work for shops, offices and businesses.",
+      "intro": "Commercial electrical work for businesses in The Dalles and around the Gorge.",
+      "includes": [
+        "Businesses and offices",
+        "Estimates for new projects",
+        "On time",
+        "Local to The Dalles"
+      ],
+      "photos": [
+        [
+          "elec-hivis",
+          "Electrician in a hard hat wiring a control panel"
+        ],
+        [
+          "elec-panel-drill",
+          "Electrician working in an electrical panel"
+        ]
+      ]
+    },
+    {
+      "slug": "industrial",
+      "name": "Industrial",
+      "blurb": "Power and controls for industrial sites.",
+      "intro": "Industrial electrical work in The Dalles and around the Gorge.",
+      "includes": [
+        "Industrial sites",
+        "Qualified electricians",
+        "Local to The Dalles",
+        "Call to talk it through"
+      ],
+      "photos": [
+        [
+          "elec-industrial",
+          "Electrician working on an industrial control cabinet"
+        ],
+        [
+          "elec-wiring",
+          "Electrician connecting wires in a panel"
+        ]
+      ]
+    }
+  ]
+}
